@@ -1,11 +1,13 @@
 ---
 title: "About Technology Commons"
 page-layout: full
-toc: false
+toc: true
+toc-depth: 2
 format:
   html:
     title-block-style: plain
-    body-classes: bs-about-page
+    body-classes: "bs-about-page commons-brand-page"
+    css: assets/commons-brand-guide.css
 ---
 
 :::::: bs-page-shell
@@ -58,6 +60,337 @@ Projects use the NICE cycle:
 
 NICE is not a one-way checklist. Evaluation can reveal a new need, a misunderstood constraint, a better question, or a better design. The cycle begins again with better information.
 
+## Port Credit roots
+
+Technology Commons is built for teaching at Port Credit Secondary School, and its visual identity deliberately connects to the school without trying to replace the school's own identity.
+
+Port Credit's secondary-school history reaches back to **1919**, when a continuation school opened in the community. The PCSS Alumni Association preserves school history, yearbooks, memorabilia, and stories while supporting scholarships and selected school projects.
+
+The **Regional SciTech Program launched in September 2005**. Alumni material describes it as an integrated science and technology program intended for both inquiry-oriented academic learners and hands-on learners interested in college, apprenticeships, skilled trades, and industry.
+
+The school motto, **Lux numquam desit**, is a natural fit for a visual system built around the Port Credit lighthouse, learning, and the idea of carrying useful knowledge forward.
+
+Technology Commons also recognizes the **Mississaugas of the Credit First Nation** and the Indigenous history and continuing stewardship connected to this place. Purple and orange are included in the Commons palette as community and reflection accents that can be used thoughtfully in Indigenous learning and reconciliation contexts. They are Commons colours, not presented as official colours of the Mississaugas of the Credit First Nation.
+
+- [PCSS Alumni Association](https://www.pcssalumni.com/)
+- [PCSS Alumni - School Programs and SciTech history](https://www.pcssalumni.com/school-programs/)
+- [PCSS Alumni - Yearbook archive information](https://www.pcssalumni.com/yearbooks-on-cd/)
+- [1960 yearbook history of Port Credit High School](https://www.pcssalumni.com/PDF/YB-1960.pdf)
+- [Mississaugas of the Credit First Nation](https://mncfn.ca/)
+
+## Brand system
+
+The Technology Commons brand is meant to feel **sleek, structured, technical, calm, and distinctly Port Credit**. The visual language draws from the school and SciTech marks, the lighthouse, Lake Ontario, the harbour, the Credit River, shoreline materials, and the school's blue-and-gold identity. Deep neutrals keep the system restrained. Wellness greens add balance and calm. High-visibility amber and orange add energy and utility. Purple supports community, reflection, and creativity, while red is reserved for genuinely important emphasis.
+
+The goal is not to reproduce every historical PCSS colour exactly. The Commons uses a coherent working palette that feels related to Port Credit while remaining flexible enough for websites, slides, diagrams, classroom tools, technical material, and school-community work.
+
+This is the working official palette for Technology Commons. It is **not** a claim that every colour below is an official Port Credit Secondary School, SciTech, or Mississaugas of the Credit First Nation colour.
+
+### Port Credit neutrals
+
+These are the foundation colours for text, backgrounds, dividers, diagrams, and interface surfaces.
+
+::: {.brand-swatch-grid}
+::: {.brand-swatch style="--swatch:#171717"}
+<div class="brand-swatch-sample"></div>
+**Lighthouse Black**  
+`#171717`
+:::
+
+::: {.brand-swatch style="--swatch:#23272B"}
+<div class="brand-swatch-sample"></div>
+**Harbour Charcoal**  
+`#23272B`
+:::
+
+::: {.brand-swatch style="--swatch:#3C454D"}
+<div class="brand-swatch-sample"></div>
+**Breakwater Slate**  
+`#3C454D`
+:::
+
+::: {.brand-swatch style="--swatch:#66717B"}
+<div class="brand-swatch-sample"></div>
+**Pier Grey**  
+`#66717B`
+:::
+
+::: {.brand-swatch style="--swatch:#DDE2E6"}
+<div class="brand-swatch-sample"></div>
+**Lake Mist**  
+`#DDE2E6`
+:::
+
+::: {.brand-swatch style="--swatch:#F5F6F7"}
+<div class="brand-swatch-sample"></div>
+**Sail White**  
+`#F5F6F7`
+:::
+:::
+
+### Port Credit and SciTech blues
+
+Blue is the main identity family. The darkest blues come directly from the supplied PCSS and SciTech marks. The middle blues reference the lake and harbour, while Technical Blue is the preferred interactive and data accent.
+
+::: {.brand-swatch-grid}
+::: {.brand-swatch style="--swatch:#1D2347"}
+<div class="brand-swatch-sample"></div>
+**Port Credit Navy**  
+`#1D2347`
+:::
+
+::: {.brand-swatch style="--swatch:#19226D"}
+<div class="brand-swatch-sample"></div>
+**SciTech Navy**  
+`#19226D`
+:::
+
+::: {.brand-swatch style="--swatch:#2B398E"}
+<div class="brand-swatch-sample"></div>
+**Harbour Blue**  
+`#2B398E`
+:::
+
+::: {.brand-swatch style="--swatch:#3556A8"}
+<div class="brand-swatch-sample"></div>
+**Lake Blue**  
+`#3556A8`
+:::
+
+::: {.brand-swatch style="--swatch:#0072B2"}
+<div class="brand-swatch-sample"></div>
+**Technical Blue**  
+`#0072B2`
+:::
+
+::: {.brand-swatch style="--swatch:#DDE9F7"}
+<div class="brand-swatch-sample"></div>
+**Winter Sky**  
+`#DDE9F7`
+:::
+:::
+
+### Wellness and shoreline greens
+
+Green is for wellness, reflection, positive progress, environmental themes, calm status, and moments where the interface should feel softer. The family also connects naturally to the Credit River, shoreline parks, trees, and lakefront landscape around Port Credit.
+
+::: {.brand-swatch-grid}
+::: {.brand-swatch style="--swatch:#365846"}
+<div class="brand-swatch-sample"></div>
+**Evergreen**  
+`#365846`
+:::
+
+::: {.brand-swatch style="--swatch:#4F6B46"}
+<div class="brand-swatch-sample"></div>
+**Credit River Moss**  
+`#4F6B46`
+:::
+
+::: {.brand-swatch style="--swatch:#7E9474"}
+<div class="brand-swatch-sample"></div>
+**Sage**  
+`#7E9474`
+:::
+
+::: {.brand-swatch style="--swatch:#A9C8BE"}
+<div class="brand-swatch-sample"></div>
+**Sea Glass**  
+`#A9C8BE`
+:::
+
+::: {.brand-swatch style="--swatch:#DCEBE3"}
+<div class="brand-swatch-sample"></div>
+**Calm Mint**  
+`#DCEBE3`
+:::
+:::
+
+### PCSS gold and SciTech yellows
+
+Gold is the warmer school identity colour for Port Credit. The brighter SciTech yellow works well for science, technology, diagrams, highlights, and energetic moments. Brass and copper are quieter warm alternatives.
+
+::: {.brand-swatch-grid}
+::: {.brand-swatch style="--swatch:#FCD937"}
+<div class="brand-swatch-sample"></div>
+**PCSS Gold**  
+`#FCD937`
+:::
+
+::: {.brand-swatch style="--swatch:#FFCF01"}
+<div class="brand-swatch-sample"></div>
+**SciTech Yellow**  
+`#FFCF01`
+:::
+
+::: {.brand-swatch style="--swatch:#B18A2F"}
+<div class="brand-swatch-sample"></div>
+**Brass**  
+`#B18A2F`
+:::
+
+::: {.brand-swatch style="--swatch:#AC7652"}
+<div class="brand-swatch-sample"></div>
+**Copper**  
+`#AC7652`
+:::
+:::
+
+### Utility orange and signal accents
+
+Use these for high-visibility interface states, timers, technical callouts, equipment-inspired details, active states, and moments that need more energy than school gold without immediately reading as danger.
+
+::: {.brand-swatch-grid}
+::: {.brand-swatch style="--swatch:#E6A11A"}
+<div class="brand-swatch-sample"></div>
+**Signal Amber**  
+`#E6A11A`
+:::
+
+::: {.brand-swatch style="--swatch:#D96A1D"}
+<div class="brand-swatch-sample"></div>
+**Rescue Orange**  
+`#D96A1D`
+:::
+
+::: {.brand-swatch style="--swatch:#F57C00"}
+<div class="brand-swatch-sample"></div>
+**High-Vis Orange**  
+`#F57C00`
+:::
+
+::: {.brand-swatch style="--swatch:#A85A2A"}
+<div class="brand-swatch-sample"></div>
+**Burnt Utility**  
+`#A85A2A`
+:::
+:::
+
+### Community and reflection accents
+
+Purple and orange provide a warmer community-facing family alongside the school blues and wellness greens. These can support reflection, creativity, Indigenous learning, reconciliation work, community stories, and cultural context without implying that they are official colours of another organization or Nation.
+
+::: {.brand-swatch-grid}
+::: {.brand-swatch style="--swatch:#6A4FB3"}
+<div class="brand-swatch-sample"></div>
+**Community Purple**  
+`#6A4FB3`
+:::
+
+::: {.brand-swatch style="--swatch:#5A3D74"}
+<div class="brand-swatch-sample"></div>
+**Deep Plum**  
+`#5A3D74`
+:::
+
+::: {.brand-swatch style="--swatch:#D9782D"}
+<div class="brand-swatch-sample"></div>
+**Sunrise Orange**  
+`#D9782D`
+:::
+
+::: {.brand-swatch style="--swatch:#B7683A"}
+<div class="brand-swatch-sample"></div>
+**Clay Orange**  
+`#B7683A`
+:::
+:::
+
+### Important and alert accents
+
+Red is for deadlines, hazards, errors, critical notices, and genuinely important emphasis. It should stay uncommon so it retains meaning.
+
+::: {.brand-swatch-grid}
+::: {.brand-swatch style="--swatch:#B23939"}
+<div class="brand-swatch-sample"></div>
+**Beacon Red**  
+`#B23939`
+:::
+
+::: {.brand-swatch style="--swatch:#8F2631"}
+<div class="brand-swatch-sample"></div>
+**Crimson**  
+`#8F2631`
+:::
+:::
+
+### Source colours from supplied PCSS marks
+
+The supplied files do not all use exactly the same blue and yellow. That is useful historical context, but the logos themselves should not be recoloured just to force them into the Commons palette.
+
+| Source mark | Blue | Yellow / gold |
+|---|---|---|
+| Warriors roundel | `#1D2347` | `#FCD937` |
+| Newer SciTech roundel | `#19226D` | `#FFCF01` |
+| Older Regional SciTech mark | `#464780` | `#F0DB7C` |
+
+### Recommended combinations
+
+| Mode | Use |
+|---|---|
+| **Commons core** | Lighthouse Black + Sail White + Port Credit Navy + Technical Blue |
+| **Wellness** | Lighthouse Black + Sail White + Credit River Moss + Sea Glass |
+| **Port Credit spirit** | Port Credit Navy + PCSS Gold + Sail White |
+| **SciTech** | SciTech Navy + Technical Blue + SciTech Yellow |
+| **Utility / active** | Harbour Charcoal + Sail White + Signal Amber or High-Vis Orange |
+| **Community / reflection** | Port Credit Navy + Sail White + Community Purple + Sunrise Orange |
+| **Harbour** | Harbour Charcoal + Lake Mist + Harbour Blue + Copper |
+| **Urgent / important** | Lighthouse Black + Sail White + Beacon Red, used sparingly |
+
+A page or slide should normally use one mode, not the full palette at once. **Lux numquam desit** can act as a useful guiding idea: keep the design clear enough that the important information is never lost.
+
+## Logos and downloads
+
+The logo files below are collected here so teachers and students have clean working copies without needing to search the web or pull images from screenshots. Some marks are current, some are historical, and some were recreated locally. We will keep improving the provenance notes as better source files are confirmed.
+
+::: {.brand-logo-grid}
+::: {.brand-logo-card}
+![](assets/branding/pcss/pcss-warriors.png){fig-alt="Port Credit Warriors lighthouse badge"}
+
+### Port Credit Warriors
+
+Current sports-style lighthouse roundel from the supplied PCSS collection.
+
+[Download PNG](assets/branding/pcss/pcss-warriors.png)
+:::
+
+::: {.brand-logo-card}
+![](assets/branding/pcss/pcss-scitech-badge.png){fig-alt="Circular Port Credit SciTech lighthouse and atom badge"}
+
+### SciTech roundel
+
+Newer circular SciTech treatment with lighthouse and atom imagery.
+
+[Download PNG](assets/branding/pcss/pcss-scitech-badge.png)
+:::
+
+::: {.brand-logo-card}
+![](assets/branding/pcss/pcss-scitech-regional.png){fig-alt="Port Credit Regional SciTech Program lighthouse and atom mark"}
+
+### Regional SciTech
+
+Regional program mark from the supplied PCSS files.
+
+[Download PNG](assets/branding/pcss/pcss-scitech-regional.png)
+:::
+
+::: {.brand-logo-card}
+![](assets/branding/pcss/pcss-scitech-legacy.png){fig-alt="Legacy Port Credit SciTech logo"}
+
+### Legacy SciTech
+
+Older treatment retained for historical material and design-history reference.
+
+[Download PNG](assets/branding/pcss/pcss-scitech-legacy.png)
+:::
+:::
+
+### Logo use
+
+Keep the supplied proportions and colours. Do not stretch, skew, add effects, or casually recolour school marks. When possible, use transparent source files rather than extracting logos from screenshots.
+
+Technology Commons can sit beside these marks, but it should not imply that every Commons page or resource is an official publication of Port Credit Secondary School or the Peel District School Board.
+
 ## Open Tools and Resources
 
 Technology Commons is also a home for reusable tools, references, and classroom supports.
@@ -88,7 +421,7 @@ The website, course materials, shared components, and curriculum structure behin
 :::
 
 ::: {.bs-repository-action}
-[View source](https://github.com/backgammonsimplified/commons)
+[View source](https://github.com/mrandrewandrade/commons)
 :::
 :::::
 
@@ -166,7 +499,7 @@ Found a mistake, have a question, or see something that could be clearer? The so
 :::
 
 ::: {.bs-button-row}
-[Give feedback on GitHub](https://github.com/backgammonsimplified/commons/issues){.bs-button-primary}
+[Give feedback on GitHub](https://github.com/mrandrewandrade/commons/issues){.bs-button-primary}
 :::
 :::::::
 
