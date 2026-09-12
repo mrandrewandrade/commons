@@ -29,6 +29,7 @@ website:
     location: navbar
     type: overlay
   navbar:
+    logo: assets/branding/emblem/commons-emblem-monochrome-blue.svg
     title: "Technology Commons"
     collapse-below: xl
     left:
@@ -152,6 +153,7 @@ format:
       - assets/bs-components.css
       - assets/commons-overrides.css
       - assets/bs-learn.css
+      - assets/commons-brand.css
     include-after-body:
       - includes/bs-scripts.html
     include-in-header:
