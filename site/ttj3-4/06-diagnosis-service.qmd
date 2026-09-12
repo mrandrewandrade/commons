@@ -1,0 +1,22 @@
+---
+title: "6. Diagnosis & Service"
+subtitle: "TTJ3C / TTJ4C :: DIAGNOSIS"
+sidebar: ttj
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Concern to cause
+
+Start with a clear concern, identify what should normally happen, gather evidence, and narrow possible causes rather than replacing parts by guesswork.
+
+## Service with evidence
+
+Use measurements, specifications, visual inspection, safe procedures, and test results to justify technical decisions.
+
+## Verify the result
+
+A repair or adjustment is not complete until the original concern is checked again. Evaluation connects directly back to the initial need.

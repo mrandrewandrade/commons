@@ -1,0 +1,22 @@
+---
+title: "4. Python Foundations"
+subtitle: "TEJ3M / TEJ4M :: PROGRAMMING"
+sidebar: tej
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Data has types
+
+Work with variables, numbers, strings, Boolean values, input, output, and the idea that data has a representation and a type.
+
+## Programs make decisions
+
+Use comparisons and conditions to express rules clearly.
+
+## Build useful small programs
+
+Move quickly from syntax into programs that calculate, inspect, convert, classify, or transform technical data.

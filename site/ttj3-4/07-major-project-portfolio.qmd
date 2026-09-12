@@ -1,0 +1,18 @@
+---
+title: "7. Major Project & Portfolio"
+subtitle: "TTJ3C / TTJ4C :: PROJECT"
+sidebar: ttj
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Bring the work together
+
+Complete a substantial project, service task, fabrication challenge, or investigation that requires planning, technical work, and evaluation.
+
+## Show authentic evidence
+
+A strong submission can combine the physical result, photographs, measurements, procedures, CAD or diagrams, teacher observation, oral explanation, and concise written reflection.

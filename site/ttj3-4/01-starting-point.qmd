@@ -1,0 +1,22 @@
+---
+title: "1. Starting Point"
+subtitle: "TTJ3C / TTJ4C :: GETTING STARTED"
+sidebar: ttj
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Who am I in the shop?
+
+Begin with a private mind map of interests, strengths, influences, goals, and the kind of work you want to be known for.
+
+## How do I want my work to be known?
+
+Think like the owner of a garage, race team, restoration shop, fabrication shop, or automotive brand. Your identity work becomes the starting point for a personal marque and shop log.
+
+## NICE starts before the tools
+
+Identify needs and necessities before building. Preparation is part of hands-on work, not something separate from it.

@@ -1,0 +1,11 @@
+---
+title: "Page not found"
+description: "Find your way back to Technology Commons."
+toc: false
+sidebar: false
+search: false
+execute:
+  enabled: false
+---
+
+The page may have moved. Continue with [Home](index.qmd), [Resources](resources/index.qmd), [Glossary](glossary/index.qmd), or [Lore](lore/index.qmd).

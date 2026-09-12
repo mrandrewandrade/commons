@@ -1,0 +1,212 @@
+---
+title: "NICE Project Builder"
+description: "Document a design project using Situation, Needs and Necessities, Inquiry, Create and Communicate, and Evaluate."
+page-layout: full
+toc: false
+format:
+  html:
+    css: ../assets/nice-design-tool.css
+    title-block-style: plain
+    body-classes: "bs-editorial-page bs-title-eyebrow nice-tool-page"
+execute:
+  enabled: false
+---
+
+```{=html}
+<div class="nice-tool-shell" id="nice-tool">
+
+<div class="nice-tool-intro">
+Use this builder while you work through a design project. Your entries are turned into a project document below. Needs are pass/fail requirements. Necessities are scored factors that help compare and improve a design.
+</div>
+
+<div class="nice-tool-grid">
+
+<section class="nice-panel" aria-labelledby="nice-project-heading">
+<h2 id="nice-project-heading">Project</h2>
+<div class="nice-field-grid">
+  <div class="nice-field">
+    <label for="nice-project-title">Project title</label>
+    <input id="nice-project-title" type="text" placeholder="Example: Portable speaker stand">
+  </div>
+  <div class="nice-field">
+    <label for="nice-author">Name or team</label>
+    <input id="nice-author" type="text" placeholder="Optional">
+  </div>
+</div>
+</section>
+
+<section class="nice-panel" aria-labelledby="nice-situation-heading">
+<span class="nice-step-kicker">Start here</span>
+<h2 id="nice-situation-heading">Situation</h2>
+<p class="nice-help">What is happening? Who is involved? Where will the design be used? What problem or opportunity do you see?</p>
+<div class="nice-field">
+  <label for="nice-situation">Describe the situation</label>
+  <textarea id="nice-situation" placeholder="Describe the context before deciding on a solution."></textarea>
+</div>
+</section>
+
+<section class="nice-panel" aria-labelledby="nice-needs-heading">
+<span class="nice-step-kicker">N</span>
+<h2 id="nice-needs-heading">Needs &amp; Necessities</h2>
+<p class="nice-help"><strong>Needs</strong> are specific pass/fail requirements. <strong>Necessities</strong> are factors where more or less can be better.</p>
+
+<h3>Needs</h3>
+<div class="nice-table-wrap">
+<table class="nice-table" aria-label="Needs table">
+  <thead>
+    <tr>
+      <th>Need: what must the design do?</th>
+      <th>Why is it needed?</th>
+      <th>How will you test it?</th>
+      <th class="nice-remove-cell"><span class="visually-hidden">Remove</span></th>
+    </tr>
+  </thead>
+  <tbody id="nice-needs-body"></tbody>
+</table>
+</div>
+<button class="nice-btn" type="button" id="nice-add-need">+ Add need</button>
+
+<h3 style="margin-top: 1.75rem;">Necessities</h3>
+<div class="nice-table-wrap">
+<table class="nice-table" aria-label="Necessities table">
+  <thead>
+    <tr>
+      <th>Necessity: what would make it better?</th>
+      <th>Why does it matter?</th>
+      <th>Importance /10</th>
+      <th class="nice-remove-cell"><span class="visually-hidden">Remove</span></th>
+    </tr>
+  </thead>
+  <tbody id="nice-necessities-body"></tbody>
+</table>
+</div>
+<button class="nice-btn" type="button" id="nice-add-necessity">+ Add necessity</button>
+</section>
+
+<section class="nice-panel" aria-labelledby="nice-inquiry-heading">
+<span class="nice-step-kicker">I</span>
+<h2 id="nice-inquiry-heading">Inquire &amp; Investigate</h2>
+<p class="nice-help">Record what you investigated, how you did it, what you learned, and how that learning could affect the design.</p>
+<div class="nice-table-wrap">
+<table class="nice-table" aria-label="Inquiry table">
+  <thead>
+    <tr>
+      <th>What did you investigate?</th>
+      <th>How?</th>
+      <th>What did you discover?</th>
+      <th>What does this mean for your design?</th>
+      <th class="nice-remove-cell"><span class="visually-hidden">Remove</span></th>
+    </tr>
+  </thead>
+  <tbody id="nice-inquiry-body"></tbody>
+</table>
+</div>
+<button class="nice-btn" type="button" id="nice-add-inquiry">+ Add investigation</button>
+</section>
+
+<section class="nice-panel" aria-labelledby="nice-create-heading">
+<span class="nice-step-kicker">C</span>
+<h2 id="nice-create-heading">Create &amp; Communicate</h2>
+<p class="nice-help">Make the simplest useful version that lets you test the idea and show it to someone else.</p>
+<div class="nice-field-grid">
+  <div class="nice-field">
+    <label for="nice-created">What did you create?</label>
+    <textarea id="nice-created" placeholder="Sketch, CAD model, mock-up, prototype, circuit, code, fabricated part, or another representation."></textarea>
+  </div>
+  <div class="nice-field">
+    <label for="nice-communicated">How did you communicate or test it with others?</label>
+    <textarea id="nice-communicated" placeholder="Who saw or used it? How did you explain or demonstrate it?"></textarea>
+  </div>
+  <div class="nice-field">
+    <label for="nice-feedback">What feedback did you get?</label>
+    <textarea id="nice-feedback" placeholder="Record useful observations, questions, and feedback."></textarea>
+  </div>
+  <div class="nice-field">
+    <label for="nice-create-evidence">Evidence</label>
+    <textarea id="nice-create-evidence" placeholder="Photos, measurements, test results, file names, links, or other evidence."></textarea>
+  </div>
+</div>
+</section>
+
+<section class="nice-panel" aria-labelledby="nice-evaluate-heading">
+<span class="nice-step-kicker">E</span>
+<h2 id="nice-evaluate-heading">Evaluate</h2>
+<p class="nice-help">Test the design against the same requirements you wrote at the beginning. Then decide whether the requirements or situation also need to change.</p>
+
+<h3>Test the needs</h3>
+<div class="nice-table-wrap">
+<table class="nice-table" aria-label="Need evaluation table">
+  <thead>
+    <tr>
+      <th>Need</th>
+      <th>Result</th>
+      <th>Evidence or notes</th>
+    </tr>
+  </thead>
+  <tbody id="nice-needs-evaluation-body"></tbody>
+</table>
+</div>
+
+<h3>Score the necessities</h3>
+<div class="nice-table-wrap">
+<table class="nice-table" aria-label="Necessity evaluation table">
+  <thead>
+    <tr>
+      <th>Necessity</th>
+      <th>Importance /10</th>
+      <th>Result /10</th>
+      <th>Weighted result</th>
+      <th>Evidence or notes</th>
+    </tr>
+  </thead>
+  <tbody id="nice-necessities-evaluation-body"></tbody>
+</table>
+</div>
+
+<div class="nice-field-grid">
+  <div class="nice-field">
+    <label for="nice-situation-changed">Did the situation change?</label>
+    <select id="nice-situation-changed">
+      <option value="Not sure yet">Not sure yet</option>
+      <option value="No">No</option>
+      <option value="Yes">Yes</option>
+    </select>
+  </div>
+  <div class="nice-field">
+    <label for="nice-requirements-changed">Do any needs or necessities need to change?</label>
+    <select id="nice-requirements-changed">
+      <option value="Not sure yet">Not sure yet</option>
+      <option value="No">No</option>
+      <option value="Yes">Yes</option>
+    </select>
+  </div>
+  <div class="nice-field">
+    <label for="nice-learned">What did you learn?</label>
+    <textarea id="nice-learned" placeholder="What did testing reveal about the design or the problem?"></textarea>
+  </div>
+  <div class="nice-field">
+    <label for="nice-next">What should happen next?</label>
+    <textarea id="nice-next" placeholder="Change a requirement, investigate more, modify the design, build another prototype, test again, or finish."></textarea>
+  </div>
+</div>
+</section>
+
+<section class="nice-panel nice-output-panel" aria-labelledby="nice-report-heading">
+<span class="nice-step-kicker">Generated document</span>
+<h2 id="nice-report-heading">Your NICE Project Document</h2>
+<p class="nice-help">The document updates as you type. Blank rows are left out of the export.</p>
+<div class="nice-button-row">
+  <button class="nice-btn nice-btn-primary" type="button" id="nice-download-md">Download Markdown (.md)</button>
+  <button class="nice-btn" type="button" id="nice-download-doc">Download Word (.doc)</button>
+  <button class="nice-btn" type="button" id="nice-save-pdf">Save PDF</button>
+  <button class="nice-btn" type="button" id="nice-copy-md">Copy Markdown</button>
+</div>
+<p class="nice-export-note">Save PDF opens your browser print dialog with only the generated project document visible. Choose Save as PDF.</p>
+<hr>
+<article id="nice-report" class="nice-output" aria-live="polite"></article>
+</section>
+
+</div>
+</div>
+<script src="../assets/nice-design-tool.js" defer></script>
+```

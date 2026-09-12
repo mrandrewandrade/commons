@@ -1,0 +1,63 @@
+---
+title: "Technology Commons"
+description: "Course materials, projects, tools, references, and classroom routines for Mr. Andrade's technology classes."
+page-layout: full
+toc: false
+format:
+  html:
+    body-classes: "bs-landing-page"
+---
+
+:::::::::: {.bs-landing}
+
+:::::: {.bs-hero .bs-hero--editorial}
+::: {.bs-eyebrow}
+TECHNOLOGY COMMONS
+:::
+
+<h1>Learn by designing, building,<br class="bs-home-desktop-break">testing, and sharing.</h1>
+
+::: {.bs-hero-copy}
+Course materials, projects, tools, references, and classroom routines for Mr. Andrade's technology classes.
+:::
+::::::
+
+:::::: {.bs-home-explore aria-labelledby="bs-home-explore-title"}
+<h2 id="bs-home-explore-title">Choose where to start</h2>
+
+::::: {.bs-home-explore-list}
+[<span class="bs-home-explore-icon" aria-hidden="true"></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">TAS2O - Exploring Technologies</span><span class="bs-home-explore-description">Explore design, digital tools, fabrication, electronics, and how ideas become working objects.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tas2/index.qmd){.bs-home-explore-link .bs-home-explore-link--tas}
+
+[<span class="bs-home-explore-icon" aria-hidden="true"></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">TEJ3M / TEJ4M - Computer Engineering Technology</span><span class="bs-home-explore-description">Work with computer systems, Linux, Git, Python, digital logic, data, and machine learning.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tej3-4/index.qmd){.bs-home-explore-link .bs-home-explore-link--tej}
+
+[<span class="bs-home-explore-icon" aria-hidden="true"></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">TTJ3C / TTJ4C - Transportation Technology</span><span class="bs-home-explore-description">Build shop skills through measurement, CAD, fabrication, automotive systems, diagnosis, and service work.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](ttj3-4/index.qmd){.bs-home-explore-link .bs-home-explore-link--ttj}
+
+[<span class="bs-home-explore-icon" aria-hidden="true"></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">Tools</span><span class="bs-home-explore-description">Use shared calculators, simulators, helpers, and design tools across the courses.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tools/index.qmd){.bs-home-explore-link .bs-home-explore-link--tools}
+
+[<span class="bs-home-explore-icon" aria-hidden="true"></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">Resources</span><span class="bs-home-explore-description">Open course references, process guides, cheat sheets, safety material, and the N.I.C.E. design process.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](resources/index.qmd){.bs-home-explore-link .bs-home-explore-link--resources}
+
+[<span class="bs-home-explore-icon" aria-hidden="true"></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">Glossary</span><span class="bs-home-explore-description">Search the shared vocabulary used across lessons, tools, projects, and technical work.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](glossary/index.qmd){.bs-home-explore-link .bs-home-explore-link--glossary}
+
+[<span class="bs-home-explore-icon" aria-hidden="true"></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">Well-being</span><span class="bs-home-explore-description">Teacher-facing routines for attention, reflection, self-regulation, mindfulness, and positive classroom transitions.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](wellbeing/index.qmd){.bs-home-explore-link .bs-home-explore-link--wellbeing}
+
+[<span class="bs-home-explore-icon" aria-hidden="true"></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">Lore</span><span class="bs-home-explore-description">Read what I am learning, testing, remembering, and carrying forward through teaching, engineering, making, and community.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](lore/index.qmd){.bs-home-explore-link .bs-home-explore-link--lore}
+:::::
+::::::
+
+::::::::::

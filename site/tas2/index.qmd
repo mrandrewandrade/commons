@@ -1,0 +1,34 @@
+---
+title: "TAS2O - Exploring Technologies"
+description: "Course home for TAS2O Exploring Technologies."
+page-layout: full
+toc: false
+format:
+  html:
+    title-block-style: plain
+    body-classes: "bs-learn-article bs-title-eyebrow"
+execute:
+  enabled: false
+---
+
+::: {.bs-page-shell}
+::: {.bs-reading-column}
+::: {.bs-lesson-preamble}
+TAS2O is a hands-on introduction to technological design. Students move from personal identity and digital design into CAD, fabrication, electronics, and an integrated project portfolio.
+:::
+
+## Course path
+
+The course will be organized around short design-and-build cycles:
+
+1. Starting Point
+2. Identity, Logo & Emblem
+3. Digital Design & Photopea
+4. Measurement & Onshape
+5. Fabrication & Materials
+6. Electronics & Tinkercad
+7. Integrated Project & Portfolio
+
+Detailed lessons and the course sidebar are added in the next curriculum iteration.
+:::
+:::

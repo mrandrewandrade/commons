@@ -1,0 +1,22 @@
+---
+title: "6. Python, Data & DataFrames"
+subtitle: "TEJ3M / TEJ4M :: DATA"
+sidebar: tej
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Structure data
+
+Use lists, dictionaries, functions, files, and CSV data before moving into pandas DataFrames.
+
+## Inspect and clean
+
+Load data, inspect columns and types, handle missing or incorrect values, filter rows, create derived values, and summarize patterns.
+
+## Communicate with evidence
+
+Create simple visualizations and explain what the data supports rather than treating a graph as decoration.

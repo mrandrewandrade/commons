@@ -1,0 +1,22 @@
+---
+title: "2. Linux & Computer Systems"
+subtitle: "TEJ3M / TEJ4M :: SYSTEMS"
+sidebar: tej
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Build the workstation
+
+Install and configure Linux on the classroom computer or use WSL on an appropriate personal Windows machine.
+
+## Learn the computer through the operating system
+
+Inspect the real machine with commands such as `lscpu`, `free -h`, `lsblk`, `df -h`, `lspci`, `ip addr`, and `uname -a`.
+
+## Users, files, and packages
+
+Work with the shell, directories, permissions, user accounts, software packages, storage, and networking as part of maintaining a usable technical environment.

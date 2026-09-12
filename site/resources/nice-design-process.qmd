@@ -1,0 +1,145 @@
+---
+title: "NICE Design Process"
+description: "A simple design process for understanding a situation, making something, and improving it."
+page-layout: article
+toc: true
+format:
+  html:
+    title-block-style: plain
+    body-classes: "bs-learn-article bs-title-eyebrow"
+execute:
+  enabled: false
+---
+
+::: {.bs-lesson-preamble}
+Design does not start with a solution. It starts with a **situation**. NICE gives you four simple steps to understand the situation, make something, test it, and improve it.
+:::
+
+## Start with the Situation
+
+**What is happening? Who is involved? Where will the design be used? What might change?**
+
+The situation is the frame around the whole design process. If the situation changes, your needs, research, design, and evaluation may need to change too.
+
+<div style="max-width: 760px; margin: 2rem auto;">
+<svg viewBox="0 0 760 470" role="img" aria-labelledby="niceDiagramTitle niceDiagramDesc" style="width: 100%; height: auto;">
+  <title id="niceDiagramTitle">The NICE design process inside a situation</title>
+  <desc id="niceDiagramDesc">A rounded rectangle labelled Situation contains four connected stages: Needs and Necessities, Inquire and Investigate, Create and Communicate, and Evaluate. The arrows form a loop.</desc>
+  <defs>
+    <marker id="niceArrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth">
+      <path d="M0,0 L0,6 L9,3 z" fill="currentColor"></path>
+    </marker>
+  </defs>
+  <rect x="18" y="18" width="724" height="434" rx="24" fill="none" stroke="currentColor" stroke-width="2"></rect>
+  <text x="46" y="58" font-size="22" font-weight="700" fill="currentColor">SITUATION</text>
+  <text x="46" y="84" font-size="15" fill="currentColor">The context around the design can change.</text>
+
+  <path d="M380 138 C500 138 590 188 600 246" fill="none" stroke="currentColor" stroke-width="2.5" marker-end="url(#niceArrow)"></path>
+  <path d="M600 280 C585 345 500 382 412 382" fill="none" stroke="currentColor" stroke-width="2.5" marker-end="url(#niceArrow)"></path>
+  <path d="M348 382 C255 382 176 344 160 282" fill="none" stroke="currentColor" stroke-width="2.5" marker-end="url(#niceArrow)"></path>
+  <path d="M160 244 C175 183 264 138 348 138" fill="none" stroke="currentColor" stroke-width="2.5" marker-end="url(#niceArrow)"></path>
+
+  <circle cx="380" cy="138" r="57" fill="var(--bs-body-bg, white)" stroke="currentColor" stroke-width="2"></circle>
+  <text x="380" y="128" text-anchor="middle" font-size="30" font-weight="700" fill="currentColor">N</text>
+  <text x="380" y="151" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Needs &amp;</text>
+  <text x="380" y="168" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Necessities</text>
+
+  <circle cx="603" cy="263" r="57" fill="var(--bs-body-bg, white)" stroke="currentColor" stroke-width="2"></circle>
+  <text x="603" y="253" text-anchor="middle" font-size="30" font-weight="700" fill="currentColor">I</text>
+  <text x="603" y="276" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Inquire &amp;</text>
+  <text x="603" y="293" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Investigate</text>
+
+  <circle cx="380" cy="382" r="57" fill="var(--bs-body-bg, white)" stroke="currentColor" stroke-width="2"></circle>
+  <text x="380" y="372" text-anchor="middle" font-size="30" font-weight="700" fill="currentColor">C</text>
+  <text x="380" y="395" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Create &amp;</text>
+  <text x="380" y="412" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Communicate</text>
+
+  <circle cx="157" cy="263" r="57" fill="var(--bs-body-bg, white)" stroke="currentColor" stroke-width="2"></circle>
+  <text x="157" y="253" text-anchor="middle" font-size="30" font-weight="700" fill="currentColor">E</text>
+  <text x="157" y="282" text-anchor="middle" font-size="13" font-weight="600" fill="currentColor">Evaluate</text>
+
+  <text x="380" y="259" text-anchor="middle" font-size="18" font-weight="700" fill="currentColor">Learn, make, test, repeat.</text>
+</svg>
+</div>
+
+## N: Needs & Necessities
+
+Ask: **What must the design do, and what would make it better?**
+
+A **need** is a clear requirement. It should usually be testable as **yes or no**.
+
+- Need: must weigh less than 10 kg.
+- Need: must fit inside a 500 mm space.
+
+A **necessity** is something where more or less can be better. It can be scored or weighted.
+
+- Necessity: lighter is better.
+- Necessity: easier to use is better.
+- Necessity: more durable is better.
+
+A necessity can become a need when the situation requires it. "Lightweight" is a preference until the situation says the object must weigh less than 10 kg.
+
+## I: Inquire & Investigate
+
+Ask: **What do we need to learn before we decide what to make?**
+
+Look at users, existing products, materials, measurements, experiments, books, websites, videos, AI tools, and ideas from other fields.
+
+For useful inquiry, record four things:
+
+1. **What did you investigate?**
+2. **How did you investigate it?**
+3. **What did you learn?**
+4. **How could that change your design?**
+
+Good designers rarely start from nothing. They study what already exists, borrow useful ideas, combine technologies, and improve them for a new situation.
+
+## C: Create & Communicate
+
+Ask: **What is the simplest thing we can make that lets us test and explain the idea?**
+
+That might be a sketch, cardboard model, CAD model, circuit, mock-up, code prototype, or working part.
+
+Do not wait for a perfect final product. Make enough to learn something, show it to other people, and get useful feedback.
+
+## E: Evaluate
+
+Ask: **Did it work, and are we still solving the right problem?**
+
+Test the design against the requirements you wrote earlier:
+
+- Does it meet every **need**? Pass or fail.
+- How well does it meet each **necessity**? Score and compare.
+- What did testing or feedback teach you?
+- Were the original needs and necessities correct?
+- Did the situation change?
+
+Evaluation is not the end. What you learn sends you back around the NICE cycle.
+
+## A quick example: how phones changed
+
+A landline telephone solved long-distance voice communication, but it kept the user attached to a wire. Radio communication allowed people to communicate while moving. Combining ideas from telephone networks and radio helped make mobile phones possible.
+
+Then the situation kept changing. People wanted smaller phones, text messaging, email, cameras, maps, internet access, apps, and eventually communication that could move onto watches and other wearables.
+
+The important idea is not that one person invented the modern phone. It is that designers kept **investigating existing ideas, combining them, testing them, and responding to changing needs**.
+
+[View the phone evolution NICE slides](nice-design-process-slides.qmd)
+
+## Remember
+
+**Situation -> N -> I -> C -> E -> repeat**
+
+The goal is not to get the first design right. The goal is to learn enough each cycle to make the next decision better.
+
+## Use NICE on your first project
+
+You do not need a complicated invention to learn the design process. A simple product such as a **name tag** is enough. You can define what it must do, rank what would make it better, investigate possible solutions, build a version, test it, and then improve it.
+
+Use the [NICE Project Builder](../tools/nice-design-tool.qmd) to organize and document the process.
+
+Start with the name-tag activity for your course:
+
+- [TAS2O: Identity, Logo & Emblem](../tas2/02-identity-logo-emblem.qmd#first-product-name-tag)
+- [TEJ3M / TEJ4M: Starting Point](../tej3-4/01-starting-point.qmd#first-product-name-tag)
+- [TTJ3C / TTJ4C: Identity, Marque & Shop Log](../ttj3-4/02-identity-marque-shop-log.qmd#first-product-name-tag)

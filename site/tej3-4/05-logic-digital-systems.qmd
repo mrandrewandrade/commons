@@ -1,0 +1,22 @@
+---
+title: "5. Logic & Digital Systems"
+subtitle: "TEJ3M / TEJ4M :: LOGIC"
+sidebar: tej
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## From code to logic
+
+Connect Python conditions to Boolean expressions, truth tables, and logic gates.
+
+## From diagram to circuit
+
+Take a logic requirement, draw the gate diagram, build it in Tinkercad Circuits, and test every input combination.
+
+## Use meaningful systems
+
+Examples can include starter interlocks, warning lamps, cooling-fan requests, or machine safety logic so the Boolean expression represents an actual technical decision.

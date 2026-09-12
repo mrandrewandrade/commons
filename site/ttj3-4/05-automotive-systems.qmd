@@ -1,0 +1,22 @@
+---
+title: "5. Automotive Systems"
+subtitle: "TTJ3C / TTJ4C :: VEHICLE SYSTEMS"
+sidebar: ttj
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Think in systems
+
+Study how vehicle subsystems receive inputs, perform functions, and interact with other systems.
+
+## Connect mechanical and electrical ideas
+
+Use diagrams, measurements, demonstrations, and simple logic examples to understand systems such as starting, charging, cooling, braking, and warning circuits.
+
+## Document what you observe
+
+Use labelled photographs, measured values, diagrams, and short explanations to make hands-on observations useful later.

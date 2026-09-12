@@ -1,0 +1,18 @@
+---
+title: "6. Electronics & Tinkercad"
+subtitle: "TAS2O :: SYSTEMS"
+sidebar: tas2
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Build a simple system
+
+Use Tinkercad Circuits to work with inputs, outputs, power, simple components, and basic control ideas.
+
+## Simulate first
+
+Plan and test virtually before moving to shared physical hardware. The simulation becomes evidence that the design is ready for a physical validation step.

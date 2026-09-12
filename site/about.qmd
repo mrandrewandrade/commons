@@ -1,0 +1,174 @@
+---
+title: "About Technology Commons"
+page-layout: full
+toc: false
+format:
+  html:
+    title-block-style: plain
+    body-classes: bs-about-page
+---
+
+:::::: bs-page-shell
+::::: bs-reading-column
+Technology Commons is an open teaching project for learning technology by designing, building, testing, explaining, and improving real work.
+
+The idea is simple:
+
+> **Come with a question. Leave with something you understand well enough to use, test, build, or explain.**
+
+The site brings lessons, projects, tools, references, classroom routines, and research into one shared place for technology education.
+
+## Why We Built This
+
+Technology courses move constantly between thinking and doing. A student may need to understand a measurement, make a sketch, write code, diagnose a fault, choose a material, use a machine, test an idea, and explain what happened, sometimes all in the same project.
+
+Technology Commons is designed around the kinds of questions that appear while doing that work:
+
+::: bs-question-examples
+[\>]{.bs-code-prefix aria-hidden="true"} *How do I turn an idea into something that actually works?*
+
+[\>]{.bs-code-prefix aria-hidden="true"} *How precise does this measurement need to be, and which tool should I use?*
+
+[\>]{.bs-code-prefix aria-hidden="true"} *Why did this prototype, program, circuit, or repair fail, and what should I change next?*
+
+[\>]{.bs-code-prefix aria-hidden="true"} *How can I show the decisions, evidence, and learning behind the finished result?*
+
+[// goal: learn by making, testing, explaining, and improving]{.bs-code-note}
+:::
+
+The aim is not to separate theory from practice. It is to build clear mental models through real work, then use evidence from that work to improve the next attempt.
+
+::: bs-section-heading
+## Technology Commons
+
+[ROLE: CLASSROOM :: WORKSHOP :: COMMONS]{.bs-heading-meta}
+:::
+
+Technology Commons supports three secondary technology course groups: **TAS2O Exploring Technologies**, **TEJ3M / TEJ4M Computer Engineering Technology**, and **TTJ3C / TTJ4C Transportation Technology**.
+
+Each course has its own pathway, but they share common ideas: safe work, measurement, design, technical communication, iteration, evidence, reflection, and the responsibility to leave useful knowledge behind for others.
+
+The word **commons** is intentional. Useful knowledge should be shared, inspected, improved, and reused. Students should be able to find what they need today, while educators should be able to inspect the structure and adapt what is useful elsewhere.
+
+## A Shared Design Process
+
+Projects use the NICE cycle:
+
+**Needs & Necessities -> Investigate & Inquire -> Create & Communicate -> Evaluate -> repeat**
+
+NICE is not a one-way checklist. Evaluation can reveal a new need, a misunderstood constraint, a better question, or a better design. The cycle begins again with better information.
+
+## Open Tools and Resources
+
+Technology Commons is also a home for reusable tools, references, and classroom supports.
+
+::::::: {.bs-section}
+::: {.bs-eyebrow}
+OPEN COMMONS
+:::
+
+## Things you can inspect and reuse
+
+::: {.bs-section-lead}
+The site is built in public. Lessons, design-process resources, classroom tools, research notes, and source code can be inspected and improved over time.
+:::
+
+:::::: {.bs-repository-grid aria-label="Technology Commons sections"}
+::::: {.bs-card .bs-repository-card}
+::: {.bs-repository-mark aria-hidden="true"}
+&lt;/&gt;
+:::
+
+::: {.bs-repository-copy}
+<span class="bs-repository-label">QUARTO :: CURRICULUM :: OPEN SOURCE</span>
+
+### Technology Commons
+
+The website, course materials, shared components, and curriculum structure behind this project.
+:::
+
+::: {.bs-repository-action}
+[View source](https://github.com/backgammonsimplified/commons)
+:::
+:::::
+
+::::: {.bs-card .bs-repository-card}
+::: {.bs-repository-mark aria-hidden="true"}
+[N]
+:::
+
+::: {.bs-repository-copy}
+<span class="bs-repository-label">DESIGN :: ITERATION :: EVIDENCE</span>
+
+### NICE Design Process
+
+A shared engineering design cycle for defining requirements, investigating, creating, communicating, evaluating, and revising.
+:::
+
+::: {.bs-repository-action}
+[Open NICE](resources/nice-design-process.qmd)
+:::
+:::::
+
+::::: {.bs-card .bs-repository-card}
+::: {.bs-repository-mark aria-hidden="true"}
+[M]
+:::
+
+::: {.bs-repository-copy}
+<span class="bs-repository-label">ATTENTION :: ROUTINE :: REFLECTION</span>
+
+### Well-being
+
+Teacher-facing classroom routines that support attention, reflection, mindfulness, self-regulation, transitions, and a positive learning environment.
+:::
+
+::: {.bs-repository-action}
+[Open Well-being](wellbeing/index.qmd)
+:::
+:::::
+
+::::: {.bs-card .bs-repository-card}
+::: {.bs-repository-mark aria-hidden="true"}
+[R]
+:::
+
+::: {.bs-repository-copy}
+<span class="bs-repository-label">CLASSROOM :: TECHNICAL :: OPEN EDUCATION</span>
+
+### Lore
+
+Classroom experiments, technical investigations, project notes, and research connected to technology education.
+:::
+
+::: {.bs-repository-action}
+[Read Lore](lore/index.qmd)
+:::
+:::::
+::::::
+:::::::
+
+## Built to Be Useful
+
+Technology Commons should be useful first. A student should be able to open the site during class, find the right course or tool, and continue working without needing to understand how the site itself is organized.
+
+[See what is being explored in Lore ->](lore/index.qmd)
+
+::::::: {.bs-section .bs-section--compact .bs-section--ruled-top}
+::: {.bs-eyebrow}
+FEEDBACK
+:::
+
+## Help make it better
+
+::: {.bs-section-lead}
+Found a mistake, have a question, or see something that could be clearer? The source is public and feedback can be shared through GitHub.
+:::
+
+::: {.bs-button-row}
+[Give feedback on GitHub](https://github.com/backgammonsimplified/commons/issues){.bs-button-primary}
+:::
+:::::::
+
+:::::
+::::::

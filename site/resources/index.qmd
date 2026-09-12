@@ -1,0 +1,37 @@
+---
+title: "Resources"
+description: "Reference material and process guides used across Technology Commons."
+page-layout: full
+toc: false
+format:
+  html:
+    title-block-style: plain
+    body-classes: "bs-editorial-page bs-title-eyebrow"
+execute:
+  enabled: false
+---
+
+::: {.bs-page-shell}
+::: {.bs-reading-column}
+::: {.bs-editorial-lead}
+Resources are things you read or reference while designing, building, programming, measuring, testing, and documenting work.
+:::
+
+## Design process
+
+[NICE Design Process](nice-design-process.qmd)  
+A simple student guide to Situation, Needs and Necessities, Inquire and Investigate, Create and Communicate, and Evaluate.
+
+[How Did the Phone Become This?](nice-design-process-slides.qmd)  
+A short slide lesson showing how communication technologies changed as situations, needs, and available technologies changed.
+
+[Open the NICE Project Builder](../tools/nice-design-tool.qmd)  
+Use the interactive tool to document a project and export the result.
+
+## Reference library
+
+This section will grow to include Git, Linux, Python, data, Boolean logic, measurement, safety, CAD, fabrication, automotive, portfolio, citation, licensing, and accessibility references.
+
+The Technology Commons glossary will be linked here after its vocabulary has been retargeted from the original site.
+:::
+:::

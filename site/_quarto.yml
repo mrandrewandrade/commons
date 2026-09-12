@@ -1,0 +1,170 @@
+project:
+  type: website
+  output-dir: _site
+  render:
+    - "**/*.qmd"
+    - "!mindfulness/"
+    - "!posts/"
+    - "!research/"
+  pre-render:
+  - python ../scripts/bs_pre_render.py
+  resources:
+    - "assets/icons/**"
+    - "assets/branding/**"
+    - assets/nice-design-tool.js
+    - assets/bs-learn.js
+    - assets/bs-research-index.js
+    - assets/bs-glossary.js
+    - assets/commons-lore.js
+    - assets/bs-glossary-lookup.json
+    - "assets/lore/**"
+
+filters:
+  - bs-link-policy
+
+website:
+  title: "Technology Commons"
+  description: "Course materials, projects, tools, and resources for technology education."
+  search:
+    location: navbar
+    type: overlay
+  navbar:
+    title: "Technology Commons"
+    collapse-below: xl
+    left:
+      - href: tas2/index.qmd
+        text: TAS2
+      - href: tej3-4/index.qmd
+        text: TEJ3/4
+      - href: ttj3-4/index.qmd
+        text: TTJ3/4
+      - href: tools/index.qmd
+        text: Tools
+      - href: resources/index.qmd
+        text: Resources
+      - href: glossary/index.qmd
+        text: Glossary
+    right:
+      - href: wellbeing/index.qmd
+        text: Well-being
+      - href: lore/index.qmd
+        text: Lore
+      - href: about.qmd
+        text: About
+  sidebar:
+    - id: tas2
+      title: "TAS2O"
+      style: docked
+      collapse-level: 1
+      contents:
+        - text: "Course Home"
+          href: tas2/index.qmd
+        - section: "Getting Started"
+          contents:
+            - text: "1. Starting Point"
+              href: tas2/01-starting-point.qmd
+            - text: "2. Identity, Logo & Emblem"
+              href: tas2/02-identity-logo-emblem.qmd
+        - section: "Design & Make"
+          contents:
+            - text: "3. Digital Design & Photopea"
+              href: tas2/03-digital-design-photopea.qmd
+            - text: "4. Measurement & Onshape"
+              href: tas2/04-measurement-onshape.qmd
+            - text: "5. Fabrication & Materials"
+              href: tas2/05-fabrication-materials.qmd
+            - text: "6. Electronics & Tinkercad"
+              href: tas2/06-electronics-tinkercad.qmd
+        - section: "Bring It Together"
+          contents:
+            - text: "7. Integrated Project & Portfolio"
+              href: tas2/07-integrated-project-portfolio.qmd
+    - id: tej
+      title: "TEJ3M / TEJ4M"
+      style: docked
+      collapse-level: 1
+      contents:
+        - text: "Course Home"
+          href: tej3-4/index.qmd
+        - section: "Environment"
+          contents:
+            - text: "1. Starting Point"
+              href: tej3-4/01-starting-point.qmd
+            - text: "2. Linux & Computer Systems"
+              href: tej3-4/02-linux-computer-systems.qmd
+            - text: "3. Git, GitHub & Portfolio"
+              href: tej3-4/03-git-github-portfolio.qmd
+        - section: "Programming & Logic"
+          contents:
+            - text: "4. Python Foundations"
+              href: tej3-4/04-python-foundations.qmd
+            - text: "5. Logic & Digital Systems"
+              href: tej3-4/05-logic-digital-systems.qmd
+            - text: "6. Python, Data & DataFrames"
+              href: tej3-4/06-python-data-dataframes.qmd
+        - section: "Machine Learning"
+          contents:
+            - text: "7. Machine Learning"
+              href: tej3-4/07-machine-learning.qmd
+            - text: "8. Major Project & Portfolio"
+              href: tej3-4/08-major-project-portfolio.qmd
+    - id: ttj
+      title: "TTJ3C / TTJ4C"
+      style: docked
+      collapse-level: 1
+      contents:
+        - text: "Course Home"
+          href: ttj3-4/index.qmd
+        - section: "Getting Started"
+          contents:
+            - text: "1. Starting Point"
+              href: ttj3-4/01-starting-point.qmd
+            - text: "2. Identity, Marque & Shop Log"
+              href: ttj3-4/02-identity-marque-shop-log.qmd
+            - text: "3. Measurement & Onshape"
+              href: ttj3-4/03-measurement-onshape.qmd
+        - section: "Shop & Vehicle Systems"
+          contents:
+            - text: "4. Fabrication & Shop Skills"
+              href: ttj3-4/04-fabrication-shop-skills.qmd
+            - text: "5. Automotive Systems"
+              href: ttj3-4/05-automotive-systems.qmd
+            - text: "6. Diagnosis & Service"
+              href: ttj3-4/06-diagnosis-service.qmd
+        - section: "Bring It Together"
+          contents:
+            - text: "7. Major Project & Portfolio"
+              href: ttj3-4/07-major-project-portfolio.qmd
+  page-footer:
+    left: |
+      Open sourced by [Andrew Andrade](https://www.linkedin.com/in/andrewandrade) for Port Credit Secondary School's Technology Department, SciTech Department, and Manufacturing Specialist High Skills Major (SHSM). Hosted on [GitHub Pages](https://github.com/mrandrewandrade/commons).
+    center: |
+      Text: [CC BY-SA 4.0](/licensing.html), attribution and share-alike required. Code: [AGPL 3.0](/licensing.html), copyleft applies.
+    right:
+      - text: About
+        href: /about.html
+
+format:
+  html:
+    theme: [cosmo, assets/bs-theme.scss]
+    css:
+      - assets/bs-shared.css
+      - assets/bs-components.css
+      - assets/commons-overrides.css
+      - assets/bs-learn.css
+    include-after-body:
+      - includes/bs-scripts.html
+    include-in-header:
+      - includes/site-head.html
+    toc: true
+    toc-location: right
+    toc-depth: 3
+    toc-title: "On this page"
+    smooth-scroll: true
+    link-external-newwindow: false
+    code-copy: true
+
+execute:
+  freeze: auto
+
+editor: source

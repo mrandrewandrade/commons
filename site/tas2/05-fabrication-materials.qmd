@@ -1,0 +1,22 @@
+---
+title: "5. Fabrication & Materials"
+subtitle: "TAS2O :: MAKING"
+sidebar: tas2
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Choose a process
+
+Compare processes such as laser cutting or engraving, 3D printing, vinyl cutting, and hand fabrication.
+
+## Release to build
+
+Before using fabrication equipment, show that the file has correct dimensions, appropriate geometry, a suitable material, and the required safety preparation.
+
+## Inspect the result
+
+Measure, photograph, and evaluate the fabricated object. Differences between the digital design and the physical result are useful evidence for the next NICE cycle.

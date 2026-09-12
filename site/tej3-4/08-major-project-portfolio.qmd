@@ -1,0 +1,18 @@
+---
+title: "8. Major Project & Portfolio"
+subtitle: "TEJ3M / TEJ4M :: PROJECT"
+sidebar: tej
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Choose a problem
+
+Build a project that uses the course environment and demonstrates meaningful programming, data, logic, or machine-learning work.
+
+## Make the evidence inspectable
+
+The Git repository should show the files, commit history, documentation, results, and evaluation needed to understand what was built and how it changed.

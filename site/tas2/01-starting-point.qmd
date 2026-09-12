@@ -1,0 +1,22 @@
+---
+title: "1. Starting Point"
+subtitle: "TAS2O :: GETTING STARTED"
+sidebar: tas2
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Who am I?
+
+Begin with a private mind map of interests, strengths, influences, places, communities, things you want to improve, and the kind of person you want to become.
+
+## What becomes public?
+
+The full mind map is private by default. Choose only the parts that you are comfortable turning into a public or professional identity.
+
+## First NICE cycle
+
+Use the [NICE Design Process](../resources/nice-design-process.qmd) to identify what a personal identity needs to communicate before designing anything.

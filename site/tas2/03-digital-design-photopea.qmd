@@ -1,0 +1,18 @@
+---
+title: "3. Digital Design & Photopea"
+subtitle: "TAS2O :: DIGITAL DESIGN"
+sidebar: tas2
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Digital images
+
+Work with image size, resolution, layers, selections, masks, text, and export formats using Photopea.
+
+## Design for a purpose
+
+Use the personal identity work as real content rather than completing isolated software exercises. Export files intentionally for web, print, and later fabrication.

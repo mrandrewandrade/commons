@@ -1,0 +1,34 @@
+---
+title: "Licensing and Attribution"
+description: "Licences for Technology Commons code, educational content, data, and third-party materials."
+page-layout: article
+toc: true
+---
+
+Technology Commons is an open-source teaching project. Different parts of the project use different licences.
+
+## Website code and executable materials
+
+Original website code and executable materials are licensed under the [GNU Affero General Public License, version 3 only](https://www.gnu.org/licenses/agpl-3.0.html) (`AGPL-3.0-only`). This includes JavaScript, CSS, executable Quarto documents, scripts, tests, and build tooling.
+
+## Educational content
+
+Original educational text, articles, lessons, diagrams, and explanatory figures are licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (`CC-BY-SA-4.0`).
+
+When reusing this material, give appropriate credit, link to the licence and source, indicate whether changes were made, and share adaptations under CC BY-SA 4.0 or a compatible licence.
+
+Suggested credit:
+
+> Based on material from **Technology Commons** by Andrew Andrade and contributors. Source: <https://github.com/backgammonsimplified/commons>. Licensed under **CC BY-SA 4.0**. Changes were made.
+
+## Data and third-party materials
+
+Data releases use the licence stated with each release. Third-party code, fonts, screenshots, quotations, and other materials retain their original licences. See the repository's [third-party notices](https://github.com/backgammonsimplified/commons/blob/master/THIRD_PARTY_NOTICES.md) for details.
+
+## Identity and branding
+
+The software and content licences do not grant rights to represent a fork or adaptation as an official Technology Commons site or as the work of Andrew Andrade. Adaptations should use their own identity when necessary and should not imply endorsement.
+
+## Full terms
+
+The repository [licensing summary](https://github.com/backgammonsimplified/commons/blob/master/LICENSE.md) defines the scope. The unmodified licence texts are stored in the repository's `LICENSES` directory.

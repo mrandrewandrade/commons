@@ -1,0 +1,256 @@
+.nice-tool-shell {
+  max-width: 1180px;
+  margin: 0 auto;
+}
+
+.nice-tool-intro {
+  max-width: 760px;
+  margin-bottom: 2rem;
+  font-size: 1.08rem;
+}
+
+.nice-tool-grid {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 1.5rem;
+}
+
+.nice-panel {
+  min-width: 0;
+  border: 1px solid rgba(127, 127, 127, 0.32);
+  border-radius: 14px;
+  padding: 1.25rem;
+  background: var(--bs-body-bg, #fff);
+}
+
+.nice-panel h2,
+.nice-panel h3 {
+  margin-top: 0;
+}
+
+.nice-step-kicker {
+  display: inline-block;
+  margin-bottom: 0.35rem;
+  font-size: 0.78rem;
+  font-weight: 700;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.nice-help {
+  margin-top: -0.35rem;
+  color: var(--bs-secondary-color, #666);
+}
+
+.nice-field-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+}
+
+.nice-field {
+  display: grid;
+  gap: 0.35rem;
+}
+
+.nice-field label {
+  font-weight: 650;
+}
+
+.nice-field input,
+.nice-field textarea,
+.nice-field select,
+.nice-table input,
+.nice-table textarea,
+.nice-table select {
+  width: 100%;
+  box-sizing: border-box;
+  border: 1px solid rgba(127, 127, 127, 0.45);
+  border-radius: 8px;
+  padding: 0.55rem 0.65rem;
+  background: var(--bs-body-bg, #fff);
+  color: var(--bs-body-color, #222);
+  font: inherit;
+}
+
+.nice-field textarea,
+.nice-table textarea {
+  min-height: 5.5rem;
+  resize: vertical;
+}
+
+.nice-table-wrap {
+  position: relative;
+  overflow-x: auto;
+  margin: 1rem 0;
+}
+
+.nice-table {
+  width: 100%;
+  min-width: 760px;
+  border-collapse: collapse;
+}
+
+.nice-table th,
+.nice-table td {
+  padding: 0.55rem;
+  border-bottom: 1px solid rgba(127, 127, 127, 0.28);
+  vertical-align: top;
+  text-align: left;
+}
+
+.nice-table th {
+  font-size: 0.88rem;
+}
+
+.nice-table .nice-remove-cell {
+  width: 3rem;
+  text-align: center;
+}
+
+.nice-button-row {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+  margin-top: 1rem;
+}
+
+.nice-btn {
+  border: 1px solid currentColor;
+  border-radius: 8px;
+  padding: 0.55rem 0.85rem;
+  background: transparent;
+  color: inherit;
+  font: inherit;
+  font-weight: 650;
+  cursor: pointer;
+}
+
+.nice-btn:hover,
+.nice-btn:focus-visible {
+  background: rgba(127, 127, 127, 0.1);
+}
+
+.nice-btn-primary {
+  background: var(--bs-primary, #0d6efd);
+  color: #fff;
+  border-color: var(--bs-primary, #0d6efd);
+}
+
+.nice-btn-primary:hover,
+.nice-btn-primary:focus-visible {
+  filter: brightness(0.93);
+  background: var(--bs-primary, #0d6efd);
+}
+
+.nice-remove {
+  border: 0;
+  background: transparent;
+  color: inherit;
+  cursor: pointer;
+  font-size: 1.25rem;
+  line-height: 1;
+  padding: 0.35rem;
+}
+
+.nice-output-panel {
+  border-top: 4px solid var(--bs-primary, #0d6efd);
+}
+
+.nice-output {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.nice-output h1 {
+  font-size: 2rem;
+  margin-bottom: 0.25rem;
+}
+
+.nice-output h2 {
+  margin-top: 2rem;
+  padding-bottom: 0.35rem;
+  border-bottom: 1px solid rgba(127, 127, 127, 0.3);
+}
+
+.nice-output table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.75rem 0 1.5rem;
+}
+
+.nice-output th,
+.nice-output td {
+  border: 1px solid rgba(127, 127, 127, 0.32);
+  padding: 0.5rem;
+  text-align: left;
+  vertical-align: top;
+}
+
+.nice-empty {
+  color: var(--bs-secondary-color, #666);
+  font-style: italic;
+}
+
+.nice-score {
+  font-weight: 700;
+}
+
+.nice-export-note {
+  font-size: 0.9rem;
+  color: var(--bs-secondary-color, #666);
+}
+
+@media (max-width: 760px) {
+  .nice-field-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .nice-panel {
+    padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 760px) {
+  .nice-output table {
+    display: block;
+    max-width: 100%;
+    overflow-x: auto;
+  }
+}
+
+@media print {
+  body * {
+    visibility: hidden !important;
+  }
+
+  #nice-report,
+  #nice-report * {
+    visibility: visible !important;
+  }
+
+  #nice-report {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    max-width: none;
+    color: #000;
+    background: #fff;
+    font-size: 11pt;
+  }
+
+  #nice-report h1,
+  #nice-report h2,
+  #nice-report h3 {
+    color: #000;
+  }
+
+  #nice-report table {
+    break-inside: avoid;
+  }
+
+  @page {
+    margin: 16mm;
+  }
+}

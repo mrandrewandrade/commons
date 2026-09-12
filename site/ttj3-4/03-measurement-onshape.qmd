@@ -1,0 +1,22 @@
+---
+title: "3. Measurement & Onshape"
+subtitle: "TTJ3C / TTJ4C :: METROLOGY & CAD"
+sidebar: ttj
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Learn the inch system deliberately
+
+Work with inch fractions, decimal inches, millimetres, and conversions. Automotive work often requires moving comfortably between systems.
+
+## Use real measuring tools
+
+Measure thickness, diameter, centre-to-centre distance, fasteners, badges, bearings, hose, and other real objects with rulers and calipers.
+
+## Model from measurements
+
+Use Onshape to turn measurements and constraints into a manufacturable part such as a personal marque badge.

@@ -1,0 +1,105 @@
+---
+title: "Well-being"
+description: "Brief teacher-facing classroom routines that support attention, reflection, self-regulation, mindfulness, and positive transitions into and out of learning."
+page-layout: article
+toc: true
+execute:
+  enabled: false
+---
+
+::: {.bs-editorial-lead}
+A small amount of intentional time at the beginning and end of class can help students arrive, focus, reset, and leave with a clearer sense of what they did and what comes next.
+:::
+
+## What this section is
+
+This section provides teachers with **educational classroom routines that support student well-being**. It is designed to support attention, reflection, self-regulation, classroom climate, mindfulness, and transitions.
+
+It is **not counselling, psychotherapy, diagnosis, treatment, or a replacement for school mental-health services**.
+
+Students should never be required to disclose private experiences, trauma, diagnoses, family circumstances, or personal mental-health information as part of these activities.
+
+If a student needs individual support, teachers should follow school and board procedures and involve the appropriate school professionals and administrators.
+
+## Professional scope
+
+The Ontario College of Teachers describes supporting students' mental health as part of professional practice. Its guidance emphasizes supportive learning environments, recognizing concerns, helping students connect with appropriate supports, and maintaining professional boundaries.
+
+The College also cautions teachers not to move into counselling unless counselling is part of their role and they have the appropriate training. Technology Commons uses that boundary here: these are short teaching routines, not therapy.
+
+Teachers should continue to follow employer, school board, school, and Ministry policies.
+
+[Ontario College of Teachers: Supporting Students' Mental Health](https://www.oct.ca/en-ca/for-members/professional-advisories/supporting-students-mental-health)
+
+[Ontario College of Teachers: Professional Boundaries](https://www.oct.ca/en-ca/for-members/professional-advisories/professional-boundaries)
+
+## Beginning every class
+
+The opening routine should usually take about 3 to 5 minutes.
+
+1. **Quote on the board.** A short quotation, question, proverb, observation, or idea connected to learning, effort, curiosity, craft, responsibility, attention, or community.
+2. **Well-being activity.** A brief, approachable activity that helps the class settle and shift attention into the room.
+3. **Today's intention.** One sentence about what students are about to learn, make, investigate, repair, or improve.
+
+The activity should feel like a classroom ritual rather than a clinical exercise.
+
+## Ending every class
+
+The closing routine should also take about 3 to 5 minutes.
+
+1. **Pause and reset.** Stop work, put tools or devices into a safe state, and clear the immediate workspace.
+2. **Reflect.** Use one short prompt, observation, or playful attention activity.
+3. **Close the loop.** Identify what was completed, what remains unfinished, and the first useful action for next class.
+
+For shop classes, the closing routine also supports safe cleanup and a deliberate transition away from tools and equipment.
+
+## Activity ideas
+
+### Notice five
+
+Without speaking, notice five things you can see, four sounds you can hear, three physical sensations, two colours you had not noticed before, and one thing you are ready to focus on.
+
+### One-minute build observation
+
+Place an ordinary object, component, tool, fastener, or machine part where everyone can see it. Students silently notice as many design decisions as they can in one minute. Ask for observations about shape, material, joints, manufacturing, ergonomics, function, or failure points.
+
+### Comfortable-count breathing, optional
+
+Invite students to breathe in, pause, breathe out, and pause for comfortable counts. Keep the activity optional. Do not present it as treatment for anxiety or another condition.
+
+### Sound map
+
+For 30 to 60 seconds, students listen without talking and mentally map sounds as near, medium, or far away. Then return attention to the room.
+
+### Precision challenge
+
+Ask students to estimate when 30 seconds has passed without checking a clock. Compare estimates and connect the result to measurement, calibration, tolerance, or human perception.
+
+### One good question
+
+Give students 60 seconds to write one question they are curious about today. It can be technical, practical, or connected to the day's work. No personal disclosure is required.
+
+### Reset the workspace
+
+Students take one quiet minute to arrange only what they need for the next task. In a computer class this can mean closing distractions and opening the required files. In a shop it can mean checking PPE, tools, and work-area readiness.
+
+### Closing snapshot
+
+Students answer one of these privately or aloud, depending on the class:
+
+- What changed in your understanding today?
+- What worked better than expected?
+- What failed in a useful way?
+- What is the first thing you should do next class?
+- What would you explain differently if teaching this to someone else?
+
+## Design principles for activities
+
+Activities in this section should remain:
+
+- brief and connected to the classroom
+- low-pressure and non-clinical
+- inclusive of students who prefer not to close their eyes, control their breathing, or speak publicly
+- free from required personal disclosure
+- appropriate to the safety demands of the room, shop, lab, or computer environment
+- easy for a teacher to stop or adapt when a student needs a different form of support

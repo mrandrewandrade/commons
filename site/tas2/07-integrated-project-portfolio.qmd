@@ -1,0 +1,18 @@
+---
+title: "7. Integrated Project & Portfolio"
+subtitle: "TAS2O :: PROJECT"
+sidebar: tas2
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Bring the technologies together
+
+Choose a project that requires several skills from the course rather than repeating one isolated technique.
+
+## Show the process
+
+Use sketches, CAD, files, photographs, measurements, prototypes, and short explanations as evidence. The portfolio should show how the idea changed through repeated NICE cycles.

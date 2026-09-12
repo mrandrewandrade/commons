@@ -1,0 +1,22 @@
+---
+title: "3. Git, GitHub & Portfolio"
+subtitle: "TEJ3M / TEJ4M :: VERSION CONTROL"
+sidebar: tej
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Version the work
+
+Use Git to make technical change visible: edit, inspect, stage, commit, and revise.
+
+## Publish deliberately
+
+Use GitHub as the durable home for code and project evidence. Build a simple Quarto portfolio that grows throughout the course.
+
+## NICE and Git
+
+Commits can show repeated design cycles. A project should have a history of decisions, tests, and improvements rather than appearing as one final upload.

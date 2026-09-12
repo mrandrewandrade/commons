@@ -1,0 +1,22 @@
+---
+title: "4. Fabrication & Shop Skills"
+subtitle: "TTJ3C / TTJ4C :: SHOP"
+sidebar: ttj
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Release to build
+
+Access to fabrication equipment follows clear preparation and safety requirements. Everyone can earn access by showing the required planning and understanding.
+
+## Make, inspect, adjust
+
+Fabricate using the available process, then measure and inspect the result. Record what changed between the design file and the physical part.
+
+## Build routines
+
+Tool selection, setup, cleanup, return of equipment, and documentation are part of technical competence.

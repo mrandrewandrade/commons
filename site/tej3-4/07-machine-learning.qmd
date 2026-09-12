@@ -1,0 +1,22 @@
+---
+title: "7. Machine Learning"
+subtitle: "TEJ3M / TEJ4M :: MACHINE LEARNING"
+sidebar: tej
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Use Kaggle as a lab
+
+Load a real dataset, identify useful features and a target, prepare the data, train a basic model, and evaluate its performance.
+
+## Evaluation matters
+
+Use train and test data, appropriate metrics, and error analysis. Learn why overfitting, weak data, and biased data can produce misleading results.
+
+## Grade 12 extension
+
+Compare models, tune parameters, investigate failures, and, where appropriate, explore a small language model or the way an AI system can use tools and structured data.

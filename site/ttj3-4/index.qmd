@@ -1,0 +1,34 @@
+---
+title: "TTJ3C / TTJ4C - Transportation Technology"
+description: "Course home for TTJ3C and TTJ4C Transportation Technology."
+page-layout: full
+toc: false
+format:
+  html:
+    title-block-style: plain
+    body-classes: "bs-learn-article bs-title-eyebrow"
+execute:
+  enabled: false
+---
+
+::: {.bs-page-shell}
+::: {.bs-reading-column}
+::: {.bs-lesson-preamble}
+TTJ3C and TTJ4C develop transportation and shop skills through measurement, CAD, fabrication, automotive systems, diagnosis, service, and documented project work.
+:::
+
+## Course path
+
+The shared course structure will move through:
+
+1. Starting Point
+2. Identity, Marque & Shop Log
+3. Measurement & Onshape
+4. Fabrication & Shop Skills
+5. Automotive Systems
+6. Diagnosis & Service
+7. Major Project & Portfolio
+
+Detailed lessons and the course sidebar are added in the next curriculum iteration.
+:::
+:::

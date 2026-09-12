@@ -1,0 +1,22 @@
+---
+title: "4. Measurement & Onshape"
+subtitle: "TAS2O :: CAD"
+sidebar: tas2
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## Measure before modelling
+
+Use millimetres, rulers, and calipers to turn a physical requirement into dimensions and constraints.
+
+## Model with intent
+
+Build sketches in Onshape, apply dimensions and geometric constraints, then extrude a manufacturable part. The goal is not simply to make a shape look correct on screen, but to define why it has that size and geometry.
+
+## Evaluate
+
+Compare the finished model or part with the original measurements and design requirements.

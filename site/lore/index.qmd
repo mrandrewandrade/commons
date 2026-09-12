@@ -1,0 +1,85 @@
+---
+title: "Lore"
+subtitle: "What I am learning in public"
+description: >
+  Reflections, experiments, stories, technical notes, and ideas I am learning
+  through teaching, engineering, making, and community.
+format:
+  html:
+    page-layout: article
+    toc: false
+    title-block-style: plain
+    body-classes: "bs-editorial-page bs-title-eyebrow bs-research-index"
+listing:
+  id: lore-posts
+  contents: "*.qmd"
+  template: _lore-listing.ejs.md
+  sort: "date desc"
+  sort-ui: false
+  filter-ui: false
+  feed: false
+execute:
+  enabled: false
+---
+
+::: {.bs-page-shell}
+::: {.bs-reading-column}
+::: {.bs-editorial-lead}
+The course side of Technology Commons is where I teach. **Lore is the learning side:** what I am learning, testing, remembering, questioning, and carrying forward.
+:::
+
+Teaching and learning are reciprocal. Ideas developed in class can become questions worth investigating, and things I learn through research, engineering, history, community, or reflection can come back into the classroom in a better form.
+:::
+
+```{=html}
+<section class="bs-research-filter-panel" data-bs-research-filters aria-label="Filter Lore articles">
+  <p class="visually-hidden">
+    Select a category or tag to filter the articles. Select an active filter again to clear it.
+  </p>
+
+  <div class="bs-research-filter-group">
+    <p class="bs-research-filter-label">Themes</p>
+    <div class="bs-research-filter-options" role="group" aria-label="Filter by theme">
+      <button type="button" class="bs-research-filter bs-research-filter--category" data-bs-filter-category="Reflection" aria-pressed="false">
+        <span>Reflection</span><span class="bs-research-filter-count" aria-hidden="true">×0</span>
+      </button>
+      <button type="button" class="bs-research-filter bs-research-filter--category" data-bs-filter-category="Teaching" aria-pressed="false">
+        <span>Teaching</span><span class="bs-research-filter-count" aria-hidden="true">×0</span>
+      </button>
+      <button type="button" class="bs-research-filter bs-research-filter--category" data-bs-filter-category="Community" aria-pressed="false">
+        <span>Community</span><span class="bs-research-filter-count" aria-hidden="true">×0</span>
+      </button>
+      <button type="button" class="bs-research-filter bs-research-filter--category" data-bs-filter-category="Design" aria-pressed="false">
+        <span>Design</span><span class="bs-research-filter-count" aria-hidden="true">×0</span>
+      </button>
+    </div>
+  </div>
+
+  <div class="bs-research-filter-group" data-bs-tag-group>
+    <p class="bs-research-filter-label">Tags</p>
+    <div class="bs-research-filter-options" role="group" aria-label="Filter by tag" data-bs-tag-filters></div>
+  </div>
+
+  <div class="bs-research-filter-footer">
+    <p class="bs-research-result-count" aria-live="polite" data-bs-result-count></p>
+    <button type="button" class="bs-research-clear" data-bs-clear-filters hidden>
+      Clear filters
+    </button>
+  </div>
+</section>
+```
+
+::: {#lore-posts}
+:::
+
+```{=html}
+<p class="bs-research-empty" data-bs-empty-state hidden>
+  No Lore articles match the selected theme and tag.
+</p>
+```
+
+```{=html}
+<script src="../assets/bs-research-index.js" defer></script>
+```
+
+:::

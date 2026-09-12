@@ -1,0 +1,28 @@
+---
+title: "2. Identity, Marque & Shop Log"
+subtitle: "TTJ3C / TTJ4C :: IDENTITY"
+sidebar: ttj
+page-layout: article
+toc: true
+format:
+  html:
+    body-classes: "bs-learn-article bs-title-eyebrow"
+---
+
+## First product: name tag
+
+Start with a simple product that gives you something real to design, make, test, photograph, and improve. Create a name tag that clearly shows your name, can stand at your workspace, and can later incorporate your personal logo.
+
+Use the [NICE Design Process](../resources/nice-design-process.qmd) to identify needs, rank useful extras, investigate possible solutions, create a first version, and evaluate it against the requirements before improving it.
+
+## Personal marque
+
+Create a simplified automotive-style mark that can be recognized at small size, reproduced cleanly, and manufactured as a physical badge or decal.
+
+## Personal emblem
+
+Develop a richer identity piece that can show more of your values, place, heritage, interests, and aspirations.
+
+## Shop log
+
+Use photographs, measurements, brief captions, procedures, results, and reflections to document technical work as it happens. The shop log becomes a portfolio without requiring a long essay for every task.

@@ -1,0 +1,325 @@
+---
+title: "How Did the Phone Become This?"
+subtitle: "A NICE design story"
+format:
+  revealjs:
+    theme: simple
+    slide-level: 2
+    slide-number: true
+    controls: true
+    progress: true
+    transition: fade
+    center: true
+    width: 1280
+    height: 720
+execute:
+  enabled: false
+---
+
+## Start here
+
+```{=html}
+<h1 class="r-fit-text">A modern phone</h1>
+```
+
+Calls. Messages. Camera. Maps. Music. Games. Internet. Payment. School. Work.
+
+**How did one object end up doing all of this?**
+
+---
+
+## Rewind
+
+Before the smartphone, before the mobile phone, before the telephone:
+
+```{=html}
+<h1 class="r-fit-text">People still needed to communicate.</h1>
+```
+
+The **situation** was different. The need was the same.
+
+---
+
+## Before electronics
+
+People used visible or audible signals across distance:
+
+**fire and smoke**
+
+**flags and semaphore**
+
+**bells, horns, and drums**
+
+A signal could travel farther than a voice, but the message was limited.
+
+---
+
+## A string and two cups
+
+A cup-and-string phone is not the ancestor of the cellphone.
+
+It is a simple model of the problem:
+
+**How can sound move from one person to another?**
+
+Sound vibrates the cup. The string carries the vibration. The second cup turns it back into sound.
+
+Useful idea, serious limitation: you are still connected by a line.
+
+---
+
+## Telegraph
+
+Electricity made it possible to send a signal quickly through a wire.
+
+**New capability:** long-distance messages could arrive much faster.
+
+**Limitation:** the signal had to be encoded and decoded.
+
+Design changed because the available technology changed.
+
+---
+
+## Telephone
+
+The telephone changed the question:
+
+```{=html}
+<h1 class="r-fit-text">What if the wire could carry a voice?</h1>
+```
+
+People could speak naturally over long distances.
+
+But the phone was tied to a place.
+
+---
+
+## Radio
+
+Radio changed another part of the situation:
+
+```{=html}
+<h1 class="r-fit-text">What if communication did not need a wire?</h1>
+```
+
+Radio allowed communication while moving and where wires were impractical.
+
+The trade-offs included equipment size, power, range, interference, and cost.
+
+---
+
+## Field radio
+
+Military, emergency, aviation, marine, and industrial communication pushed radio toward portable systems.
+
+Some early portable systems were backpack-sized.
+
+They proved something important:
+
+**Wireless voice communication could move with the user.**
+
+But portable did not yet mean pocket-sized.
+
+---
+
+## Inquiry means looking sideways
+
+A designer does not only ask, "What exists in phones?"
+
+They also ask:
+
+- What does radio already do well?
+- What does the telephone network already do well?
+- What has the military learned about portable communication?
+- What can batteries and electronics now make possible?
+
+```{=html}
+<h1 class="r-fit-text">Innovation often comes from combining existing ideas.</h1>
+```
+
+---
+
+## Telephone + radio
+
+Telephone networks were good at connecting one person to another.
+
+Radio was good at communication without a fixed wire.
+
+```{=html}
+<h1 class="r-fit-text">What happens when those ideas come together?</h1>
+```
+
+**Mobile telephone**
+
+---
+
+## The brick phone
+
+The first useful mobile phones solved the biggest need:
+
+**Make a call while away from a landline.**
+
+But evaluation found obvious problems:
+
+- large
+- heavy
+- expensive
+- limited battery life
+
+So the NICE cycle continued.
+
+---
+
+## The pocket phone
+
+The question changed from:
+
+**Can a telephone be mobile?**
+
+To:
+
+**Can I comfortably carry it everywhere?**
+
+Nokia-era phones became smaller, tougher, simpler, and better at lasting through the day.
+
+---
+
+## Then people started typing
+
+Voice was no longer enough.
+
+Text messages and email changed what people wanted from a phone.
+
+```{=html}
+<h1 class="r-fit-text">New need: enter information quickly.</h1>
+```
+
+BlackBerry-style devices used a full physical keyboard because typing had become important.
+
+---
+
+## The keyboard solved a problem
+
+A physical keyboard made typing easier.
+
+But it also created a new limitation:
+
+```{=html}
+<h1 class="r-fit-text">The keyboard always takes up space.</h1>
+```
+
+Even when you are looking at a photo, map, video, game, or webpage.
+
+Evaluation creates the next design question.
+
+---
+
+## Touchscreen
+
+A touchscreen lets the same surface change jobs.
+
+It can become:
+
+**keyboard | map | camera controls | game controls | browser | video**
+
+The phone is no longer only a telephone.
+
+It becomes a small general-purpose computer.
+
+---
+
+## Apps change the situation again
+
+Instead of deciding every future function when the phone is built, software can add new functions later.
+
+The user may discover needs they could not have asked for before the technology existed.
+
+```{=html}
+<h1 class="r-fit-text">Good design can reveal a need, not only respond to one.</h1>
+```
+
+---
+
+## Consolidation
+
+One device begins replacing many separate objects:
+
+**phone**
+
+**camera**
+
+**music player**
+
+**GPS**
+
+**calculator**
+
+**calendar**
+
+**flashlight**
+
+**web browser**
+
+The design becomes a platform.
+
+---
+
+## And then it spreads out again
+
+Today, some phone functions move onto other devices:
+
+**smartwatch**
+
+**earbuds**
+
+**car displays**
+
+**wearable sensors**
+
+The situation changes again: sometimes the best screen is the one you do not need to take out of your pocket.
+
+---
+
+## The phone was never one invention
+
+It was many cycles of:
+
+```{=html}
+<h1 class="r-fit-text">Situation</h1>
+```
+
+```{=html}
+<h1 class="r-fit-text">N -&gt; I -&gt; C -&gt; E</h1>
+```
+
+Changing needs. New research. New materials. New technologies. New prototypes. New feedback.
+
+Then another cycle.
+
+---
+
+## NICE
+
+### N: Needs & Necessities
+What must it do? What would make it better?
+
+### I: Inquire & Investigate
+What can we learn from users, existing designs, experiments, and other fields?
+
+### C: Create & Communicate
+What is the smallest useful version we can make and show?
+
+### E: Evaluate
+Did it work? Are the requirements still right? Did the situation change?
+
+---
+
+## Design is a loop
+
+```{=html}
+<h1 class="r-fit-text">Situation -&gt; N -&gt; I -&gt; C -&gt; E -&gt; repeat</h1>
+```
+
+The goal is not to predict the perfect final product.
+
+The goal is to make the next decision better than the last one.

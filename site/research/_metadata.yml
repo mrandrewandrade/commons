@@ -1,0 +1,8 @@
+filters:
+  - bs-research-taxonomy
+  - bs-term-lookup
+  - bs-inline-glossary
+term-lookup: true
+format:
+  html:
+    toc-expand: true

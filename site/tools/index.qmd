@@ -1,0 +1,33 @@
+---
+title: "Tools"
+description: "Interactive tools and external technical applications used across Technology Commons."
+page-layout: full
+toc: false
+format:
+  html:
+    title-block-style: plain
+    body-classes: "bs-editorial-page bs-title-eyebrow"
+execute:
+  enabled: false
+---
+
+::: {.bs-page-shell}
+::: {.bs-reading-column}
+::: {.bs-editorial-lead}
+Tools are things you operate: calculators, simulators, converters, coding helpers, CAD systems, and other interactive technical applications.
+:::
+
+## Design and planning
+
+[NICE Project Builder](nice-design-tool.qmd)  
+Document the situation, needs and necessities, inquiry, prototypes, feedback, and evaluation for a design project. The builder creates a project document that can be downloaded as Markdown or Word, or saved as PDF through the browser.
+
+## Planned tool groups
+
+- design and measurement
+- electronics and digital logic
+- programming and data
+- fabrication
+- transportation and automotive work
+:::
+:::

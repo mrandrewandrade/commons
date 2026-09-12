@@ -1,0 +1,37 @@
+---
+title: "TEJ3M / TEJ4M - Computer Engineering Technology"
+description: "Course home for TEJ3M and TEJ4M Computer Engineering Technology."
+page-layout: full
+toc: false
+format:
+  html:
+    title-block-style: plain
+    body-classes: "bs-learn-article bs-title-eyebrow"
+execute:
+  enabled: false
+---
+
+::: {.bs-page-shell}
+::: {.bs-reading-column}
+::: {.bs-lesson-preamble}
+TEJ3M and TEJ4M connect computer systems, programming, digital logic, data, and machine learning through practical technical work.
+:::
+
+## Course path
+
+The shared course structure will move through:
+
+1. Starting Point
+2. Linux & Computer Systems
+3. Git, GitHub & Portfolio
+4. Python Foundations
+5. Logic & Digital Systems
+6. Python, Data & DataFrames
+7. Machine Learning
+8. Major Project & Portfolio
+
+Grade 12 work can extend the shared foundation through more independent technical investigation and project depth.
+
+Detailed lessons and the course sidebar are added in the next curriculum iteration.
+:::
+:::
