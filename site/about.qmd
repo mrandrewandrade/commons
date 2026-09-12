@@ -68,24 +68,27 @@ Port Credit's secondary-school history reaches back to **1919**, when a continua
 
 The **Regional SciTech Program launched in September 2005**. Alumni material describes it as an integrated science and technology program intended for both inquiry-oriented academic learners and hands-on learners interested in college, apprenticeships, skilled trades, and industry.
 
-These ideas fit the Commons well: practical work, technical knowledge, curiosity, community, and leaving useful knowledge behind.
+The school motto, **Lux numquam desit**, is a natural fit for a visual system built around the Port Credit lighthouse, learning, and the idea of carrying useful knowledge forward.
+
+Technology Commons also recognizes the **Mississaugas of the Credit First Nation** and the Indigenous history and continuing stewardship connected to this place. Purple and orange are included in the Commons palette as community and reflection accents that can be used thoughtfully in Indigenous learning and reconciliation contexts. They are Commons colours, not presented as official colours of the Mississaugas of the Credit First Nation.
 
 - [PCSS Alumni Association](https://www.pcssalumni.com/)
 - [PCSS Alumni - School Programs and SciTech history](https://www.pcssalumni.com/school-programs/)
 - [PCSS Alumni - Yearbook archive information](https://www.pcssalumni.com/yearbooks-on-cd/)
 - [1960 yearbook history of Port Credit High School](https://www.pcssalumni.com/PDF/YB-1960.pdf)
+- [Mississaugas of the Credit First Nation](https://mncfn.ca/)
 
 ## Brand system
 
-The Technology Commons brand is meant to feel **sleek, structured, technical, calm, and distinctly Port Credit**. The visual language draws from the school and SciTech marks, the lighthouse, Lake Ontario, the harbour, the Credit River, shoreline materials, and the school's blue-and-gold identity. Deep neutrals keep the system restrained. Wellness greens add balance and calm. Purple supports reflection and creativity, while red is reserved for genuinely important emphasis.
+The Technology Commons brand is meant to feel **sleek, structured, technical, calm, and distinctly Port Credit**. The visual language draws from the school and SciTech marks, the lighthouse, Lake Ontario, the harbour, the Credit River, shoreline materials, and the school's blue-and-gold identity. Deep neutrals keep the system restrained. Wellness greens add balance and calm. High-visibility amber and orange add energy and utility. Purple supports community, reflection, and creativity, while red is reserved for genuinely important emphasis.
 
-The goal is not to reproduce every historical PCSS colour exactly. The Commons uses a coherent working palette that feels related to Port Credit while remaining flexible enough for websites, slides, diagrams, classroom tools, and technical material.
+The goal is not to reproduce every historical PCSS colour exactly. The Commons uses a coherent working palette that feels related to Port Credit while remaining flexible enough for websites, slides, diagrams, classroom tools, technical material, and school-community work.
 
-This is the working official palette for Technology Commons. It is **not** a claim that every colour below is an official Port Credit Secondary School colour.
+This is the working official palette for Technology Commons. It is **not** a claim that every colour below is an official Port Credit Secondary School, SciTech, or Mississaugas of the Credit First Nation colour.
 
 ### Port Credit neutrals
 
-These are the foundation colours for text, backgrounds, dividers, diagrams, and interface surfaces. The names reference the local waterfront rather than a separate visual theme.
+These are the foundation colours for text, backgrounds, dividers, diagrams, and interface surfaces.
 
 ::: {.brand-swatch-grid}
 ::: {.brand-swatch style="--swatch:#171717"}
@@ -185,7 +188,7 @@ Green is for wellness, reflection, positive progress, environmental themes, calm
 :::
 
 ::: {.brand-swatch style="--swatch:#7E9474"}
-<div class="brand-swatch-swatch-sample"></div>
+<div class="brand-swatch-sample"></div>
 **Sage**  
 `#7E9474`
 :::
@@ -203,20 +206,20 @@ Green is for wellness, reflection, positive progress, environmental themes, calm
 :::
 :::
 
-### School golds and warm accents
+### PCSS gold and SciTech yellows
 
-Yellow and gold connect strongly to the supplied Port Credit and SciTech badges. Brass and copper provide warmer, quieter alternatives when bright school yellow would be too energetic.
+Gold is the warmer school identity colour for Port Credit. The brighter SciTech yellow works well for science, technology, diagrams, highlights, and energetic moments. Brass and copper are quieter warm alternatives.
 
 ::: {.brand-swatch-grid}
 ::: {.brand-swatch style="--swatch:#FCD937"}
 <div class="brand-swatch-sample"></div>
-**PCSS Yellow**  
+**PCSS Gold**  
 `#FCD937`
 :::
 
 ::: {.brand-swatch style="--swatch:#FFCF01"}
 <div class="brand-swatch-sample"></div>
-**SciTech Gold**  
+**SciTech Yellow**  
 `#FFCF01`
 :::
 
@@ -233,15 +236,45 @@ Yellow and gold connect strongly to the supplied Port Credit and SciTech badges.
 :::
 :::
 
-### Reflection, creativity, and important emphasis
+### Utility orange and signal accents
 
-Purple is a secondary creative and reflective family. Red is for deadlines, hazards, errors, and genuinely important emphasis. Red should stay uncommon so it retains meaning.
+Use these for high-visibility interface states, timers, technical callouts, equipment-inspired details, active states, and moments that need more energy than school gold without immediately reading as danger.
 
 ::: {.brand-swatch-grid}
-::: {.brand-swatch style="--swatch:#6656B5"}
+::: {.brand-swatch style="--swatch:#E6A11A"}
 <div class="brand-swatch-sample"></div>
-**Iris Purple**  
-`#6656B5`
+**Signal Amber**  
+`#E6A11A`
+:::
+
+::: {.brand-swatch style="--swatch:#D96A1D"}
+<div class="brand-swatch-sample"></div>
+**Rescue Orange**  
+`#D96A1D`
+:::
+
+::: {.brand-swatch style="--swatch:#F57C00"}
+<div class="brand-swatch-sample"></div>
+**High-Vis Orange**  
+`#F57C00`
+:::
+
+::: {.brand-swatch style="--swatch:#A85A2A"}
+<div class="brand-swatch-sample"></div>
+**Burnt Utility**  
+`#A85A2A`
+:::
+:::
+
+### Community and reflection accents
+
+Purple and orange provide a warmer community-facing family alongside the school blues and wellness greens. These can support reflection, creativity, Indigenous learning, reconciliation work, community stories, and cultural context without implying that they are official colours of another organization or Nation.
+
+::: {.brand-swatch-grid}
+::: {.brand-swatch style="--swatch:#6A4FB3"}
+<div class="brand-swatch-sample"></div>
+**Community Purple**  
+`#6A4FB3`
 :::
 
 ::: {.brand-swatch style="--swatch:#5A3D74"}
@@ -250,6 +283,24 @@ Purple is a secondary creative and reflective family. Red is for deadlines, haza
 `#5A3D74`
 :::
 
+::: {.brand-swatch style="--swatch:#D9782D"}
+<div class="brand-swatch-sample"></div>
+**Sunrise Orange**  
+`#D9782D`
+:::
+
+::: {.brand-swatch style="--swatch:#B7683A"}
+<div class="brand-swatch-sample"></div>
+**Clay Orange**  
+`#B7683A`
+:::
+:::
+
+### Important and alert accents
+
+Red is for deadlines, hazards, errors, critical notices, and genuinely important emphasis. It should stay uncommon so it retains meaning.
+
+::: {.brand-swatch-grid}
 ::: {.brand-swatch style="--swatch:#B23939"}
 <div class="brand-swatch-sample"></div>
 **Beacon Red**  
@@ -279,13 +330,14 @@ The supplied files do not all use exactly the same blue and yellow. That is usef
 |---|---|
 | **Commons core** | Lighthouse Black + Sail White + Port Credit Navy + Technical Blue |
 | **Wellness** | Lighthouse Black + Sail White + Credit River Moss + Sea Glass |
-| **Port Credit spirit** | Port Credit Navy + PCSS Yellow + Sail White |
-| **SciTech** | SciTech Navy + Technical Blue + SciTech Gold |
+| **Port Credit spirit** | Port Credit Navy + PCSS Gold + Sail White |
+| **SciTech** | SciTech Navy + Technical Blue + SciTech Yellow |
+| **Utility / active** | Harbour Charcoal + Sail White + Signal Amber or High-Vis Orange |
+| **Community / reflection** | Port Credit Navy + Sail White + Community Purple + Sunrise Orange |
 | **Harbour** | Harbour Charcoal + Lake Mist + Harbour Blue + Copper |
-| **Reflection / creativity** | Lighthouse Black + Sail White + Iris Purple |
 | **Urgent / important** | Lighthouse Black + Sail White + Beacon Red, used sparingly |
 
-A page or slide should normally use one mode, not the full palette at once.
+A page or slide should normally use one mode, not the full palette at once. **Lux numquam desit** can act as a useful guiding idea: keep the design clear enough that the important information is never lost.
 
 ## Logos and downloads
 
