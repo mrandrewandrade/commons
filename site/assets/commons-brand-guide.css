@@ -13,7 +13,8 @@
   min-width: 0;
 }
 
-.commons-brand-page .brand-swatch-sample {
+.commons-brand-page .brand-swatch-sample,
+.commons-brand-page .brand-swatch-swatch-sample {
   height: 76px;
   margin-bottom: 0.55rem;
   border: 1px solid color-mix(in srgb, var(--swatch), #000 18%);
