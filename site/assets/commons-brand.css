@@ -1,6 +1,9 @@
-/* Technology Commons global brand tokens and restrained site overrides. */
+/* Technology Commons global brand tokens and restrained site overrides.
+   The full Commons/PCSS brand kit remains available below. The site UI
+   intentionally uses the warmer Backgammon Simplified palette. */
 
 :root {
+  /* Technology Commons / school brand kit. */
   --commons-lighthouse-black: #171717;
   --commons-harbour-charcoal: #23272B;
   --commons-breakwater-slate: #3C454D;
@@ -29,61 +32,64 @@
   --commons-sunrise-orange: #D9782D;
   --commons-beacon-red: #B23939;
 
-  --bs-navy-dark: var(--commons-port-credit-navy);
-  --bs-navy: var(--commons-scitech-navy);
-  --bs-slate: var(--commons-breakwater-slate);
-  --bs-copper: var(--commons-copper);
-  --bs-copper-dark: var(--commons-brass);
-  --bs-ivory: var(--commons-winter-sky);
-  --bs-page-background: var(--commons-sail-white);
-  --bs-surface: #FFFFFF;
-  --bs-sidebar-background: var(--commons-winter-sky);
-  --bs-callout-surface: #FFFFFF;
-  --bs-border: var(--commons-lake-mist);
-  --bs-border-subtle: var(--commons-lake-mist);
-  --bs-border-strong: var(--commons-pier-grey);
-  --bs-text: var(--commons-harbour-charcoal);
-  --bs-text-secondary: var(--commons-breakwater-slate);
-  --bs-text-muted: var(--commons-pier-grey);
-  --bs-placeholder: var(--commons-pier-grey);
+  /* Backgammon Simplified interface palette. */
+  --bs-navy-dark: #11182F;
+  --bs-navy: #1B2040;
+  --bs-slate: #39415F;
+  --bs-copper: #AC7652;
+  --bs-copper-dark: #915634;
+  --bs-ivory: #F3E8DC;
+  --bs-page-background: #FAF7F2;
+  --bs-surface: #FFFDFC;
+  --bs-sidebar-background: #F3E8DC;
+  --bs-callout-surface: #F8F0E8;
+  --bs-border: #D9CCC0;
+  --bs-border-subtle: #D9CCC0;
+  --bs-border-strong: #88786E;
+  --bs-text: #1B2040;
+  --bs-text-secondary: #39415F;
+  --bs-text-muted: #5F626E;
+  --bs-placeholder: #686B78;
   --bs-text-inverse: #FFFFFF;
   --bs-text-on-accent: #FFFFFF;
-  --bs-link: var(--commons-technical-blue);
-  --bs-link-on-warm: var(--commons-port-credit-navy);
-  --bs-link-hover: var(--commons-harbour-blue);
-  --bs-success: var(--commons-credit-river-moss);
-  --bs-info: var(--commons-technical-blue);
-  --bs-close: var(--commons-brass);
-  --bs-warning: var(--commons-signal-amber);
-  --bs-warning-text: #735008;
-  --bs-mistake: var(--commons-rescue-orange);
-  --bs-danger: var(--commons-beacon-red);
-  --bs-focus: var(--commons-technical-blue);
+  --bs-link: #915634;
+  --bs-link-on-warm: #6F3F28;
+  --bs-link-hover: #6F3F28;
+  --bs-success: #2F6B4F;
+  --bs-info: #3D5F87;
+  --bs-close: #8A6A25;
+  --bs-warning: #A7611B;
+  --bs-warning-text: #915315;
+  --bs-mistake: #A54C35;
+  --bs-danger: #923B45;
+  --bs-focus: #0072B2;
   --bs-focus-halo: rgb(0 114 178 / 0.18);
-  --bs-shadow-soft: 0 12px 32px rgb(29 35 71 / 0.08);
+  --bs-shadow-soft: 0 12px 32px rgb(17 24 47 / 0.08);
 }
 
 [data-theme="dark"],
 [data-bs-theme="dark"] {
-  --bs-page-background: var(--commons-lighthouse-black);
-  --bs-surface: var(--commons-harbour-charcoal);
-  --bs-sidebar-background: var(--commons-port-credit-navy);
-  --bs-callout-surface: var(--commons-harbour-charcoal);
-  --bs-border: var(--commons-breakwater-slate);
-  --bs-border-subtle: var(--commons-breakwater-slate);
-  --bs-border-strong: var(--commons-pier-grey);
-  --bs-text: var(--commons-sail-white);
-  --bs-text-secondary: var(--commons-lake-mist);
-  --bs-text-muted: var(--commons-lake-mist);
-  --bs-placeholder: var(--commons-lake-mist);
+  --bs-page-background: #0D1327;
+  --bs-surface: #151D37;
+  --bs-sidebar-background: #11182F;
+  --bs-callout-surface: #11182F;
+  --bs-border: #35405D;
+  --bs-border-subtle: #35405D;
+  --bs-border-strong: #697694;
+  --bs-text: #F5EDE6;
+  --bs-text-secondary: #D9D1CA;
+  --bs-text-muted: #C1B8B1;
+  --bs-placeholder: #C1B8B1;
   --bs-text-inverse: #FFFFFF;
-  --bs-text-on-accent: var(--commons-lighthouse-black);
-  --bs-link: var(--commons-pcss-gold);
-  --bs-link-on-warm: var(--commons-pcss-gold);
-  --bs-link-hover: var(--commons-scitech-yellow);
-  --bs-focus: var(--commons-pcss-gold);
-  --bs-focus-halo: rgb(252 217 55 / 0.22);
-  --bs-info: var(--commons-winter-sky);
+  --bs-text-on-accent: #11182F;
+  --bs-copper: #E0AE88;
+  --bs-copper-dark: #C28A63;
+  --bs-link: #C28A63;
+  --bs-link-on-warm: #E0AE88;
+  --bs-link-hover: #E0AE88;
+  --bs-focus: #A8C2DD;
+  --bs-focus-halo: rgb(168 194 221 / 0.22);
+  --bs-info: #A8C2DD;
   --bs-shadow-soft: 0 12px 32px rgb(0 0 0 / 0.28);
 }
 
@@ -96,27 +102,27 @@
 h1,
 h2,
 h3 {
-  color: var(--commons-port-credit-navy);
+  color: var(--bs-navy-dark);
 }
 
 [data-bs-theme="dark"] .navbar-title,
 [data-bs-theme="dark"] h1,
 [data-bs-theme="dark"] h2,
 [data-bs-theme="dark"] h3 {
-  color: var(--commons-sail-white);
+  color: var(--bs-text);
 }
 
 .navbar .nav-link:hover {
-  color: var(--commons-technical-blue) !important;
+  color: var(--bs-link) !important;
 }
 
 .navbar .nav-link.active,
 .navbar-nav .show > .nav-link {
-  background: var(--commons-port-credit-navy);
+  background: var(--bs-navy-dark);
 }
 
 .navbar .nav-link.active:hover {
-  background: var(--commons-harbour-blue);
+  background: var(--bs-navy);
 }
 
 .bs-surface,
@@ -127,27 +133,21 @@ h3 {
 
 .bs-home-explore-link:hover,
 .bs-home-explore-link:focus-visible {
-  border-color: var(--commons-technical-blue);
+  border-color: var(--bs-copper-dark);
 }
 
-.bs-home-explore-link::before {
-  background: var(--commons-pcss-gold);
-}
-
-.bs-home-explore-link--wellbeing::before {
-  background: var(--commons-credit-river-moss);
-}
-
+.bs-home-explore-link::before,
+.bs-home-explore-link--wellbeing::before,
 .bs-home-explore-link--lore::before {
-  background: var(--commons-community-purple);
+  background: var(--bs-copper);
 }
 
 code:not(pre code) {
-  background: var(--commons-winter-sky);
-  color: var(--commons-port-credit-navy);
+  background: var(--bs-ivory);
+  color: var(--bs-navy-dark);
 }
 
 [data-bs-theme="dark"] code:not(pre code) {
-  background: var(--commons-port-credit-navy);
-  color: var(--commons-sail-white);
+  background: var(--bs-navy-dark);
+  color: var(--bs-text);
 }
