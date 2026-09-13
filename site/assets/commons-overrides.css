@@ -2,6 +2,26 @@
    Keep the inherited component system intact while using a consistent,
    simpler icon family for the Commons landing page. */
 
+/* Keep the navbar brand as one self-contained lockup so the symbol and
+   Technology Commons text cannot drift apart when theme styles change. */
+.navbar-brand-container .navbar-brand-logo {
+  display: block;
+  width: 260px;
+  height: 42px;
+  margin-right: 0.75rem;
+  background: url("branding/logo/technology-commons-lockup.svg") left center / contain no-repeat;
+}
+
+.navbar-brand-container .navbar-brand-logo .navbar-logo {
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+}
+
+.navbar-brand-container > .navbar-brand:not(.navbar-brand-logo) {
+  display: none;
+}
+
 body.bs-landing-page .bs-home-explore-icon::before {
   -webkit-mask-repeat: no-repeat;
   mask-repeat: no-repeat;
@@ -61,14 +81,6 @@ body.bs-landing-page
   .bs-home-explore-icon::before {
   -webkit-mask-image: url("icons/commons-lore.svg");
   mask-image: url("icons/commons-lore.svg");
-}
-
-/* The inherited Backgammon mobile shell abbreviates the brand to "BS".
-   Technology Commons uses "TC" on the narrowest screens instead. */
-@media (max-width: 350px) {
-  .navbar-title::after {
-    content: "TC";
-  }
 }
 
 /* Lore article title metadata. */
@@ -150,6 +162,11 @@ body.bs-research-article #title-block-header .quarto-categories {
 }
 
 @media (max-width: 560px) {
+  .navbar-brand-container .navbar-brand-logo {
+    width: 190px;
+    height: 38px;
+  }
+
   body.bs-research-article #title-block-header .quarto-title-meta {
     gap: 0.35rem 0.9rem;
   }
