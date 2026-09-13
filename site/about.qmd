@@ -80,105 +80,123 @@ Technology Commons also recognizes the **Mississaugas of the Credit First Nation
 
 ## Brand system
 
-The Technology Commons brand is meant to feel **sleek, structured, technical, calm, and distinctly Port Credit**. The visual language draws from the school and SciTech marks, the lighthouse, Lake Ontario, the harbour, the Credit River, shoreline materials, and the school's blue-and-gold identity. Deep neutrals keep the system restrained. Wellness greens add balance and calm. High-visibility amber and orange add energy and utility. Purple supports community, reflection, and creativity, while red is reserved for genuinely important emphasis.
+The Technology Commons palette is built from the **Backgammon Simplified visual system first**, then extended with colours inspired by Port Credit, the harbour, the Credit River, school technology programs, and community work.
 
-The goal is not to reproduce every historical PCSS colour exactly. The Commons uses a coherent working palette that feels related to Port Credit while remaining flexible enough for websites, slides, diagrams, classroom tools, technical material, and school-community work.
+That means the everyday palette stays warm, quiet, and restrained: deep navy instead of black, ivory instead of cold grey, copper instead of bright orange, and muted blue, green, gold, plum, and red accents instead of highly saturated colours.
 
-This is the working official palette for Technology Commons. It is **not** a claim that every colour below is an official Port Credit Secondary School, SciTech, or Mississaugas of the Credit First Nation colour.
+Exact colours sampled from supplied PCSS and SciTech marks are kept separately as **source colours**. Those source colours belong to the logos and historical references. They do not need to become the normal interface or document colours for Technology Commons.
 
-### Port Credit neutrals
+### Commons core
 
-These are the foundation colours for text, backgrounds, dividers, diagrams, and interface surfaces.
+These are the foundation colours. Most pages, slides, handouts, diagrams, and interfaces should be built primarily from this family.
 
 ::: {.brand-swatch-grid}
-::: {.brand-swatch style="--swatch:#171717"}
+::: {.brand-swatch style="--swatch:#11182F"}
 <div class="brand-swatch-sample"></div>
-**Lighthouse Black**  
-`#171717`
+**Lighthouse Ink**  
+`#11182F`
 :::
 
-::: {.brand-swatch style="--swatch:#23272B"}
+::: {.brand-swatch style="--swatch:#1B2040"}
 <div class="brand-swatch-sample"></div>
-**Harbour Charcoal**  
-`#23272B`
+**Harbour Navy**  
+`#1B2040`
 :::
 
-::: {.brand-swatch style="--swatch:#3C454D"}
+::: {.brand-swatch style="--swatch:#39415F"}
 <div class="brand-swatch-sample"></div>
 **Breakwater Slate**  
-`#3C454D`
+`#39415F`
 :::
 
-::: {.brand-swatch style="--swatch:#66717B"}
+::: {.brand-swatch style="--swatch:#5F626E"}
 <div class="brand-swatch-sample"></div>
 **Pier Grey**  
-`#66717B`
+`#5F626E`
 :::
 
-::: {.brand-swatch style="--swatch:#DDE2E6"}
+::: {.brand-swatch style="--swatch:#88786E"}
 <div class="brand-swatch-sample"></div>
-**Lake Mist**  
-`#DDE2E6`
+**Stone**  
+`#88786E`
 :::
 
-::: {.brand-swatch style="--swatch:#F5F6F7"}
+::: {.brand-swatch style="--swatch:#D9CCC0"}
+<div class="brand-swatch-sample"></div>
+**Sandbar**  
+`#D9CCC0`
+:::
+
+::: {.brand-swatch style="--swatch:#F3E8DC"}
+<div class="brand-swatch-sample"></div>
+**Harbour Ivory**  
+`#F3E8DC`
+:::
+
+::: {.brand-swatch style="--swatch:#FAF7F2"}
 <div class="brand-swatch-sample"></div>
 **Sail White**  
-`#F5F6F7`
+`#FAF7F2`
+:::
+
+::: {.brand-swatch style="--swatch:#FFFDFC"}
+<div class="brand-swatch-sample"></div>
+**Canvas White**  
+`#FFFDFC`
 :::
 :::
 
-### Port Credit and SciTech blues
+### Harbour blues
 
-Blue is the main identity family. The darkest blues come directly from the supplied PCSS and SciTech marks. The middle blues reference the lake and harbour, while Technical Blue is the preferred interactive and data accent.
+Blue still connects the system to Port Credit and SciTech, but the working blues are deliberately muted so they sit comfortably beside navy, ivory, and copper.
 
 ::: {.brand-swatch-grid}
-::: {.brand-swatch style="--swatch:#1D2347"}
+::: {.brand-swatch style="--swatch:#1B2040"}
 <div class="brand-swatch-sample"></div>
 **Port Credit Navy**  
-`#1D2347`
+`#1B2040`
 :::
 
-::: {.brand-swatch style="--swatch:#19226D"}
+::: {.brand-swatch style="--swatch:#30375E"}
 <div class="brand-swatch-sample"></div>
 **SciTech Navy**  
-`#19226D`
+`#30375E`
 :::
 
-::: {.brand-swatch style="--swatch:#2B398E"}
+::: {.brand-swatch style="--swatch:#3D5F87"}
 <div class="brand-swatch-sample"></div>
 **Harbour Blue**  
-`#2B398E`
+`#3D5F87`
 :::
 
-::: {.brand-swatch style="--swatch:#3556A8"}
+::: {.brand-swatch style="--swatch:#5A748C"}
 <div class="brand-swatch-sample"></div>
 **Lake Blue**  
-`#3556A8`
+`#5A748C`
 :::
 
-::: {.brand-swatch style="--swatch:#0072B2"}
+::: {.brand-swatch style="--swatch:#466A7D"}
 <div class="brand-swatch-sample"></div>
 **Technical Blue**  
-`#0072B2`
+`#466A7D`
 :::
 
-::: {.brand-swatch style="--swatch:#DDE9F7"}
+::: {.brand-swatch style="--swatch:#D9E2E4"}
 <div class="brand-swatch-sample"></div>
 **Winter Sky**  
-`#DDE9F7`
+`#D9E2E4`
 :::
 :::
 
 ### Wellness and shoreline greens
 
-Green is for wellness, reflection, positive progress, environmental themes, calm status, and moments where the interface should feel softer. The family also connects naturally to the Credit River, shoreline parks, trees, and lakefront landscape around Port Credit.
+Green is for wellness, reflection, positive progress, environmental themes, and calmer technical material. These colours remain earthy rather than bright.
 
 ::: {.brand-swatch-grid}
-::: {.brand-swatch style="--swatch:#365846"}
+::: {.brand-swatch style="--swatch:#2F6B4F"}
 <div class="brand-swatch-sample"></div>
 **Evergreen**  
-`#365846`
+`#2F6B4F`
 :::
 
 ::: {.brand-swatch style="--swatch:#4F6B46"}
@@ -193,40 +211,28 @@ Green is for wellness, reflection, positive progress, environmental themes, calm
 `#7E9474`
 :::
 
-::: {.brand-swatch style="--swatch:#A9C8BE"}
+::: {.brand-swatch style="--swatch:#A8BDB2"}
 <div class="brand-swatch-sample"></div>
 **Sea Glass**  
-`#A9C8BE`
+`#A8BDB2`
 :::
 
-::: {.brand-swatch style="--swatch:#DCEBE3"}
+::: {.brand-swatch style="--swatch:#E4ECE5"}
 <div class="brand-swatch-sample"></div>
 **Calm Mint**  
-`#DCEBE3`
+`#E4ECE5`
 :::
 :::
 
-### PCSS gold and SciTech yellows
+### Copper, brass, and warm gold
 
-Gold is the warmer school identity colour for Port Credit. The brighter SciTech yellow works well for science, technology, diagrams, highlights, and energetic moments. Brass and copper are quieter warm alternatives.
+The warm-metal family carries most of the accent work that bright school yellow or orange previously did. Copper is the primary accent because it already belongs to the inherited Backgammon Simplified system.
 
 ::: {.brand-swatch-grid}
-::: {.brand-swatch style="--swatch:#FCD937"}
+::: {.brand-swatch style="--swatch:#915634"}
 <div class="brand-swatch-sample"></div>
-**PCSS Gold**  
-`#FCD937`
-:::
-
-::: {.brand-swatch style="--swatch:#FFCF01"}
-<div class="brand-swatch-sample"></div>
-**SciTech Yellow**  
-`#FFCF01`
-:::
-
-::: {.brand-swatch style="--swatch:#B18A2F"}
-<div class="brand-swatch-sample"></div>
-**Brass**  
-`#B18A2F`
+**Dark Copper**  
+`#915634`
 :::
 
 ::: {.brand-swatch style="--swatch:#AC7652"}
@@ -234,59 +240,35 @@ Gold is the warmer school identity colour for Port Credit. The brighter SciTech 
 **Copper**  
 `#AC7652`
 :::
+
+::: {.brand-swatch style="--swatch:#8A6A25"}
+<div class="brand-swatch-sample"></div>
+**Brass**  
+`#8A6A25`
 :::
 
-### Utility orange and signal accents
+::: {.brand-swatch style="--swatch:#C39A48"}
+<div class="brand-swatch-sample"></div>
+**Warm Gold**  
+`#C39A48`
+:::
+:::
 
-Use these for high-visibility interface states, timers, technical callouts, equipment-inspired details, active states, and moments that need more energy than school gold without immediately reading as danger.
+### Utility and community accents
+
+These colours add energy or meaning without leaving the warm family. Use them as accents rather than large page backgrounds.
 
 ::: {.brand-swatch-grid}
-::: {.brand-swatch style="--swatch:#E6A11A"}
+::: {.brand-swatch style="--swatch:#A7611B"}
 <div class="brand-swatch-sample"></div>
 **Signal Amber**  
-`#E6A11A`
-:::
-
-::: {.brand-swatch style="--swatch:#D96A1D"}
-<div class="brand-swatch-sample"></div>
-**Rescue Orange**  
-`#D96A1D`
-:::
-
-::: {.brand-swatch style="--swatch:#F57C00"}
-<div class="brand-swatch-sample"></div>
-**High-Vis Orange**  
-`#F57C00`
+`#A7611B`
 :::
 
 ::: {.brand-swatch style="--swatch:#A85A2A"}
 <div class="brand-swatch-sample"></div>
-**Burnt Utility**  
+**Burnt Orange**  
 `#A85A2A`
-:::
-:::
-
-### Community and reflection accents
-
-Purple and orange provide a warmer community-facing family alongside the school blues and wellness greens. These can support reflection, creativity, Indigenous learning, reconciliation work, community stories, and cultural context without implying that they are official colours of another organization or Nation.
-
-::: {.brand-swatch-grid}
-::: {.brand-swatch style="--swatch:#6A4FB3"}
-<div class="brand-swatch-sample"></div>
-**Community Purple**  
-`#6A4FB3`
-:::
-
-::: {.brand-swatch style="--swatch:#5A3D74"}
-<div class="brand-swatch-sample"></div>
-**Deep Plum**  
-`#5A3D74`
-:::
-
-::: {.brand-swatch style="--swatch:#D9782D"}
-<div class="brand-swatch-sample"></div>
-**Sunrise Orange**  
-`#D9782D`
 :::
 
 ::: {.brand-swatch style="--swatch:#B7683A"}
@@ -294,29 +276,47 @@ Purple and orange provide a warmer community-facing family alongside the school 
 **Clay Orange**  
 `#B7683A`
 :::
+
+::: {.brand-swatch style="--swatch:#C57944"}
+<div class="brand-swatch-sample"></div>
+**Sunrise Orange**  
+`#C57944`
+:::
+
+::: {.brand-swatch style="--swatch:#6B536D"}
+<div class="brand-swatch-sample"></div>
+**Community Plum**  
+`#6B536D`
+:::
+
+::: {.brand-swatch style="--swatch:#5B455F"}
+<div class="brand-swatch-sample"></div>
+**Deep Plum**  
+`#5B455F`
+:::
 :::
 
 ### Important and alert accents
 
-Red is for deadlines, hazards, errors, critical notices, and genuinely important emphasis. It should stay uncommon so it retains meaning.
+Red remains uncommon so it keeps its meaning for deadlines, hazards, errors, and genuinely important emphasis.
 
 ::: {.brand-swatch-grid}
-::: {.brand-swatch style="--swatch:#B23939"}
+::: {.brand-swatch style="--swatch:#923B45"}
 <div class="brand-swatch-sample"></div>
 **Beacon Red**  
-`#B23939`
+`#923B45`
 :::
 
-::: {.brand-swatch style="--swatch:#8F2631"}
+::: {.brand-swatch style="--swatch:#A54C35"}
 <div class="brand-swatch-sample"></div>
-**Crimson**  
-`#8F2631`
+**Mistake Clay**  
+`#A54C35`
 :::
 :::
 
 ### Source colours from supplied PCSS marks
 
-The supplied files do not all use exactly the same blue and yellow. That is useful historical context, but the logos themselves should not be recoloured just to force them into the Commons palette.
+These values are retained for faithful reproduction and documentation of the supplied school marks. They are **reference colours, not the default Technology Commons working palette**. The logos themselves should not be recoloured just to force them into the Commons palette.
 
 | Source mark | Blue | Yellow / gold |
 |---|---|---|
@@ -328,14 +328,14 @@ The supplied files do not all use exactly the same blue and yellow. That is usef
 
 | Mode | Use |
 |---|---|
-| **Commons core** | Lighthouse Black + Sail White + Port Credit Navy + Technical Blue |
-| **Wellness** | Lighthouse Black + Sail White + Credit River Moss + Sea Glass |
-| **Port Credit spirit** | Port Credit Navy + PCSS Gold + Sail White |
-| **SciTech** | SciTech Navy + Technical Blue + SciTech Yellow |
-| **Utility / active** | Harbour Charcoal + Sail White + Signal Amber or High-Vis Orange |
-| **Community / reflection** | Port Credit Navy + Sail White + Community Purple + Sunrise Orange |
-| **Harbour** | Harbour Charcoal + Lake Mist + Harbour Blue + Copper |
-| **Urgent / important** | Lighthouse Black + Sail White + Beacon Red, used sparingly |
+| **Commons core** | Lighthouse Ink + Sail White + Copper |
+| **Port Credit** | Port Credit Navy + Sail White + Warm Gold + Copper |
+| **SciTech** | SciTech Navy + Harbour Blue + Sail White + Warm Gold |
+| **Technical** | Lighthouse Ink + Sail White + Harbour Blue + Copper |
+| **Wellness** | Harbour Navy + Sail White + Evergreen + Sea Glass |
+| **Community / reflection** | Harbour Navy + Sail White + Community Plum + Sunrise Orange |
+| **Warm utility** | Harbour Navy + Harbour Ivory + Signal Amber + Dark Copper |
+| **Urgent / important** | Lighthouse Ink + Sail White + Beacon Red, used sparingly |
 
 A page or slide should normally use one mode, not the full palette at once. **Lux numquam desit** can act as a useful guiding idea: keep the design clear enough that the important information is never lost.
 
