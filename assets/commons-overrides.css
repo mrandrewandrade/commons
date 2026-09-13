@@ -1,0 +1,148 @@
+/* Technology Commons presentation overrides.
+   Keep the inherited component system intact while using a consistent,
+   simpler icon family for the Commons landing page. */
+
+body.bs-landing-page .bs-home-explore-icon::before {
+  -webkit-mask-repeat: no-repeat;
+  mask-repeat: no-repeat;
+}
+
+body.bs-landing-page
+  .bs-home-explore-link--tas
+  .bs-home-explore-icon::before {
+  -webkit-mask-image: url("icons/commons-discover.svg");
+  mask-image: url("icons/commons-discover.svg");
+}
+
+body.bs-landing-page
+  .bs-home-explore-link--tej
+  .bs-home-explore-icon::before {
+  -webkit-mask-image: url("icons/commons-chip.svg");
+  mask-image: url("icons/commons-chip.svg");
+}
+
+body.bs-landing-page
+  .bs-home-explore-link--ttj
+  .bs-home-explore-icon::before {
+  -webkit-mask-image: url("icons/commons-rocket.svg");
+  mask-image: url("icons/commons-rocket.svg");
+}
+
+body.bs-landing-page
+  .bs-home-explore-link--tools
+  .bs-home-explore-icon::before {
+  -webkit-mask-image: url("icons/commons-tools.svg");
+  mask-image: url("icons/commons-tools.svg");
+}
+
+body.bs-landing-page
+  .bs-home-explore-link--resources
+  .bs-home-explore-icon::before {
+  -webkit-mask-image: url("icons/commons-book.svg");
+  mask-image: url("icons/commons-book.svg");
+}
+
+body.bs-landing-page
+  .bs-home-explore-link--wellbeing
+  .bs-home-explore-icon::before {
+  -webkit-mask-image: url("icons/commons-leaf.svg");
+  mask-image: url("icons/commons-leaf.svg");
+}
+
+body.bs-landing-page
+  .bs-home-explore-link--glossary
+  .bs-home-explore-icon::before {
+  -webkit-mask-image: url("icons/commons-glossary.svg");
+  mask-image: url("icons/commons-glossary.svg");
+}
+
+body.bs-landing-page
+  .bs-home-explore-link--lore
+  .bs-home-explore-icon::before {
+  -webkit-mask-image: url("icons/commons-lore.svg");
+  mask-image: url("icons/commons-lore.svg");
+}
+
+/* Lore article title metadata. */
+body.bs-research-article #title-block-header .quarto-title-meta {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  gap: 0.35rem 1.4rem;
+  margin-top: 0.8rem;
+}
+
+body.bs-research-article #title-block-header .quarto-title-meta > div {
+  display: flex;
+  align-items: baseline;
+  gap: 0.42rem;
+  margin: 0;
+}
+
+body.bs-research-article #title-block-header .quarto-title-meta-heading,
+body.bs-research-article #title-block-header .quarto-title-meta-contents,
+body.bs-research-article #title-block-header .quarto-title-meta-contents p {
+  margin: 0;
+  line-height: 1.35;
+}
+
+body.bs-research-article #title-block-header .quarto-title-meta-heading {
+  color: var(--bs-navy-dark);
+  font-size: 0.78rem;
+  font-weight: 760;
+  letter-spacing: 0;
+  text-transform: none;
+}
+
+body.bs-research-article #title-block-header .quarto-title-meta-contents,
+body.bs-research-article #title-block-header .quarto-title-meta-contents p {
+  color: var(--bs-text-secondary);
+  font-size: 0.88rem;
+}
+
+/* Lore article themes live in the right rail below the TOC. */
+body.bs-research-article .commons-lore-taxonomy {
+  margin: 1rem 0 1.1rem;
+  padding-top: 0.9rem;
+  border-top: 1px solid var(--bs-border);
+}
+
+body.bs-research-article .commons-lore-taxonomy-heading {
+  margin-bottom: 0.5rem;
+  color: var(--bs-text-muted);
+  font-family: "Source Code Pro", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+  font-size: 0.72rem;
+  font-weight: 680;
+  letter-spacing: 0.065em;
+  text-transform: uppercase;
+}
+
+body.bs-research-article .commons-lore-taxonomy-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.35rem;
+}
+
+body.bs-research-article .commons-lore-taxonomy-item {
+  display: inline-flex;
+  align-items: center;
+  min-height: 1.85rem;
+  padding: 0.28rem 0.52rem;
+  border: 1px solid var(--bs-border);
+  border-radius: 999px;
+  background: color-mix(in srgb, var(--bs-ivory) 58%, var(--bs-surface));
+  color: var(--bs-copper-dark);
+  font-size: 0.73rem;
+  font-weight: 680;
+  line-height: 1.1;
+}
+
+body.bs-research-article #title-block-header .quarto-categories {
+  margin: 0;
+}
+
+@media (max-width: 560px) {
+  body.bs-research-article #title-block-header .quarto-title-meta {
+    gap: 0.35rem 0.9rem;
+  }
+}
