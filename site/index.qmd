@@ -15,10 +15,10 @@ format:
 TECHNOLOGY COMMONS
 :::
 
-<h1>Learn by doing, alongside others.</h1>
+<h1>Learn by doing and sharing with others.</h1>
 
 ::: {.bs-hero-copy}
-The way becomes clear through practice.
+The way becomes clear through practice. The tools are here. You make use of them.
 :::
 ::::::
 
