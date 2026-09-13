@@ -138,7 +138,7 @@ website:
               href: ttj3-4/07-major-project-portfolio.qmd
   page-footer:
     left: |
-      Open sourced by [Andrew Andrade](https://www.linkedin.com/in/andrewandrade) for Port Credit Secondary School's Technology Department, SciTech Department, and Manufacturing Specialist High Skills Major (SHSM). Hosted on [GitHub Pages](https://github.com/mrandrewandrade/commons).
+      Open sourced by [Andrew Andrade](https://www.linkedin.com/in/andrewandrade) for Port Credit Secondary School. Hosted on [GitHub Pages](https://github.com/mrandrewandrade/commons).
     center: |
       Text: [CC BY-SA 4.0](/licensing.html), attribution and share-alike required. Code: [AGPL 3.0](/licensing.html), copyleft applies.
     right:
