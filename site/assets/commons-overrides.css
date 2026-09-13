@@ -63,6 +63,14 @@ body.bs-landing-page
   mask-image: url("icons/commons-lore.svg");
 }
 
+/* The inherited Backgammon mobile shell abbreviates the brand to "BS".
+   Technology Commons uses "TC" on the narrowest screens instead. */
+@media (max-width: 350px) {
+  .navbar-title::after {
+    content: "TC";
+  }
+}
+
 /* Lore article title metadata. */
 body.bs-research-article #title-block-header .quarto-title-meta {
   display: flex;
