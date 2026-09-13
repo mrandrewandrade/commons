@@ -1,104 +1,69 @@
 /* Technology Commons global brand tokens and restrained site overrides.
-   The working Commons palette inherits the warm Backgammon Simplified core,
-   then adds muted Port Credit, shoreline, community, and utility colours.
-   Exact colours sampled from supplied school marks are kept separately as
-   source-reference tokens and should not drive the everyday interface. */
+   The full Commons/PCSS brand kit remains available below. The site UI
+   intentionally uses the warmer Backgammon Simplified palette. */
 
 :root {
-  /* Core palette, inherited from Backgammon Simplified. */
-  --commons-lighthouse-ink: #11182F;
-  --commons-harbour-navy: #1B2040;
-  --commons-breakwater-slate: #39415F;
-  --commons-pier-grey: #5F626E;
-  --commons-stone: #88786E;
-  --commons-sandbar: #D9CCC0;
-  --commons-harbour-ivory: #F3E8DC;
-  --commons-sail-white: #FAF7F2;
-  --commons-canvas-white: #FFFDFC;
-  --commons-callout-warm: #F8F0E8;
-
-  /* Muted harbour blues, intentionally warmer and quieter than the source logos. */
-  --commons-port-credit-navy: #1B2040;
-  --commons-scitech-navy: #30375E;
-  --commons-harbour-blue: #3D5F87;
-  --commons-lake-blue: #5A748C;
-  --commons-technical-blue: #466A7D;
-  --commons-winter-sky: #D9E2E4;
-
-  /* Shoreline and wellness greens. */
-  --commons-evergreen: #2F6B4F;
+  /* Technology Commons / school brand kit. */
+  --commons-lighthouse-black: #171717;
+  --commons-harbour-charcoal: #23272B;
+  --commons-breakwater-slate: #3C454D;
+  --commons-pier-grey: #66717B;
+  --commons-lake-mist: #DDE2E6;
+  --commons-sail-white: #F5F6F7;
+  --commons-port-credit-navy: #1D2347;
+  --commons-scitech-navy: #19226D;
+  --commons-harbour-blue: #2B398E;
+  --commons-lake-blue: #3556A8;
+  --commons-technical-blue: #0072B2;
+  --commons-winter-sky: #DDE9F7;
+  --commons-evergreen: #365846;
   --commons-credit-river-moss: #4F6B46;
   --commons-sage: #7E9474;
-  --commons-sea-glass: #A8BDB2;
-  --commons-calm-mint: #E4ECE5;
-
-  /* Warm metals and school-adjacent accents. */
-  --commons-dark-copper: #915634;
+  --commons-sea-glass: #A9C8BE;
+  --commons-calm-mint: #DCEBE3;
+  --commons-pcss-gold: #FCD937;
+  --commons-scitech-yellow: #FFCF01;
+  --commons-brass: #B18A2F;
   --commons-copper: #AC7652;
-  --commons-brass: #8A6A25;
-  --commons-warm-gold: #C39A48;
+  --commons-signal-amber: #E6A11A;
+  --commons-rescue-orange: #D96A1D;
+  --commons-high-vis-orange: #F57C00;
+  --commons-community-purple: #6A4FB3;
+  --commons-sunrise-orange: #D9782D;
+  --commons-beacon-red: #B23939;
 
-  /* Utility, community, and alert accents. */
-  --commons-signal-amber: #A7611B;
-  --commons-burnt-orange: #A85A2A;
-  --commons-clay-orange: #B7683A;
-  --commons-sunrise-orange: #C57944;
-  --commons-community-plum: #6B536D;
-  --commons-deep-plum: #5B455F;
-  --commons-beacon-red: #923B45;
-  --commons-mistake-clay: #A54C35;
-
-  /* Exact source colours sampled from supplied PCSS/SciTech marks.
-     Use these for faithful source-mark documentation only. */
-  --commons-source-pcss-navy: #1D2347;
-  --commons-source-pcss-gold: #FCD937;
-  --commons-source-scitech-navy: #19226D;
-  --commons-source-scitech-yellow: #FFCF01;
-  --commons-source-regional-blue: #464780;
-  --commons-source-regional-gold: #F0DB7C;
-
-  /* Backward-compatible aliases for older Commons code. */
-  --commons-lighthouse-black: var(--commons-lighthouse-ink);
-  --commons-harbour-charcoal: var(--commons-harbour-navy);
-  --commons-lake-mist: var(--commons-sandbar);
-  --commons-pcss-gold: var(--commons-source-pcss-gold);
-  --commons-scitech-yellow: var(--commons-source-scitech-yellow);
-  --commons-rescue-orange: var(--commons-mistake-clay);
-  --commons-high-vis-orange: var(--commons-clay-orange);
-  --commons-community-purple: var(--commons-community-plum);
-
-  /* Interface tokens use the same warm brand system. */
-  --bs-navy-dark: var(--commons-lighthouse-ink);
-  --bs-navy: var(--commons-harbour-navy);
-  --bs-slate: var(--commons-breakwater-slate);
-  --bs-copper: var(--commons-copper);
-  --bs-copper-dark: var(--commons-dark-copper);
-  --bs-ivory: var(--commons-harbour-ivory);
-  --bs-page-background: var(--commons-sail-white);
-  --bs-surface: var(--commons-canvas-white);
-  --bs-sidebar-background: var(--commons-harbour-ivory);
-  --bs-callout-surface: var(--commons-callout-warm);
-  --bs-border: var(--commons-sandbar);
-  --bs-border-subtle: var(--commons-sandbar);
-  --bs-border-strong: var(--commons-stone);
-  --bs-text: var(--commons-harbour-navy);
-  --bs-text-secondary: var(--commons-breakwater-slate);
-  --bs-text-muted: var(--commons-pier-grey);
+  /* Backgammon Simplified interface palette. */
+  --bs-navy-dark: #11182F;
+  --bs-navy: #1B2040;
+  --bs-slate: #39415F;
+  --bs-copper: #AC7652;
+  --bs-copper-dark: #915634;
+  --bs-ivory: #F3E8DC;
+  --bs-page-background: #FAF7F2;
+  --bs-surface: #FFFDFC;
+  --bs-sidebar-background: #F3E8DC;
+  --bs-callout-surface: #F8F0E8;
+  --bs-border: #D9CCC0;
+  --bs-border-subtle: #D9CCC0;
+  --bs-border-strong: #88786E;
+  --bs-text: #1B2040;
+  --bs-text-secondary: #39415F;
+  --bs-text-muted: #5F626E;
   --bs-placeholder: #686B78;
   --bs-text-inverse: #FFFFFF;
   --bs-text-on-accent: #FFFFFF;
-  --bs-link: var(--commons-dark-copper);
+  --bs-link: #915634;
   --bs-link-on-warm: #6F3F28;
   --bs-link-hover: #6F3F28;
-  --bs-success: var(--commons-evergreen);
-  --bs-info: var(--commons-harbour-blue);
-  --bs-close: var(--commons-brass);
-  --bs-warning: var(--commons-signal-amber);
+  --bs-success: #2F6B4F;
+  --bs-info: #3D5F87;
+  --bs-close: #8A6A25;
+  --bs-warning: #A7611B;
   --bs-warning-text: #915315;
-  --bs-mistake: var(--commons-mistake-clay);
-  --bs-danger: var(--commons-beacon-red);
-  --bs-focus: var(--commons-harbour-blue);
-  --bs-focus-halo: rgb(61 95 135 / 0.20);
+  --bs-mistake: #A54C35;
+  --bs-danger: #923B45;
+  --bs-focus: #0072B2;
+  --bs-focus-halo: rgb(0 114 178 / 0.18);
   --bs-shadow-soft: 0 12px 32px rgb(17 24 47 / 0.08);
 }
 
