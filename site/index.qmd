@@ -15,7 +15,7 @@ format:
 TECHNOLOGY COMMONS
 :::
 
-<h1>Learn by designing, building,<br class="bs-home-desktop-break">testing, and sharing.</h1>
+<h1>Learn by doing, alongside others.</h1>
 
 ::: {.bs-hero-copy}
 Course materials, projects, tools, references, and classroom routines for Mr. Andrade's technology classes.
