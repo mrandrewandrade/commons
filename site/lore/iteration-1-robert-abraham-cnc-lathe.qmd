@@ -70,3 +70,5 @@ We did not have another Mastercam licence available either. Robert learned Autod
 That project is a good example of what I want computer engineering to be: not just following instructions, but inheriting a broken system, researching what you do not know, and making it work. The impressive part was not that Robert completed an assignment. It was that he chose to go well beyond one.
 
 **Posted with Robert's permission.** If you are looking for an intern, co-op student, or someone for part-time technical work, consider reaching out to him.
+
+**Robert Abraham's projects:** [robert-abraham.com/projects](https://robert-abraham.com/projects)
