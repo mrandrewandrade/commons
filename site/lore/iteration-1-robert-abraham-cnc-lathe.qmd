@@ -1,0 +1,53 @@
+---
+title: "Iteration 1: Robert Abraham and the CNC Lathe"
+subtitle: "A Grade 11 computer engineering project that brought a discarded machine back to life"
+description: >
+  Robert Abraham took on an old CNC lathe that another high school was going
+  to throw out, then researched, rebuilt, re-controlled, and programmed it.
+author: "Andrew Andrade"
+date: "2026-09-22"
+categories:
+  - Lore
+  - Teaching
+tags:
+  - Student Work
+  - Computer Engineering
+  - CNC
+  - Iteration
+image: "../assets/lore/robert-abraham-cnc/robert-cnc-lathe.jpg"
+format:
+  html:
+    page-layout: article
+    toc: true
+    toc-title: "On this Page"
+    toc-location: right
+    toc-depth: 2
+    title-block-style: plain
+    body-classes: "bs-editorial-page bs-title-eyebrow bs-research-article"
+execute:
+  enabled: false
+---
+
+::: {.bs-editorial-lead}
+Mr. Knowles used to joke that my cohort was **"Iteration 1"**, the first group through the program. Many of us went on to engineering at Waterloo, U of T, and elsewhere.
+:::
+
+This year, my own Iteration 1 has graduated and started university. I want to record some of what they accomplished, especially for anyone looking for co-op students or interns.
+
+## Robert Abraham
+
+In Grade 11 Computer Engineering, Robert took the initiative to work on an old Lab-Volt CNC lathe that another high school was going to throw out.
+
+![The Lab-Volt CNC lathe after we opened it up and began bringing it back to life.](../assets/lore/robert-abraham-cnc/robert-cnc-lathe.jpg){fig-alt="An older enclosed Lab-Volt CNC lathe in a school technology shop with the front enclosure open."}
+
+When we opened the electronics cabinet, the wiring was difficult to trace and did not consistently follow convention, including black being used as positive on part of the DC circuit. Robert researched a replacement controller compatible with the existing Gecko drives, and we worked through the electrical and mechanical problems.
+
+The mechanical work meant disassembling parts of the machine, cleaning them, resolving issues, and putting everything back together.
+
+We also did not have another Mastercam licence available. Robert learned Autodesk Inventor, generated the G-code, and kept pushing until the machine ran a program.
+
+By Christmas, less than a semester after starting, we cut our first part: a Christmas tree.
+
+That project is a good example of what I want computer engineering to be: not just following instructions, but inheriting a broken system, researching what you do not know, and making it work.
+
+[See more of Robert Abraham's projects](http://robert-abraham.com/projects).
