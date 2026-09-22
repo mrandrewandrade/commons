@@ -1,25 +1,33 @@
-/* Technology Commons presentation overrides.
+/* TechEd Commons presentation overrides.
    Keep the inherited component system intact while using a consistent,
    simpler icon family for the Commons landing page. */
 
-/* Keep the navbar brand as one self-contained lockup so the symbol and
-   Technology Commons text cannot drift apart when theme styles change. */
+/* Use the actual emblem plus Quarto's visible site title in the navbar.
+   The old Technology Commons lockup hid the navbar text entirely. */
 .navbar-brand-container .navbar-brand-logo {
-  display: block;
-  width: 260px;
-  height: 42px;
-  margin-right: 0.75rem;
-  background: url("branding/logo/technology-commons-lockup.svg") left center / contain no-repeat;
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin-right: 0.45rem;
+  background: none;
 }
 
 .navbar-brand-container .navbar-brand-logo .navbar-logo {
-  width: 100%;
-  height: 100%;
-  opacity: 0;
+  width: auto;
+  height: 42px;
+  max-height: 42px;
+  opacity: 1;
 }
 
 .navbar-brand-container > .navbar-brand:not(.navbar-brand-logo) {
-  display: none;
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand-container .navbar-title {
+  color: var(--bs-navy-dark) !important;
+  font-weight: 800;
 }
 
 body.bs-landing-page .bs-home-explore-icon::before {
@@ -163,8 +171,14 @@ body.bs-research-article #title-block-header .quarto-categories {
 
 @media (max-width: 560px) {
   .navbar-brand-container .navbar-brand-logo {
-    width: 190px;
-    height: 38px;
+    width: auto;
+    height: auto;
+    margin-right: 0.3rem;
+  }
+
+  .navbar-brand-container .navbar-brand-logo .navbar-logo {
+    height: 32px;
+    max-height: 32px;
   }
 
   body.bs-research-article #title-block-header .quarto-title-meta {
