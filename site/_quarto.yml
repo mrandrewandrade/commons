@@ -23,15 +23,15 @@ filters:
   - bs-link-policy
 
 website:
-  title: "Technology Commons"
+  title: "TechEd Commons"
   description: "Course materials, projects, tools, and resources for technology education."
   search:
     location: navbar
     type: overlay
   navbar:
     logo: assets/branding/emblem/commons-emblem-monochrome-blue.svg
-    logo-alt: "Technology Commons"
-    title: "Technology Commons"
+    logo-alt: "TechEd Commons"
+    title: "TechEd Commons"
     collapse-below: xl
     left:
       - href: tas2/index.qmd
