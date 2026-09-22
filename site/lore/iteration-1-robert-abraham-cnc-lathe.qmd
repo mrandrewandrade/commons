@@ -15,6 +15,7 @@ tags:
   - CNC
   - LinuxCNC
   - Iteration
+image: "../assets/lore/robert-abraham-cnc/robert-cnc-lathe.jpg"
 format:
   html:
     page-layout: article
@@ -28,26 +29,44 @@ execute:
   enabled: false
 ---
 
+<!-- REVIEW: Opening / Iteration 1 framing. Adjust the wording here if you want more of the Mr. Knowles story. -->
 ::: {.bs-editorial-lead}
 Mr. Knowles used to joke that my cohort was **"Iteration 1"**, the first group through the program. Many of us went on to engineering at Waterloo, U of T, and elsewhere.
 :::
 
+<!-- REVIEW: This paragraph establishes why you are highlighting former students and the hiring angle. -->
 This year, my own Iteration 1 has graduated and started university. I want to record some of what they accomplished, especially for anyone looking for co-op students, interns, or part-time technical help.
 
+<!-- REVIEW: Main "above and beyond" / side-quest framing. -->
 The important context for these stories is that **this was not simply the assigned course work**. These students did the regular work, then chose problems that interested them and went much further. The best description is probably an impressive engineering **side quest**.
 
 ## Robert Abraham
 
+<!-- REVIEW: Robert intro. -->
 In Grade 11 Computer Engineering, Robert took the initiative to work on an old Lab-Volt CNC lathe that another high school was going to throw out. Restoring it was not an assigned project. He saw a difficult, open-ended problem and decided to take it on.
 
+<!-- IMAGE PLACEHOLDER: replace this file with the full-resolution lathe photo, keeping the same filename. -->
+![The Lab-Volt CNC lathe that became Robert's engineering side quest.](../assets/lore/robert-abraham-cnc/robert-cnc-lathe.jpg){fig-alt="An enclosed Lab-Volt CNC lathe in a school technology shop."}
+
+<!-- REVIEW: Electronics paragraph. Check technical wording and whether you want to keep the black-positive example. -->
 When we opened the electronics cabinet, the wiring was difficult to trace and did not consistently follow convention, including black being used as positive on part of the DC circuit.
 
+<!-- IMAGE PLACEHOLDER: replace this file with the full-resolution electronics photo, keeping the same filename. -->
+![Inside the CNC lathe electronics cabinet while we traced the existing system and planned the retrofit.](../assets/lore/robert-abraham-cnc/electronics-cabinet.jpg){fig-alt="Open CNC lathe electronics cabinet showing circuit boards, drives, wiring, and power electronics."}
+
+<!-- REVIEW: Controller / mechanical work. Add or remove hardware details once you verify the exact controller model. -->
 Robert researched a replacement controller compatible with the existing Gecko drives, and we worked through the electrical and mechanical problems. The mechanical work meant disassembling parts of the machine, cleaning them, resolving issues, and putting everything back together.
 
+<!-- REVIEW: LinuxCNC section. -->
 We also ended up running the machine with **LinuxCNC**, which meant setting up and configuring our own Linux-based controller computer and operating system as part of the retrofit.
 
+<!-- IMAGE PLACEHOLDER: replace this file with the full-resolution LinuxCNC photo, keeping the same filename. -->
+![The rebuilt lathe running from our LinuxCNC controller computer.](../assets/lore/robert-abraham-cnc/linuxcnc-controller.jpg){fig-alt="A CNC lathe connected to a computer displaying the LinuxCNC machine-control interface."}
+
+<!-- REVIEW: CAD/CAM paragraph. Verify whether you want Autodesk Inventor, Inventor CAM, or another exact product name here. -->
 We did not have another Mastercam licence available either. Robert learned Autodesk Inventor, generated the G-code, and kept pushing until the machine ran a program.
 
+<!-- REVIEW: First-cut detail. Add the exact date or a photo of the Christmas tree later if you want. -->
 By Christmas, less than a semester after starting, we cut our first part: a Christmas tree.
 
 ## See it running
@@ -65,8 +84,10 @@ By Christmas, less than a semester after starting, we cut our first part: a Chri
 
 [View the project photo gallery](https://photos.app.goo.gl/r9wgVMCj8ynDp3888).
 
+<!-- REVIEW: Closing takeaway. -->
 That project is a good example of what I want computer engineering to be: not just following instructions, but inheriting a broken system, researching what you do not know, and making it work. The impressive part was not that Robert completed an assignment. It was that he chose to go well beyond one.
 
+<!-- REVIEW: Permission and hiring call-to-action. -->
 **Posted with Robert's permission.** If you are looking for an intern, co-op student, or someone for part-time technical work, consider reaching out to him.
 
 [See more of Robert Abraham's projects](https://robert-abraham.com/projects).
