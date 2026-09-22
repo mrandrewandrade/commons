@@ -37,10 +37,11 @@ This year, my own Iteration 1 has graduated and started university. I want to re
 
 The important context for these stories is that **this was not simply the assigned course work**. These students did the regular work, did it to a high standard, and then chose problems that interested them and went much further. The best description is probably an impressive engineering **side quest**: the main quest was already complete.
 
-<div class="ratio ratio-9x16" style="max-width: 420px; margin: 1.5rem auto;">
+<div style="max-width: 420px; margin: 1.5rem auto;">
 <iframe
   src="https://www.youtube.com/embed/2x7b4WiCxzU"
   title="Robert Abraham CNC lathe project"
+  style="display: block; width: 100%; aspect-ratio: 9 / 16; border: 0;"
   allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
   allowfullscreen>
 </iframe>
