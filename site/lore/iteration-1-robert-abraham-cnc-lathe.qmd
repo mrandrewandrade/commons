@@ -1,9 +1,9 @@
 ---
 title: "Iteration 1: Robert Abraham and the CNC Lathe"
-subtitle: "A Grade 11 computer engineering project that brought a discarded machine back to life"
+subtitle: "A Grade 11 computer engineering side quest that brought a discarded machine back to life"
 description: >
-  Robert Abraham took on an old CNC lathe that another high school was going
-  to throw out, then researched, rebuilt, re-controlled, and programmed it.
+  Robert Abraham went far beyond the assigned Grade 11 computer engineering
+  work to research, rebuild, re-control, and program a discarded CNC lathe.
 author: "Andrew Andrade"
 date: "2026-09-22"
 categories:
@@ -35,9 +35,11 @@ Mr. Knowles used to joke that my cohort was **"Iteration 1"**, the first group t
 
 This year, my own Iteration 1 has graduated and started university. I want to record some of what they accomplished, especially for anyone looking for co-op students or interns.
 
+The important context for these stories is that **this was not simply the assigned course work**. These students did the regular work, then chose problems that interested them and went much further. The best description is probably an impressive engineering **side quest**.
+
 ## Robert Abraham
 
-In Grade 11 Computer Engineering, Robert took the initiative to work on an old Lab-Volt CNC lathe that another high school was going to throw out.
+In Grade 11 Computer Engineering, Robert took the initiative to work on an old Lab-Volt CNC lathe that another high school was going to throw out. Restoring it was not an assigned project. He saw a difficult, open-ended problem and decided to take it on.
 
 ![The Lab-Volt CNC lathe after we opened it up and began bringing it back to life.](../assets/lore/robert-abraham-cnc/robert-cnc-lathe.jpg){fig-alt="An older enclosed Lab-Volt CNC lathe in a school technology shop with the front enclosure open."}
 
@@ -47,7 +49,7 @@ When we opened the electronics cabinet, the wiring was difficult to trace and di
 
 Robert researched a replacement controller compatible with the existing Gecko drives, and we worked through the electrical and mechanical problems. The mechanical work meant disassembling parts of the machine, cleaning them, resolving issues, and putting everything back together.
 
-We also ended up running the machine with **LinuxCNC**, which meant setting up a Linux-based controller computer and operating system as part of the retrofit.
+We also ended up running the machine with **LinuxCNC**, which meant setting up and configuring our own Linux-based controller computer and operating system as part of the retrofit.
 
 ![The rebuilt lathe running from a computer with LinuxCNC.](../assets/lore/robert-abraham-cnc/linuxcnc-controller.jpg){fig-alt="A Lab-Volt CNC lathe connected to a computer displaying the LinuxCNC machine-control interface."}
 
@@ -55,6 +57,6 @@ We did not have another Mastercam licence available either. Robert learned Autod
 
 By Christmas, less than a semester after starting, we cut our first part: a Christmas tree.
 
-That project is a good example of what I want computer engineering to be: not just following instructions, but inheriting a broken system, researching what you do not know, and making it work.
+That project is a good example of what I want computer engineering to be: not just following instructions, but inheriting a broken system, researching what you do not know, and making it work. The impressive part was not that Robert completed an assignment. It was that he chose to go well beyond one.
 
-[See more of Robert Abraham's projects](http://robert-abraham.com/projects).
+[See more of Robert Abraham's projects](https://robert-abraham.com/projects).
