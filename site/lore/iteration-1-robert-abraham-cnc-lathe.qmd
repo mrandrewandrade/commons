@@ -13,6 +13,7 @@ tags:
   - Student Work
   - Computer Engineering
   - CNC
+  - LinuxCNC
   - Iteration
 image: "../assets/lore/robert-abraham-cnc/robert-cnc-lathe.jpg"
 format:
@@ -40,11 +41,17 @@ In Grade 11 Computer Engineering, Robert took the initiative to work on an old L
 
 ![The Lab-Volt CNC lathe after we opened it up and began bringing it back to life.](../assets/lore/robert-abraham-cnc/robert-cnc-lathe.jpg){fig-alt="An older enclosed Lab-Volt CNC lathe in a school technology shop with the front enclosure open."}
 
-When we opened the electronics cabinet, the wiring was difficult to trace and did not consistently follow convention, including black being used as positive on part of the DC circuit. Robert researched a replacement controller compatible with the existing Gecko drives, and we worked through the electrical and mechanical problems.
+When we opened the electronics cabinet, the wiring was difficult to trace and did not consistently follow convention, including black being used as positive on part of the DC circuit.
 
-The mechanical work meant disassembling parts of the machine, cleaning them, resolving issues, and putting everything back together.
+![Inside the lathe's electronics cabinet while we traced the existing system and worked out the retrofit.](../assets/lore/robert-abraham-cnc/electronics-cabinet.jpg){fig-alt="Open CNC lathe electronics cabinet showing circuit boards, power electronics, Gecko motor drives, wiring, and a replacement motion-control board."}
 
-We also did not have another Mastercam licence available. Robert learned Autodesk Inventor, generated the G-code, and kept pushing until the machine ran a program.
+Robert researched a replacement controller compatible with the existing Gecko drives, and we worked through the electrical and mechanical problems. The mechanical work meant disassembling parts of the machine, cleaning them, resolving issues, and putting everything back together.
+
+We also ended up running the machine with **LinuxCNC**, which meant setting up a Linux-based controller computer and operating system as part of the retrofit.
+
+![The rebuilt lathe running from a computer with LinuxCNC.](../assets/lore/robert-abraham-cnc/linuxcnc-controller.jpg){fig-alt="A Lab-Volt CNC lathe connected to a computer displaying the LinuxCNC machine-control interface."}
+
+We did not have another Mastercam licence available either. Robert learned Autodesk Inventor, generated the G-code, and kept pushing until the machine ran a program.
 
 By Christmas, less than a semester after starting, we cut our first part: a Christmas tree.
 
