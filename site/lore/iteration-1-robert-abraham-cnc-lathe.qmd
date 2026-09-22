@@ -51,6 +51,8 @@ The important context for these stories is that **this was not simply the assign
 
 Introducing **Robert Abraham**, now studying Computer Engineering at the University of Toronto. You can find more about him and his projects at [robert-abraham.com/projects](https://robert-abraham.com/projects).
 
+Our school offers a **Specialist High Skills Major (SHSM) in Manufacturing**, and Computer Engineering is one of the elective courses students can take as part of that program. One of the goals is to connect those two worlds more deliberately: electronics, controls, programming, and Linux meeting machining, fabrication, and real manufacturing systems.
+
 In Grade 11 Computer Engineering, Robert took the initiative to work on an old Lab-Volt CNC lathe that another high school was going to throw out. Restoring it was not an assigned project. He saw a difficult, open-ended problem and decided to take it on. Before Christmas, we were already machining our first part: a Christmas tree. Here is how it happened.
 
 ![Disassembling the old Lab-Volt CNC lathe as we worked through its mechanical problems.](../assets/lore/robert-abraham-cnc/disassembling-lathe.jpg){fig-alt="An older Lab-Volt CNC lathe being disassembled in a school technology shop."}
