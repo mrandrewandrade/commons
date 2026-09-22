@@ -15,7 +15,6 @@ tags:
   - CNC
   - LinuxCNC
   - Iteration
-image: "../assets/lore/robert-abraham-cnc/robert-cnc-lathe.jpg"
 format:
   html:
     page-layout: article
@@ -33,7 +32,7 @@ execute:
 Mr. Knowles used to joke that my cohort was **"Iteration 1"**, the first group through the program. Many of us went on to engineering at Waterloo, U of T, and elsewhere.
 :::
 
-This year, my own Iteration 1 has graduated and started university. I want to record some of what they accomplished, especially for anyone looking for co-op students or interns.
+This year, my own Iteration 1 has graduated and started university. I want to record some of what they accomplished, especially for anyone looking for co-op students, interns, or part-time technical help.
 
 The important context for these stories is that **this was not simply the assigned course work**. These students did the regular work, then chose problems that interested them and went much further. The best description is probably an impressive engineering **side quest**.
 
@@ -41,22 +40,33 @@ The important context for these stories is that **this was not simply the assign
 
 In Grade 11 Computer Engineering, Robert took the initiative to work on an old Lab-Volt CNC lathe that another high school was going to throw out. Restoring it was not an assigned project. He saw a difficult, open-ended problem and decided to take it on.
 
-![The Lab-Volt CNC lathe after we opened it up and began bringing it back to life.](../assets/lore/robert-abraham-cnc/robert-cnc-lathe.jpg){fig-alt="An older enclosed Lab-Volt CNC lathe in a school technology shop with the front enclosure open."}
-
 When we opened the electronics cabinet, the wiring was difficult to trace and did not consistently follow convention, including black being used as positive on part of the DC circuit.
-
-![Inside the lathe's electronics cabinet while we traced the existing system and worked out the retrofit.](../assets/lore/robert-abraham-cnc/electronics-cabinet.jpg){fig-alt="Open CNC lathe electronics cabinet showing circuit boards, power electronics, Gecko motor drives, wiring, and a replacement motion-control board."}
 
 Robert researched a replacement controller compatible with the existing Gecko drives, and we worked through the electrical and mechanical problems. The mechanical work meant disassembling parts of the machine, cleaning them, resolving issues, and putting everything back together.
 
 We also ended up running the machine with **LinuxCNC**, which meant setting up and configuring our own Linux-based controller computer and operating system as part of the retrofit.
 
-![The rebuilt lathe running from a computer with LinuxCNC.](../assets/lore/robert-abraham-cnc/linuxcnc-controller.jpg){fig-alt="A Lab-Volt CNC lathe connected to a computer displaying the LinuxCNC machine-control interface."}
-
 We did not have another Mastercam licence available either. Robert learned Autodesk Inventor, generated the G-code, and kept pushing until the machine ran a program.
 
 By Christmas, less than a semester after starting, we cut our first part: a Christmas tree.
 
+## See it running
+
+<div class="ratio ratio-9x16" style="max-width: 420px; margin: 1.5rem auto;">
+<iframe
+  src="https://www.youtube.com/embed/2x7b4WiCxzU"
+  title="Robert Abraham CNC lathe project"
+  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+  allowfullscreen>
+</iframe>
+</div>
+
+[Watch the video on YouTube](https://www.youtube.com/shorts/2x7b4WiCxzU).
+
+[View the project photo gallery](https://photos.app.goo.gl/r9wgVMCj8ynDp3888).
+
 That project is a good example of what I want computer engineering to be: not just following instructions, but inheriting a broken system, researching what you do not know, and making it work. The impressive part was not that Robert completed an assignment. It was that he chose to go well beyond one.
+
+**Posted with Robert's permission.** If you are looking for an intern, co-op student, or someone for part-time technical work, consider reaching out to him.
 
 [See more of Robert Abraham's projects](https://robert-abraham.com/projects).
