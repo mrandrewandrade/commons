@@ -9,12 +9,6 @@ date: "2026-09-22"
 categories:
   - Lore
   - Teaching
-tags:
-  - Student Work
-  - Computer Engineering
-  - CNC
-  - LinuxCNC
-  - Iteration
 image: "../assets/lore/robert-abraham-cnc/finished-lathe.jpg"
 format:
   html:
