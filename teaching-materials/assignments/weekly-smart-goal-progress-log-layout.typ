@@ -41,7 +41,7 @@
   )
   set par(leading: 0.48em, justify: false)
 
-  let identity-fields(score: true) = [
+  let identity-fields(score: false) = [
     #grid(
       columns: (2.45in, 1.95in, 2.30in, auto),
       column-gutter: 11pt,
@@ -65,7 +65,7 @@
     )
   ]
 
-  let page-header(title, subtitle, score: true, title-size: 21pt) = [
+  let page-header(title, subtitle, score: false, title-size: 21pt) = [
     #grid(
       columns: (1fr, 2.55in),
       column-gutter: 14pt,
@@ -150,34 +150,20 @@
     radius: 5pt,
     inset: 7pt,
     [
-      #text(size: 8.2pt, weight: "bold", fill: primary)[Teacher evaluation]
+      #text(size: 8.2pt, weight: "bold", fill: primary)[Teacher formative feedback]
       #v(7pt)
       #grid(
         columns: (1fr, auto),
         row-gutter: 6pt,
         align: horizon,
-        [#text(size: 7pt)[Neatly written]], [#checkbox()],
-        [#text(size: 7pt)[Detailed information]], [#checkbox()],
-        [#text(size: 7pt)[Technical terms]], [#checkbox()],
+        [#text(size: 7pt)[Specific evidence of learning]], [#checkbox()],
+        [#text(size: 7pt)[Uses relevant technical language]], [#checkbox()],
+        [#text(size: 7pt)[Clear next step]], [#checkbox()],
       )
       #v(8pt)
       #line(length: 100%, stroke: 0.5pt + primary)
       #v(6pt)
-      #grid(
-        columns: (auto, 1fr),
-        column-gutter: 6pt,
-        align: horizon,
-        [#text(size: 7.2pt, weight: "bold")[Level]],
-        [
-          #text(size: 7pt)[1] #checkbox(size: 6.5pt)
-          #h(4pt)
-          #text(size: 7pt)[2] #checkbox(size: 6.5pt)
-          #h(4pt)
-          #text(size: 7pt)[3] #checkbox(size: 6.5pt)
-          #h(4pt)
-          #text(size: 7pt)[4] #checkbox(size: 6.5pt)
-        ],
-      )
+      #text(size: 6.8pt)[This feedback is formative by default. A curriculum achievement mark requires a separately identified curriculum expectation and assessment criteria.]
     ]
   )
 
@@ -322,7 +308,7 @@
   page-header(
     [Weekly SMART Goal & Progress Log],
     [Set the Goal. Follow the Way. Take Action.],
-    score: true,
+    score: false,
   )
   daily-card([Monday])
   v(7pt)
@@ -335,7 +321,7 @@
   page-header(
     [Weekly SMART Goal & Progress Log],
     [Set the Goal. Follow the Way. Take Action.],
-    score: true,
+    score: false,
   )
   daily-card([Thursday])
   v(7pt)
@@ -348,7 +334,7 @@
   page-header(
     [Weekly SMART Goal & Progress Log],
     [Set the Goal. Follow the Way. Take Action.],
-    score: true,
+    score: false,
   )
   grid(
     columns: (1fr, 1fr),
@@ -368,7 +354,7 @@
     ),
     reflection-box(
       [How can we help?],
-      [What support, tools, feedback, explanation, or next step would help you move forward?],
+      [What learning support, tools, feedback, explanation, or next step would help you move forward? Private health, mental-health, family, or other sensitive details are not required here.],
     ),
   )
 
@@ -387,31 +373,31 @@
 
   skill-card(
     [Responsibility],
-    [Getting things done without anyone reminding you. Not just submitting tasks - but showing you are in control of your life.],
+    [Fulfilling learning responsibilities and commitments, completing agreed tasks, and taking responsibility for choices in the learning environment.],
   )
   v(5pt)
   skill-card(
     [Organization],
-    [Keeping track of goals, tools & materials on your own. Using your planner/log so your life is not chaos in a backpack.],
+    [Planning work, managing time and priorities, and organizing the information, tools, and resources needed for learning.],
   )
   v(5pt)
   skill-card(
     [Independent work],
-    [Starting right away, staying focused, keeping goals. Figuring things out yourself before looking for help.],
+    [Using class time appropriately, following instructions, monitoring progress, and working with increasing independence while seeking help when needed.],
   )
   v(5pt)
   skill-card(
     [Initiative],
-    [Doing what needs to be done without being asked/assigned. Asking good questions and seeking ways to grow.],
+    [Showing curiosity, asking useful questions, acting on learning opportunities, and trying appropriate new approaches.],
   )
   v(5pt)
   skill-card(
     [Collaboration],
-    [Being someone others actually want to work with. Helping others improve their weaknesses & learning from their strengths.],
+    [Sharing responsibility, listening and responding respectfully, contributing useful ideas or resources, and working constructively with others.],
   )
   v(5pt)
   skill-card(
     [Self-regulation],
-    [No phones unless absolutely necessary - you stay in control, not distracted. Finding the middle path and maintaining balance.],
+    [Setting goals, monitoring progress, managing distractions, seeking clarification or assistance when useful, and adjusting strategies when needed.],
   )
 }
