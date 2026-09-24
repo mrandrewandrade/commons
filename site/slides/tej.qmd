@@ -1,6 +1,7 @@
 ---
 title: "TEJ Slides"
 toc: false
+description: "Chronological TEJ classroom slides for identity, communication, significant figures, scientific notation, engineering notation, and metric prefixes."
 ---
 
 Current TEJ classroom decks are maintained in Google Slides. Earlier Quarto/RevealJS material remains preserved in the [archived slides repository](https://github.com/mrandrewandrade/slides).
