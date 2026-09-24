@@ -14,26 +14,26 @@ execute:
 ::: {.bs-page-shell}
 ::: {.bs-reading-column}
 ::: {.bs-lesson-preamble}
-These notes are **unfinished intentionally**. We will build them with students as the course develops, especially after we rebuild salvaged computers, install Ubuntu, and begin contributing documentation from our own work.
+These notes are **unfinished intentionally**. They record what we have actually covered so far. Students will help expand them as we build, test, explain, and document our work.
 :::
 
-## Course path
+## Course path so far
 
-0. **Getting to Know You**  
-   Personal identity → group identity → visual identity → logo design.
+0. **Getting to Know You**
+   Personal identity, listening, communication, group identity, and the beginnings of visual identity.
 
-1. **N.I.C.E. Design Process**  
-   Needs & Necessities → Investigate & Inquire → Create & Communicate → Evaluate → repeat.
+1. **N.I.C.E. Design Process**
+   Needs & Necessities first, then Investigate & Inquire.
 
-2. **Building Computers**  
-   Identify components, rebuild salvaged computers, install Ubuntu, test the systems, and document what we learn.
+Anything after this is **TBD** until we actually do it in class.
 
-3. **Logo Design & Animation**  
-   Move from identity and visual language into logo development, iteration, motion, and animation.
+## Current class slides
 
-4. **Website Design**  
-   Bring writing, graphics, identity, layout, and technical skills together in a website.
+- [TAS Slides](../slides/tas.qmd)
 
-The notes will grow from classroom work rather than being presented as a finished textbook.
+## Reusable materials
+
+- [General Materials](../teaching-materials/index.qmd)
+- [General Slides](../teacher-slides/index.qmd)
 :::
 :::
