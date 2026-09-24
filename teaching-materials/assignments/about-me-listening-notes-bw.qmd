@@ -103,7 +103,7 @@ format:
   #identity-fields
   #v(4pt)
   #instruction-panel([
-    Make space for each speaker: phones away unless directed otherwise, face the speaker, avoid side conversations, and write one brief note for every presenter. Circle #text(weight: "bold")[A] = Attentive, #text(weight: "bold")[S] = Some lapses, or #text(weight: "bold")[N] = Not attentive. Be honest: an honest S or N is better than a false A. After the final presentation, complete the reflection pages.
+    Make space for each speaker: phones away unless directed otherwise, face the speaker, avoid side conversations, and write one brief note for every presenter. Circle #text(weight: "bold")[A] = Attentive, #text(weight: "bold")[S] = Some lapses, or #text(weight: "bold")[N] = Not attentive as a quick self-check on observable learning behaviours. The rating is not a judgement of character or mental health. After the final presentation, complete the reflection pages.
   ])
   #v(4pt)
 ]
@@ -173,11 +173,11 @@ format:
       inset: (x: 3pt, y: 3pt),
       stroke: 0.65pt + black,
       [#text(size: 6.9pt, weight: "bold")[Area]], [#text(size: 6.9pt, weight: "bold")[/2]], [#text(size: 6.9pt, weight: "bold")[My evidence / next step]],
-      [#text(size: 6.6pt, weight: "bold")[Attention & Presence] #linebreak() #text(size: 6.2pt)[phone away, face speaker, avoid side talk, refocus]], [#line(length: 0.24in, stroke: 0.65pt + black)], [#v(10pt)],
+      [#text(size: 6.6pt, weight: "bold")[Listening & Response] #linebreak() #text(size: 6.2pt)[phone away, face speaker, avoid side talk, refocus]], [#line(length: 0.24in, stroke: 0.65pt + black)], [#v(10pt)],
       [#text(size: 6.6pt, weight: "bold")[Audience Notes] #linebreak() #text(size: 6.2pt)[specific note for each presenter]], [#line(length: 0.24in, stroke: 0.65pt + black)], [#v(10pt)],
       [#text(size: 6.6pt, weight: "bold")[Discussion & Connections] #linebreak() #text(size: 6.2pt)[questions, comments, or connections]], [#line(length: 0.24in, stroke: 0.65pt + black)], [#v(10pt)],
       [#text(size: 6.6pt, weight: "bold")[Completion & Consistency] #linebreak() #text(size: 6.2pt)[kept up across all presenters]], [#line(length: 0.24in, stroke: 0.65pt + black)], [#v(10pt)],
-      [#text(size: 6.6pt, weight: "bold")[Integrity & Reflection] #linebreak() #text(size: 6.2pt)[honest ratings and thoughtful reflection]], [#line(length: 0.24in, stroke: 0.65pt + black)], [#v(10pt)],
+      [#text(size: 6.6pt, weight: "bold")[Reflection & Self-Assessment] #linebreak() #text(size: 6.2pt)[evidence-based self-assessment and thoughtful reflection]], [#line(length: 0.24in, stroke: 0.65pt + black)], [#v(10pt)],
     )
     #v(3pt)
     #text(size: 7.6pt, weight: "bold")[My listening total: ] #line(length: 0.42in, stroke: 0.75pt + black) #text(size: 7.6pt, weight: "bold")[ /10]
@@ -204,12 +204,14 @@ format:
 
 #v(8pt)
 #section-title([Listening reflection - write in your own words])
+#v(2pt)
+#text(size: 7.2pt)[Keep the reflection focused on learning behaviours. Private circumstances do not need to be explained. If something private affected your attention or participation, write "private circumstance" and focus on the evidence available or a useful next step.]
 #v(3pt)
 #grid(
   columns: (1fr, 1fr, 1fr),
   column-gutter: 12pt,
-  [#response-box([When was I most attentive? What did I do that helped me listen?], height: 1.15in)],
-  [#response-box([Where did my attention slip, or where did I need a reminder? What happened?], height: 1.15in)],
+  [#response-box([What evidence shows when I was most attentive? What helped me listen?], height: 1.15in)],
+  [#response-box([Where did my attention slip, or where did I need a reminder? What learning strategy could help next time?], height: 1.15in)],
   [#response-box([What is one specific thing I will do next time to be a better listener and audience member?], height: 1.15in)],
 )
 
@@ -255,7 +257,7 @@ format:
   columns: (1fr, 1fr),
   column-gutter: 12pt,
   [#response-box([Activity feedback: What helped you listen, connect, or learn from other people?], height: 0.78in)],
-  [#response-box([Improve it next time: What should change to make this activity better?], height: 0.78in)],
+  [#response-box([Improve it next time: What could change to make this activity better?], height: 0.78in)],
 )
 
 #v(7pt)
