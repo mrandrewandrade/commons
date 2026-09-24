@@ -7,10 +7,10 @@ toc-depth: 2
 format:
   html:
     title-block-style: plain
-    body-classes: "bs-about-page ter-about-page commons-brand-page"
+    body-classes: "bs-about-page ter-about-page ter-brand-page"
     css:
       - assets/about.css
-      - assets/commons-brand-guide.css
+      - assets/ter-brand-guide.css
 ---
 
 :::::: {.bs-page-shell}
