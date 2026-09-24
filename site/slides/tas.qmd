@@ -1,6 +1,7 @@
 ---
 title: "TAS Slides"
 toc: false
+description: "Chronological TAS classroom slides for identity, communication, the N.I.C.E. Design Process, needs, and inquiry."
 ---
 
 Current TAS classroom decks are maintained in Google Slides. Earlier Quarto/RevealJS material remains preserved in the [archived slides repository](https://github.com/mrandrewandrade/slides).
