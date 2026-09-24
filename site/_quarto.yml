@@ -6,8 +6,6 @@ project:
     - "!mindfulness/"
     - "!posts/"
     - "!research/"
-    - "!ttj3-4/"
-    - "!slides/tts.qmd"
   pre-render:
   - python ../scripts/bs_pre_render.py
   resources:
