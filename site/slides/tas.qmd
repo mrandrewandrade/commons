@@ -1,0 +1,18 @@
+---
+title: "TAS Slides"
+toc: false
+---
+
+Current TAS classroom decks are maintained in Google Slides. Earlier Quarto/RevealJS material remains preserved in the [archived slides repository](https://github.com/mrandrewandrade/slides).
+
+[Open the TAS course folder in Google Drive](https://drive.google.com/drive/folders/1OCjNqTgBEZ8IxGN-WJg7Ix0KTdlTjptB)
+
+| Day | Lesson | Slides |
+|---|---|---|
+| Day 1 | Classroom slides | [Google Slides](https://docs.google.com/presentation/d/13mZGVRNaV3wSsPbIsSpDiUbqsf3wodD9B2S4o3FlGfU/edit?usp=drivesdk) |
+| Day 2 | Classroom slides | [Google Slides](https://docs.google.com/presentation/d/179KoqehzeFEvnHdgYRZquYr3VUNWWlUdBFc1gYwmJCw/edit?usp=drivesdk) |
+| Day 3 | Classroom slides | [Google Slides](https://docs.google.com/presentation/d/1kdgpkph9nl6B__hGIxhg0mZ9ToHrgKMQWiSujPfCHNs/edit?usp=drivesdk) |
+| Day 4 | Classroom slides | [Google Slides](https://docs.google.com/presentation/d/1TYn09e61daKv3hc8gKJg6Q65Du8a3mTwboVOGYrdFog/edit?usp=drivesdk) |
+| Day 5 | **Funday Friday: Going outside** | [Daily Opening Quotes](https://docs.google.com/presentation/d/12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY/edit?usp=drivesdk) |
+| Day 6 | Inquiry / NICE | [Google Slides](https://docs.google.com/presentation/d/1TX9yMuScKH04QcF0TBzkMZTycqwOfSDpK0wZtJ-EbJQ/edit?usp=drivesdk) |
+| Day 7 | Inquiry | [Google Slides](https://docs.google.com/presentation/d/1FoN2vg_Tmm2QAUfiJSqPqeSmV7y_m5Brknn0JXxKv0s/edit?usp=drivesdk) |
