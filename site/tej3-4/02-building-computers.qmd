@@ -1,0 +1,19 @@
+---
+title: "2. Building Computers"
+description: "Collaborative notes for rebuilding computers and installing Ubuntu in TEJ."
+---
+
+> **These notes are unfinished intentionally.** Students will contribute once we begin rebuilding salvaged computers and installing Ubuntu.
+
+We will document:
+
+- motherboard, CPU, RAM, storage, power supply, cooling, and expansion cards
+- safe handling and ESD awareness
+- disassembly and component identification
+- determining which parts are reusable
+- rebuilding systems
+- BIOS/UEFI
+- creating bootable media
+- installing Ubuntu
+- drivers, networking, and updates
+- troubleshooting and documenting failures
