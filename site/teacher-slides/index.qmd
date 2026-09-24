@@ -1,5 +1,5 @@
 ---
-title: "Teacher Slides"
+title: "Reusable Slides"
 subtitle: "Reusable classroom decks"
 description: "Search and filter reusable Google Slides for broad-based technology, cross-curricular learning, creativity, and human wellness."
 format:
@@ -23,11 +23,11 @@ General decks support broad-based technology courses and are designed to connect
 :::
 
 ```{=html}
-<section class="bs-slide-library-controls" data-slide-controls aria-label="Filter teacher slides">
+<section class="bs-slide-library-controls" data-slide-controls aria-label="Filter reusable slides">
   <div class="bs-slide-search-wrap">
-    <label class="bs-slide-control-label" for="teacher-slide-search">Search</label>
+    <label class="bs-slide-control-label" for="reusable-slide-search">Search</label>
     <input
-      id="teacher-slide-search"
+      id="reusable-slide-search"
       class="bs-slide-search"
       type="search"
       placeholder="Search powers of 10, sketching, reflection..."
@@ -36,8 +36,8 @@ General decks support broad-based technology courses and are designed to connect
   </div>
 
   <div class="bs-slide-select-wrap">
-    <label class="bs-slide-control-label" for="teacher-slide-collection">Collection</label>
-    <select id="teacher-slide-collection" class="bs-slide-select" data-slide-collection>
+    <label class="bs-slide-control-label" for="reusable-slide-collection">Collection</label>
+    <select id="reusable-slide-collection" class="bs-slide-select" data-slide-collection>
       <option value="">All collections</option>
       <option value="General">General</option>
       <option value="Human Wellness">Human Wellness</option>
