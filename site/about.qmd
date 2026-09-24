@@ -70,7 +70,7 @@ Together they point toward the same practical idea: learning is individual work,
 
 Original educational text, lessons, diagrams, slides, and explanatory material on this site are released under **[Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**. You can copy and adapt them, including for your own classes, as long as you provide attribution and share adaptations under the same or a compatible licence.
 
-Original website code, scripts, build tooling, and other executable materials are released under the **[GNU Affero General Public License v3](https://www.gnu.org/licenses/agpl-3.0.html/)**.
+Original website code, scripts, build tooling, and other executable materials are released under the **[GNU Affero General Public License v3](https://www.gnu.org/licenses/agpl-3.0.html)**.
 
 A simple attribution is enough:
 
