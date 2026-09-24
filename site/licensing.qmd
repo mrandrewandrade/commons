@@ -15,11 +15,15 @@ Original website code and executable materials are licensed under the [GNU Affer
 
 Original educational text, articles, lessons, diagrams, and explanatory figures are licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (`CC-BY-SA-4.0`).
 
-When reusing this material, give appropriate credit, link to the licence and source, indicate whether changes were made, and share adaptations under CC BY-SA 4.0 or a compatible licence.
+Please copy, adapt, and make the educational material useful in your own context. When reusing it, give appropriate credit, link to the licence and original source, indicate whether changes were made, and share adaptations under CC BY-SA 4.0 or a compatible licence.
+
+Please reference both **andrewandrade.ca** and **github.com/mrandrewandrade** in the attribution.
 
 Suggested credit:
 
-> Based on material from **Technological Education Resources** by Andrew Andrade and contributors. Source: <https://github.com/mrandrewandrade/tech-edu-resources>. Licensed under **CC BY-SA 4.0**. Changes were made.
+> Based on **Technological Education Resources** by Andrew Andrade and contributors, originally published at **andrewandrade.ca** with source at **github.com/mrandrewandrade**. Licensed under **CC BY-SA 4.0**. Changes were made.
+
+For a repository-specific link, use <https://github.com/mrandrewandrade/tech-edu-resources>.
 
 ## Data and third-party materials
 
