@@ -23,7 +23,7 @@ For every presenter, write one brief note that shows what you learned, noticed, 
 - **S** = Some lapses
 - **N** = Not attentive
 
-Phones should be away unless directed otherwise. Face the speaker, avoid side conversations, and make space for the person presenting. An honest **S** or **N** is better than a false **A**. Knowingly inaccurate self-ratings can reduce the **Integrity & Reflection** score more than the original lapse would have.
+Keep phones away unless directed otherwise. Face the speaker, avoid side conversations, and make space for the person presenting. Use **A / S / N** as a quick self-check on observable learning behaviours, not as a judgement of character or mental health.
 
 This package has three parts:
 
@@ -87,11 +87,11 @@ Use evidence from what you actually did. If something was not strong, explain wh
 
 | Listening area | What I should evaluate | My score | My evidence or next step |
 |---|---|:---:|---|
-| Attention & Presence | Phone away, face speaker, avoid side talk, refocus | ___ /2 |  |
+| Listening & Response | Phone away, face speaker, avoid side talk, refocus | ___ /2 |  |
 | Audience Notes | A specific note for every presenter | ___ /2 |  |
 | Discussion & Connections | Useful questions, comments, or connections | ___ /2 |  |
 | Completion & Consistency | Kept up across all presenters | ___ /2 |  |
-| Integrity & Reflection | Honest ratings and thoughtful reflection | ___ /2 |  |
+| Reflection & Self-Assessment | Honest ratings and thoughtful reflection | ___ /2 |  |
 | **Total** |  | **___ /10** | |
 
 ## Learning Skills self-evaluation
@@ -110,6 +110,8 @@ Choose **C = Consistently**, **S = Sometimes**, or **N = Not yet**, then give ev
 \newpage
 
 ## Listening reflection - write in your own words
+
+Keep the reflection focused on learning behaviours. Private circumstances do not need to be explained. If something private affected your attention or participation, write **private circumstance** and focus on the evidence available or a useful next step.
 
 **When was I most attentive? What did I do that helped me listen?**
 
@@ -178,7 +180,7 @@ ________________________________________________________________________________
 
 ________________________________________________________________________________
 
-**What should change next time to make this activity better?**
+**What could change next time to make this activity better?**
 
 ________________________________________________________________________________
 
