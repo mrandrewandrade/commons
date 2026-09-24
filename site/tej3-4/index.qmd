@@ -14,26 +14,26 @@ execute:
 ::: {.bs-page-shell}
 ::: {.bs-reading-column}
 ::: {.bs-lesson-preamble}
-These notes are **unfinished intentionally**. We will build them with students as the course develops, especially after we rebuild salvaged computers, install Ubuntu, and begin contributing documentation from our own work.
+These notes are **unfinished intentionally**. They record what we have actually covered so far. Students will help expand them as we build, test, measure, explain, and document our work.
 :::
 
-## Course path
+## Course path so far
 
-0. **Getting to Know You**  
-   Personal identity → group identity → visual identity → logo design.
+0. **Getting to Know You**
+   Personal identity, listening, communication, group identity, and the beginnings of visual identity.
 
-1. **Number Systems & Basic Circuits**  
-   Binary, decimal, hexadecimal, representation, voltage, current, resistance, components, simple circuits, measurement, and safe troubleshooting.
+1. **Measurement & Basic Circuits**
+   Significant figures → scientific notation → engineering notation → metric prefixes → Ohm's law → electrical power.
 
-2. **Building Computers**  
-   Identify components, rebuild salvaged computers, install Ubuntu, test the systems, and document what we learn.
+Everything after Unit 1 is **TBD** until we actually do it in class.
 
-3. **Logo Design & Animation**  
-   Connect identity and communication with graphics, iteration, motion, and technical presentation.
+## Current class slides
 
-4. **Website Design**  
-   Build and publish a site that combines writing, graphics, structure, accessibility, and technical documentation.
+- [TEJ Slides](../slides/tej.qmd)
 
-The notes will grow from classroom work rather than being presented as a finished textbook.
+## Reusable materials
+
+- [General Materials](../teaching-materials/index.qmd)
+- [General Slides](../teacher-slides/index.qmd)
 :::
 :::
