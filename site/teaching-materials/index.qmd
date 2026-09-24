@@ -1,6 +1,6 @@
 ---
 title: "General Materials"
-subtitle: "Reusable assignments, worksheets, handouts, and source packages"
+subtitle: "Reusable assignments, worksheets, handouts, and worked examples"
 description: "Search and filter reusable classroom assignments and teaching materials across technological education, human well-being, and cross-curricular learning."
 format:
   html:
@@ -16,10 +16,10 @@ execute:
 ::: {.bs-page-shell}
 ::: {.bs-reading-column}
 ::: {.bs-editorial-lead}
-Reusable assignment packages and classroom materials. These include reusable templates from shared course folders and regenerable source packages maintained in this repository.
+Reusable classroom materials for students and teachers. Printable resources link to the published PDFs from the Assets collection. Current TAS design-process examples and templates link to their student-facing Google Docs in the Teaching folder.
 :::
 
-The library intentionally links to **generic source materials**, not student submissions or student copies. The linked Google Drive materials are shared for public commenting, and the repository packages can be inspected and adapted from source. **General** materials are broadly reusable across subjects and technology courses. **Human Well-Being** materials focus on identity, reflection, listening, goal setting, community, and related learning routines.
+The library intentionally links to **generic teaching materials, not student submissions or student copies**. **General** materials are broadly reusable across subjects and technology courses. **Human Well-Being** materials focus on identity, reflection, listening, goal setting, community, and related learning routines.
 :::
 
 ```{=html}
@@ -36,7 +36,7 @@ The library intentionally links to **generic source materials**, not student sub
       id="general-material-search"
       class="bs-slide-search"
       type="search"
-      placeholder="Search identity, significant figures, inquiry, listening, goals..."
+      placeholder="Search identity, inquiry, listening, goals..."
       autocomplete="off"
       data-slide-search>
   </div>
@@ -73,17 +73,16 @@ The library intentionally links to **generic source materials**, not student sub
     data-courses="TAS|TEJ|TTJ"
     data-tags="identity|communication|documentation|pdf|introductory"
     data-search="name tag pdf student number introductory identity communication documentation submission">
-    <a class="bs-slide-thumb" href="https://drive.google.com/file/d/1pVbDmEGkN0GlyqYYDIMjptwwg34G-pBz/view?usp=drivesdk" aria-label="Open Name Tag PDF with Student Number">
-      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">General</span><strong>ID</strong><span>Name tag + PDF</span></span>
-      <img src="https://drive.google.com/thumbnail?id=1pVbDmEGkN0GlyqYYDIMjptwwg34G-pBz&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
+    <a class="bs-slide-thumb" href="https://andrewandrade.ca/assets/0.0-name-tag-pdf.pdf" aria-label="Open Name Tag PDF">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">General</span><strong>0.0</strong><span>Name tag + PDF</span></span>
     </a>
     <div class="bs-slide-card-body">
       <p class="bs-slide-card-collection">General</p>
-      <h2 class="bs-slide-card-title"><a href="https://drive.google.com/file/d/1pVbDmEGkN0GlyqYYDIMjptwwg34G-pBz/view?usp=drivesdk">Name Tag PDF with Student Number</a></h2>
+      <h2 class="bs-slide-card-title"><a href="https://andrewandrade.ca/assets/0.0-name-tag-pdf.pdf">Name Tag PDF</a></h2>
       <p class="bs-slide-card-description">A short introductory deliverable for making a readable name tag, documenting it clearly, and submitting a checked PDF.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="identity">Identity</button><button type="button" data-slide-card-tag="documentation">Documentation</button><button type="button" data-slide-card-tag="pdf">PDF</button></div>
-      <a class="bs-slide-open" href="https://drive.google.com/file/d/1pVbDmEGkN0GlyqYYDIMjptwwg34G-pBz/view?usp=drivesdk">Open material</a>
+      <a class="bs-slide-open" href="https://andrewandrade.ca/assets/0.0-name-tag-pdf.pdf">Open PDF</a>
     </div>
   </article>
 
@@ -92,16 +91,16 @@ The library intentionally links to **generic source materials**, not student sub
     data-courses="TAS|TEJ|TTJ"
     data-tags="identity|reflection|goals|self-awareness|introductory"
     data-search="past present becoming identity reflection self awareness goals introductory about me">
-    <a class="bs-slide-thumb" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-presentation.qmd" aria-label="Open Past, Present and Becoming">
+    <a class="bs-slide-thumb" href="https://andrewandrade.ca/assets/0.1-past-present-becoming.pdf" aria-label="Open Past Present and Becoming PDF">
       <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being</span><strong>0.1</strong><span>Past · present · becoming</span></span>
     </a>
     <div class="bs-slide-card-body">
       <p class="bs-slide-card-collection">Human Well-Being</p>
-      <h2 class="bs-slide-card-title"><a href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-presentation.qmd">Past, Present &amp; Becoming</a></h2>
+      <h2 class="bs-slide-card-title"><a href="https://andrewandrade.ca/assets/0.1-past-present-becoming.pdf">Past, Present &amp; Becoming</a></h2>
       <p class="bs-slide-card-description">An introductory communication and reflection activity with explicit student choice, privacy, and non-disclosure safeguards.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="identity">Identity</button><button type="button" data-slide-card-tag="reflection">Reflection</button><button type="button" data-slide-card-tag="goals">Goals</button></div>
-      <a class="bs-slide-open" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-presentation.qmd">Open updated source</a>
+      <a class="bs-slide-open" href="https://andrewandrade.ca/assets/0.1-past-present-becoming.pdf">Open PDF</a>
     </div>
   </article>
 
@@ -110,17 +109,16 @@ The library intentionally links to **generic source materials**, not student sub
     data-courses="TAS|TEJ|TTJ"
     data-tags="listening|reflection|communication|community|presentation"
     data-search="the way we meet listening notes reflection presentation community connection communication">
-    <a class="bs-slide-thumb" href="https://docs.google.com/document/d/1hAmElSY8qL7bGIAtZ8gGLXHEDra1b5cYGd2k9jx8vsI/edit?usp=drivesdk" aria-label="Open The Way We Meet Listening Notes and Reflection">
+    <a class="bs-slide-thumb" href="https://andrewandrade.ca/assets/0.2-the-way-we-meet-notes.pdf" aria-label="Open The Way We Meet listening notes PDF">
       <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being</span><strong>0.2</strong><span>Listen + connect</span></span>
-      <img src="https://drive.google.com/thumbnail?id=1hAmElSY8qL7bGIAtZ8gGLXHEDra1b5cYGd2k9jx8vsI&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
     </a>
     <div class="bs-slide-card-body">
       <p class="bs-slide-card-collection">Human Well-Being</p>
-      <h2 class="bs-slide-card-title"><a href="https://docs.google.com/document/d/1hAmElSY8qL7bGIAtZ8gGLXHEDra1b5cYGd2k9jx8vsI/edit?usp=drivesdk">The Way We Meet: Listening Notes &amp; Reflection</a></h2>
+      <h2 class="bs-slide-card-title"><a href="https://andrewandrade.ca/assets/0.2-the-way-we-meet-notes.pdf">The Way We Meet: Listening Notes &amp; Reflection</a></h2>
       <p class="bs-slide-card-description">Listening notes and reflection prompts for learning about classmates, noticing connections, and practising attentive participation.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="listening">Listening</button><button type="button" data-slide-card-tag="reflection">Reflection</button><button type="button" data-slide-card-tag="community">Community</button></div>
-      <a class="bs-slide-open" href="https://docs.google.com/document/d/1hAmElSY8qL7bGIAtZ8gGLXHEDra1b5cYGd2k9jx8vsI/edit?usp=drivesdk">Open material</a>
+      <a class="bs-slide-open" href="https://andrewandrade.ca/assets/0.2-the-way-we-meet-notes.pdf">Open PDF</a>
     </div>
   </article>
 
@@ -128,18 +126,17 @@ The library intentionally links to **generic source materials**, not student sub
     data-collection="General"
     data-courses="TAS"
     data-tags="needs|necessities|nice-to-have|engineering design|requirements|communication"
-    data-search="name tag needs assessment necessities nice to haves requirements engineering design process TAS">
-    <a class="bs-slide-thumb" href="https://docs.google.com/document/d/1E7Io8pd1ZfymHki94Jnn5-1JUzcM5wrODzr5hTEjoa8/edit?usp=drivesdk" aria-label="Open Name Tag Needs Assessment">
-      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">General</span><strong>N</strong><span>Needs + necessities</span></span>
-      <img src="https://drive.google.com/thumbnail?id=1E7Io8pd1ZfymHki94Jnn5-1JUzcM5wrODzr5hTEjoa8&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
+    data-search="name tag needs assessment worked example necessities nice to haves requirements engineering design process TAS">
+    <a class="bs-slide-thumb" href="https://docs.google.com/document/d/1E7Io8pd1ZfymHki94Jnn5-1JUzcM5wrODzr5hTEjoa8/edit?usp=drivesdk" aria-label="Open Name Tag Needs Assessment worked example">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">General</span><strong>N</strong><span>Worked example</span></span>
     </a>
     <div class="bs-slide-card-body">
       <p class="bs-slide-card-collection">General</p>
-      <h2 class="bs-slide-card-title"><a href="https://docs.google.com/document/d/1E7Io8pd1ZfymHki94Jnn5-1JUzcM5wrODzr5hTEjoa8/edit?usp=drivesdk">Name Tag Needs Assessment</a></h2>
-      <p class="bs-slide-card-description">A simple design-process worksheet for identifying needs, requirements, necessities, restrictions, and useful extras.</p>
+      <h2 class="bs-slide-card-title"><a href="https://docs.google.com/document/d/1E7Io8pd1ZfymHki94Jnn5-1JUzcM5wrODzr5hTEjoa8/edit?usp=drivesdk">Name Tag Needs Assessment, Worked Example</a></h2>
+      <p class="bs-slide-card-description">A completed example showing facts, assumptions, requirements, restrictions, necessities, nice-to-haves, scores, and the reason behind each design need.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="needs">Needs</button><button type="button" data-slide-card-tag="necessities">Necessities</button><button type="button" data-slide-card-tag="engineering design">Engineering design</button></div>
-      <a class="bs-slide-open" href="https://docs.google.com/document/d/1E7Io8pd1ZfymHki94Jnn5-1JUzcM5wrODzr5hTEjoa8/edit?usp=drivesdk">Open material</a>
+      <a class="bs-slide-open" href="https://docs.google.com/document/d/1E7Io8pd1ZfymHki94Jnn5-1JUzcM5wrODzr5hTEjoa8/edit?usp=drivesdk">Open worked example</a>
     </div>
   </article>
 
@@ -148,14 +145,13 @@ The library intentionally links to **generic source materials**, not student sub
     data-courses="TAS"
     data-tags="needs|necessities|requirements|constraints|engineering design|planning"
     data-search="end of term celebration NICE worksheet needs necessities requirements restrictions constraints planning engineering design TAS">
-    <a class="bs-slide-thumb" href="https://docs.google.com/document/d/1NjqU14fbHXOqF4TcLscAD4cMvwVFL1gOJjMWn86-OzE/edit?usp=drivesdk" aria-label="Open End-of-Term Celebration NICE Worksheet">
-      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">General</span><strong>NICE</strong><span>Needs + constraints</span></span>
-      <img src="https://drive.google.com/thumbnail?id=1NjqU14fbHXOqF4TcLscAD4cMvwVFL1gOJjMWn86-OzE&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
+    <a class="bs-slide-thumb" href="https://docs.google.com/document/d/1NjqU14fbHXOqF4TcLscAD4cMvwVFL1gOJjMWn86-OzE/edit?usp=drivesdk" aria-label="Open N.I.C.E. Design Process Step 1 Needs Assessment template">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">General</span><strong>1</strong><span>Needs assessment</span></span>
     </a>
     <div class="bs-slide-card-body">
       <p class="bs-slide-card-collection">General</p>
-      <h2 class="bs-slide-card-title"><a href="https://docs.google.com/document/d/1NjqU14fbHXOqF4TcLscAD4cMvwVFL1gOJjMWn86-OzE/edit?usp=drivesdk">End-of-Term Celebration NICE Worksheet</a></h2>
-      <p class="bs-slide-card-description">A simple design brief for identifying facts, needs, necessities, nice-to-haves, requirements, and restrictions while planning a class celebration.</p>
+      <h2 class="bs-slide-card-title"><a href="https://docs.google.com/document/d/1NjqU14fbHXOqF4TcLscAD4cMvwVFL1gOJjMWn86-OzE/edit?usp=drivesdk">N.I.C.E. Design Process Step 1: Needs Assessment</a></h2>
+      <p class="bs-slide-card-description">End-of-term celebration example for separating facts from assumptions, identifying requirements and restrictions, and deciding which needs are necessities or nice-to-haves.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="needs">Needs</button><button type="button" data-slide-card-tag="requirements">Requirements</button><button type="button" data-slide-card-tag="engineering design">Engineering design</button></div>
       <a class="bs-slide-open" href="https://docs.google.com/document/d/1NjqU14fbHXOqF4TcLscAD4cMvwVFL1gOJjMWn86-OzE/edit?usp=drivesdk">Open template</a>
@@ -167,14 +163,13 @@ The library intentionally links to **generic source materials**, not student sub
     data-courses="TAS"
     data-tags="inquiry|research|brainstorming|compare solutions|improvement|engineering design"
     data-search="celebration research brainstorming inquiry investigate existing solutions compare improve engineering design TAS">
-    <a class="bs-slide-thumb" href="https://docs.google.com/document/d/1_a1V6ecPPywiNxMBiH2gyxDWQUfNZZUYa_sMOXsm9k4/edit?usp=drivesdk" aria-label="Open Celebration Research and Brainstorming Worksheet">
-      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">General</span><strong>?</strong><span>Inquiry + research</span></span>
-      <img src="https://drive.google.com/thumbnail?id=1_a1V6ecPPywiNxMBiH2gyxDWQUfNZZUYa_sMOXsm9k4&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
+    <a class="bs-slide-thumb" href="https://docs.google.com/document/d/1_a1V6ecPPywiNxMBiH2gyxDWQUfNZZUYa_sMOXsm9k4/edit?usp=drivesdk" aria-label="Open N.I.C.E. Design Process Step 2 Investigation and Inquiry template">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">General</span><strong>2</strong><span>Inquiry + research</span></span>
     </a>
     <div class="bs-slide-card-body">
       <p class="bs-slide-card-collection">General</p>
-      <h2 class="bs-slide-card-title"><a href="https://docs.google.com/document/d/1_a1V6ecPPywiNxMBiH2gyxDWQUfNZZUYa_sMOXsm9k4/edit?usp=drivesdk">Celebration Research &amp; Brainstorming Worksheet</a></h2>
-      <p class="bs-slide-card-description">An inquiry worksheet for finding existing ideas, comparing what works, identifying problems, and adapting a solution to the class needs.</p>
+      <h2 class="bs-slide-card-title"><a href="https://docs.google.com/document/d/1_a1V6ecPPywiNxMBiH2gyxDWQUfNZZUYa_sMOXsm9k4/edit?usp=drivesdk">N.I.C.E. Design Process Step 2: Investigation and Inquiry</a></h2>
+      <p class="bs-slide-card-description">End-of-term celebration worksheet for asking useful questions, investigating existing solutions, comparing them against the needs, brainstorming, and improving an idea.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="inquiry">Inquiry</button><button type="button" data-slide-card-tag="research">Research</button><button type="button" data-slide-card-tag="brainstorming">Brainstorming</button></div>
       <a class="bs-slide-open" href="https://docs.google.com/document/d/1_a1V6ecPPywiNxMBiH2gyxDWQUfNZZUYa_sMOXsm9k4/edit?usp=drivesdk">Open template</a>
@@ -182,94 +177,20 @@ The library intentionally links to **generic source materials**, not student sub
   </article>
 
   <article class="bs-slide-card" data-slide-card
-    data-collection="General"
-    data-courses="TEJ"
-    data-tags="significant figures|measurement|precision|rounding|mathematics|electronics"
-    data-search="significant figures significant digits practice examples measurement precision rounding electronics math mathematics TEJ">
-    <a class="bs-slide-thumb" href="https://drive.google.com/file/d/1FrbYFY_hypF37NgzkmfchK1WlQCgd17c/view?usp=drivesdk" aria-label="Open Significant Figures and More Practice Examples">
-      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">General</span><strong>1.0</strong><span>Significant figures</span></span>
-      <img src="https://drive.google.com/thumbnail?id=1FrbYFY_hypF37NgzkmfchK1WlQCgd17c&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
-    </a>
-    <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">General</p>
-      <h2 class="bs-slide-card-title"><a href="https://drive.google.com/file/d/1FrbYFY_hypF37NgzkmfchK1WlQCgd17c/view?usp=drivesdk">Significant Figures and More Practice Examples</a></h2>
-      <p class="bs-slide-card-description">Practice with significant figures, accuracy, precision, rounding, and reporting measured values.</p>
-      <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TEJ">TEJ</button></div>
-      <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="significant figures">Significant figures</button><button type="button" data-slide-card-tag="measurement">Measurement</button><button type="button" data-slide-card-tag="precision">Precision</button></div>
-      <a class="bs-slide-open" href="https://drive.google.com/file/d/1FrbYFY_hypF37NgzkmfchK1WlQCgd17c/view?usp=drivesdk">Open material</a>
-    </div>
-  </article>
-
-  <article class="bs-slide-card" data-slide-card
-    data-collection="General"
-    data-courses="TEJ"
-    data-tags="powers of 10|scientific notation|engineering notation|metric prefixes|mathematics|electronics"
-    data-search="scientific notation engineering notation metric prefixes powers of 10 SI conversion electronics math mathematics TEJ">
-    <a class="bs-slide-thumb" href="https://drive.google.com/file/d/16lpCdfVuxfn0FONmbQmw4yEpsVB0inJO/view?usp=drivesdk" aria-label="Open Scientific Notation Engineering Notation and Metric Prefixes">
-      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">General</span><strong>10³</strong><span>Notation + prefixes</span></span>
-      <img src="https://drive.google.com/thumbnail?id=16lpCdfVuxfn0FONmbQmw4yEpsVB0inJO&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
-    </a>
-    <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">General</p>
-      <h2 class="bs-slide-card-title"><a href="https://drive.google.com/file/d/16lpCdfVuxfn0FONmbQmw4yEpsVB0inJO/view?usp=drivesdk">Scientific Notation, Engineering Notation and Metric Prefixes</a></h2>
-      <p class="bs-slide-card-description">Practice moving between powers of ten, scientific notation, engineering notation, and common SI prefixes.</p>
-      <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TEJ">TEJ</button></div>
-      <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="powers of 10">Powers of 10</button><button type="button" data-slide-card-tag="scientific notation">Scientific notation</button><button type="button" data-slide-card-tag="metric prefixes">Metric prefixes</button></div>
-      <a class="bs-slide-open" href="https://drive.google.com/file/d/16lpCdfVuxfn0FONmbQmw4yEpsVB0inJO/view?usp=drivesdk">Open material</a>
-    </div>
-  </article>
-
-  <article class="bs-slide-card" data-slide-card
-    data-collection="Human Well-Being"
-    data-courses="TAS|TEJ|TTJ"
-    data-tags="identity|presentation|communication|introductory|self-expression"
-    data-search="about me presentation identity communication introduction self expression source package">
-    <a class="bs-slide-thumb" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-presentation.qmd" aria-label="Open About Me Presentation source package">
-      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being · Source</span><strong>ME</strong><span>Identity + presentation</span></span>
-    </a>
-    <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">Human Well-Being</p>
-      <h2 class="bs-slide-card-title"><a href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-presentation.qmd">About Me Presentation Package</a></h2>
-      <p class="bs-slide-card-description">Regenerable source for a short, genuine introduction activity focused on communication rather than performance or polish.</p>
-      <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
-      <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="identity">Identity</button><button type="button" data-slide-card-tag="presentation">Presentation</button><button type="button" data-slide-card-tag="communication">Communication</button></div>
-      <a class="bs-slide-open" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-presentation.qmd">Open source package</a>
-    </div>
-  </article>
-
-  <article class="bs-slide-card" data-slide-card
-    data-collection="Human Well-Being"
-    data-courses="TAS|TEJ|TTJ"
-    data-tags="listening|reflection|community|communication|presentation"
-    data-search="about me listening notes listening reflection community presentation source package">
-    <a class="bs-slide-thumb" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-listening-notes.qmd" aria-label="Open About Me Listening Notes source package">
-      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being · Source</span><strong>LISTEN</strong><span>Notice + connect</span></span>
-    </a>
-    <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">Human Well-Being</p>
-      <h2 class="bs-slide-card-title"><a href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-listening-notes.qmd">About Me Listening Notes</a></h2>
-      <p class="bs-slide-card-description">Regenerable listening-note source for noticing what another person shares and recording a connection or question.</p>
-      <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
-      <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="listening">Listening</button><button type="button" data-slide-card-tag="reflection">Reflection</button><button type="button" data-slide-card-tag="community">Community</button></div>
-      <a class="bs-slide-open" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-listening-notes.qmd">Open source package</a>
-    </div>
-  </article>
-
-  <article class="bs-slide-card" data-slide-card
     data-collection="Human Well-Being"
     data-courses="TAS|TEJ|TTJ"
     data-tags="goals|reflection|progress|self-regulation|planning"
-    data-search="weekly smart goal progress log goals reflection progress self regulation planning source package">
-    <a class="bs-slide-thumb" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/weekly-smart-goal-progress-log.qmd" aria-label="Open Weekly SMART Goal Progress Log source package">
-      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being · Source</span><strong>GOAL</strong><span>Plan + reflect</span></span>
+    data-search="weekly smart goal progress log goals reflection progress self regulation planning">
+    <a class="bs-slide-thumb" href="https://andrewandrade.ca/assets/weekly-smart-goal-progress-log.pdf" aria-label="Open Weekly SMART Goal Progress Log PDF">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being</span><strong>GOAL</strong><span>Plan + reflect</span></span>
     </a>
     <div class="bs-slide-card-body">
       <p class="bs-slide-card-collection">Human Well-Being</p>
-      <h2 class="bs-slide-card-title"><a href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/weekly-smart-goal-progress-log.qmd">Weekly SMART Goal Progress Log</a></h2>
-      <p class="bs-slide-card-description">A reusable goal-setting and progress-reflection package with printable and Word-oriented variants in the source collection.</p>
+      <h2 class="bs-slide-card-title"><a href="https://andrewandrade.ca/assets/weekly-smart-goal-progress-log.pdf">Weekly SMART Goal Progress Log</a></h2>
+      <p class="bs-slide-card-description">A reusable goal-setting and progress-reflection log for planning, monitoring learning, and recording formative next steps.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="goals">Goals</button><button type="button" data-slide-card-tag="reflection">Reflection</button><button type="button" data-slide-card-tag="progress">Progress</button></div>
-      <a class="bs-slide-open" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/weekly-smart-goal-progress-log.qmd">Open source package</a>
+      <a class="bs-slide-open" href="https://andrewandrade.ca/assets/weekly-smart-goal-progress-log.pdf">Open PDF</a>
     </div>
   </article>
 
