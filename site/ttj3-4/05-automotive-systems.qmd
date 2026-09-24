@@ -1,6 +1,6 @@
 ---
 title: "5. Automotive Systems"
-subtitle: "TTJ3C / TTJ4C :: VEHICLE SYSTEMS"
+subtitle: "TTS :: VEHICLE SYSTEMS"
 sidebar: ttj
 page-layout: article
 toc: true
