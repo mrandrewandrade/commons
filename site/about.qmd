@@ -46,11 +46,11 @@ After moving back to Mississauga following time living abroad, kiteboarding beca
 
 I now volunteer, guest speak, and run workshops with a variety of organizations, but I spend the most time contributing to my local parish in Mississauga. I am of **Goan Catholic heritage**, and I have helped with children's programs including First Holy Communion and with liturgy involving exceptional individuals.
 
-I take my own beliefs seriously while also trying to study other philosophies and religious traditions with respect. That helps me understand more of the people I teach and work with, and gives me more ways to think about learning, discipline, community, service, attention, and human wellness. More recently, I have been training in **Gong Fu and Qigong** with the [Chung Wah Kung Fu International System](https://www.chungwahkungfu.com/) and the [Human Wellness and Recuperation Centre](https://www.chungwahhealth.com/).
+I take my own beliefs seriously while also trying to study other philosophies and religious traditions with respect. That helps me understand more of the people I teach and work with, and gives me more ways to think about learning, discipline, community, service, attention, and human well-being. More recently, I have been training in **Gong Fu and Qigong** with the [Chung Wah Kung Fu International System](https://www.chungwahkungfu.com/) and the [Human Wellness and Recuperation Centre](https://www.chungwahhealth.com/).
 
-## Why this should be open-source and free
+## Why this is open-source and free
 
-The goal is simple: useful teaching and learning material should be **open-source, free to access, and easy to adapt**. Learners, educators, and anyone else who can use it should not have to pay for basic knowledge or depend on access to a single classroom, platform, or account.
+The goal is simple: useful teaching and learning material is **open-source, free to access, and easy to adapt**. Learners, educators, and anyone else who can use it can access basic knowledge without a paywall or dependence on a single classroom, platform, or account.
 
 This approach is influenced by open education projects such as Tony R. Kuphaldt's [Socratic Electronics](https://www.ibiblio.org/kuphaldt/socratic/), which emphasizes learning through questions, research, discussion, explaining ideas to others, and developing the ability to teach yourself.
 
@@ -63,7 +63,7 @@ These are not meant to collapse different religions or philosophies into one sys
 - **Paul Cormier / Indigenous learning methodology:** [**Kinoo'amaadawaad Megwaa Doodamawaad**](https://www.lakeheadu.ca/users/C/pcormier), translated by Cormier as **“they are learning with each other while they are doing.”** I want that idea to shape these notes: students learn with one another while doing real work, and the documentation grows from that work.
 - **Confucianism:** [learn something, then practise it](https://confucius-analects.org/en/books/01/01/). Learning is not complete when something has merely been heard or read.
 - **Daoism:** [a long journey begins beneath your feet](https://taoism.net/tao-te-ching-chapter-64/). Large work starts from what is small and present, and care at the end matters as much as enthusiasm at the beginning.
-- **The Way:** I use *the Way* here in a broad, non-doctrinal sense: work with things as they are and let the path become clearer through practice. Try to meet the work non-judgmentally, do one thing mindfully, act effectively, and accept what is present without becoming attached to a particular outcome. Different traditions use the idea of a way or path differently, and those differences matter.
+- **The Way:** I use *the Way* here in a broad, non-doctrinal sense: being present with things as they are, without judgement, and letting the path become clearer through practice. The focus is on being rather than constantly reaching for the next outcome: doing one thing mindfully, acting effectively, accepting what is present, and working without attachment to a particular result. This also connects to well-being as something lived and practised across the physical, mental, spiritual, and emotional parts of a person. Different traditions use the idea of a way or path differently, and those differences matter.
 - **Spirit:** Spirit can describe something carried within a person, but also something strengthened between people: school spirit, team spirit, community spirit. It can grow through belonging, responsibility, shared effort, service, and the feeling that your work is connected to something larger than yourself.
 - **Stoicism:** Epictetus treats education as more than book knowledge; character and judgement are developed through [repeated practice and self-correction](https://plato.stanford.edu/entries/epictetus/).
 - **Epicureanism:** Epicurus places unusual weight on [friendship as part of a good life](https://www.zhaibian.com/quotes/epicurus-on-friendship). Learning is easier to sustain when people enjoy doing worthwhile things together.
@@ -254,9 +254,9 @@ Blue still connects the system to Port Credit and SciTech, but the working blues
 :::
 :::
 
-### Wellness and shoreline greens
+### Well-being and shoreline greens
 
-Green is for wellness, reflection, positive progress, environmental themes, and calmer technical material. These colours remain earthy rather than bright.
+Green is for well-being, reflection, positive progress, environmental themes, and calmer technical material. These colours remain earthy rather than bright.
 
 ::: {.brand-swatch-grid}
 ::: {.brand-swatch style="--swatch:#2F6B4F"}
@@ -398,7 +398,7 @@ These values are retained for faithful reproduction and documentation of the sup
 | **Port Credit** | Port Credit Navy + Sail White + Warm Gold + Copper |
 | **SciTech** | SciTech Navy + Harbour Blue + Sail White + Warm Gold |
 | **Technical** | Lighthouse Ink + Sail White + Harbour Blue + Copper |
-| **Wellness** | Harbour Navy + Sail White + Evergreen + Sea Glass |
+| **Well-being** | Harbour Navy + Sail White + Evergreen + Sea Glass |
 | **Community / reflection** | Harbour Navy + Sail White + Community Plum + Sunrise Orange |
 | **Warm utility** | Harbour Navy + Harbour Ivory + Signal Amber + Dark Copper |
 | **Urgent / important** | Lighthouse Ink + Sail White + Beacon Red, used sparingly |
