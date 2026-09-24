@@ -16,6 +16,8 @@ project:
     - assets/bs-research-index.js
     - assets/bs-glossary.js
     - assets/commons-lore.js
+    - assets/teacher-slides.js
+    - assets/teacher-slides.css
     - assets/bs-glossary-lookup.json
     - "assets/lore/**"
 
@@ -40,7 +42,7 @@ website:
         text: TEJ3/4
       - href: ttj3-4/index.qmd
         text: TTJ3/4
-      - text: Slides
+      - text: Class Slides
         menu:
           - text: TAS
             href: slides/tas.qmd
@@ -55,6 +57,8 @@ website:
       - href: glossary/index.qmd
         text: Glossary
     right:
+      - href: teacher-slides/index.qmd
+        text: Teacher Slides
       - href: wellbeing/index.qmd
         text: Well-being
       - href: lore/index.qmd
