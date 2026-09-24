@@ -18,7 +18,7 @@ format:
 
 ::: {.ter-about-intro}
 ::: {.ter-about-portrait}
-![](assets/about/andrew-linkedin.jpg){fig-alt="Andrew Andrade" loading="lazy"}
+![](assets/about/andrade-collage.png){fig-alt="Collage of Andrew Andrade teaching, technology, sport, and community activities" loading="lazy"}
 :::
 
 ::: {.ter-about-intro-copy}
@@ -30,17 +30,19 @@ The resources are organized around Ontario's [Technological Education curriculum
 :::
 :::
 
+::: {.callout-note}
+## Work in progress and public contributions
+
+This site is a living collection of teaching materials. It may contain errors, omissions, outdated information, and areas with significant room for improvement. If you find something that can be corrected or improved, please [open an issue](https://github.com/mrandrewandrade/tech-edu-resources/issues) or [submit a pull request](https://github.com/mrandrewandrade/tech-edu-resources/pulls).
+
+The GitHub repository, issues, pull requests, comments, and commit history are public. **Do not post student information, personal information, confidential school or board information, account information, or other sensitive material.** Review and redact your contribution before publishing it. Contributors are responsible for the information they choose to place in a public GitHub contribution; this project cannot protect information that someone has chosen to publish publicly.
+:::
+
 ## A little background
 
 Before teaching at Port Credit, I worked at Palantir, ran a startup called PetroPredict, and completed internships at Facebook, Suncor, and several smaller technology companies. Earlier, while I was still in high school, I worked as a lifeguard and deck supervisor with the City of Mississauga and in a machine shop after a co-op placement.
 
 Outside work and school, I was a sponsored kiteboarder for **Switch Kites** and have been an avid **box lacrosse** player. Kiteboarding was a major part of my life and shaped how I think about practice, judgement, risk, feedback, equipment, weather, failure, and learning from people who have different skills, knowledge, and wisdom from you.
-
-::: {.ter-kite-grid}
-![](assets/about/kiteboarding-air.jpg){fig-alt="Andrew Andrade kiteboarding over the shoreline" loading="lazy"}
-
-![](assets/about/kiteboarding-board.jpg){fig-alt="Andrew Andrade kiteboarding with the board in the foreground" loading="lazy"}
-:::
 
 After moving back to Mississauga following time living abroad, kiteboarding became something I could realistically do only a few times a year. I needed other ways to keep learning with people, contributing to communities, and doing things that require practice.
 
@@ -81,60 +83,20 @@ The common thread is not that these traditions are identical. It is that many ve
 
 The religious, spiritual, philosophical, and cultural references above describe ideas I study and influences I find useful. They are **not belief requirements for students**. Students are not expected to adopt, reject, defend, or disclose a religious, spiritual, Indigenous, philosophical, or non-religious belief. Classroom reflection can remain secular and can use interests, projects, community, culture, technical work, or another non-sensitive point of reference. Agreement with a belief is never assessed.
 
-## Well-being, mindfulness, and professional boundaries
-
-Mindfulness and well-being activities on this site are **educational classroom practices, not therapy, counselling, diagnosis, or mental-health treatment**. They may appear as brief start-up activities, pauses, check-ins, or reflections that support attention, self-regulation, readiness to learn, reflection, and awareness of physical, mental, spiritual, and emotional well-being. They sit alongside and around the curriculum as part of the learning environment rather than as therapeutic assignments.
-
-These activities fit the promotion end of PDSB's tiered mental-health model. PDSB's **2026-2029 Mental Health and Addictions Strategy** describes Tier 1 as positive mental-health and well-being promotion for all students through inclusive learning environments, social-emotional learning, and stigma reduction. Specialized consultation, assessment, family support, and therapeutic services sit at Tier 3 with appropriate mental-health professionals. The public [PDSB Mental Health and Well-Being](https://www.peelschools.org/mental-health-and-well-being) page is the starting point for current board resources and pathways to care.
-
-Students are not asked to diagnose themselves or others, disclose private mental-health information, or participate in therapy as coursework. Personal disclosure, emotional intensity, or the private details of a student's life are not a basis for assessment. Where reflection is assessed, the evidence is the curriculum learning or observable learning process identified in the task, not a student's mental-health status or willingness to reveal personal information.
-
-### Referral and pathways to care
-
-If a student asks for mental-health help, or a concern moves beyond ordinary classroom support, the role moves from classroom learning to connection and referral. Depending on the situation, that pathway can include **Guidance or Student Services, school administration, the School Support Team, PDSB social work or psychology services, parents or caregivers, and community or regulated health professionals**. PDSB's current strategy calls for clear pathways to both school and community supports.
-
-The teacher's role is to notice, listen, respond appropriately, maintain professional boundaries, reduce stigma, and connect students with the people whose role and training fit the concern. It does not include diagnosing a condition or providing treatment. This reflects the Ontario College of Teachers' [Supporting Students' Mental Health](https://www.oct.ca/en-ca/for-members/professional-advisories/supporting-students-mental-health) advisory, including its direction to observe, listen, inform, and involve others rather than counsel outside the educator's role and training.
-
-Students are not promised absolute confidentiality. When safety, suspected abuse or neglect, self-harm, threats, or another reporting obligation is involved, applicable school and board procedures, emergency protocols, and the OCT [Duty to Report](https://www.oct.ca/en-ca/for-members/professional-advisories/duty-to-report) advisory govern the response. Professional relationships and communications also follow the OCT [Professional Boundaries](https://www.oct.ca/en-ca/for-members/professional-advisories/professional-boundaries) advisory and the [Professional Standards](https://www.oct.ca/en-ca/public-protection/professional-standards).
-
-## AI, privacy, and digital tools
-
-AI can be used as an iterative learning partner for activities such as brainstorming, inquiry, coding, accessibility, drafting, feedback, and reflection on process when the task permits it. It does not replace professional judgement or reliable evidence of student learning. Assignment-specific directions identify what AI assistance is permitted and how it is attributed. Students may be asked to retain prompts and relevant outputs as evidence of process, while keeping personal and sensitive information out of those prompts.
-
-**Confidential or sensitive student information is not entered into public or unapproved AI tools.** This includes student names or numbers, school account information, identifiable student work, grades, IEP or accommodation information, health or mental-health information, family circumstances, images or recordings, and other personal information. Student-facing third-party software use follows current PDSB approval, privacy, age, notice, and consent requirements.
-
-PDSB's published **2023 interim guidance** on [Artificial Intelligence in Education](https://peel.cmdesign.imagineeverything.com/documents/44209b84-2fb8-4cf0-8011-33a754cc3b2e/7.4%20AI%20and%20Plagiarism%20for%20Staff.pdf) emphasizes transparency, privacy, verification of AI output, attribution, protection of confidential student data, and caution with AI-detection tools. Because AI tools, approvals, and board requirements change, **current PDSB approved-tool, privacy, and instructional requirements take precedence over that interim document**. The [PDSB Privacy and Terms](https://www.peelschools.org/privacy-and-terms) page provides the board's public privacy information. Ontario's [O. Reg. 52/26](https://www.ontario.ca/laws/regulation/260052), in force July 1, 2026, also requires school-board notice when student personal digital information is disclosed to qualifying third-party software applications.
-
-AI-generated or AI-assisted educational material is reviewed for factual accuracy, context, bias, accessibility, privacy, and copyright before use. AI-detection output is not treated as proof by itself.
-
-## Student privacy on this public site
-
-This site publishes **generic teaching resources, not student records or routine student submissions**. Student names, student numbers, contact information, grades, IEP or accommodation information, health information, and other private student data remain in board-approved systems. Identifiable student work, images, stories, or recordings are published only when the applicable permission, consent, and board requirements have been addressed.
-
-## Technical safety and supervision
-
-Technological Education resources can involve tools, machinery, electrical systems, batteries, vehicles, lifting, fabrication, chemicals, heat, and other hazards. Material on this site is an **instructional aid, not stand-alone authorization to perform a procedure**. Current school and PDSB safety procedures, manufacturer instructions, equipment manuals, safety data sheets, required personal protective equipment, inspection and maintenance requirements, training or certification, teacher supervision, and applicable law govern the work.
-
-Students use tools, machinery, vehicles, electrical equipment, and other hazardous systems only when the activity has been authorized and the required instruction, supervision, guards, protective equipment, and safety controls are in place. If the actual equipment, environment, procedure, or safety conditions differ from a resource, the activity stops and the situation is reassessed using the applicable official procedure.
-
-## Relationship to official requirements
-
-Technological Education Resources is an independently maintained collection of teaching materials, not a substitute for official PDSB, school, Ministry of Education, Ontario College of Teachers, or legal requirements. Where a resource conflicts with a current official requirement, **the current official requirement governs**.
-
 ## Open licences and attribution
 
 Original educational text, lessons, diagrams, slides, and explanatory material on this site are released under **[Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**.
 
-**Please copy them, adapt them, and make them yours.** The point of publishing them openly is for the material to be useful somewhere else. When you reuse or adapt something, provide attribution, identify the original source, and share the adaptation under the same or a compatible licence.
-
-Please include both of these original-source references in the attribution:
+**Share, adapt, and pass it on.** You may copy, modify, remix, and redistribute the original educational material under **CC BY-SA 4.0**. Any modified or adapted version of that material must remain under the **same CC BY-SA 4.0 licence**, identify that changes were made, and preserve attribution to the original source:
 
 - [andrewandrade.ca](https://andrewandrade.ca/)
 - [github.com/mrandrewandrade](https://github.com/mrandrewandrade)
 
+When you modify or adapt the work, you can also add **your own name, website, repository, and links** so later versions can credit your contribution too. Each version can carry the people who improved it forward while keeping the original attribution and open licence intact. Because adaptations remain under the same share-alike licence, the work remains shareable and adaptable as it changes. **Sharing is caring.**
+
 A useful attribution is:
 
-> Based on **Technological Education Resources** by Andrew Andrade and contributors, originally published at **andrewandrade.ca** with source at **github.com/mrandrewandrade**. Licensed under **CC BY-SA 4.0**. Changes were made.
+> Based on **Technological Education Resources** by Andrew Andrade and contributors, originally published at **andrewandrade.ca** with source at **github.com/mrandrewandrade**. Licensed under **CC BY-SA 4.0**. Modified by **[your name]**, **[your link]**. Changes were made.
 
 
 Original website code, scripts, build tooling, and other executable materials are released under the **[GNU Affero General Public License v3](https://www.gnu.org/licenses/agpl-3.0.html)**. In plain language, the AGPL lets people use, study, modify, and redistribute the code. If someone distributes a modified version, or runs a modified version as a network service that other people interact with, they must make the corresponding source code available under the same AGPL licence. It is a copyleft licence intended to keep shared software and improvements to it open.
@@ -498,6 +460,48 @@ Older treatment retained for historical material and design-history reference.
 Keep the supplied proportions and colours. Do not stretch, skew, add effects, or casually recolour school marks. When possible, use transparent source files rather than extracting logos from screenshots.
 
 Technological Education Resources can sit beside these marks without implying that every page or resource is an official publication of Port Credit Secondary School or the Peel District School Board.
+
+## Well-being, mindfulness, and professional boundaries
+
+Mindfulness and well-being activities on this site are **educational classroom practices, not therapy, counselling, diagnosis, or mental-health treatment**. They may appear as brief start-up activities, pauses, check-ins, or reflections that support attention, self-regulation, readiness to learn, reflection, and awareness of physical, mental, spiritual, and emotional well-being. They sit alongside and around the curriculum as part of the learning environment rather than as therapeutic assignments.
+
+These activities fit the promotion end of PDSB's tiered mental-health model. PDSB's **2026-2029 Mental Health and Addictions Strategy** describes Tier 1 as positive mental-health and well-being promotion for all students through inclusive learning environments, social-emotional learning, and stigma reduction. Specialized consultation, assessment, family support, and therapeutic services sit at Tier 3 with appropriate mental-health professionals. The public [PDSB Mental Health and Well-Being](https://www.peelschools.org/mental-health-and-well-being) page is the starting point for current board resources and pathways to care.
+
+Students are not asked to diagnose themselves or others, disclose private mental-health information, or participate in therapy as coursework. Personal disclosure, emotional intensity, or the private details of a student's life are not a basis for assessment. Where reflection is assessed, the evidence is the curriculum learning or observable learning process identified in the task, not a student's mental-health status or willingness to reveal personal information.
+
+### Referral and pathways to care
+
+If a student asks for mental-health help, or a concern moves beyond ordinary classroom support, the role moves from classroom learning to connection and referral. Depending on the situation, that pathway can include **Guidance or Student Services, school administration, the School Support Team, PDSB social work or psychology services, parents or caregivers, and community or regulated health professionals**. PDSB's current strategy calls for clear pathways to both school and community supports.
+
+The teacher's role is to notice, listen, respond appropriately, maintain professional boundaries, reduce stigma, and connect students with the people whose role and training fit the concern. It does not include diagnosing a condition or providing treatment. This reflects the Ontario College of Teachers' [Supporting Students' Mental Health](https://www.oct.ca/en-ca/for-members/professional-advisories/supporting-students-mental-health) advisory, including its direction to observe, listen, inform, and involve others rather than counsel outside the educator's role and training.
+
+Students are not promised absolute confidentiality. When safety, suspected abuse or neglect, self-harm, threats, or another reporting obligation is involved, applicable school and board procedures, emergency protocols, and the OCT [Duty to Report](https://www.oct.ca/en-ca/for-members/professional-advisories/duty-to-report) advisory govern the response. Professional relationships and communications also follow the OCT [Professional Boundaries](https://www.oct.ca/en-ca/for-members/professional-advisories/professional-boundaries) advisory and the [Professional Standards](https://www.oct.ca/en-ca/public-protection/professional-standards).
+
+## AI, privacy, and digital tools
+
+AI can be used as an iterative learning partner for activities such as brainstorming, inquiry, coding, accessibility, drafting, feedback, and reflection on process when the task permits it. It does not replace professional judgement or reliable evidence of student learning. Assignment-specific directions identify what AI assistance is permitted and how it is attributed. Students may be asked to retain prompts and relevant outputs as evidence of process, while keeping personal and sensitive information out of those prompts.
+
+**Confidential or sensitive student information is not entered into public or unapproved AI tools.** This includes student names or numbers, school account information, identifiable student work, grades, IEP or accommodation information, health or mental-health information, family circumstances, images or recordings, and other personal information. Student-facing third-party software use follows current PDSB approval, privacy, age, notice, and consent requirements.
+
+PDSB's published **2023 interim guidance** on [Artificial Intelligence in Education](https://peel.cmdesign.imagineeverything.com/documents/44209b84-2fb8-4cf0-8011-33a754cc3b2e/7.4%20AI%20and%20Plagiarism%20for%20Staff.pdf) emphasizes transparency, privacy, verification of AI output, attribution, protection of confidential student data, and caution with AI-detection tools. Because AI tools, approvals, and board requirements change, **current PDSB approved-tool, privacy, and instructional requirements take precedence over that interim document**. The [PDSB Privacy and Terms](https://www.peelschools.org/privacy-and-terms) page provides the board's public privacy information. Ontario's [O. Reg. 52/26](https://www.ontario.ca/laws/regulation/260052), in force July 1, 2026, also requires school-board notice when student personal digital information is disclosed to qualifying third-party software applications.
+
+AI-generated or AI-assisted educational material is reviewed for factual accuracy, context, bias, accessibility, privacy, and copyright before use. AI-detection output is not treated as proof by itself.
+
+## Student privacy on this public site
+
+This site publishes **generic teaching resources, not student records or routine student submissions**. Student names, student numbers, contact information, grades, IEP or accommodation information, health information, and other private student data remain in board-approved systems. Identifiable student work, images, stories, or recordings are published only when the applicable permission, consent, and board requirements have been addressed.
+
+## Technical safety and supervision
+
+**Documents on this site are not safety documentation and are not to be used as a substitute for safety instruction, safety procedures, certification, supervision, authorization, or official safety requirements.** I intend to avoid publishing stand-alone safety procedures here.
+
+For safety documentation and procedures, use current authoritative sources appropriate to the actual activity and equipment. These include the [Ontario Council for Technology Education (OCTE) Safety resources](https://octe.ca/resources/safety), your own school board and school safety procedures, employer requirements where applicable, manufacturer manuals and instructions, safety data sheets, applicable legislation and standards, and other official resources required for the setting.
+
+Where a task involves tools, machinery, electrical systems, batteries, vehicles, lifting, fabrication, chemicals, heat, or another hazard, the current official procedure for the actual equipment and environment governs.
+
+## Relationship to official requirements
+
+Technological Education Resources is an independently maintained collection of teaching materials, not a substitute for official PDSB, school, Ministry of Education, Ontario College of Teachers, or legal requirements. Where a resource conflicts with a current official requirement, **the current official requirement governs**.
 
 :::::
 ::::::
