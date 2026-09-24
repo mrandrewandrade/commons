@@ -1,26 +1,63 @@
 ---
 title: "0. Getting to Know You"
-description: "Personal identity, group identity, and the starting point for visual identity in TAS."
+description: "Personal identity, listening, communication, and group identity in TAS."
 ---
 
-> **These notes are unfinished intentionally.** Students will help build them as we document our work.
+> **These notes are unfinished intentionally.** They reflect what we have actually done so far and will grow from student contributions.
 
-## Personal identity
+## What we covered
 
-Start with the person before the product. What experiences, interests, places, communities, skills, values, and goals shape how you see yourself?
+### Course routines and Name Tag V1
 
-The goal is not to reduce identity to a logo. It is to notice what matters enough to communicate.
+We started with a simple design problem: make it easier for people in the room to know who you are.
 
-## Group identity
+That gave us an early example of a design requirement. A name tag has to communicate clearly before it can be decorative.
 
-Groups also develop identity through shared stories, symbols, colours, language, routines, and expectations.
+[Open the Day 1 slides](https://docs.google.com/presentation/d/13mZGVRNaV3wSsPbIsSpDiUbqsf3wodD9B2S4o3FlGfU/edit?usp=drivesdk)
 
-A useful design question is:
+### Personal identity
 
-**What should someone understand or feel when they encounter this group?**
+The next work asked a broader question: what would you want another person to understand about you?
 
-## From identity to visual identity
+We used the **About Me** work and **Past, Present & Becoming** to think about experiences, interests, communities, skills, and goals.
 
-Personal and group identity give us material for visual communication. We will eventually turn that thinking into marks, logos, typography, colour, and motion.
+[Open the Day 2 slides](https://docs.google.com/presentation/d/179KoqehzeFEvnHdgYRZquYr3VUNWWlUdBFc1gYwmJCw/edit?usp=drivesdk)
 
-That becomes the foundation for **Unit 3: Logo Design & Animation**.
+### Listening and learning about other people
+
+Identity is not only self-description. We also practised listening carefully while classmates presented and recording what we learned.
+
+[Open the Day 3 slides](https://docs.google.com/presentation/d/1kdgpkph9nl6B__hGIxhg0mZ9ToHrgKMQWiSujPfCHNs/edit?usp=drivesdk)
+
+### Technical description and communication
+
+We then shifted toward describing things clearly enough that another person could understand what we meant.
+
+That is an important technology skill: communication is part of the design.
+
+[Open the Day 4 slides](https://docs.google.com/presentation/d/1TYn09e61daKv3hc8gKJg6Q65Du8a3mTwboVOGYrdFog/edit?usp=drivesdk)
+
+### Funday Friday: Machine Charades
+
+We used machine charades as a low-stakes way to communicate an idea without relying only on words.
+
+## From personal identity to group identity
+
+A person has an identity, but groups do too.
+
+Groups develop shared:
+
+- stories
+- language
+- symbols
+- colours
+- routines
+- expectations
+
+That gives us a bridge from **personal identity** to **group identity**, and eventually to visual identity and logo design.
+
+## Materials used
+
+- [Past, Present & Becoming](../teaching-materials/index.qmd)
+- [The Way We Meet: Listening Notes & Reflection](../teaching-materials/index.qmd)
+- [Name Tag material](../teaching-materials/index.qmd)
