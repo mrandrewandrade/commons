@@ -28,19 +28,19 @@ Open classroom resources for Ontario Technological Education. The notes are inte
 ::::: {.bs-home-explore-list}
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
 <span class="bs-home-explore-copy"><span class="bs-home-explore-title">TAS Slides</span><span class="bs-home-explore-description">Chronological classroom slides for the work we have actually covered in TAS.</span></span>
-<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](slides/tas.qmd){.bs-home-explore-link .bs-home-explore-link--tas}
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](slides/tas.qmd){.bs-home-explore-link .bs-home-explore-link--tas .bs-home-explore-link--slides}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
 <span class="bs-home-explore-copy"><span class="bs-home-explore-title">TAS Notes</span><span class="bs-home-explore-description">Collaborative notes on identity, communication, Needs & Necessities, and Investigate & Inquire in the N.I.C.E. Design Process.</span></span>
-<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tas2/index.qmd){.bs-home-explore-link .bs-home-explore-link--tas}
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tas2/index.qmd){.bs-home-explore-link .bs-home-explore-link--tas .bs-home-explore-link--notes}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
 <span class="bs-home-explore-copy"><span class="bs-home-explore-title">TEJ Slides</span><span class="bs-home-explore-description">Chronological classroom slides for identity, communication, significant figures, notation, and metric prefixes.</span></span>
-<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](slides/tej.qmd){.bs-home-explore-link .bs-home-explore-link--tej}
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](slides/tej.qmd){.bs-home-explore-link .bs-home-explore-link--tej .bs-home-explore-link--slides}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
 <span class="bs-home-explore-copy"><span class="bs-home-explore-title">TEJ Notes</span><span class="bs-home-explore-description">Collaborative notes for the work completed so far and the current Measurement & Basic Circuits unit.</span></span>
-<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tej3-4/index.qmd){.bs-home-explore-link .bs-home-explore-link--tej}
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tej3-4/index.qmd){.bs-home-explore-link .bs-home-explore-link--tej .bs-home-explore-link--notes}
 :::::
 ::::::
 
@@ -50,7 +50,7 @@ Open classroom resources for Ontario Technological Education. The notes are inte
 ::::: {.bs-home-explore-list}
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
 <span class="bs-home-explore-copy"><span class="bs-home-explore-title">General Slides</span><span class="bs-home-explore-description">Search reusable presentations across technology, mathematics, science, business, arts, human wellness, and other subjects.</span></span>
-<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](teacher-slides/index.qmd){.bs-home-explore-link .bs-home-explore-link--resources}
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](teacher-slides/index.qmd){.bs-home-explore-link .bs-home-explore-link--resources .bs-home-explore-link--slides}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
 <span class="bs-home-explore-copy"><span class="bs-home-explore-title">General Materials</span><span class="bs-home-explore-description">Search reusable assignments, worksheets, templates, handouts, and regenerable source packages.</span></span>
