@@ -92,17 +92,16 @@ The library intentionally links to **generic source materials**, not student sub
     data-courses="TAS|TEJ|TTJ"
     data-tags="identity|reflection|goals|self-awareness|introductory"
     data-search="past present becoming identity reflection self awareness goals introductory about me">
-    <a class="bs-slide-thumb" href="https://drive.google.com/file/d/1aBMiF-y_dOAGTvv7Gl6qSdxapVUoDTfn/view?usp=drivesdk" aria-label="Open Past, Present and Becoming">
+    <a class="bs-slide-thumb" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-presentation.qmd" aria-label="Open Past, Present and Becoming">
       <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being</span><strong>0.1</strong><span>Past · present · becoming</span></span>
-      <img src="https://drive.google.com/thumbnail?id=1aBMiF-y_dOAGTvv7Gl6qSdxapVUoDTfn&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
     </a>
     <div class="bs-slide-card-body">
       <p class="bs-slide-card-collection">Human Well-Being</p>
-      <h2 class="bs-slide-card-title"><a href="https://drive.google.com/file/d/1aBMiF-y_dOAGTvv7Gl6qSdxapVUoDTfn/view?usp=drivesdk">Past, Present &amp; Becoming</a></h2>
-      <p class="bs-slide-card-description">An introductory identity and reflection activity connecting past experiences, the present, and what a learner hopes to become.</p>
+      <h2 class="bs-slide-card-title"><a href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-presentation.qmd">Past, Present &amp; Becoming</a></h2>
+      <p class="bs-slide-card-description">An introductory communication and reflection activity with explicit student choice, privacy, and non-disclosure safeguards.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="identity">Identity</button><button type="button" data-slide-card-tag="reflection">Reflection</button><button type="button" data-slide-card-tag="goals">Goals</button></div>
-      <a class="bs-slide-open" href="https://drive.google.com/file/d/1aBMiF-y_dOAGTvv7Gl6qSdxapVUoDTfn/view?usp=drivesdk">Open material</a>
+      <a class="bs-slide-open" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-presentation.qmd">Open updated source</a>
     </div>
   </article>
 
