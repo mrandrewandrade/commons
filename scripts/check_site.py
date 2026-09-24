@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Check local links, fragments, images, scripts and CSS in a rendered Commons site."""
+"""Check local links, fragments, images, scripts and CSS in the rendered TER site."""
 from __future__ import annotations
 
 import argparse
@@ -39,8 +39,14 @@ def check(root: Path) -> tuple[int, list[str]]:
         if url.scheme or url.netloc or href.startswith('#/'):
             return
         count += 1
-        target = (root / unquote(url.path).lstrip('/') if url.path.startswith('/')
-                  else source.parent / unquote(url.path)) if url.path else source
+        path_text = unquote(url.path)
+        site_base = '/tech-edu-resources'
+        if path_text == site_base:
+            path_text = '/'
+        elif path_text.startswith(site_base + '/'):
+            path_text = path_text[len(site_base):]
+        target = (root / path_text.lstrip('/') if path_text.startswith('/')
+                  else source.parent / path_text) if path_text else source
         target = target.resolve()
         if target.is_dir():
             target /= 'index.html'
