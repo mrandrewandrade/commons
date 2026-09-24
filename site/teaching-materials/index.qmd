@@ -16,10 +16,10 @@ execute:
 ::: {.bs-page-shell}
 ::: {.bs-reading-column}
 ::: {.bs-editorial-lead}
-Reusable assignment packages and classroom materials. These include teacher-created source files from the shared Classroom folders and regenerable packages migrated from the former assets repository.
+Reusable assignment packages and classroom materials. These include reusable templates from shared course folders and regenerable source packages maintained in this repository.
 :::
 
-The library intentionally links to **generic source materials**, not student submissions or student copies. **General** materials are broadly reusable across subjects and technology courses. **Human Wellness** materials focus on identity, reflection, listening, goal setting, community, and related learning routines.
+The library intentionally links to **generic source materials**, not student submissions or student copies. The linked Google Drive materials are shared for public commenting, and the repository packages can be inspected and adapted from source. **General** materials are broadly reusable across subjects and technology courses. **Human Wellness** materials focus on identity, reflection, listening, goal setting, community, and related learning routines.
 :::
 
 ```{=html}
@@ -51,7 +51,7 @@ The library intentionally links to **generic source materials**, not student sub
 
   <details class="bs-slide-filter-disclosure">
     <summary>Courses</summary>
-    <p class="bs-slide-filter-help">Filter by the first three letters of the Ontario course code where the material is directly useful.</p>
+    <p class="bs-slide-filter-help">Filter by the first three letters of an Ontario technology course code where the material is directly useful. Materials without a course tag are intended to be broader.</p>
     <div class="bs-slide-filter-buttons" data-slide-course-filters></div>
   </details>
 
