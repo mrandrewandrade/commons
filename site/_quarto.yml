@@ -40,6 +40,14 @@ website:
         text: TEJ3/4
       - href: ttj3-4/index.qmd
         text: TTJ3/4
+      - text: Slides
+        menu:
+          - text: TAS
+            href: slides/tas.qmd
+          - text: TEJ
+            href: slides/tej.qmd
+          - text: TTS
+            href: slides/tts.qmd
       - href: tools/index.qmd
         text: Tools
       - href: resources/index.qmd
