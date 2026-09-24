@@ -24,7 +24,12 @@
         button.type = "button";
         button.dataset[dataName] = entry[0];
         button.setAttribute("aria-pressed", "false");
-        const label = dataName === "slideCourse" ? entry[0].toUpperCase() : entry[0].replace(/\b\w/g, function (char) { return char.toUpperCase(); });\n        button.textContent = label + " ×" + entry[1];
+        const label = dataName === "slideCourse"
+          ? entry[0].toUpperCase()
+          : entry[0].replace(/\b\w/g, function (char) {
+              return char.toUpperCase();
+            });
+        button.textContent = label + " ×" + entry[1];
         container.appendChild(button);
       });
   }
