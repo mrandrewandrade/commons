@@ -1,6 +1,6 @@
 ---
 title: "Technological Education Resources"
-description: "Open classroom resources supporting the Ontario Technological Education curriculum, including course materials, slides, assignments, and reusable teaching resources."
+description: "Open Ontario Technological Education resources with current TAS and TEJ class slides, collaborative notes, reusable presentations, assignments, and teaching materials."
 page-layout: full
 toc: false
 format:
@@ -15,28 +15,54 @@ format:
 TECHNOLOGICAL EDUCATION RESOURCES
 :::
 
-<h1>Learn by doing and sharing with others.</h1>
+<h1>Learn by doing, with each other while doing.</h1>
 
 ::: {.bs-hero-copy}
-The way becomes clear through practice. The tools are here. Use what serves you.
+Open classroom resources for Ontario Technological Education. The notes are intentionally unfinished where the learning is still happening. Use what helps, improve what you can, and leave something useful for the next person.
 :::
 ::::::
 
-:::::: {.bs-home-explore aria-labelledby="bs-home-explore-title"}
-<h2 id="bs-home-explore-title">Choose where to start</h2>
+:::::: {.bs-home-explore aria-labelledby="bs-current-class-title"}
+<h2 id="bs-current-class-title">Current classes</h2>
 
 ::::: {.bs-home-explore-list}
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
-<span class="bs-home-explore-copy"><span class="bs-home-explore-title">TAS2O - Exploring Technologies</span><span class="bs-home-explore-description">Explore design, digital tools, fabrication, electronics, and how ideas become working objects.</span></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">TAS Slides</span><span class="bs-home-explore-description">Chronological classroom slides for the work we have actually covered in TAS.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](slides/tas.qmd){.bs-home-explore-link .bs-home-explore-link--tas}
+
+[<span class="bs-home-explore-icon" aria-hidden="true"></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">TAS Notes</span><span class="bs-home-explore-description">Collaborative notes on identity, communication, Needs & Necessities, and Investigate & Inquire in the N.I.C.E. Design Process.</span></span>
 <span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tas2/index.qmd){.bs-home-explore-link .bs-home-explore-link--tas}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
-<span class="bs-home-explore-copy"><span class="bs-home-explore-title">TEJ3M / TEJ4M - Computer Engineering Technology</span><span class="bs-home-explore-description">Work with computer systems, Linux, Git, Python, digital logic, data, and machine learning.</span></span>
-<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tej3-4/index.qmd){.bs-home-explore-link .bs-home-explore-link--tej}
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">TEJ Slides</span><span class="bs-home-explore-description">Chronological classroom slides for identity, communication, significant figures, notation, and metric prefixes.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](slides/tej.qmd){.bs-home-explore-link .bs-home-explore-link--tej}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
-<span class="bs-home-explore-copy"><span class="bs-home-explore-title">Lore</span><span class="bs-home-explore-description">Read what I am learning, testing, remembering, and carrying forward through teaching, engineering, making, and community.</span></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">TEJ Notes</span><span class="bs-home-explore-description">Collaborative notes for the work completed so far and the current Measurement & Basic Circuits unit.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tej3-4/index.qmd){.bs-home-explore-link .bs-home-explore-link--tej}
+:::::
+::::::
+
+:::::: {.bs-home-explore aria-labelledby="bs-reusable-title"}
+<h2 id="bs-reusable-title">Reusable across classrooms</h2>
+
+::::: {.bs-home-explore-list}
+[<span class="bs-home-explore-icon" aria-hidden="true"></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">General Slides</span><span class="bs-home-explore-description">Search reusable presentations across technology, mathematics, science, business, arts, human wellness, and other subjects.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](teacher-slides/index.qmd){.bs-home-explore-link .bs-home-explore-link--resources}
+
+[<span class="bs-home-explore-icon" aria-hidden="true"></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">General Materials</span><span class="bs-home-explore-description">Search reusable assignments, worksheets, templates, handouts, and regenerable source packages.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](teaching-materials/index.qmd){.bs-home-explore-link .bs-home-explore-link--resources}
+
+[<span class="bs-home-explore-icon" aria-hidden="true"></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">Lore</span><span class="bs-home-explore-description">Stories, experiments, reflections, technical investigations, and lessons carried forward from practice.</span></span>
 <span class="bs-home-explore-chevron" aria-hidden="true">›</span>](lore/index.qmd){.bs-home-explore-link .bs-home-explore-link--lore}
+
+[<span class="bs-home-explore-icon" aria-hidden="true"></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">About</span><span class="bs-home-explore-description">Why the resources are open, attribution and licensing, teaching influences, Port Credit roots, and the TER visual system.</span></span>
+<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](about.qmd){.bs-home-explore-link .bs-home-explore-link--about}
 :::::
 ::::::
 
