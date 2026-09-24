@@ -111,6 +111,16 @@ AI-generated or AI-assisted educational material is reviewed for factual accurac
 
 This site publishes **generic teaching resources, not student records or routine student submissions**. Student names, student numbers, contact information, grades, IEP or accommodation information, health information, and other private student data remain in board-approved systems. Identifiable student work, images, stories, or recordings are published only when the applicable permission, consent, and board requirements have been addressed.
 
+## Technical safety and supervision
+
+Technological Education resources can involve tools, machinery, electrical systems, batteries, vehicles, lifting, fabrication, chemicals, heat, and other hazards. Material on this site is an **instructional aid, not stand-alone authorization to perform a procedure**. Current school and PDSB safety procedures, manufacturer instructions, equipment manuals, safety data sheets, required personal protective equipment, inspection and maintenance requirements, training or certification, teacher supervision, and applicable law govern the work.
+
+Students use tools, machinery, vehicles, electrical equipment, and other hazardous systems only when the activity has been authorized and the required instruction, supervision, guards, protective equipment, and safety controls are in place. If the actual equipment, environment, procedure, or safety conditions differ from a resource, the activity stops and the situation is reassessed using the applicable official procedure.
+
+## Relationship to official requirements
+
+Technological Education Resources is an independently maintained collection of teaching materials, not a substitute for official PDSB, school, Ministry of Education, Ontario College of Teachers, or legal requirements. Where a resource conflicts with a current official requirement, **the current official requirement governs**.
+
 ## Open licences and attribution
 
 Original educational text, lessons, diagrams, slides, and explanatory material on this site are released under **[Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**.
