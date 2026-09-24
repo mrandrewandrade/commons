@@ -1,6 +1,6 @@
 ---
-title: "TTJ3C / TTJ4C - Transportation Technology"
-description: "Course home for TTJ3C and TTJ4C Transportation Technology."
+title: "TTS - Transportation Technology"
+description: "Course home for TTS Transportation Technology."
 page-layout: full
 toc: false
 format:
@@ -14,7 +14,7 @@ execute:
 ::: {.bs-page-shell}
 ::: {.bs-reading-column}
 ::: {.bs-lesson-preamble}
-TTJ3C and TTJ4C develop transportation and shop skills through measurement, CAD, fabrication, automotive systems, diagnosis, service, and documented project work.
+TTS develop transportation and shop skills through measurement, CAD, fabrication, automotive systems, diagnosis, service, and documented project work.
 :::
 
 ## Course path
