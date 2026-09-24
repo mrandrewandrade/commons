@@ -82,10 +82,12 @@ website:
           href: tej3-4/01-measurement-basic-circuits.qmd
   page-footer:
     left: |
-      Open educational resources by [Andrew Andrade](https://www.linkedin.com/in/andrewandrade) and contributors. Hosted on [GitHub Pages](https://github.com/mrandrewandrade/tech-edu-resources).
+      **CC BY-SA 4.0 · Share, modify, and redistribute.** Modified versions remain CC BY-SA 4.0 and attribute the original source: [andrewandrade.ca](https://andrewandrade.ca/) · [github.com/mrandrewandrade](https://github.com/mrandrewandrade). Add your own name and links when you adapt it so future versions can credit you too. **Sharing is caring.**
     center: |
-      Text: [CC BY-SA 4.0](https://andrewandrade.ca/tech-edu-resources/licensing.html), attribution and share-alike required. Code: [AGPL 3.0](https://andrewandrade.ca/tech-edu-resources/licensing.html), copyleft applies.
+      Website code: [AGPL 3.0](https://andrewandrade.ca/tech-edu-resources/licensing.html). Educational content: [CC BY-SA 4.0](https://andrewandrade.ca/tech-edu-resources/licensing.html).
     right:
+      - text: Licensing
+        href: licensing.qmd
       - text: About
         href: about.qmd
 
