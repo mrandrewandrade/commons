@@ -1,0 +1,199 @@
+---
+title: "Teacher Slides"
+subtitle: "Reusable classroom decks"
+description: "Search and filter reusable Google Slides for teaching, review, creativity, and student wellness."
+format:
+  html:
+    page-layout: full
+    toc: false
+    title-block-style: plain
+    body-classes: "bs-editorial-page bs-title-eyebrow bs-research-index bs-slide-library"
+    css: ../assets/teacher-slides.css
+execute:
+  enabled: false
+---
+
+::: {.bs-page-shell}
+::: {.bs-reading-column}
+::: {.bs-editorial-lead}
+Reusable slide decks for teachers. Search by topic, narrow the collection, or use the tags to find something quickly.
+:::
+
+General decks come from the shared **General** Drive folder. Student Wellness collects reusable activities and opening material that can work across courses.
+:::
+
+```{=html}
+<section class="bs-slide-library-controls" data-slide-controls aria-label="Filter teacher slides">
+  <div class="bs-slide-search-wrap">
+    <label class="bs-slide-control-label" for="teacher-slide-search">Search</label>
+    <input
+      id="teacher-slide-search"
+      class="bs-slide-search"
+      type="search"
+      placeholder="Search powers of 10, sketching, reflection..."
+      autocomplete="off"
+      data-slide-search>
+  </div>
+
+  <div class="bs-slide-select-wrap">
+    <label class="bs-slide-control-label" for="teacher-slide-collection">Collection</label>
+    <select id="teacher-slide-collection" class="bs-slide-select" data-slide-collection>
+      <option value="">All collections</option>
+      <option value="General">General</option>
+      <option value="Student Wellness">Student Wellness</option>
+    </select>
+  </div>
+
+  <div class="bs-slide-filter-group">
+    <p class="bs-slide-control-label">Topics</p>
+    <div class="bs-slide-tag-filters" data-slide-tag-filters></div>
+  </div>
+
+  <div class="bs-slide-filter-footer">
+    <p class="bs-slide-result-count" aria-live="polite" data-slide-result-count></p>
+    <button type="button" class="bs-slide-clear" data-slide-clear hidden>Clear filters</button>
+  </div>
+</section>
+
+<div class="bs-slide-grid" data-slide-grid>
+
+  <article
+    class="bs-slide-card"
+    data-slide-card
+    data-collection="General"
+    data-tags="powers of 10|metric prefixes|scientific notation|engineering notation|measurement|electronics"
+    data-search="powers of 10 metric prefixes scientific notation engineering notation measurement electronics powers prefixes exponents">
+    <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/1R83ueeAShw-97hP0p1humFnsE6BlQ09e-n96G387Yu4/edit?usp=drivesdk" aria-label="Open Powers of 10 and Metric Prefixes">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true">
+        <span class="bs-slide-thumb-kicker">General</span>
+        <strong>10<sup>n</sup></strong>
+        <span>Prefixes + notation</span>
+      </span>
+      <img
+        src="https://drive.google.com/thumbnail?id=1R83ueeAShw-97hP0p1humFnsE6BlQ09e-n96G387Yu4&sz=w1200"
+        alt=""
+        loading="lazy"
+        onerror="this.hidden=true">
+    </a>
+    <div class="bs-slide-card-body">
+      <p class="bs-slide-card-collection">General</p>
+      <h2 class="bs-slide-card-title">
+        <a href="https://docs.google.com/presentation/d/1R83ueeAShw-97hP0p1humFnsE6BlQ09e-n96G387Yu4/edit?usp=drivesdk">Powers of 10 and Metric Prefixes</a>
+      </h2>
+      <p class="bs-slide-card-description">Powers of ten, SI prefixes, and scientific and engineering notation for technology and electronics classes.</p>
+      <div class="bs-slide-card-tags" aria-label="Topics">
+        <button type="button" data-slide-card-tag="powers of 10">Powers of 10</button>
+        <button type="button" data-slide-card-tag="metric prefixes">Metric prefixes</button>
+        <button type="button" data-slide-card-tag="scientific notation">Scientific notation</button>
+      </div>
+      <a class="bs-slide-open" href="https://docs.google.com/presentation/d/1R83ueeAShw-97hP0p1humFnsE6BlQ09e-n96G387Yu4/edit?usp=drivesdk">Open Google Slides</a>
+    </div>
+  </article>
+
+  <article
+    class="bs-slide-card"
+    data-slide-card
+    data-collection="General"
+    data-tags="significant figures|measurement|precision|rounding|electronics|math"
+    data-search="significant figures sig figs measurement precision rounding electronics math review">
+    <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/1OzjY3_6Bzwwn2aOW3LG2lZzpOJBF4tZ_03eQTGXMlWw/edit?usp=drivesdk" aria-label="Open Significant Figures Review">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true">
+        <span class="bs-slide-thumb-kicker">General</span>
+        <strong>3.14</strong>
+        <span>Precision + sig figs</span>
+      </span>
+      <img
+        src="https://drive.google.com/thumbnail?id=1OzjY3_6Bzwwn2aOW3LG2lZzpOJBF4tZ_03eQTGXMlWw&sz=w1200"
+        alt=""
+        loading="lazy"
+        onerror="this.hidden=true">
+    </a>
+    <div class="bs-slide-card-body">
+      <p class="bs-slide-card-collection">General</p>
+      <h2 class="bs-slide-card-title">
+        <a href="https://docs.google.com/presentation/d/1OzjY3_6Bzwwn2aOW3LG2lZzpOJBF4tZ_03eQTGXMlWw/edit?usp=drivesdk">Significant Figures Review</a>
+      </h2>
+      <p class="bs-slide-card-description">A clean review deck for significant figures, measurement precision, rounding, and reporting values.</p>
+      <div class="bs-slide-card-tags" aria-label="Topics">
+        <button type="button" data-slide-card-tag="significant figures">Significant figures</button>
+        <button type="button" data-slide-card-tag="measurement">Measurement</button>
+        <button type="button" data-slide-card-tag="precision">Precision</button>
+      </div>
+      <a class="bs-slide-open" href="https://docs.google.com/presentation/d/1OzjY3_6Bzwwn2aOW3LG2lZzpOJBF4tZ_03eQTGXMlWw/edit?usp=drivesdk">Open Google Slides</a>
+    </div>
+  </article>
+
+  <article
+    class="bs-slide-card"
+    data-slide-card
+    data-collection="Student Wellness"
+    data-tags="zentangle|sketching|creativity|calm focus|drawing|design"
+    data-search="zentangle sketching creativity calm focus drawing design patterns tech easy examples wellness">
+    <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/1JsEdT6M2GLdKGlGTI9XF9-c-Y2xoe5KjYqFU2n0OL8I/edit?usp=drivesdk" aria-label="Open Zentangle Pattern Inspiration Loop">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true">
+        <span class="bs-slide-thumb-kicker">Student Wellness</span>
+        <strong>////</strong>
+        <span>Sketch + focus</span>
+      </span>
+      <img
+        src="https://drive.google.com/thumbnail?id=1JsEdT6M2GLdKGlGTI9XF9-c-Y2xoe5KjYqFU2n0OL8I&sz=w1200"
+        alt=""
+        loading="lazy"
+        onerror="this.hidden=true">
+    </a>
+    <div class="bs-slide-card-body">
+      <p class="bs-slide-card-collection">Student Wellness</p>
+      <h2 class="bs-slide-card-title">
+        <a href="https://docs.google.com/presentation/d/1JsEdT6M2GLdKGlGTI9XF9-c-Y2xoe5KjYqFU2n0OL8I/edit?usp=drivesdk">Zentangle Pattern Inspiration Loop</a>
+      </h2>
+      <p class="bs-slide-card-description">Easy-to-more-complex pattern prompts for quiet sketching, creative focus, and low-pressure drawing.</p>
+      <div class="bs-slide-card-tags" aria-label="Topics">
+        <button type="button" data-slide-card-tag="zentangle">Zentangle</button>
+        <button type="button" data-slide-card-tag="sketching">Sketching</button>
+        <button type="button" data-slide-card-tag="creativity">Creativity</button>
+      </div>
+      <a class="bs-slide-open" href="https://docs.google.com/presentation/d/1JsEdT6M2GLdKGlGTI9XF9-c-Y2xoe5KjYqFU2n0OL8I/edit?usp=drivesdk">Open Google Slides</a>
+    </div>
+  </article>
+
+  <article
+    class="bs-slide-card"
+    data-slide-card
+    data-collection="Student Wellness"
+    data-tags="reflection|opening activity|quotes|indigenous voices|community|wellness"
+    data-search="daily opening quotes reflection opening activity indigenous voices community wellness class start">
+    <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY/edit?usp=drivesdk" aria-label="Open Daily Opening Quotes">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true">
+        <span class="bs-slide-thumb-kicker">Student Wellness</span>
+        <strong>“ ”</strong>
+        <span>Reflect + connect</span>
+      </span>
+      <img
+        src="https://drive.google.com/thumbnail?id=12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY&sz=w1200"
+        alt=""
+        loading="lazy"
+        onerror="this.hidden=true">
+    </a>
+    <div class="bs-slide-card-body">
+      <p class="bs-slide-card-collection">Student Wellness</p>
+      <h2 class="bs-slide-card-title">
+        <a href="https://docs.google.com/presentation/d/12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY/edit?usp=drivesdk">Daily Opening Quotes</a>
+      </h2>
+      <p class="bs-slide-card-description">A reusable opening deck for reflection, connection, discussion, and short classroom pauses.</p>
+      <div class="bs-slide-card-tags" aria-label="Topics">
+        <button type="button" data-slide-card-tag="reflection">Reflection</button>
+        <button type="button" data-slide-card-tag="opening activity">Opening activity</button>
+        <button type="button" data-slide-card-tag="indigenous voices">Indigenous voices</button>
+      </div>
+      <a class="bs-slide-open" href="https://docs.google.com/presentation/d/12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY/edit?usp=drivesdk">Open Google Slides</a>
+    </div>
+  </article>
+
+</div>
+
+<p class="bs-slide-empty" data-slide-empty hidden>No teacher slides match those filters.</p>
+
+<script src="../assets/teacher-slides.js" defer></script>
+```
+
+:::
