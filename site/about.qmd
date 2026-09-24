@@ -34,7 +34,7 @@ The resources are organized around Ontario's [Technological Education curriculum
 
 Before teaching at Port Credit, I worked at Palantir, ran a startup called PetroPredict, and completed internships at Facebook, Suncor, and several smaller technology companies. Earlier, while I was still in high school, I worked as a lifeguard and deck supervisor with the City of Mississauga and in a machine shop after a co-op placement.
 
-Outside work and school, I was a sponsored kiteboarder for **Switch Kites** and have been an avid **box lacrosse** player. Kiteboarding was a major part of my life and shaped how I think about practice, judgement, risk, feedback, equipment, weather, failure, and learning from people who are better than you.
+Outside work and school, I was a sponsored kiteboarder for **Switch Kites** and have been an avid **box lacrosse** player. Kiteboarding was a major part of my life and shaped how I think about practice, judgement, risk, feedback, equipment, weather, failure, and learning from people who have different skills, knowledge, and wisdom from you.
 
 ::: {.ter-kite-grid}
 ![](assets/about/kiteboarding-air.jpg){fig-alt="Andrew Andrade kiteboarding over the shoreline" loading="lazy"}
@@ -63,6 +63,8 @@ These are not meant to collapse different religions or philosophies into one sys
 - **Paul Cormier / Indigenous learning methodology:** [**Kinoo'amaadawaad Megwaa Doodamawaad**](https://www.lakeheadu.ca/users/C/pcormier), translated by Cormier as **“they are learning with each other while they are doing.”** I want that idea to shape these notes: students learn with one another while doing real work, and the documentation grows from that work.
 - **Confucianism:** [learn something, then practise it](https://confucius-analects.org/en/books/01/01/). Learning is not complete when something has merely been heard or read.
 - **Daoism:** [a long journey begins beneath your feet](https://taoism.net/tao-te-ching-chapter-64/). Large work starts from what is small and present, and care at the end matters as much as enthusiasm at the beginning.
+- **The Way:** I use *the Way* here in a broad, non-doctrinal sense: a path becomes clearer through practice. It is not only what you are told to do, but the habits, judgement, attention, and character that develop while you keep doing the work. Different traditions use the idea of a way or path differently, and those differences matter.
+- **Spirit:** Spirit can describe something carried within a person, but also something strengthened between people: school spirit, team spirit, community spirit. It can grow through belonging, responsibility, shared effort, service, and the feeling that your work is connected to something larger than yourself.
 - **Stoicism:** Epictetus treats education as more than book knowledge; character and judgement are developed through [repeated practice and self-correction](https://plato.stanford.edu/entries/epictetus/).
 - **Epicureanism:** Epicurus places unusual weight on [friendship as part of a good life](https://www.zhaibian.com/quotes/epicurus-on-friendship). Learning is easier to sustain when people enjoy doing worthwhile things together.
 - **Hindu tradition:** the [Bhagavad Gita 2:47](https://www.bhagavadgita.fyi/chapter/2/verse/47/) distinguishes action from attachment to its results: do the work carefully without letting the outcome become the only reason for doing it.
