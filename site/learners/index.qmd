@@ -1,0 +1,17 @@
+---
+title: "Learners"
+subtitle: "Course materials and class slides"
+description: "Learner-facing course materials and classroom presentations for Technological Education."
+format:
+  html:
+    page-layout: article
+    toc: false
+    title-block-style: plain
+---
+
+Choose your course or open the current class-slide sequence.
+
+- [**TAS**](../tas2/)
+- [**TEJ**](../tej3-4/)
+- [**TTS**](../ttj3-4/)
+- [**Class Slides**](../slides/)
