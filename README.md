@@ -1,6 +1,8 @@
 # Technological Education Resources
 
-A Quarto teaching website for TAS2O, TEJ3M/4M and TTJ3C/4C, with shared tools, resources, a glossary, Lore, and well-being material.
+Open classroom resources supporting the Ontario Technological Education curriculum, including current TAS and TEJ class slides, collaborative notes, reusable presentations, assignments, and teaching materials.
+
+Live site: https://andrewandrade.ca/tech-edu-resources/
 
 ## Build and check
 
@@ -12,7 +14,7 @@ quarto render site
 python scripts/check_commons.py --rendered
 ```
 
-For editing, use:
+For editing:
 
 ```sh
 quarto preview site
@@ -20,22 +22,32 @@ quarto preview site
 
 The rendered output is `site/_site`. Do not edit generated output directly.
 
-## Main structure
+## Current public structure
 
-- `site/_quarto.yml`: navigation, theme, and render configuration.
-- `site/tas2`, `site/tej3-4`, `site/ttj3-4`: course pages.
-- `site/resources`: classroom resources and NICE design-process material.
-- `site/tools`: student-facing tools, including the NICE Project Builder.
-- `site/lore`: stories, reflections, and design-process examples.
-- `site/wellbeing`: classroom well-being material.
-- `site/assets`: site styling, scripts, images, icons, and branding.
-- `glossary/glossary.json`: glossary source.
-- `docs/authoring-guide.md`: editing and build notes.
-- `docs/website-colour-accessibility-contract.md`: colour and contrast requirements.
-- `favicons_logos_icons`: source files and generator for brand assets.
+- `site/slides/tas.qmd`: chronological TAS class slides.
+- `site/slides/tej.qmd`: chronological TEJ class slides.
+- `site/tas2/`: intentionally unfinished TAS collaborative notes.
+- `site/tej3-4/`: intentionally unfinished TEJ collaborative notes.
+- `site/teacher-slides/`: General Slides, searchable reusable presentations.
+- `site/teaching-materials/`: General Materials, searchable assignments and source packages.
+- `site/lore/`: stories, reflections, investigations, and design-process examples.
+- `site/about.qmd`: project purpose, attribution, influences, Port Credit history, and TER visual identity.
+- `teaching-materials/`: migrated regenerable assignment sources, templates, branding, and build tooling.
+- `site/assets/`: site styling, scripts, images, icons, and branding.
+- `glossary/glossary.json`: retained glossary source used by internal tooling.
 
-Temporary build output, local tool output, logs, caches, and virtual environments are excluded by `.gitignore`.
+## Design principle
+
+The current course notes are intentionally incomplete. They should record classroom learning as it happens rather than pretend the future sequence is already known.
+
+A guiding idea is **Kinoo'amaadawaad Megwaa Doodamawaad**, translated by Paul Cormier as “they are learning with each other while they are doing.”
 
 ## Attribution and licensing
 
-Technology Commons was adapted from earlier Backgammon Simplified source material. Required inherited attribution and third-party notices are retained. Original project code and executable materials use AGPL-3.0-only, while original educational content uses CC BY-SA 4.0. See `LICENSE.md`, `LICENSES/`, `THIRD_PARTY_NOTICES.md`, and `site/licensing.qmd`.
+Original educational content uses CC BY-SA 4.0. Original project code and executable materials use AGPL-3.0-only.
+
+When adapting educational resources, attribute **Technological Education Resources**, reference **andrewandrade.ca** and **github.com/mrandrewandrade**, identify changes, and use the applicable share-alike terms.
+
+Legacy and third-party attribution is retained in `THIRD_PARTY_NOTICES.md` and the repository licence files.
+
+See `LICENSE.md`, `LICENSES/`, `THIRD_PARTY_NOTICES.md`, and `site/licensing.qmd`.
