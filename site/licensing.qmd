@@ -1,11 +1,11 @@
 ---
 title: "Licensing and Attribution"
-description: "Licences for Technology Commons code, educational content, data, and third-party materials."
+description: "Licences for Technological Education Resources code, educational content, data, and third-party materials."
 page-layout: article
 toc: true
 ---
 
-Technology Commons is an open-source teaching project. Different parts of the project use different licences.
+Technological Education Resources is an open-source teaching project. Different parts of the project use different licences.
 
 ## Website code and executable materials
 
@@ -19,16 +19,16 @@ When reusing this material, give appropriate credit, link to the licence and sou
 
 Suggested credit:
 
-> Based on material from **Technology Commons** by Andrew Andrade and contributors. Source: <https://github.com/backgammonsimplified/commons>. Licensed under **CC BY-SA 4.0**. Changes were made.
+> Based on material from **Technological Education Resources** by Andrew Andrade and contributors. Source: <https://github.com/mrandrewandrade/tech-edu-resources>. Licensed under **CC BY-SA 4.0**. Changes were made.
 
 ## Data and third-party materials
 
-Data releases use the licence stated with each release. Third-party code, fonts, screenshots, quotations, and other materials retain their original licences. See the repository's [third-party notices](https://github.com/backgammonsimplified/commons/blob/master/THIRD_PARTY_NOTICES.md) for details.
+Data releases use the licence stated with each release. Third-party code, fonts, screenshots, quotations, and other materials retain their original licences. See the repository's [third-party notices](https://github.com/mrandrewandrade/tech-edu-resources/blob/master/THIRD_PARTY_NOTICES.md) for details.
 
 ## Identity and branding
 
-The software and content licences do not grant rights to represent a fork or adaptation as an official Technology Commons site or as the work of Andrew Andrade. Adaptations should use their own identity when necessary and should not imply endorsement.
+The software and content licences do not grant rights to represent a fork or adaptation as an official Technological Education Resources site or as the work of Andrew Andrade. Adaptations should use their own identity when necessary and should not imply endorsement.
 
 ## Full terms
 
-The repository [licensing summary](https://github.com/backgammonsimplified/commons/blob/master/LICENSE.md) defines the scope. The unmodified licence texts are stored in the repository's `LICENSES` directory.
+The repository [licensing summary](https://github.com/mrandrewandrade/tech-edu-resources/blob/master/LICENSE.md) defines the scope. The unmodified licence texts are stored in the repository's `LICENSES` directory.
