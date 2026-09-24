@@ -1,6 +1,6 @@
 ---
 title: "Page not found"
-description: "Find your way back to Technology Commons."
+description: "Find your way back to Technological Education Resources."
 toc: false
 sidebar: false
 search: false
