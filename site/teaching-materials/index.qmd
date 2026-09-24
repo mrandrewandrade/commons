@@ -1,30 +1,246 @@
 ---
 title: "General Materials"
-subtitle: "Reusable assignment packages, templates, and source files"
-description: "Assignment packages, worksheets, templates, branding, and regenerable source files for technology education."
+subtitle: "Reusable assignments, worksheets, handouts, and source packages"
+description: "Search and filter reusable classroom assignments and teaching materials across technological education, human wellness, and cross-curricular learning."
 format:
   html:
-    page-layout: article
-    toc: true
+    page-layout: full
+    toc: false
     title-block-style: plain
+    body-classes: "bs-editorial-page bs-title-eyebrow bs-research-index bs-slide-library"
+    css: ../assets/teacher-slides.css
+execute:
+  enabled: false
 ---
 
-This section collects reusable assignment packages and the source files used to generate them.
+::: {.bs-page-shell}
+::: {.bs-reading-column}
+::: {.bs-editorial-lead}
+Reusable assignment packages and classroom materials. These include teacher-created source files from the shared Classroom folders and regenerable packages migrated from the former assets repository.
+:::
 
-The former standalone `assets` repository has been migrated into this repository under `teaching-materials/` so the assignments, templates, branding, and build scripts can be maintained with the rest of Tech Edu.
+The library intentionally links to **generic source materials**, not student submissions or student copies. **General** materials are broadly reusable across subjects and technology courses. **Human Wellness** materials focus on identity, reflection, listening, goal setting, community, and related learning routines.
+:::
 
-## Assignment packages
+```{=html}
+<section
+  class="bs-slide-library-controls"
+  data-slide-controls
+  data-item-singular="material"
+  data-item-plural="materials"
+  aria-label="Search and filter general teaching materials">
 
-The migrated source collection currently includes:
+  <div class="bs-slide-search-wrap">
+    <label class="bs-slide-control-label" for="general-material-search">Search</label>
+    <input
+      id="general-material-search"
+      class="bs-slide-search"
+      type="search"
+      placeholder="Search identity, significant figures, inquiry, listening, goals..."
+      autocomplete="off"
+      data-slide-search>
+  </div>
 
-- About Me listening notes and presentation packages
-- Name tag assignment package
-- Weekly SMART goal and progress log
-- Combined teacher-marking materials
-- Word and printable variants where available
+  <div class="bs-slide-filter-group bs-slide-filter-group--collection">
+    <p class="bs-slide-control-label">Collection</p>
+    <div class="bs-slide-filter-buttons" data-slide-collection-filters>
+      <button type="button" data-slide-collection-filter="General" aria-pressed="false">General</button>
+      <button type="button" data-slide-collection-filter="Human Wellness" aria-pressed="false">Human Wellness</button>
+    </div>
+  </div>
 
-## Source and templates
+  <details class="bs-slide-filter-disclosure">
+    <summary>Courses</summary>
+    <p class="bs-slide-filter-help">Filter by the first three letters of the Ontario course code where the material is directly useful.</p>
+    <div class="bs-slide-filter-buttons" data-slide-course-filters></div>
+  </details>
 
-The complete source collection is preserved in the Tech Edu repository, including the original Quarto files, templates, build scripts, branding files, and supporting assets.
+  <details class="bs-slide-filter-disclosure">
+    <summary>Topics</summary>
+    <div class="bs-slide-filter-buttons" data-slide-topic-filters></div>
+  </details>
 
-[Browse the Teaching Materials source on GitHub](https://github.com/mrandrewandrade/tech-edu/tree/master/teaching-materials)
+  <div class="bs-slide-filter-footer">
+    <p class="bs-slide-result-count" aria-live="polite" data-slide-result-count></p>
+    <button type="button" class="bs-slide-clear" data-slide-clear hidden>Reset search and filters</button>
+  </div>
+</section>
+
+<div class="bs-slide-grid" data-slide-grid>
+
+  <article class="bs-slide-card" data-slide-card
+    data-collection="General"
+    data-courses="TAS|TEJ|TTJ"
+    data-tags="identity|communication|documentation|pdf|introductory"
+    data-search="name tag pdf student number introductory identity communication documentation submission">
+    <a class="bs-slide-thumb" href="https://drive.google.com/file/d/1pVbDmEGkN0GlyqYYDIMjptwwg34G-pBz/view?usp=drivesdk" aria-label="Open Name Tag PDF with Student Number">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">General</span><strong>ID</strong><span>Name tag + PDF</span></span>
+      <img src="https://drive.google.com/thumbnail?id=1pVbDmEGkN0GlyqYYDIMjptwwg34G-pBz&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
+    </a>
+    <div class="bs-slide-card-body">
+      <p class="bs-slide-card-collection">General</p>
+      <h2 class="bs-slide-card-title"><a href="https://drive.google.com/file/d/1pVbDmEGkN0GlyqYYDIMjptwwg34G-pBz/view?usp=drivesdk">Name Tag PDF with Student Number</a></h2>
+      <p class="bs-slide-card-description">A short introductory deliverable for making a readable name tag, documenting it clearly, and submitting a checked PDF.</p>
+      <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
+      <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="identity">Identity</button><button type="button" data-slide-card-tag="documentation">Documentation</button><button type="button" data-slide-card-tag="pdf">PDF</button></div>
+      <a class="bs-slide-open" href="https://drive.google.com/file/d/1pVbDmEGkN0GlyqYYDIMjptwwg34G-pBz/view?usp=drivesdk">Open material</a>
+    </div>
+  </article>
+
+  <article class="bs-slide-card" data-slide-card
+    data-collection="Human Wellness"
+    data-courses="TAS|TEJ|TTJ"
+    data-tags="identity|reflection|goals|self-awareness|introductory"
+    data-search="past present becoming identity reflection self awareness goals introductory about me">
+    <a class="bs-slide-thumb" href="https://drive.google.com/file/d/1aBMiF-y_dOAGTvv7Gl6qSdxapVUoDTfn/view?usp=drivesdk" aria-label="Open Past, Present and Becoming">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Wellness</span><strong>0.1</strong><span>Past · present · becoming</span></span>
+      <img src="https://drive.google.com/thumbnail?id=1aBMiF-y_dOAGTvv7Gl6qSdxapVUoDTfn&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
+    </a>
+    <div class="bs-slide-card-body">
+      <p class="bs-slide-card-collection">Human Wellness</p>
+      <h2 class="bs-slide-card-title"><a href="https://drive.google.com/file/d/1aBMiF-y_dOAGTvv7Gl6qSdxapVUoDTfn/view?usp=drivesdk">Past, Present &amp; Becoming</a></h2>
+      <p class="bs-slide-card-description">An introductory identity and reflection activity connecting past experiences, the present, and what a learner hopes to become.</p>
+      <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
+      <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="identity">Identity</button><button type="button" data-slide-card-tag="reflection">Reflection</button><button type="button" data-slide-card-tag="goals">Goals</button></div>
+      <a class="bs-slide-open" href="https://drive.google.com/file/d/1aBMiF-y_dOAGTvv7Gl6qSdxapVUoDTfn/view?usp=drivesdk">Open material</a>
+    </div>
+  </article>
+
+  <article class="bs-slide-card" data-slide-card
+    data-collection="Human Wellness"
+    data-courses="TAS|TEJ|TTJ"
+    data-tags="listening|reflection|communication|community|presentation"
+    data-search="the way we meet listening notes reflection presentation community connection communication">
+    <a class="bs-slide-thumb" href="https://drive.google.com/file/d/18qnub3_bvTyc4YBNywmxr12zLswRc_gE/view?usp=drivesdk" aria-label="Open The Way We Meet Listening Notes and Reflection">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Wellness</span><strong>0.2</strong><span>Listen + connect</span></span>
+      <img src="https://drive.google.com/thumbnail?id=18qnub3_bvTyc4YBNywmxr12zLswRc_gE&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
+    </a>
+    <div class="bs-slide-card-body">
+      <p class="bs-slide-card-collection">Human Wellness</p>
+      <h2 class="bs-slide-card-title"><a href="https://drive.google.com/file/d/18qnub3_bvTyc4YBNywmxr12zLswRc_gE/view?usp=drivesdk">The Way We Meet: Listening Notes &amp; Reflection</a></h2>
+      <p class="bs-slide-card-description">Listening notes and reflection prompts for learning about classmates, noticing connections, and practising attentive participation.</p>
+      <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
+      <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="listening">Listening</button><button type="button" data-slide-card-tag="reflection">Reflection</button><button type="button" data-slide-card-tag="community">Community</button></div>
+      <a class="bs-slide-open" href="https://drive.google.com/file/d/18qnub3_bvTyc4YBNywmxr12zLswRc_gE/view?usp=drivesdk">Open material</a>
+    </div>
+  </article>
+
+  <article class="bs-slide-card" data-slide-card
+    data-collection="General"
+    data-courses="TAS"
+    data-tags="needs|necessities|nice-to-have|engineering design|requirements|communication"
+    data-search="name tag needs assessment necessities nice to haves requirements engineering design process TAS">
+    <a class="bs-slide-thumb" href="https://docs.google.com/document/d/1E7Io8pd1ZfymHki94Jnn5-1JUzcM5wrODzr5hTEjoa8/edit?usp=drivesdk" aria-label="Open Name Tag Needs Assessment">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">General</span><strong>N</strong><span>Needs + necessities</span></span>
+      <img src="https://drive.google.com/thumbnail?id=1E7Io8pd1ZfymHki94Jnn5-1JUzcM5wrODzr5hTEjoa8&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
+    </a>
+    <div class="bs-slide-card-body">
+      <p class="bs-slide-card-collection">General</p>
+      <h2 class="bs-slide-card-title"><a href="https://docs.google.com/document/d/1E7Io8pd1ZfymHki94Jnn5-1JUzcM5wrODzr5hTEjoa8/edit?usp=drivesdk">Name Tag Needs Assessment</a></h2>
+      <p class="bs-slide-card-description">A simple design-process worksheet for identifying needs, requirements, necessities, restrictions, and useful extras.</p>
+      <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button></div>
+      <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="needs">Needs</button><button type="button" data-slide-card-tag="necessities">Necessities</button><button type="button" data-slide-card-tag="engineering design">Engineering design</button></div>
+      <a class="bs-slide-open" href="https://docs.google.com/document/d/1E7Io8pd1ZfymHki94Jnn5-1JUzcM5wrODzr5hTEjoa8/edit?usp=drivesdk">Open material</a>
+    </div>
+  </article>
+
+  <article class="bs-slide-card" data-slide-card
+    data-collection="General"
+    data-courses="TEJ"
+    data-tags="significant figures|measurement|precision|rounding|mathematics|electronics"
+    data-search="significant figures significant digits practice examples measurement precision rounding electronics math mathematics TEJ">
+    <a class="bs-slide-thumb" href="https://drive.google.com/file/d/1FrbYFY_hypF37NgzkmfchK1WlQCgd17c/view?usp=drivesdk" aria-label="Open Significant Figures and More Practice Examples">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">General</span><strong>1.0</strong><span>Significant figures</span></span>
+      <img src="https://drive.google.com/thumbnail?id=1FrbYFY_hypF37NgzkmfchK1WlQCgd17c&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
+    </a>
+    <div class="bs-slide-card-body">
+      <p class="bs-slide-card-collection">General</p>
+      <h2 class="bs-slide-card-title"><a href="https://drive.google.com/file/d/1FrbYFY_hypF37NgzkmfchK1WlQCgd17c/view?usp=drivesdk">Significant Figures and More Practice Examples</a></h2>
+      <p class="bs-slide-card-description">Practice with significant figures, accuracy, precision, rounding, and reporting measured values.</p>
+      <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TEJ">TEJ</button></div>
+      <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="significant figures">Significant figures</button><button type="button" data-slide-card-tag="measurement">Measurement</button><button type="button" data-slide-card-tag="precision">Precision</button></div>
+      <a class="bs-slide-open" href="https://drive.google.com/file/d/1FrbYFY_hypF37NgzkmfchK1WlQCgd17c/view?usp=drivesdk">Open material</a>
+    </div>
+  </article>
+
+  <article class="bs-slide-card" data-slide-card
+    data-collection="General"
+    data-courses="TEJ"
+    data-tags="powers of 10|scientific notation|engineering notation|metric prefixes|mathematics|electronics"
+    data-search="scientific notation engineering notation metric prefixes powers of 10 SI conversion electronics math mathematics TEJ">
+    <a class="bs-slide-thumb" href="https://drive.google.com/file/d/16lpCdfVuxfn0FONmbQmw4yEpsVB0inJO/view?usp=drivesdk" aria-label="Open Scientific Notation Engineering Notation and Metric Prefixes">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">General</span><strong>10³</strong><span>Notation + prefixes</span></span>
+      <img src="https://drive.google.com/thumbnail?id=16lpCdfVuxfn0FONmbQmw4yEpsVB0inJO&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
+    </a>
+    <div class="bs-slide-card-body">
+      <p class="bs-slide-card-collection">General</p>
+      <h2 class="bs-slide-card-title"><a href="https://drive.google.com/file/d/16lpCdfVuxfn0FONmbQmw4yEpsVB0inJO/view?usp=drivesdk">Scientific Notation, Engineering Notation and Metric Prefixes</a></h2>
+      <p class="bs-slide-card-description">Practice moving between powers of ten, scientific notation, engineering notation, and common SI prefixes.</p>
+      <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TEJ">TEJ</button></div>
+      <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="powers of 10">Powers of 10</button><button type="button" data-slide-card-tag="scientific notation">Scientific notation</button><button type="button" data-slide-card-tag="metric prefixes">Metric prefixes</button></div>
+      <a class="bs-slide-open" href="https://drive.google.com/file/d/16lpCdfVuxfn0FONmbQmw4yEpsVB0inJO/view?usp=drivesdk">Open material</a>
+    </div>
+  </article>
+
+  <article class="bs-slide-card" data-slide-card
+    data-collection="Human Wellness"
+    data-courses="TAS|TEJ|TTJ"
+    data-tags="identity|presentation|communication|introductory|self-expression"
+    data-search="about me presentation identity communication introduction self expression source package">
+    <a class="bs-slide-thumb" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-presentation.qmd" aria-label="Open About Me Presentation source package">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Wellness · Source</span><strong>ME</strong><span>Identity + presentation</span></span>
+    </a>
+    <div class="bs-slide-card-body">
+      <p class="bs-slide-card-collection">Human Wellness</p>
+      <h2 class="bs-slide-card-title"><a href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-presentation.qmd">About Me Presentation Package</a></h2>
+      <p class="bs-slide-card-description">Regenerable source for a short, genuine introduction activity focused on communication rather than performance or polish.</p>
+      <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
+      <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="identity">Identity</button><button type="button" data-slide-card-tag="presentation">Presentation</button><button type="button" data-slide-card-tag="communication">Communication</button></div>
+      <a class="bs-slide-open" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-presentation.qmd">Open source package</a>
+    </div>
+  </article>
+
+  <article class="bs-slide-card" data-slide-card
+    data-collection="Human Wellness"
+    data-courses="TAS|TEJ|TTJ"
+    data-tags="listening|reflection|community|communication|presentation"
+    data-search="about me listening notes listening reflection community presentation source package">
+    <a class="bs-slide-thumb" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-listening-notes.qmd" aria-label="Open About Me Listening Notes source package">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Wellness · Source</span><strong>LISTEN</strong><span>Notice + connect</span></span>
+    </a>
+    <div class="bs-slide-card-body">
+      <p class="bs-slide-card-collection">Human Wellness</p>
+      <h2 class="bs-slide-card-title"><a href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-listening-notes.qmd">About Me Listening Notes</a></h2>
+      <p class="bs-slide-card-description">Regenerable listening-note source for noticing what another person shares and recording a connection or question.</p>
+      <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
+      <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="listening">Listening</button><button type="button" data-slide-card-tag="reflection">Reflection</button><button type="button" data-slide-card-tag="community">Community</button></div>
+      <a class="bs-slide-open" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-listening-notes.qmd">Open source package</a>
+    </div>
+  </article>
+
+  <article class="bs-slide-card" data-slide-card
+    data-collection="Human Wellness"
+    data-courses="TAS|TEJ|TTJ"
+    data-tags="goals|reflection|progress|self-regulation|planning"
+    data-search="weekly smart goal progress log goals reflection progress self regulation planning source package">
+    <a class="bs-slide-thumb" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/weekly-smart-goal-progress-log.qmd" aria-label="Open Weekly SMART Goal Progress Log source package">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Wellness · Source</span><strong>GOAL</strong><span>Plan + reflect</span></span>
+    </a>
+    <div class="bs-slide-card-body">
+      <p class="bs-slide-card-collection">Human Wellness</p>
+      <h2 class="bs-slide-card-title"><a href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/weekly-smart-goal-progress-log.qmd">Weekly SMART Goal Progress Log</a></h2>
+      <p class="bs-slide-card-description">A reusable goal-setting and progress-reflection package with printable and Word-oriented variants in the source collection.</p>
+      <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
+      <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="goals">Goals</button><button type="button" data-slide-card-tag="reflection">Reflection</button><button type="button" data-slide-card-tag="progress">Progress</button></div>
+      <a class="bs-slide-open" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/weekly-smart-goal-progress-log.qmd">Open source package</a>
+    </div>
+  </article>
+
+</div>
+
+<p class="bs-slide-empty" data-slide-empty hidden>No teaching materials match those filters.</p>
+
+<script src="../assets/teacher-slides.js" defer></script>
+```
+
+:::
