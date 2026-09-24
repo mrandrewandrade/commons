@@ -123,6 +123,338 @@ This project is meant to carry that spirit forward: take what is useful, credit 
 
 This project currently reflects my classroom work and the people whose ideas, feedback, and resources have influenced it. As others contribute directly to the site, **contributor bios will be added here**.
 
+[LinkedIn](https://www.linkedin.com/in/andrewandrade) · [GitHub](https://github.com/mrandrewandrade) · [Personal site](https://andrewandrade.ca/)
+
+## Port Credit roots
+
+Technological Education Resources is built for teaching at Port Credit Secondary School, and its visual identity deliberately connects to the school without trying to replace the school's own identity.
+
+Port Credit's secondary-school history reaches back to **1919**, when a continuation school opened in the community. The PCSS Alumni Association preserves school history, yearbooks, memorabilia, and stories while supporting scholarships and selected school projects.
+
+The **Regional SciTech Program launched in September 2005**. Alumni material describes it as an integrated science and technology program intended for both inquiry-oriented academic learners and hands-on learners interested in college, apprenticeships, skilled trades, and industry.
+
+The school motto, **Lux numquam desit**, is a natural fit for a visual system built around the Port Credit lighthouse, learning, and the idea of carrying useful knowledge forward.
+
+Technological Education Resources also recognizes the **Mississaugas of the Credit First Nation** and the Indigenous history and continuing stewardship connected to this place. Purple and orange are included in the working palette as community and reflection accents that can be used thoughtfully in Indigenous learning and reconciliation contexts. They are project colours, not presented as official colours of the Mississaugas of the Credit First Nation.
+
+- [PCSS Alumni Association](https://www.pcssalumni.com/)
+- [PCSS Alumni - School Programs and SciTech history](https://www.pcssalumni.com/school-programs/)
+- [PCSS Alumni - Yearbook archive information](https://www.pcssalumni.com/yearbooks-on-cd/)
+- [1960 yearbook history of Port Credit High School](https://www.pcssalumni.com/PDF/YB-1960.pdf)
+- [Mississaugas of the Credit First Nation](https://mncfn.ca/)
+
+## Brand system
+
+The Technological Education Resources palette is built from colours inspired by Port Credit, the harbour, the Credit River, school technology programs, and community work.
+
+That means the everyday palette stays warm, quiet, and restrained: deep navy instead of black, ivory instead of cold grey, copper instead of bright orange, and muted blue, green, gold, plum, and red accents instead of highly saturated colours.
+
+Exact colours sampled from supplied PCSS and SciTech marks are kept separately as **source colours**. Those source colours belong to the logos and historical references. They do not need to become the normal interface or document colours for this project.
+
+### Core palette
+
+These are the foundation colours. Most pages, slides, handouts, diagrams, and interfaces should be built primarily from this family.
+
+::: {.brand-swatch-grid}
+::: {.brand-swatch style="--swatch:#11182F"}
+<div class="brand-swatch-sample"></div>
+**Lighthouse Ink**  
+`#11182F`
+:::
+
+::: {.brand-swatch style="--swatch:#1B2040"}
+<div class="brand-swatch-sample"></div>
+**Harbour Navy**  
+`#1B2040`
+:::
+
+::: {.brand-swatch style="--swatch:#39415F"}
+<div class="brand-swatch-sample"></div>
+**Breakwater Slate**  
+`#39415F`
+:::
+
+::: {.brand-swatch style="--swatch:#5F626E"}
+<div class="brand-swatch-sample"></div>
+**Pier Grey**  
+`#5F626E`
+:::
+
+::: {.brand-swatch style="--swatch:#88786E"}
+<div class="brand-swatch-sample"></div>
+**Stone**  
+`#88786E`
+:::
+
+::: {.brand-swatch style="--swatch:#D9CCC0"}
+<div class="brand-swatch-sample"></div>
+**Sandbar**  
+`#D9CCC0`
+:::
+
+::: {.brand-swatch style="--swatch:#F3E8DC"}
+<div class="brand-swatch-sample"></div>
+**Harbour Ivory**  
+`#F3E8DC`
+:::
+
+::: {.brand-swatch style="--swatch:#FAF7F2"}
+<div class="brand-swatch-sample"></div>
+**Sail White**  
+`#FAF7F2`
+:::
+
+::: {.brand-swatch style="--swatch:#FFFDFC"}
+<div class="brand-swatch-sample"></div>
+**Canvas White**  
+`#FFFDFC`
+:::
+:::
+
+### Harbour blues
+
+Blue still connects the system to Port Credit and SciTech, but the working blues are deliberately muted so they sit comfortably beside navy, ivory, and copper.
+
+::: {.brand-swatch-grid}
+::: {.brand-swatch style="--swatch:#1B2040"}
+<div class="brand-swatch-sample"></div>
+**Port Credit Navy**  
+`#1B2040`
+:::
+
+::: {.brand-swatch style="--swatch:#30375E"}
+<div class="brand-swatch-sample"></div>
+**SciTech Navy**  
+`#30375E`
+:::
+
+::: {.brand-swatch style="--swatch:#3D5F87"}
+<div class="brand-swatch-sample"></div>
+**Harbour Blue**  
+`#3D5F87`
+:::
+
+::: {.brand-swatch style="--swatch:#5A748C"}
+<div class="brand-swatch-sample"></div>
+**Lake Blue**  
+`#5A748C`
+:::
+
+::: {.brand-swatch style="--swatch:#466A7D"}
+<div class="brand-swatch-sample"></div>
+**Technical Blue**  
+`#466A7D`
+:::
+
+::: {.brand-swatch style="--swatch:#D9E2E4"}
+<div class="brand-swatch-sample"></div>
+**Winter Sky**  
+`#D9E2E4`
+:::
+:::
+
+### Wellness and shoreline greens
+
+Green is for wellness, reflection, positive progress, environmental themes, and calmer technical material. These colours remain earthy rather than bright.
+
+::: {.brand-swatch-grid}
+::: {.brand-swatch style="--swatch:#2F6B4F"}
+<div class="brand-swatch-sample"></div>
+**Evergreen**  
+`#2F6B4F`
+:::
+
+::: {.brand-swatch style="--swatch:#4F6B46"}
+<div class="brand-swatch-sample"></div>
+**Credit River Moss**  
+`#4F6B46`
+:::
+
+::: {.brand-swatch style="--swatch:#7E9474"}
+<div class="brand-swatch-sample"></div>
+**Sage**  
+`#7E9474`
+:::
+
+::: {.brand-swatch style="--swatch:#A8BDB2"}
+<div class="brand-swatch-sample"></div>
+**Sea Glass**  
+`#A8BDB2`
+:::
+
+::: {.brand-swatch style="--swatch:#E4ECE5"}
+<div class="brand-swatch-sample"></div>
+**Calm Mint**  
+`#E4ECE5`
+:::
+:::
+
+### Copper, brass, and warm gold
+
+The warm-metal family carries most of the accent work that bright school yellow or orange previously did. Copper is the primary accent because it provides a warm industrial counterpoint to the blues, greens, ivory, and school golds.
+
+::: {.brand-swatch-grid}
+::: {.brand-swatch style="--swatch:#915634"}
+<div class="brand-swatch-sample"></div>
+**Dark Copper**  
+`#915634`
+:::
+
+::: {.brand-swatch style="--swatch:#AC7652"}
+<div class="brand-swatch-sample"></div>
+**Copper**  
+`#AC7652`
+:::
+
+::: {.brand-swatch style="--swatch:#8A6A25"}
+<div class="brand-swatch-sample"></div>
+**Brass**  
+`#8A6A25`
+:::
+
+::: {.brand-swatch style="--swatch:#C39A48"}
+<div class="brand-swatch-sample"></div>
+**Warm Gold**  
+`#C39A48`
+:::
+:::
+
+### Utility and community accents
+
+These colours add energy or meaning without leaving the warm family. Use them as accents rather than large page backgrounds.
+
+::: {.brand-swatch-grid}
+::: {.brand-swatch style="--swatch:#A7611B"}
+<div class="brand-swatch-sample"></div>
+**Signal Amber**  
+`#A7611B`
+:::
+
+::: {.brand-swatch style="--swatch:#A85A2A"}
+<div class="brand-swatch-sample"></div>
+**Burnt Orange**  
+`#A85A2A`
+:::
+
+::: {.brand-swatch style="--swatch:#B7683A"}
+<div class="brand-swatch-sample"></div>
+**Clay Orange**  
+`#B7683A`
+:::
+
+::: {.brand-swatch style="--swatch:#C57944"}
+<div class="brand-swatch-sample"></div>
+**Sunrise Orange**  
+`#C57944`
+:::
+
+::: {.brand-swatch style="--swatch:#6B536D"}
+<div class="brand-swatch-sample"></div>
+**Community Plum**  
+`#6B536D`
+:::
+
+::: {.brand-swatch style="--swatch:#5B455F"}
+<div class="brand-swatch-sample"></div>
+**Deep Plum**  
+`#5B455F`
+:::
+:::
+
+### Important and alert accents
+
+Red remains uncommon so it keeps its meaning for deadlines, hazards, errors, and genuinely important emphasis.
+
+::: {.brand-swatch-grid}
+::: {.brand-swatch style="--swatch:#923B45"}
+<div class="brand-swatch-sample"></div>
+**Beacon Red**  
+`#923B45`
+:::
+
+::: {.brand-swatch style="--swatch:#A54C35"}
+<div class="brand-swatch-sample"></div>
+**Mistake Clay**  
+`#A54C35`
+:::
+:::
+
+### Source colours from supplied PCSS marks
+
+These values are retained for faithful reproduction and documentation of the supplied school marks. They are **reference colours, not the default Technological Education Resources working palette**. The logos themselves should not be recoloured just to force them into the working palette.
+
+| Source mark | Blue | Yellow / gold |
+|---|---|---|
+| Warriors roundel | `#1D2347` | `#FCD937` |
+| Newer SciTech roundel | `#19226D` | `#FFCF01` |
+| Older Regional SciTech mark | `#464780` | `#F0DB7C` |
+
+### Recommended combinations
+
+| Mode | Use |
+|---|---|
+| **Core palette** | Lighthouse Ink + Sail White + Copper |
+| **Port Credit** | Port Credit Navy + Sail White + Warm Gold + Copper |
+| **SciTech** | SciTech Navy + Harbour Blue + Sail White + Warm Gold |
+| **Technical** | Lighthouse Ink + Sail White + Harbour Blue + Copper |
+| **Wellness** | Harbour Navy + Sail White + Evergreen + Sea Glass |
+| **Community / reflection** | Harbour Navy + Sail White + Community Plum + Sunrise Orange |
+| **Warm utility** | Harbour Navy + Harbour Ivory + Signal Amber + Dark Copper |
+| **Urgent / important** | Lighthouse Ink + Sail White + Beacon Red, used sparingly |
+
+A page or slide should normally use one mode, not the full palette at once. **Lux numquam desit** can act as a useful guiding idea: keep the design clear enough that the important information is never lost.
+
+## Logos and downloads
+
+The logo files below are collected here so teachers and students have clean working copies without needing to search the web or pull images from screenshots. Some marks are current, some are historical, and some were recreated locally. We will keep improving the provenance notes as better source files are confirmed.
+
+::: {.brand-logo-grid}
+::: {.brand-logo-card}
+![](assets/branding/pcss/pcss-warriors.png){fig-alt="Port Credit Warriors lighthouse badge"}
+
+### Port Credit Warriors
+
+Current sports-style lighthouse roundel from the supplied PCSS collection.
+
+[Download PNG](assets/branding/pcss/pcss-warriors.png)
+:::
+
+::: {.brand-logo-card}
+![](assets/branding/pcss/pcss-scitech-badge.png){fig-alt="Circular Port Credit SciTech lighthouse and atom badge"}
+
+### SciTech roundel
+
+Newer circular SciTech treatment with lighthouse and atom imagery.
+
+[Download PNG](assets/branding/pcss/pcss-scitech-badge.png)
+:::
+
+::: {.brand-logo-card}
+![](assets/branding/pcss/pcss-scitech-regional.png){fig-alt="Port Credit Regional SciTech Program lighthouse and atom mark"}
+
+### Regional SciTech
+
+Regional program mark from the supplied PCSS files.
+
+[Download PNG](assets/branding/pcss/pcss-scitech-regional.png)
+:::
+
+::: {.brand-logo-card}
+![](assets/branding/pcss/pcss-scitech-legacy.png){fig-alt="Legacy Port Credit SciTech logo"}
+
+### Legacy SciTech
+
+Older treatment retained for historical material and design-history reference.
+
+[Download PNG](assets/branding/pcss/pcss-scitech-legacy.png)
+:::
+:::
+
+### Logo use
+
+Keep the supplied proportions and colours. Do not stretch, skew, add effects, or casually recolour school marks. When possible, use transparent source files rather than extracting logos from screenshots.
+
+Technological Education Resources can sit beside these marks, but it should not imply that every page or resource is an official publication of Port Credit Secondary School or the Peel District School Board.
 
 :::::
 ::::::
