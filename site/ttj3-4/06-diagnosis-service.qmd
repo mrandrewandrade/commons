@@ -1,6 +1,6 @@
 ---
 title: "6. Diagnosis & Service"
-subtitle: "TTJ3C / TTJ4C :: DIAGNOSIS"
+subtitle: "TTS :: DIAGNOSIS"
 sidebar: ttj
 page-layout: article
 toc: true
