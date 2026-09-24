@@ -17,9 +17,9 @@ output-file: past-present-becoming.docx
 
 ## Learning goal
 
-I can reflect on where I have been, describe who I am now, and share something about who I am becoming in a way that helps others connect with me.
+I can select and organize information about myself, communicate it clearly, and make connections among experiences, interests, skills, or future learning in a way that helps an audience understand my ideas.
 
-## Tell us where you have been, where you are, and where you are heading.
+## Choose what you want us to learn about you.
 
 You can keep it simple. There is no required number of slides, pictures, or facts.
 
@@ -38,7 +38,7 @@ You do **not** need to include everything on this list.
 
 ## Keep it accessible
 
-If you use slides, everyone in the room should be able to understand them.
+If you use slides, make them accessible to everyone in the room.
 
 - use large, readable text
 - use clear contrast
@@ -48,6 +48,10 @@ If you use slides, everyone in the room should be able to understand them.
 - do not rely on colour alone to communicate meaning
 
 **Fancy slides are not the goal. Clear, accessible communication is.**
+
+## Privacy and choice
+
+You control what you share. This is a communication task, not a request for private disclosure. You can use interests, skills, projects, routines, objects, places, learning goals, or another school-appropriate topic. You do not need to disclose health or mental-health information, trauma, family circumstances, religion or creed, disability, financial circumstances, sexuality, gender identity, or any other private information. If a prompt feels too personal, choose a neutral topic or speak with the teacher about an equivalent alternative. **No mark is attached to how personal, emotional, or revealing your content is.**
 
 ## Google Classroom submission - one PDF
 
@@ -70,12 +74,12 @@ Use the achievement levels to describe the quality of the evidence. The final **
 
 ## Ideas / Content
 
-*What did you communicate about yourself?*
+*How effectively did you select and communicate your chosen content?*
 
 | Achievement | Evidence |
 |---|---|
-| **Level 4** | Communicates meaningful, relevant, and specific information about experiences, interests, strengths, goals, or identity with a high degree of effectiveness. |
-| **Level 3** | Communicates relevant and specific information with considerable effectiveness. The audience develops a clear understanding of the student. |
+| **Level 4** | Selects relevant, specific, and purposeful information and communicates it with a high degree of effectiveness. The quality of the work does not depend on private or sensitive disclosure. |
+| **Level 3** | Selects relevant and specific information and communicates it with considerable effectiveness. The audience develops a clear understanding of the chosen ideas. |
 | **Level 2** | Communicates some relevant information with some effectiveness, but parts may be general, uneven, or underdeveloped. |
 | **Level 1** | Communicates limited relevant information. Important ideas may be unclear or only partly developed. |
 | **Below Level 1 / insufficient evidence** | Provides too little relevant evidence to demonstrate Level 1 achievement. |
@@ -106,11 +110,11 @@ Use the achievement levels to describe the quality of the evidence. The final **
 
 ## Connection / Reflection
 
-*How meaningfully did you connect past, present, future, or audience?*
+*How effectively did you connect ideas, examples, audience, or future learning?*
 
 | Achievement | Evidence |
 |---|---|
-| **Level 4** | Makes thoughtful, meaningful connections among experiences, interests, strengths, goals, future directions, and/or audience response with a high degree of effectiveness. |
+| **Level 4** | Makes thoughtful and well-developed connections among selected ideas, examples, audience response, and/or future learning with a high degree of effectiveness. |
 | **Level 3** | Makes clear and meaningful connections with considerable effectiveness. |
 | **Level 2** | Makes some relevant connections, though they may be brief, obvious, or only partly developed. |
 | **Level 1** | Makes limited connections. Reflection or response may need significant prompting. |
