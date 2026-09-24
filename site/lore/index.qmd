@@ -25,7 +25,7 @@ execute:
 ::: {.bs-page-shell}
 ::: {.bs-reading-column}
 ::: {.bs-editorial-lead}
-The course side of Technology Commons is where I teach. **Lore is the learning side:** what I am learning, testing, remembering, questioning, and carrying forward.
+The course side of Technological Education Resources is where I teach. **Lore is the learning side:** what I am learning, testing, remembering, questioning, and carrying forward.
 :::
 
 Teaching and learning are reciprocal. Ideas developed in class can become questions worth investigating, and things I learn through research, engineering, history, community, or reflection can come back into the classroom in a better form.
