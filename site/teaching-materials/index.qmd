@@ -1,7 +1,7 @@
 ---
 title: "General Materials"
 subtitle: "Reusable assignments, worksheets, handouts, and source packages"
-description: "Search and filter reusable classroom assignments and teaching materials across technological education, human wellness, and cross-curricular learning."
+description: "Search and filter reusable classroom assignments and teaching materials across technological education, human well-being, and cross-curricular learning."
 format:
   html:
     page-layout: full
@@ -19,7 +19,7 @@ execute:
 Reusable assignment packages and classroom materials. These include reusable templates from shared course folders and regenerable source packages maintained in this repository.
 :::
 
-The library intentionally links to **generic source materials**, not student submissions or student copies. The linked Google Drive materials are shared for public commenting, and the repository packages can be inspected and adapted from source. **General** materials are broadly reusable across subjects and technology courses. **Human Wellness** materials focus on identity, reflection, listening, goal setting, community, and related learning routines.
+The library intentionally links to **generic source materials**, not student submissions or student copies. The linked Google Drive materials are shared for public commenting, and the repository packages can be inspected and adapted from source. **General** materials are broadly reusable across subjects and technology courses. **Human Well-Being** materials focus on identity, reflection, listening, goal setting, community, and related learning routines.
 :::
 
 ```{=html}
@@ -45,7 +45,7 @@ The library intentionally links to **generic source materials**, not student sub
     <p class="bs-slide-control-label">Collection</p>
     <div class="bs-slide-filter-buttons" data-slide-collection-filters>
       <button type="button" data-slide-collection-filter="General" aria-pressed="false">General</button>
-      <button type="button" data-slide-collection-filter="Human Wellness" aria-pressed="false">Human Wellness</button>
+      <button type="button" data-slide-collection-filter="Human Well-Being" aria-pressed="false">Human Well-Being</button>
     </div>
   </div>
 
@@ -88,16 +88,16 @@ The library intentionally links to **generic source materials**, not student sub
   </article>
 
   <article class="bs-slide-card" data-slide-card
-    data-collection="Human Wellness"
+    data-collection="Human Well-Being"
     data-courses="TAS|TEJ|TTJ"
     data-tags="identity|reflection|goals|self-awareness|introductory"
     data-search="past present becoming identity reflection self awareness goals introductory about me">
     <a class="bs-slide-thumb" href="https://drive.google.com/file/d/1aBMiF-y_dOAGTvv7Gl6qSdxapVUoDTfn/view?usp=drivesdk" aria-label="Open Past, Present and Becoming">
-      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Wellness</span><strong>0.1</strong><span>Past · present · becoming</span></span>
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being</span><strong>0.1</strong><span>Past · present · becoming</span></span>
       <img src="https://drive.google.com/thumbnail?id=1aBMiF-y_dOAGTvv7Gl6qSdxapVUoDTfn&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
     </a>
     <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">Human Wellness</p>
+      <p class="bs-slide-card-collection">Human Well-Being</p>
       <h2 class="bs-slide-card-title"><a href="https://drive.google.com/file/d/1aBMiF-y_dOAGTvv7Gl6qSdxapVUoDTfn/view?usp=drivesdk">Past, Present &amp; Becoming</a></h2>
       <p class="bs-slide-card-description">An introductory identity and reflection activity connecting past experiences, the present, and what a learner hopes to become.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
@@ -107,16 +107,16 @@ The library intentionally links to **generic source materials**, not student sub
   </article>
 
   <article class="bs-slide-card" data-slide-card
-    data-collection="Human Wellness"
+    data-collection="Human Well-Being"
     data-courses="TAS|TEJ|TTJ"
     data-tags="listening|reflection|communication|community|presentation"
     data-search="the way we meet listening notes reflection presentation community connection communication">
     <a class="bs-slide-thumb" href="https://docs.google.com/document/d/1hAmElSY8qL7bGIAtZ8gGLXHEDra1b5cYGd2k9jx8vsI/edit?usp=drivesdk" aria-label="Open The Way We Meet Listening Notes and Reflection">
-      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Wellness</span><strong>0.2</strong><span>Listen + connect</span></span>
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being</span><strong>0.2</strong><span>Listen + connect</span></span>
       <img src="https://drive.google.com/thumbnail?id=1hAmElSY8qL7bGIAtZ8gGLXHEDra1b5cYGd2k9jx8vsI&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
     </a>
     <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">Human Wellness</p>
+      <p class="bs-slide-card-collection">Human Well-Being</p>
       <h2 class="bs-slide-card-title"><a href="https://docs.google.com/document/d/1hAmElSY8qL7bGIAtZ8gGLXHEDra1b5cYGd2k9jx8vsI/edit?usp=drivesdk">The Way We Meet: Listening Notes &amp; Reflection</a></h2>
       <p class="bs-slide-card-description">Listening notes and reflection prompts for learning about classmates, noticing connections, and practising attentive participation.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
@@ -221,15 +221,15 @@ The library intentionally links to **generic source materials**, not student sub
   </article>
 
   <article class="bs-slide-card" data-slide-card
-    data-collection="Human Wellness"
+    data-collection="Human Well-Being"
     data-courses="TAS|TEJ|TTJ"
     data-tags="identity|presentation|communication|introductory|self-expression"
     data-search="about me presentation identity communication introduction self expression source package">
     <a class="bs-slide-thumb" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-presentation.qmd" aria-label="Open About Me Presentation source package">
-      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Wellness · Source</span><strong>ME</strong><span>Identity + presentation</span></span>
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being · Source</span><strong>ME</strong><span>Identity + presentation</span></span>
     </a>
     <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">Human Wellness</p>
+      <p class="bs-slide-card-collection">Human Well-Being</p>
       <h2 class="bs-slide-card-title"><a href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-presentation.qmd">About Me Presentation Package</a></h2>
       <p class="bs-slide-card-description">Regenerable source for a short, genuine introduction activity focused on communication rather than performance or polish.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
@@ -239,15 +239,15 @@ The library intentionally links to **generic source materials**, not student sub
   </article>
 
   <article class="bs-slide-card" data-slide-card
-    data-collection="Human Wellness"
+    data-collection="Human Well-Being"
     data-courses="TAS|TEJ|TTJ"
     data-tags="listening|reflection|community|communication|presentation"
     data-search="about me listening notes listening reflection community presentation source package">
     <a class="bs-slide-thumb" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-listening-notes.qmd" aria-label="Open About Me Listening Notes source package">
-      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Wellness · Source</span><strong>LISTEN</strong><span>Notice + connect</span></span>
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being · Source</span><strong>LISTEN</strong><span>Notice + connect</span></span>
     </a>
     <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">Human Wellness</p>
+      <p class="bs-slide-card-collection">Human Well-Being</p>
       <h2 class="bs-slide-card-title"><a href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/about-me-listening-notes.qmd">About Me Listening Notes</a></h2>
       <p class="bs-slide-card-description">Regenerable listening-note source for noticing what another person shares and recording a connection or question.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
@@ -257,15 +257,15 @@ The library intentionally links to **generic source materials**, not student sub
   </article>
 
   <article class="bs-slide-card" data-slide-card
-    data-collection="Human Wellness"
+    data-collection="Human Well-Being"
     data-courses="TAS|TEJ|TTJ"
     data-tags="goals|reflection|progress|self-regulation|planning"
     data-search="weekly smart goal progress log goals reflection progress self regulation planning source package">
     <a class="bs-slide-thumb" href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/weekly-smart-goal-progress-log.qmd" aria-label="Open Weekly SMART Goal Progress Log source package">
-      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Wellness · Source</span><strong>GOAL</strong><span>Plan + reflect</span></span>
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being · Source</span><strong>GOAL</strong><span>Plan + reflect</span></span>
     </a>
     <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">Human Wellness</p>
+      <p class="bs-slide-card-collection">Human Well-Being</p>
       <h2 class="bs-slide-card-title"><a href="https://github.com/mrandrewandrade/tech-edu-resources/blob/master/teaching-materials/assignments/weekly-smart-goal-progress-log.qmd">Weekly SMART Goal Progress Log</a></h2>
       <p class="bs-slide-card-description">A reusable goal-setting and progress-reflection package with printable and Word-oriented variants in the source collection.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
