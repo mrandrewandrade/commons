@@ -1,0 +1,116 @@
+---
+title: "1. Measurement & Basic Circuits"
+description: "Significant figures, scientific notation, engineering notation, metric prefixes, Ohm's law, and electrical power."
+---
+
+> **These notes are unfinished intentionally.** The sections on significant figures and notation reflect work already completed. Ohm's law and electrical power are the next parts of this same unit and will be expanded with measurements and circuit examples from class.
+
+## Sequence
+
+1. Significant figures
+2. Scientific notation
+3. Engineering notation
+4. Metric prefixes
+5. Ohm's law
+6. Electrical power
+
+## Significant figures
+
+Significant figures communicate how precisely a value is known or measured.
+
+### Basic rules
+
+- Non-zero digits are significant.
+- Zeros between significant digits are significant.
+- Leading zeros are not significant.
+- Trailing zeros are significant when the notation makes that precision explicit.
+
+Examples:
+
+- **42.7** has 3 significant figures.
+- **0.00420** has 3 significant figures.
+- **1002** has 4 significant figures.
+- **1.20 × 10³** has 3 significant figures.
+
+When rounding, keep the requested number of significant figures and use the next digit to decide whether the final kept digit changes.
+
+[Open the Significant Figures slides](https://docs.google.com/presentation/d/1_EwePZ6fGRK-brHzccWetx0QSCgA4LFQ_vYn8hibq8c/edit?usp=drivesdk)
+
+[Open the reusable Significant Figures review](https://docs.google.com/presentation/d/1OzjY3_6Bzwwn2aOW3LG2lZzpOJBF4tZ_03eQTGXMlWw/edit?usp=drivesdk)
+
+## Scientific notation
+
+Scientific notation writes a value as a coefficient multiplied by a power of ten.
+
+**a × 10ⁿ**
+
+For normalized scientific notation, the coefficient has one non-zero digit before the decimal point.
+
+Examples:
+
+- **4700 = 4.7 × 10³**
+- **0.0047 = 4.7 × 10⁻³**
+
+The coefficient carries the significant digits. The exponent tells us how the decimal place is scaled.
+
+## Engineering notation
+
+Engineering notation is similar to scientific notation, but the exponent is a multiple of 3.
+
+Examples:
+
+- **47 000 = 47 × 10³**
+- **0.000 047 = 47 × 10⁻⁶**
+
+This matches the way metric prefixes are grouped and is especially useful in electronics.
+
+## Metric prefixes
+
+Common prefixes let us replace powers of ten with short symbols.
+
+| Prefix | Symbol | Power |
+|---|---:|---:|
+| giga | G | 10⁹ |
+| mega | M | 10⁶ |
+| kilo | k | 10³ |
+| base unit |  | 10⁰ |
+| milli | m | 10⁻³ |
+| micro | µ | 10⁻⁶ |
+| nano | n | 10⁻⁹ |
+| pico | p | 10⁻¹² |
+
+Examples:
+
+- **4.7 kΩ = 4.7 × 10³ Ω**
+- **220 mA = 220 × 10⁻³ A**
+- **47 µF = 47 × 10⁻⁶ F**
+
+[Open the Powers of 10, notation, and metric-prefix slides](https://docs.google.com/presentation/d/1erzc59cGdQb_AMdyey9qycehUKAHyV7Rmpe6u1a9iMQ/edit?usp=drivesdk)
+
+[Open the reusable Powers of 10 and Metric Prefixes deck](https://docs.google.com/presentation/d/1R83ueeAShw-97hP0p1humFnsE6BlQ09e-n96G387Yu4/edit?usp=drivesdk)
+
+## Ohm's law
+
+This is the next part of Unit 1.
+
+The relationship between voltage, current, and resistance is:
+
+**V = I × R**
+
+We will expand this section using measurements and basic circuits from class rather than filling it with generic examples in advance.
+
+## Electrical power
+
+Power follows Ohm's law in the unit sequence.
+
+A basic relationship is:
+
+**P = V × I**
+
+We will add the practical notes, measurements, and circuit examples after we do them in class.
+
+## What comes after Unit 1
+
+**TBD.**
+
+Binary, decimal, hexadecimal, and other number-system work will be introduced later when it connects naturally to programming and data types.
