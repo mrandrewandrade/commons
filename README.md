@@ -1,4 +1,4 @@
-# Technology Commons
+# Technological Education Resources
 
 A Quarto teaching website for TAS2O, TEJ3M/4M and TTJ3C/4C, with shared tools, resources, a glossary, Lore, and well-being material.
 
@@ -38,4 +38,4 @@ Temporary build output, local tool output, logs, caches, and virtual environment
 
 ## Attribution and licensing
 
-Technology Commons was adapted from earlier Backgammon Simplified source material. Required inherited attribution and third-party notices are retained. Original Commons code and executable materials use AGPL-3.0-only, while original educational content uses CC BY-SA 4.0. See `LICENSE.md`, `LICENSES/`, `THIRD_PARTY_NOTICES.md`, and `site/licensing.qmd`.
+Technology Commons was adapted from earlier Backgammon Simplified source material. Required inherited attribution and third-party notices are retained. Original project code and executable materials use AGPL-3.0-only, while original educational content uses CC BY-SA 4.0. See `LICENSE.md`, `LICENSES/`, `THIRD_PARTY_NOTICES.md`, and `site/licensing.qmd`.
