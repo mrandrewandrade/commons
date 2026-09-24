@@ -65,12 +65,6 @@ website:
           href: tas2/00-getting-to-know-you.qmd
         - text: "1. N.I.C.E. Design Process"
           href: tas2/01-nice-design-process.qmd
-        - text: "2. Building Computers"
-          href: tas2/02-building-computers.qmd
-        - text: "3. Logo Design & Animation"
-          href: tas2/03-logo-design-animation.qmd
-        - text: "4. Website Design"
-          href: tas2/04-website-design.qmd
     - id: tej
       title: "TEJ Notes"
       style: docked
@@ -80,14 +74,8 @@ website:
           href: tej3-4/index.qmd
         - text: "0. Getting to Know You"
           href: tej3-4/00-getting-to-know-you.qmd
-        - text: "1. Number Systems & Basic Circuits"
-          href: tej3-4/01-number-systems-basic-circuits.qmd
-        - text: "2. Building Computers"
-          href: tej3-4/02-building-computers.qmd
-        - text: "3. Logo Design & Animation"
-          href: tej3-4/03-logo-design-animation.qmd
-        - text: "4. Website Design"
-          href: tej3-4/04-website-design.qmd
+        - text: "1. Measurement & Basic Circuits"
+          href: tej3-4/01-measurement-basic-circuits.qmd
   page-footer:
     left: |
       Open educational resources by [Andrew Andrade](https://www.linkedin.com/in/andrewandrade) and contributors. Hosted on [GitHub Pages](https://github.com/mrandrewandrade/tech-edu-resources).
