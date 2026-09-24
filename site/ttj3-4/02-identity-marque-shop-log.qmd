@@ -1,6 +1,6 @@
 ---
 title: "2. Identity, Marque & Shop Log"
-subtitle: "TTJ3C / TTJ4C :: IDENTITY"
+subtitle: "TTS :: IDENTITY"
 sidebar: ttj
 page-layout: article
 toc: true
