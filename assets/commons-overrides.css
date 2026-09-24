@@ -1,6 +1,34 @@
-/* Technology Commons presentation overrides.
+/* TechEd Commons presentation overrides.
    Keep the inherited component system intact while using a consistent,
    simpler icon family for the Commons landing page. */
+
+/* Use the actual emblem plus Quarto's visible site title in the navbar.
+   The old Technology Commons lockup hid the navbar text entirely. */
+.navbar-brand-container .navbar-brand-logo {
+  display: flex;
+  align-items: center;
+  width: auto;
+  height: auto;
+  margin-right: 0.45rem;
+  background: none;
+}
+
+.navbar-brand-container .navbar-brand-logo .navbar-logo {
+  width: auto;
+  height: 42px;
+  max-height: 42px;
+  opacity: 1;
+}
+
+.navbar-brand-container > .navbar-brand:not(.navbar-brand-logo) {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-brand-container .navbar-title {
+  color: var(--bs-navy-dark) !important;
+  font-weight: 800;
+}
 
 body.bs-landing-page .bs-home-explore-icon::before {
   -webkit-mask-repeat: no-repeat;
@@ -142,6 +170,17 @@ body.bs-research-article #title-block-header .quarto-categories {
 }
 
 @media (max-width: 560px) {
+  .navbar-brand-container .navbar-brand-logo {
+    width: auto;
+    height: auto;
+    margin-right: 0.3rem;
+  }
+
+  .navbar-brand-container .navbar-brand-logo .navbar-logo {
+    height: 32px;
+    max-height: 32px;
+  }
+
   body.bs-research-article #title-block-header .quarto-title-meta {
     gap: 0.35rem 0.9rem;
   }
