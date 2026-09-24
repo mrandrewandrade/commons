@@ -36,12 +36,14 @@ website:
     title: "TechEd Commons"
     collapse-below: xl
     left:
+      - href: learners/index.qmd
+        text: "← Learners"
       - href: tas2/index.qmd
         text: TAS2
       - href: tej3-4/index.qmd
         text: TEJ3/4
       - href: ttj3-4/index.qmd
-        text: TTJ3/4
+        text: TTS
       - text: Class Slides
         menu:
           - text: TAS
@@ -50,17 +52,15 @@ website:
             href: slides/tej.qmd
           - text: TTS
             href: slides/tts.qmd
-      - href: tools/index.qmd
-        text: Tools
-      - href: resources/index.qmd
-        text: Resources
-      - href: glossary/index.qmd
-        text: Glossary
     right:
+      - href: educators/index.qmd
+        text: "Educators →"
       - href: teacher-slides/index.qmd
-        text: Teacher Slides
+        text: Reusable Slides
+      - href: teaching-materials/index.qmd
+        text: Teaching Materials
       - href: wellbeing/index.qmd
-        text: Well-being
+        text: Human Wellness
       - href: lore/index.qmd
         text: Lore
       - href: about.qmd
@@ -123,7 +123,7 @@ website:
             - text: "8. Major Project & Portfolio"
               href: tej3-4/08-major-project-portfolio.qmd
     - id: ttj
-      title: "TTJ3C / TTJ4C"
+      title: "TTS"
       style: docked
       collapse-level: 1
       contents:
