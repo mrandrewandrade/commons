@@ -1,0 +1,30 @@
+---
+title: "Teaching Materials"
+subtitle: "Reusable assignment packages and source files"
+description: "Assignment packages, worksheets, templates, branding, and regenerable source files for technology education."
+format:
+  html:
+    page-layout: article
+    toc: true
+    title-block-style: plain
+---
+
+This section is the educator-facing home for reusable assignment packages and the source files used to generate them.
+
+The former standalone `assets` repository has been migrated into this repository under `teaching-materials/` so the assignments, templates, branding, and build scripts can be maintained with the rest of Tech Edu.
+
+## Assignment packages
+
+The migrated source collection currently includes:
+
+- About Me listening notes and presentation packages
+- Name tag assignment package
+- Weekly SMART goal and progress log
+- Combined teacher-marking materials
+- Word and printable variants where available
+
+## Source and templates
+
+The complete source collection is preserved in the Tech Edu repository, including the original Quarto files, templates, build scripts, branding files, and supporting assets.
+
+[Browse the Teaching Materials source on GitHub](https://github.com/mrandrewandrade/tech-edu/tree/master/teaching-materials)
