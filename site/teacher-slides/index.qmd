@@ -1,7 +1,7 @@
 ---
 title: "Teacher Slides"
 subtitle: "Reusable classroom decks"
-description: "Search and filter reusable Google Slides for teaching, review, creativity, and student wellness."
+description: "Search and filter reusable Google Slides for broad-based technology, cross-curricular learning, creativity, and human wellness."
 format:
   html:
     page-layout: full
@@ -19,7 +19,7 @@ execute:
 Reusable slide decks for teachers. Search by topic, narrow the collection, or use the tags to find something quickly.
 :::
 
-General decks are focused on broad-based technology courses and are designed to connect with other curricular and co-curricular subjects. **Human Wellness** collects reusable activities and opening material that can work across courses, from JK to post-secondary and beyond.
+General decks support broad-based technology courses and are designed to connect with other curricular and co-curricular subjects. The **Human Wellness Collection** brings together reusable activities and opening material that can work across courses and learning environments, from JK to post-secondary and beyond.
 :::
 
 ```{=html}
