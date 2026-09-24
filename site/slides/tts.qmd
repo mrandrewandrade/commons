@@ -1,0 +1,18 @@
+---
+title: "TTS Slides"
+toc: false
+---
+
+Current TTS classroom decks are maintained in Google Slides. Earlier Quarto/RevealJS material remains preserved in the [archived slides repository](https://github.com/mrandrewandrade/slides).
+
+[Open the TTS course folder in Google Drive](https://drive.google.com/drive/folders/17O23VPUCNgXQTp3nF_NWeKwVn4L5sDRr)
+
+| Day | Lesson | Slides |
+|---|---|---|
+| Day 1 | Classroom slides | [Google Slides](https://docs.google.com/presentation/d/1RWKvCa6gsKB6iYgkEC-FQo2Z60AJbB-E6aHXD00mMsU/edit?usp=drivesdk) |
+| Day 2 | Classroom slides | [Google Slides](https://docs.google.com/presentation/d/1Rl2cu4g6Ijuna71l4c9Fig3cQu2anpHbQKiIg18vEJA/edit?usp=drivesdk) |
+| Day 3 | Classroom slides | [Google Slides](https://docs.google.com/presentation/d/1jWqUmRyaTAhb4_DIhKu5O8f53cUnPE6ufI1GvpdqDzw/edit?usp=drivesdk) |
+| Day 4 | Classroom slides | [Google Slides](https://docs.google.com/presentation/d/1SFsEmqSXoSAWHVv3LKIbvlbzQwbb64O_0h2VDpy-5Dg/edit?usp=drivesdk) |
+| Day 5 | **Funday Friday: Going outside** | [Daily Opening Quotes](https://docs.google.com/presentation/d/12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY/edit?usp=drivesdk) |
+| Day 6 | Week 2 vehicle work | [Combined Week 2 deck](https://docs.google.com/presentation/d/1xU4gzV95vt9UUlRXXkyyJu4iXaFNav20rg3hrfto5jc/edit?usp=drivesdk) |
+| Day 7 | Week 2 vehicle work | [Combined Week 2 deck](https://docs.google.com/presentation/d/1xU4gzV95vt9UUlRXXkyyJu4iXaFNav20rg3hrfto5jc/edit?usp=drivesdk) |
