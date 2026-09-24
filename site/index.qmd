@@ -39,10 +39,6 @@ The way becomes clear through practice. The tools are here. Use what serves you.
 <span class="bs-home-explore-chevron" aria-hidden="true">›</span>](ttj3-4/index.qmd){.bs-home-explore-link .bs-home-explore-link--ttj}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
-<span class="bs-home-explore-copy"><span class="bs-home-explore-title">Human Wellness</span><span class="bs-home-explore-description">Reusable routines for attention, reflection, self-regulation, mindfulness, and positive learning transitions.</span></span>
-<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](wellbeing/index.qmd){.bs-home-explore-link .bs-home-explore-link--wellbeing}
-
-[<span class="bs-home-explore-icon" aria-hidden="true"></span>
 <span class="bs-home-explore-copy"><span class="bs-home-explore-title">Lore</span><span class="bs-home-explore-description">Read what I am learning, testing, remembering, and carrying forward through teaching, engineering, making, and community.</span></span>
 <span class="bs-home-explore-chevron" aria-hidden="true">›</span>](lore/index.qmd){.bs-home-explore-link .bs-home-explore-link--lore}
 :::::
