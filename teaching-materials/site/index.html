@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Technology Commons teaching resources by Andrew Andrade.">
+  <title>Technology Commons | Teaching Resources</title>
+  <style>
+    :root { --navy:#1e2b55; --charcoal:#20262d; --slate:#596673; --mist:#d9dee2; --sail:#f4f5f6; --gold:#f4c91d; --white:#ffffff; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family:Arial,Helvetica,sans-serif; color:var(--charcoal); background:var(--sail); line-height:1.5; }
+    a { color:var(--navy); }
+    a:focus-visible { outline:3px solid var(--gold); outline-offset:3px; }
+    .page { width:min(1120px,calc(100% - 32px)); margin:0 auto; }
+    header { background:var(--white); border-bottom:1px solid var(--mist); }
+    .header-inner { display:flex; justify-content:space-between; gap:24px; align-items:center; padding:28px 0; }
+    .eyebrow { margin:0 0 4px; color:var(--slate); font-size:.9rem; font-weight:700; letter-spacing:.05em; text-transform:uppercase; }
+    h1 { margin:0; color:var(--navy); font-size:clamp(2rem,5vw,3.25rem); line-height:1.05; }
+    .school { margin:8px 0 0; color:var(--slate); }
+    .gold-rule { width:64px; height:5px; margin-top:18px; background:var(--gold); }
+    main { padding:42px 0 56px; }
+    .resource,.download-card { background:var(--white); border:1px solid var(--mist); border-radius:14px; overflow:hidden; box-shadow:0 12px 32px rgba(30,43,85,.08); }
+    .resource + .resource { margin-top:26px; }
+    .resource-header,.download-card { display:grid; grid-template-columns:1fr auto; gap:24px; align-items:center; padding:26px 28px; }
+    .resource-header { border-bottom:1px solid var(--mist); }
+    h2,h3 { margin:0 0 5px; color:var(--navy); }
+    h2 { font-size:1.55rem; }
+    h3 { font-size:1.15rem; }
+    .resource-header p,.download-card p { margin:0; color:var(--slate); }
+    .actions { display:flex; gap:8px; flex-wrap:wrap; justify-content:flex-end; }
+    .button { display:inline-block; padding:11px 18px; border-radius:8px; background:var(--navy); color:var(--white); font-weight:700; text-decoration:none; white-space:nowrap; }
+    .button.secondary { background:var(--white); color:var(--navy); border:1px solid var(--navy); }
+    .button:hover { text-decoration:underline; }
+    .viewer { width:100%; height:min(72vh,760px); min-height:520px; border:0; display:block; background:var(--mist); }
+    .downloads { display:grid; grid-template-columns:1fr 1fr; gap:18px; margin-top:18px; }
+    .mobile-note { display:none; padding:18px 22px; color:var(--slate); background:var(--sail); border-top:1px solid var(--mist); }
+    footer { padding:0 0 40px; color:var(--slate); font-size:.9rem; }
+    footer p { margin:0; }
+    @media (max-width:760px) { .header-inner{align-items:flex-start}.resource-header,.download-card,.downloads{grid-template-columns:1fr}.actions{justify-content:flex-start}.button{text-align:center}.viewer{min-height:62vh}.mobile-note{display:block} }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="page header-inner">
+      <div>
+        <p class="eyebrow">Port Credit Secondary School</p>
+        <h1>Technology Commons</h1>
+        <p class="school">Teaching resources by Andrew Andrade</p>
+        <div class="gold-rule" aria-hidden="true"></div>
+      </div>
+    </div>
+  </header>
+
+  <main class="page">
+    <section class="resource" aria-labelledby="name-tag-title">
+      <div class="resource-header">
+        <div>
+          <h2 id="name-tag-title">0.0 Name Tag PDF - /10</h2>
+          <p>A first practice assignment for clear photography, student identification, PDF creation, file checking, and following submission instructions.</p>
+        </div>
+        <div class="actions">
+          <a class="button" href="0.0-name-tag-pdf.pdf">PDF</a>
+          <a class="button secondary" href="0.0-name-tag-pdf.docx">Editable Word</a>
+        </div>
+      </div>
+      <iframe class="viewer" src="0.0-name-tag-pdf.pdf#view=FitH" title="0.0 Name Tag PDF assignment"></iframe>
+      <p class="mobile-note">If the PDF does not display in your browser, use the PDF button above.</p>
+    </section>
+
+    <section class="resource" aria-labelledby="presentation-title">
+      <div class="resource-header">
+        <div>
+          <h2 id="presentation-title">0.1 Past, Present &amp; Becoming - /10</h2>
+          <p>Who was I? Who am I? Who am I becoming? A short presentation about the path so far and what may come next.</p>
+        </div>
+        <div class="actions">
+          <a class="button" href="0.1-past-present-becoming.pdf">PDF</a>
+          <a class="button secondary" href="0.1-past-present-becoming.docx">Editable Word</a>
+        </div>
+      </div>
+      <iframe class="viewer" src="0.1-past-present-becoming.pdf#view=FitH" title="0.1 Past, Present and Becoming PDF"></iframe>
+      <p class="mobile-note">If the PDF does not display in your browser, use the PDF button above.</p>
+    </section>
+
+    <section class="resource" aria-labelledby="listening-title">
+      <div class="resource-header">
+        <div>
+          <h2 id="listening-title">0.2 The Way We Meet - /10</h2>
+          <p>Attention, connection, and making space for one another through listening, notes, discussion, two written reflections, and Learning Skills.</p>
+        </div>
+        <div class="actions">
+          <a class="button" href="0.2-the-way-we-meet.pdf">PDF</a>
+          <a class="button secondary" href="0.2-the-way-we-meet.docx">Editable Word</a>
+        </div>
+      </div>
+      <iframe class="viewer" src="0.2-the-way-we-meet.pdf#view=FitH" title="0.2 The Way We Meet PDF"></iframe>
+      <p class="mobile-note">If the PDF does not display in your browser, use the PDF button above.</p>
+      <div class="downloads">
+        <article class="download-card">
+          <div><h3>0.2 Listening Notes + Reflections</h3><p>Four-part package: notes for 34 presenters, honest attention ratings, a dedicated Listening Reflection with Learning Skills self-evaluation, and a separate Presentation Reflection comparing 0.1 with what the student learned from classmates. Students submit the completed package as one PDF.</p></div>
+          <div class="actions">
+            <a class="button" href="0.2-the-way-we-meet-notes.pdf">Colour PDF</a>
+            <a class="button secondary" href="0.2-the-way-we-meet-notes-bw.pdf">B&amp;W Print PDF</a>
+            <a class="button secondary" href="0.2-the-way-we-meet-notes.docx">Editable Word</a>
+          </div>
+        </article>
+        <article class="download-card">
+          <div><h3>0.1 + 0.2 Combined Teacher Marking</h3><p>One tracker for 0.1 and 0.2. Mark the five presentation criteria, tick listening concerns such as phone use, talking, off-task behaviour, missing notes, or repeated prompting, then add the final listening /10 after reviewing the submitted notes and reflections.</p></div>
+          <div class="actions">
+            <a class="button" href="0.1-0.2-combined-teacher-marking.pdf">PDF</a>
+            <a class="button secondary" href="0.1-0.2-combined-teacher-marking.docx">Editable Word</a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="resource" aria-labelledby="weekly-progress-title">
+      <div class="resource-header">
+        <div>
+          <h2 id="weekly-progress-title">Weekly SMART Goal &amp; Progress Log</h2>
+          <p>Set the Goal. Follow the Way. Take Action. Daily SMART goals, progress notes, a weekly reflection page with open space for drawing or writing, and a Learning Skills self-evaluation.</p>
+        </div>
+        <div class="actions">
+          <a class="button" href="weekly-smart-goal-progress-log.pdf">Colour PDF</a>
+          <a class="button secondary" href="weekly-smart-goal-progress-log-bw.pdf">B&amp;W Print PDF</a>
+          <a class="button secondary" href="weekly-smart-goal-progress-log.docx">Editable Word</a>
+        </div>
+      </div>
+      <iframe class="viewer" src="weekly-smart-goal-progress-log.pdf#view=FitH" title="Weekly SMART Goal and Progress Log"></iframe>
+      <p class="mobile-note">If the PDF does not display in your browser, use one of the PDF buttons above.</p>
+    </section>
+  </main>
+
+  <footer class="page">
+    <p><a href="https://creativecommons.org/licenses/by/4.0/">CC BY 4.0</a> · You may share and adapt with attribution to Andrew Andrade: <a href="https://github.com/mrandrewandrade">https://github.com/mrandrewandrade</a></p>
+  </footer>
+</body>
+</html>
