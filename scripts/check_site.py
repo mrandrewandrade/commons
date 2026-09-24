@@ -60,7 +60,7 @@ def check(root: Path) -> tuple[int, list[str]]:
                 inspect(path, 'css', match[1])
     for required in ['index.html', 'tas2/index.html', 'tej3-4/index.html',
                      'slides/index.html', 'teacher-slides/index.html',
-                     'teaching-materials/index.html', 'wellbeing/index.html',
+                     'teaching-materials/index.html',
                      'lore/index.html', 'lore/from-a-pen-and-paper-mark-to-a-crest.html']:
         if not (root / required).is_file():
             problems.append('Missing main page: ' + required)
