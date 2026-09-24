@@ -1,0 +1,18 @@
+---
+title: "2. Building Computers"
+description: "Collaborative notes for rebuilding computers and installing Ubuntu in TAS."
+---
+
+> **These notes are unfinished intentionally.** Students will contribute once we begin rebuilding salvaged computers and installing Ubuntu.
+
+We will document:
+
+- major computer components
+- safe handling and disassembly
+- identifying reusable parts
+- rebuilding and troubleshooting
+- BIOS/UEFI basics
+- storage and boot media
+- installing Ubuntu
+- testing the finished system
+- what we learned from failures and fixes
