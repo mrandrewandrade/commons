@@ -1,6 +1,6 @@
 ---
 title: "1. Starting Point"
-subtitle: "TTJ3C / TTJ4C :: GETTING STARTED"
+subtitle: "TTS :: GETTING STARTED"
 sidebar: ttj
 page-layout: article
 toc: true
