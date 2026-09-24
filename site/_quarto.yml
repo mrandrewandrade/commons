@@ -84,10 +84,10 @@ website:
     left: |
       Open educational resources by [Andrew Andrade](https://www.linkedin.com/in/andrewandrade) and contributors. Hosted on [GitHub Pages](https://github.com/mrandrewandrade/tech-edu-resources).
     center: |
-      Text: [CC BY-SA 4.0](/tech-edu-resources/licensing.html), attribution and share-alike required. Code: [AGPL 3.0](/tech-edu-resources/licensing.html), copyleft applies.
+      Text: [CC BY-SA 4.0](licensing.qmd), attribution and share-alike required. Code: [AGPL 3.0](licensing.qmd), copyleft applies.
     right:
       - text: About
-        href: /tech-edu-resources/about.html
+        href: about.qmd
 
 format:
   html:
