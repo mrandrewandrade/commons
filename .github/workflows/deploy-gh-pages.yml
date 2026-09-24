@@ -1,4 +1,4 @@
-name: Deploy Commons to GitHub Pages
+name: Deploy TER to GitHub Pages
 
 on:
   push:
