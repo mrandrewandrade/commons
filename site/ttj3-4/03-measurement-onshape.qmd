@@ -1,6 +1,6 @@
 ---
 title: "3. Measurement & Onshape"
-subtitle: "TTJ3C / TTJ4C :: METROLOGY & CAD"
+subtitle: "TTS :: METROLOGY & CAD"
 sidebar: ttj
 page-layout: article
 toc: true
