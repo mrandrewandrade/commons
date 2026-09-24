@@ -1,6 +1,6 @@
 # Licensing
 
-Copyright © 2026 Marty Gale and contributors.
+Copyright © 2026 Andrew Andrade and contributors.
 
 This repository contains software, educational material, project branding, and possibly third-party material. Different parts of the repository are licensed differently.
 
@@ -22,9 +22,7 @@ SPDX-License-Identifier: AGPL-3.0-only
 This includes, where present:
 
 - R, Python, JavaScript, TypeScript, shell, and other program source code
-- the R Shiny analyzer
-- the website-specific Python worker
-- APIs, bridges, queues, and network-service code
+- website scripts, interactive components, and build utilities
 - Quarto extensions and executable build logic
 - generators, validators, migration tools, and maintenance scripts
 - tests and reusable software components
@@ -60,7 +58,7 @@ You may share and adapt this material, including commercially, provided that you
 2. provide a link to the license;
 3. indicate whether changes were made;
 4. distribute adaptations under CC BY-SA 4.0 or a compatible license;
-5. do not imply endorsement by Backgammon Simplified.
+5. do not imply endorsement by Technological Education Resources.
 
 Canonical license and legal code:
 
@@ -68,8 +66,8 @@ Canonical license and legal code:
 
 ### Recommended attribution
 
-> Based on material from **Backgammon Simplified** by Marty Gale and contributors.
-> Source: <https://github.com/backgammonsimplified/backgammonsimplified.github.io>
+> Based on material from **Technological Education Resources** by Andrew Andrade and contributors.
+> Source: <https://github.com/mrandrewandrade/tech-edu-resources>
 > Licensed under **CC BY-SA 4.0**.
 > Changes were made.
 
@@ -94,12 +92,12 @@ The AGPL and CC BY-SA licenses do **not** grant trademark rights.
 
 The following are not licensed for use as the identity of a fork, course, service, or derivative project:
 
-- the **Backgammon Simplified** name as an official project identity;
+- the **Technological Education Resources** name as an official project identity;
 - the BS logo and favicon;
 - distinctive official brand marks and social templates;
 - statements implying official status, affiliation, sponsorship, or endorsement.
 
-Forks and adaptations may accurately state that they are based on Backgammon Simplified and must preserve required attribution. They should use their own name and visual identity.
+Forks and adaptations may accurately state that they are based on Technological Education Resources and must preserve required attribution. They should use their own name and visual identity.
 
 In plain language:
 
@@ -107,7 +105,7 @@ In plain language:
 
 ## 5. Third-party material
 
-Third-party code, engine binaries, neural-network weights, fonts, quotations, screenshots, board assets, data, and other material remain under their original licenses or terms.
+Third-party code, fonts, quotations, screenshots, board assets, data, and other material remain under their original licenses or terms.
 
 Their inclusion in this repository does not relicense them under AGPL or CC BY-SA.
 
