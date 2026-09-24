@@ -79,15 +79,37 @@ These are not meant to collapse different religions or philosophies into one sys
 
 The common thread is not that these traditions are identical. It is that many very different traditions take practice, humility, relationship, disciplined attention, service, and lifelong learning seriously.
 
+The religious, spiritual, philosophical, and cultural references above describe ideas I study and influences I find useful. They are **not belief requirements for students**. Students are not expected to adopt, reject, defend, or disclose a religious, spiritual, Indigenous, philosophical, or non-religious belief. Classroom reflection can remain secular and can use interests, projects, community, culture, technical work, or another non-sensitive point of reference. Agreement with a belief is never assessed.
+
 ## Well-being, mindfulness, and professional boundaries
 
 Mindfulness and well-being activities on this site are **educational classroom practices, not therapy, counselling, diagnosis, or mental-health treatment**. They may appear as brief start-up activities, pauses, check-ins, or reflections that support attention, self-regulation, readiness to learn, reflection, and awareness of physical, mental, spiritual, and emotional well-being. They sit alongside and around the curriculum as part of the learning environment rather than as therapeutic assignments.
 
-Students are not asked to diagnose themselves or others, disclose private mental-health information, or participate in therapy as coursework. Personal disclosure is not a basis for assessment. The focus is on skills and habits that can support learning: being present, noticing without judgement, reflecting, regulating attention, asking for help when needed, and recognizing that well-being can affect learning.
+These activities fit the promotion end of PDSB's tiered mental-health model. PDSB's **2026-2029 Mental Health and Addictions Strategy** describes Tier 1 as positive mental-health and well-being promotion for all students through inclusive learning environments, social-emotional learning, and stigma reduction. Specialized consultation, assessment, family support, and therapeutic services sit at Tier 3 with appropriate mental-health professionals. The public [PDSB Mental Health and Well-Being](https://www.peelschools.org/mental-health-and-well-being) page is the starting point for current board resources and pathways to care.
 
-The teacher's role is educational and supportive. That includes creating a safe and respectful learning environment, noticing concerns, listening appropriately, maintaining professional boundaries, reducing stigma, and helping students connect with appropriate school, board, family, community, or regulated professional supports when concerns arise. It does not include diagnosing mental-health conditions or providing treatment.
+Students are not asked to diagnose themselves or others, disclose private mental-health information, or participate in therapy as coursework. Personal disclosure, emotional intensity, or the private details of a student's life are not a basis for assessment. Where reflection is assessed, the evidence is the curriculum learning or observable learning process identified in the task, not a student's mental-health status or willingness to reveal personal information.
 
-This distinction follows the Ontario College of Teachers' [Professional Standards](https://www.oct.ca/en-ca/public-protection/professional-standards) and its professional advisory on [Supporting Students' Mental Health](https://www.oct.ca/en-ca/for-members/professional-advisories/supporting-students-mental-health), which describes educators as supports for student well-being while distinguishing teaching from diagnosis, treatment, and counselling outside an educator's role and training. Where a student may be at risk of harm or a concern requires escalation, applicable school, board, legal, and professional reporting procedures govern the response.
+### Referral and pathways to care
+
+If a student asks for mental-health help, or a concern moves beyond ordinary classroom support, the role moves from classroom learning to connection and referral. Depending on the situation, that pathway can include **Guidance or Student Services, school administration, the School Support Team, PDSB social work or psychology services, parents or caregivers, and community or regulated health professionals**. PDSB's current strategy calls for clear pathways to both school and community supports.
+
+The teacher's role is to notice, listen, respond appropriately, maintain professional boundaries, reduce stigma, and connect students with the people whose role and training fit the concern. It does not include diagnosing a condition or providing treatment. This reflects the Ontario College of Teachers' [Supporting Students' Mental Health](https://www.oct.ca/en-ca/for-members/professional-advisories/supporting-students-mental-health) advisory, including its direction to observe, listen, inform, and involve others rather than counsel outside the educator's role and training.
+
+Students are not promised absolute confidentiality. When safety, suspected abuse or neglect, self-harm, threats, or another reporting obligation is involved, applicable school and board procedures, emergency protocols, and the OCT [Duty to Report](https://www.oct.ca/en-ca/for-members/professional-advisories/duty-to-report) advisory govern the response. Professional relationships and communications also follow the OCT [Professional Boundaries](https://www.oct.ca/en-ca/for-members/professional-advisories/professional-boundaries) advisory and the [Professional Standards](https://www.oct.ca/en-ca/public-protection/professional-standards).
+
+## AI, privacy, and digital tools
+
+AI can be used as an iterative learning partner for activities such as brainstorming, inquiry, coding, accessibility, drafting, feedback, and reflection on process when the task permits it. It does not replace professional judgement or reliable evidence of student learning. Assignment-specific directions identify what AI assistance is permitted and how it is attributed. Students may be asked to retain prompts and relevant outputs as evidence of process, while keeping personal and sensitive information out of those prompts.
+
+**Confidential or sensitive student information is not entered into public or unapproved AI tools.** This includes student names or numbers, school account information, identifiable student work, grades, IEP or accommodation information, health or mental-health information, family circumstances, images or recordings, and other personal information. Student-facing third-party software use follows current PDSB approval, privacy, age, notice, and consent requirements.
+
+PDSB's [Interim Guidance on Artificial Intelligence in Education](https://peel.cmdesign.imagineeverything.com/documents/44209b84-2fb8-4cf0-8011-33a754cc3b2e/7.4%20AI%20and%20Plagiarism%20for%20Staff.pdf) emphasizes transparency, privacy, verification of AI output, attribution, protection of confidential student data, and caution with AI-detection tools. The [PDSB Privacy and Terms](https://www.peelschools.org/privacy-and-terms) page provides the board's public privacy information. Ontario's [O. Reg. 52/26](https://www.ontario.ca/laws/regulation/260052), in force July 1, 2026, also requires school-board notice when student personal digital information is disclosed to qualifying third-party software applications.
+
+AI-generated or AI-assisted educational material is reviewed for factual accuracy, context, bias, accessibility, privacy, and copyright before use. AI-detection output is not treated as proof by itself.
+
+## Student privacy on this public site
+
+This site publishes **generic teaching resources, not student records or routine student submissions**. Student names, student numbers, contact information, grades, IEP or accommodation information, health information, and other private student data remain in board-approved systems. Identifiable student work, images, stories, or recordings are published only when the applicable permission, consent, and board requirements have been addressed.
 
 ## Open licences and attribution
 
@@ -465,7 +487,7 @@ Older treatment retained for historical material and design-history reference.
 
 Keep the supplied proportions and colours. Do not stretch, skew, add effects, or casually recolour school marks. When possible, use transparent source files rather than extracting logos from screenshots.
 
-Technological Education Resources can sit beside these marks, but it should not imply that every page or resource is an official publication of Port Credit Secondary School or the Peel District School Board.
+Technological Education Resources can sit beside these marks without implying that every page or resource is an official publication of Port Credit Secondary School or the Peel District School Board.
 
 :::::
 ::::::
