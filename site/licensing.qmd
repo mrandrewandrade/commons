@@ -15,13 +15,13 @@ Original website code and executable materials are licensed under the [GNU Affer
 
 Original educational text, articles, lessons, diagrams, and explanatory figures are licensed under [Creative Commons Attribution-ShareAlike 4.0 International](https://creativecommons.org/licenses/by-sa/4.0/) (`CC-BY-SA-4.0`).
 
-Please copy, adapt, and make the educational material useful in your own context. When reusing it, give appropriate credit, link to the licence and original source, indicate whether changes were made, and share adaptations under CC BY-SA 4.0 or a compatible licence.
+**Share, adapt, and pass it on.** You may copy, modify, remix, and redistribute the original educational material. Any modified or adapted version must remain under the **same CC BY-SA 4.0 licence**, identify that changes were made, and preserve attribution to the original source at **andrewandrade.ca** and **github.com/mrandrewandrade**.
 
-Please reference both **andrewandrade.ca** and **github.com/mrandrewandrade** in the attribution.
+You can also add **your own name, website, repository, and links** when you modify or adapt the work so later versions can credit your contribution too. Each version can credit the people who improved it while preserving the original attribution and share-alike licence. Because adaptations remain under the same licence, the work remains shareable and adaptable as it changes. **Sharing is caring.**
 
 Suggested credit:
 
-> Based on **Technological Education Resources** by Andrew Andrade and contributors, originally published at **andrewandrade.ca** with source at **github.com/mrandrewandrade**. Licensed under **CC BY-SA 4.0**. Changes were made.
+> Based on **Technological Education Resources** by Andrew Andrade and contributors, originally published at **andrewandrade.ca** with source at **github.com/mrandrewandrade**. Licensed under **CC BY-SA 4.0**. Modified by **[your name]**, **[your link]**. Changes were made.
 
 For a repository-specific link, use <https://github.com/mrandrewandrade/tech-edu-resources>.
 
