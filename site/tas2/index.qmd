@@ -1,6 +1,6 @@
 ---
-title: "TAS2O - Exploring Technologies"
-description: "Course home for TAS2O Exploring Technologies."
+title: "TAS Notes"
+description: "Intentionally unfinished collaborative notes for TAS2O Exploring Technologies."
 page-layout: full
 toc: false
 format:
@@ -14,21 +14,26 @@ execute:
 ::: {.bs-page-shell}
 ::: {.bs-reading-column}
 ::: {.bs-lesson-preamble}
-TAS2O is a hands-on introduction to technological design. Students move from personal identity and digital design into CAD, fabrication, electronics, and an integrated project portfolio.
+These notes are **unfinished intentionally**. We will build them with students as the course develops, especially after we rebuild salvaged computers, install Ubuntu, and begin contributing documentation from our own work.
 :::
 
 ## Course path
 
-The course will be organized around short design-and-build cycles:
+0. **Getting to Know You**  
+   Personal identity → group identity → visual identity → logo design.
 
-1. Starting Point
-2. Identity, Logo & Emblem
-3. Digital Design & Photopea
-4. Measurement & Onshape
-5. Fabrication & Materials
-6. Electronics & Tinkercad
-7. Integrated Project & Portfolio
+1. **N.I.C.E. Design Process**  
+   Needs & Necessities → Investigate & Inquire → Create & Communicate → Evaluate → repeat.
 
-Detailed lessons and the course sidebar are added in the next curriculum iteration.
+2. **Building Computers**  
+   Identify components, rebuild salvaged computers, install Ubuntu, test the systems, and document what we learn.
+
+3. **Logo Design & Animation**  
+   Move from identity and visual language into logo development, iteration, motion, and animation.
+
+4. **Website Design**  
+   Bring writing, graphics, identity, layout, and technical skills together in a website.
+
+The notes will grow from classroom work rather than being presented as a finished textbook.
 :::
 :::
