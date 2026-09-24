@@ -7,8 +7,10 @@ toc-depth: 2
 format:
   html:
     title-block-style: plain
-    body-classes: "bs-about-page ter-about-page"
-    css: assets/about.css
+    body-classes: "bs-about-page ter-about-page commons-brand-page"
+    css:
+      - assets/about.css
+      - assets/commons-brand-guide.css
 ---
 
 :::::: {.bs-page-shell}
@@ -32,13 +34,19 @@ The resources are organized around Ontario's [Technological Education curriculum
 
 Before teaching at Port Credit, I worked at Palantir, ran a startup called PetroPredict, and completed internships at Facebook, Suncor, and several smaller technology companies. Earlier, while I was still in high school, I worked as a lifeguard and deck supervisor with the City of Mississauga and in a machine shop after a co-op placement.
 
-Outside work and school, I was a sponsored kiteboarder for **Switch Kites** and have been an avid **box lacrosse** player. Those experiences are part of why I value hands-on learning, practice, teamwork, risk awareness, and learning from people who know something you do not.
+Outside work and school, I was a sponsored kiteboarder for **Switch Kites** and have been an avid **box lacrosse** player. Kiteboarding was a major part of my life and shaped how I think about practice, judgement, risk, feedback, equipment, weather, failure, and learning from people who are better than you.
 
 ::: {.ter-kite-grid}
 ![](assets/about/kiteboarding-air.jpg){fig-alt="Andrew Andrade kiteboarding over the shoreline" loading="lazy"}
 
 ![](assets/about/kiteboarding-board.jpg){fig-alt="Andrew Andrade kiteboarding with the board in the foreground" loading="lazy"}
 :::
+
+After moving back to Mississauga following time living abroad, kiteboarding became something I could realistically do only a few times a year. I needed other ways to keep learning with people, contributing to communities, and doing things that require practice.
+
+I now volunteer, guest speak, and run workshops with a variety of organizations, but I spend the most time contributing to my local parish in Mississauga. I am of **Goan Catholic heritage**, and I have helped with children's programs including First Holy Communion and with liturgy involving exceptional individuals.
+
+I take my own beliefs seriously while also trying to study other philosophies and religious traditions with respect. That helps me understand more of the people I teach and work with, and gives me more ways to think about learning, discipline, community, service, attention, and human wellness. More recently, I have been training in **Gong Fu and Qigong** with the [Chung Wah Kung Fu International System](https://www.chungwahkungfu.com/) and the [Human Wellness and Recuperation Centre](https://www.chungwahhealth.com/).
 
 ## Why this site is open
 
@@ -50,45 +58,71 @@ The material here is meant to be used, questioned, adapted, improved, and shared
 
 ## A few ideas worth carrying
 
-These are short reminders rather than a teaching philosophy carved in stone.
+These are not meant to collapse different religions or philosophies into one system. They are short ideas I find useful to keep nearby when thinking about teaching, learning, practice, and community.
 
-> **"Let us not take thought for our separate interests, but let us help one another."**  
-> [OSSTF/FEESO motto](https://www.osstf.on.ca/en-CA/about-us/what-we-stand-for/principles.aspx)
+- **Dave Cormier / rhizomatic learning:** [“The community is the curriculum.”](https://ecampusontario.pressbooks.pub/communityascurriculum/front-matter/introduction/) A practical version for a shop, lab, team, or classroom is: **learn by doing while other people are doing too**. Watch, ask, try, contribute, and let the group change what everyone is able to learn.
+- **Confucianism:** [learn something, then practise it](https://confucius-analects.org/en/books/01/01/). Learning is not complete when something has merely been heard or read.
+- **Daoism:** [a long journey begins beneath your feet](https://taoism.net/tao-te-ching-chapter-64/). Large work starts from what is small and present, and care at the end matters as much as enthusiasm at the beginning.
+- **Stoicism:** Epictetus treats education as more than book knowledge; character and judgement are developed through [repeated practice and self-correction](https://plato.stanford.edu/entries/epictetus/).
+- **Epicureanism:** Epicurus places unusual weight on [friendship as part of a good life](https://www.zhaibian.com/quotes/epicurus-on-friendship). Learning is easier to sustain when people enjoy doing worthwhile things together.
+- **Hindu tradition:** the [Bhagavad Gita 2:47](https://www.bhagavadgita.fyi/chapter/2/verse/47/) distinguishes action from attachment to its results: do the work carefully without letting the outcome become the only reason for doing it.
+- **Buddhism:** the [Dhammapada 76](https://84000.org/tipitaka/english/metta.lk/25i016-e1.php) compares a wise person who points out your faults to someone revealing hidden treasure. Good correction can be a gift.
+- **Jewish tradition:** [Pirkei Avot 4:1](https://voices.sefaria.org/sheets/383117) asks, “Who is wise?” and answers: the person who learns from every person.
+- **Christian tradition:** [“Iron sharpens iron”](https://www.biblegateway.com/passage/?search=Proverbs%2027%3A17) is a useful image for people improving one another through honest contact, practice, challenge, and care.
+- **Islamic learning tradition:** [“Seek knowledge from the cradle to the grave”](https://hadithnotes.org/1299/) is a widely repeated educational maxim. It is worth carrying for its meaning, while being careful not to present it as a verified Prophetic hadith. The Qur'an also gives the concise prayer, [“My Lord, increase me in knowledge”](https://quran.com/20/114).
+- **Ubuntu:** **“A person is a person through other persons.”** The idea of *umuntu ngumuntu ngabantu* keeps learning connected to relationship, dignity, and community.
+- **“Each one, teach one.”** Knowledge becomes more useful when it moves through people instead of stopping with the first person who receives it.
+- **OSSTF/FEESO:** [“Let us not take thought for our separate interests, but let us help one another.”](https://www.osstf.on.ca/en-CA/about-us/what-we-stand-for/principles.aspx)
+- **Port Credit:** **Lux numquam desit.** Let light never be lacking. For this project, that means keeping useful knowledge moving forward.
 
-> **"A person is a person through other persons."**  
-> A common English rendering of the [Ubuntu](https://www.ubuntuleadersacademy.org/en/o-ubuntu-en/foundation) idea *umuntu ngumuntu ngabantu*
-
-> **"Each one, teach one."**  
-> A [literacy phrase](https://education.arizona.edu/each-one-teach-one) associated with passing knowledge forward
-
-> **Lux numquam desit.**  
-> Port Credit's school motto: a reminder to keep light, learning, and useful knowledge moving forward.
-
-Together they point toward the same practical idea: learning is individual work, but it does not have to be solitary work.
+The common thread is not that these traditions are identical. It is that many very different traditions take practice, humility, relationship, disciplined attention, service, and lifelong learning seriously.
 
 ## Open licences and attribution
 
-Original educational text, lessons, diagrams, slides, and explanatory material on this site are released under **[Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**. You can copy and adapt them, including for your own classes, as long as you provide attribution and share adaptations under the same or a compatible licence.
+Original educational text, lessons, diagrams, slides, and explanatory material on this site are released under **[Creative Commons Attribution-ShareAlike 4.0](https://creativecommons.org/licenses/by-sa/4.0/)**.
+
+**Please copy them, adapt them, and make them yours.** The point of publishing them openly is for the material to be useful somewhere else. When you reuse or adapt something, provide attribution, identify the original source, and share the adaptation under the same or a compatible licence.
+
+Please include both of these original-source references in the attribution:
+
+- [andrewandrade.ca](https://andrewandrade.ca/)
+- [github.com/mrandrewandrade](https://github.com/mrandrewandrade)
+
+A useful attribution is:
+
+> Based on **Technological Education Resources** by Andrew Andrade and contributors, originally published at **andrewandrade.ca** with source at **github.com/mrandrewandrade**. Licensed under **CC BY-SA 4.0**. Changes were made.
+
+For a code or repository reference, linking directly to [github.com/mrandrewandrade/tech-edu-resources](https://github.com/mrandrewandrade/tech-edu-resources) is even better.
 
 Original website code, scripts, build tooling, and other executable materials are released under the **[GNU Affero General Public License v3](https://www.gnu.org/licenses/agpl-3.0.html)**.
 
-A simple attribution is enough:
-
-> Based on material from **Technological Education Resources** by Andrew Andrade and contributors. Licensed under **CC BY-SA 4.0**. Changes were made.
-
 Third-party images, quotations, fonts, logos, and other materials keep their own licences and attribution requirements. The [Licensing and Attribution](licensing.qmd) page has the fuller details.
 
-## The visual identity
+## Continuing a tradition of teachers sharing
 
-The visual system grew from the colours and visual language around Port Credit Secondary School, including the lighthouse, harbour, school technology programs, and the surrounding community. The working palette is intentionally restrained so documents, slides, worksheets, and web pages remain readable in classrooms and when printed.
+This site is partly an attempt to continue a tradition I benefited from long before I became a teacher: educators making useful material available to people they may never meet.
 
-These resources are independently created teaching materials. They should not be read as official publications of Port Credit Secondary School, the Peel District School Board, or the Ontario Ministry of Education.
+[**Michael Franzen**](https://ca.linkedin.com/in/qprof) maintained a site that was extremely useful to me while I was in high school. That site is now offline, but the example stayed with me: a teacher could put useful technical material on the open web and someone outside their classroom could learn from it.
+
+[**Peter Beens**](https://ca.linkedin.com/in/peter-beens) has likewise shared a substantial body of educational and technical material through [peter.beens.ca](https://peter.beens.ca/), [beens.org](https://www.beens.org/), and [Beens Consulting](https://beensconsulting.com/).
+
+I also owe a great deal to the technology team at **Westdale Secondary School**, who shared an enormous amount of material, experience, and practical advice:
+
+- **Taylor Wilson** — computer and transportation technology
+- **Dave Kipp** — construction and woodworking
+- **David Christie** — mathematics, science, and general technology
+- **Craig Ramsden** — construction and woodworking
+- **Rejean Royer** — transportation technology
+- **Principal Brian Goodram**
+
+The wooden **MR. ANDRADE** name tag shown in this project was made and gifted to me by teachers at Westdale. Rejean also shared with me parts of his Indigenous heritage and his practice of smudging as part of his daily life. I am grateful for the trust involved in sharing both technical knowledge and personal tradition.
+
+This project is meant to carry that spirit forward: take what is useful, credit the people who helped, improve it where you can, and leave something behind for the next person.
 
 ## Contributors
 
 This project currently reflects my classroom work and the people whose ideas, feedback, and resources have influenced it. As others contribute directly to the site, **contributor bios will be added here**.
 
-[LinkedIn](https://www.linkedin.com/in/andrewandrade) · [GitHub](https://github.com/mrandrewandrade) · [Personal site](https://andrewandrade.ca/)
 
 :::::
 ::::::
