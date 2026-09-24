@@ -8,4 +8,4 @@ execute:
   enabled: false
 ---
 
-The page may have moved. Continue with [Home](index.qmd), [Learners](learners/index.qmd), [Educators](educators/index.qmd), or [Lore](lore/index.qmd).
+The page may have moved. Continue with [Home](index.qmd), [Class Slides](slides/index.qmd), [General Slides](teacher-slides/index.qmd), [General Materials](teaching-materials/index.qmd), or [Lore](lore/index.qmd).
