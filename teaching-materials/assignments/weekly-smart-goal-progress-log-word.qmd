@@ -10,7 +10,9 @@ output-file: weekly-smart-goal-progress-log.docx
 **Technology Commons - Port Credit Secondary School**\
 **May the Light Never Fail.**
 
-**Name:** ______________________________  **Course:** ______________  **Week of:** ______________  **/20**
+**Assessment boundary:** This log is used for goal-setting, formative feedback, reflection, and Learning Skills evidence. Learning Skills and Work Habits are recorded separately from curriculum achievement. A curriculum mark is attached only when a separate task identifies the relevant curriculum expectation and assessment criteria. Private health, mental-health, family, religious, or other sensitive information is not required.
+
+**Name:** ______________________________  **Course:** ______________  **Week of:** ______________
 
 # Daily SMART Goals & Progress
 
@@ -27,7 +29,8 @@ ________________________________________________________________________________
 ____________________________________________________________________________________\
 ____________________________________________________________________________________
 
-**Teacher evaluation:** Neatly written [ ]  Detailed information [ ]  Technical terms [ ]  Level: 1 [ ] 2 [ ] 3 [ ] 4 [ ]
+**Teacher formative feedback:** Specific evidence of learning [ ]  Relevant technical language [ ]  Clear next step [ ]  
+*Formative by default. A curriculum achievement mark requires a separately identified curriculum expectation and assessment criteria.*
 
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
@@ -46,7 +49,8 @@ ________________________________________________________________________________
 ____________________________________________________________________________________\
 ____________________________________________________________________________________
 
-**Teacher evaluation:** Neatly written [ ]  Detailed information [ ]  Technical terms [ ]  Level: 1 [ ] 2 [ ] 3 [ ] 4 [ ]
+**Teacher formative feedback:** Specific evidence of learning [ ]  Relevant technical language [ ]  Clear next step [ ]  
+*Formative by default. A curriculum achievement mark requires a separately identified curriculum expectation and assessment criteria.*
 
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
@@ -54,7 +58,7 @@ ________________________________________________________________________________
 
 # Daily SMART Goals & Progress - continued
 
-**Name:** ______________________________  **Course:** ______________  **Week of:** ______________  **/20**
+**Name:** ______________________________  **Course:** ______________  **Week of:** ______________
 
 ## Wednesday - What is your goal today?
 
@@ -69,7 +73,8 @@ ________________________________________________________________________________
 ____________________________________________________________________________________\
 ____________________________________________________________________________________
 
-**Teacher evaluation:** Neatly written [ ]  Detailed information [ ]  Technical terms [ ]  Level: 1 [ ] 2 [ ] 3 [ ] 4 [ ]
+**Teacher formative feedback:** Specific evidence of learning [ ]  Relevant technical language [ ]  Clear next step [ ]  
+*Formative by default. A curriculum achievement mark requires a separately identified curriculum expectation and assessment criteria.*
 
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
@@ -88,7 +93,8 @@ ________________________________________________________________________________
 ____________________________________________________________________________________\
 ____________________________________________________________________________________
 
-**Teacher evaluation:** Neatly written [ ]  Detailed information [ ]  Technical terms [ ]  Level: 1 [ ] 2 [ ] 3 [ ] 4 [ ]
+**Teacher formative feedback:** Specific evidence of learning [ ]  Relevant technical language [ ]  Clear next step [ ]  
+*Formative by default. A curriculum achievement mark requires a separately identified curriculum expectation and assessment criteria.*
 
 ```{=openxml}
 <w:p><w:r><w:br w:type="page"/></w:r></w:p>
@@ -96,7 +102,7 @@ ________________________________________________________________________________
 
 # Daily SMART Goals & Progress - continued
 
-**Name:** ______________________________  **Course:** ______________  **Week of:** ______________  **/20**
+**Name:** ______________________________  **Course:** ______________  **Week of:** ______________
 
 ## Friday - What is your goal today?
 
@@ -112,7 +118,8 @@ ________________________________________________________________________________
 ____________________________________________________________________________________\
 ____________________________________________________________________________________
 
-**Teacher evaluation:** Neatly written [ ]  Detailed information [ ]  Technical terms [ ]  Level: 1 [ ] 2 [ ] 3 [ ] 4 [ ]
+**Teacher formative feedback:** Specific evidence of learning [ ]  Relevant technical language [ ]  Clear next step [ ]  
+*Formative by default. A curriculum achievement mark requires a separately identified curriculum expectation and assessment criteria.*
 
 ## Weekly Progress Check
 
@@ -135,7 +142,7 @@ ________________________________________________________________________________
 
 ## Responsibility
 
-Getting things done without anyone reminding you. Not just submitting tasks - but showing you are in control of your life.\
+Fulfilling learning responsibilities and commitments, completing agreed tasks, and taking responsibility for choices in the learning environment.\
 ____________________________________________________________________________________\
 ____________________________________________________________________________________\
 ____________________________________________________________________________________\
@@ -143,7 +150,7 @@ ________________________________________________________________________________
 
 ## Organization
 
-Keeping track of goals, tools and materials on your own. Using your planner or log so your life is not chaos in a backpack.\
+Planning work, managing time and priorities, and organizing the information, tools, and resources needed for learning.\
 ____________________________________________________________________________________\
 ____________________________________________________________________________________\
 ____________________________________________________________________________________\
@@ -155,7 +162,7 @@ ________________________________________________________________________________
 
 ## Independent work
 
-Starting right away, staying focused, and keeping goals. Figuring things out yourself before looking for help.\
+Using class time appropriately, following instructions, monitoring progress, and working with increasing independence while seeking help when needed.\
 ____________________________________________________________________________________\
 ____________________________________________________________________________________\
 ____________________________________________________________________________________\
@@ -163,7 +170,7 @@ ________________________________________________________________________________
 
 ## Initiative
 
-Doing what needs to be done without being asked or assigned. Asking good questions and seeking ways to grow.\
+Showing curiosity, asking useful questions, acting on learning opportunities, and trying appropriate new approaches.\
 ____________________________________________________________________________________\
 ____________________________________________________________________________________\
 ____________________________________________________________________________________\
@@ -177,7 +184,7 @@ ________________________________________________________________________________
 
 ## Collaboration
 
-Being someone others actually want to work with. Helping others improve their weaknesses and learning from their strengths.\
+Sharing responsibility, listening and responding respectfully, contributing useful ideas or resources, and working constructively with others.\
 ____________________________________________________________________________________\
 ____________________________________________________________________________________\
 ____________________________________________________________________________________\
@@ -185,7 +192,7 @@ ________________________________________________________________________________
 
 ## Self-regulation
 
-No phones unless absolutely necessary. Stay in control, avoid distraction, find the middle path, and maintain balance.\
+Setting goals, monitoring progress, managing distractions, seeking clarification or assistance when useful, and adjusting strategies when needed.\
 ____________________________________________________________________________________\
 ____________________________________________________________________________________\
 ____________________________________________________________________________________\
@@ -222,6 +229,6 @@ ________________________________________________________________________________
 
 ## How can we help?
 
-*What support, tools, feedback, explanation, or next step would help you move forward?*\
+*What learning support, tools, feedback, explanation, or next step would help you move forward? Private health, mental-health, family, or other sensitive details are not required here.*\
 ____________________________________________________________________________________\
 ____________________________________________________________________________________
