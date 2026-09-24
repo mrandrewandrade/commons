@@ -87,7 +87,7 @@ format:
 #v(5pt)
 #text(size: 14.5pt, weight: "bold", fill: navy)[Learning goal]
 #v(2pt)
-I can reflect on where I have been, describe who I am now, and share something about who I am becoming in a way that helps others connect with me.
+I can select and organize information about myself, communicate it clearly, and make connections among experiences, interests, skills, or future learning in a way that helps an audience understand my ideas.
 
 #v(4pt)
 #block(
@@ -96,7 +96,7 @@ I can reflect on where I have been, describe who I am now, and share something a
   stroke: (left: 4pt + pcss-gold),
   inset: (left: 14pt, right: 12pt, top: 5pt, bottom: 5pt),
 )[
-  #text(size: 11.5pt, weight: "bold", fill: navy)[Tell us where you have been, where you are, and where you are heading.]
+  #text(size: 11.5pt, weight: "bold", fill: navy)[Choose what you want us to learn about you.]
 ]
 #v(2pt)
 You can keep it simple. There is no required number of slides, pictures, or facts.
@@ -126,7 +126,7 @@ You can keep it simple. There is no required number of slides, pictures, or fact
     )[
       #text(size: 14.5pt, weight: "bold", fill: navy)[Keep it accessible]
       #v(2pt)
-      If you use slides, everyone in the room should be able to understand them.
+      If you use slides, make them accessible to everyone in the room.
       #v(1pt)
       - use large, readable text
       - use clear contrast
@@ -139,6 +139,18 @@ You can keep it simple. There is no required number of slides, pictures, or fact
     ]
   ],
 )
+
+#v(4pt)
+#block(
+  width: 100%,
+  fill: sail,
+  stroke: (left: 4pt + pcss-gold),
+  inset: (left: 10pt, right: 10pt, top: 5pt, bottom: 5pt),
+)[
+  #text(size: 9pt, weight: "bold", fill: navy)[Privacy and choice]
+  #v(1pt)
+  #text(size: 8pt)[You control what you share. This is a communication task, not a request for private disclosure. You can use interests, skills, projects, routines, objects, places, learning goals, or another school-appropriate topic. You do not need to disclose health or mental-health information, trauma, family circumstances, religion or creed, disability, financial circumstances, sexuality, gender identity, or any other private information. If a prompt feels too personal, choose a neutral topic or speak with the teacher about an equivalent alternative. No mark is attached to how personal, emotional, or revealing your content is.]
+]
 
 #v(4pt)
 #block(
@@ -193,9 +205,9 @@ You can keep it simple. There is no required number of slides, pictures, or fact
     [#text(weight: "bold", fill: navy)[Below Level 1 / insufficient evidence]],
   ),
 
-  [#text(weight: "bold", fill: navy)[Ideas / Content] #linebreak() #text(fill: slate)[What did you communicate about yourself?]],
-  [Communicates meaningful, relevant, and specific information about experiences, interests, strengths, goals, or identity with a high degree of effectiveness.],
-  [Communicates relevant and specific information with considerable effectiveness. The audience develops a clear understanding of the student.],
+  [#text(weight: "bold", fill: navy)[Ideas / Content] #linebreak() #text(fill: slate)[How effectively did you select and communicate your chosen content?]],
+  [Selects relevant, specific, and purposeful information and communicates it with a high degree of effectiveness. The quality of the work does not depend on private or sensitive disclosure.],
+  [Selects relevant and specific information and communicates it with considerable effectiveness. The audience develops a clear understanding of the chosen ideas.],
   [Communicates some relevant information with some effectiveness, but parts may be general, uneven, or underdeveloped.],
   [Communicates limited relevant information. Important ideas may be unclear or only partly developed.],
   [Provides too little relevant evidence to demonstrate Level 1 achievement.],
@@ -214,8 +226,8 @@ You can keep it simple. There is no required number of slides, pictures, or fact
   [Uses presentation methods with limited effectiveness. Important parts may be difficult to understand or access.],
   [Provides too little communication evidence to demonstrate Level 1 achievement.],
 
-  [#text(weight: "bold", fill: navy)[Connection / Reflection] #linebreak() #text(fill: slate)[How meaningfully did you connect past, present, future, or audience?]],
-  [Makes thoughtful, meaningful connections among experiences, interests, strengths, goals, future directions, and/or audience response with a high degree of effectiveness.],
+  [#text(weight: "bold", fill: navy)[Connection / Reflection] #linebreak() #text(fill: slate)[How effectively did you connect ideas, examples, audience, or future learning?]],
+  [Makes thoughtful and well-developed connections among selected ideas, examples, audience response, and/or future learning with a high degree of effectiveness.],
   [Makes clear and meaningful connections with considerable effectiveness.],
   [Makes some relevant connections, though they may be brief, obvious, or only partly developed.],
   [Makes limited connections. Reflection or response may need significant prompting.],
