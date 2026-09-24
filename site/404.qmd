@@ -8,4 +8,4 @@ execute:
   enabled: false
 ---
 
-The page may have moved. Continue with [Home](index.qmd), [Resources](resources/index.qmd), [Glossary](glossary/index.qmd), or [Lore](lore/index.qmd).
+The page may have moved. Continue with [Home](index.qmd), [Learners](learners/index.qmd), [Educators](educators/index.qmd), or [Lore](lore/index.qmd).
