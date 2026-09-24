@@ -1,6 +1,6 @@
 ---
-title: "Teaching Materials"
-subtitle: "Reusable assignment packages and source files"
+title: "General Materials"
+subtitle: "Reusable assignment packages, templates, and source files"
 description: "Assignment packages, worksheets, templates, branding, and regenerable source files for technology education."
 format:
   html:
@@ -9,7 +9,7 @@ format:
     title-block-style: plain
 ---
 
-This section is the educator-facing home for reusable assignment packages and the source files used to generate them.
+This section collects reusable assignment packages and the source files used to generate them.
 
 The former standalone `assets` repository has been migrated into this repository under `teaching-materials/` so the assignments, templates, branding, and build scripts can be maintained with the rest of Tech Edu.
 
