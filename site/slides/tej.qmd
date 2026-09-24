@@ -1,0 +1,19 @@
+---
+title: "TEJ Slides"
+toc: false
+---
+
+Current TEJ classroom decks are maintained in Google Slides. Earlier Quarto/RevealJS material remains preserved in the [archived slides repository](https://github.com/mrandrewandrade/slides).
+
+[Open the TEJ course folder in Google Drive](https://drive.google.com/drive/folders/180LaSqBWweSQpBHqexuS9JM07foDoxdB)
+
+| Day | Slides |
+|---|---|
+| Day 1 | [Google Slides](https://docs.google.com/presentation/d/1p0yf6PA4mhSOfAxJ19wpXhxePFQx4kz5Jz4989cHkOU/edit?usp=drivesdk) |
+| Day 2 | [Google Slides](https://docs.google.com/presentation/d/1rIvj40b5GO1Xzyo0S38Cm4R6WesIWgqj6C-eGYEG2Q8/edit?usp=drivesdk) |
+| Day 3 | [Google Slides](https://docs.google.com/presentation/d/1FkCCxUMBeYAQexZACz91rfpqw9DYzpc_vCTU3fVtXhA/edit?usp=drivesdk) |
+| Day 4 | [Google Slides](https://docs.google.com/presentation/d/1R2MjvtUzQPXqrCgDTu3L_wF46BSiIM5OyjBI7ysw0W0/edit?usp=drivesdk) |
+| Day 6 | [Google Slides](https://docs.google.com/presentation/d/1_EwePZ6fGRK-brHzccWetx0QSCgA4LFQ_vYn8hibq8c/edit?usp=drivesdk) |
+| Day 7 | [Google Slides](https://docs.google.com/presentation/d/1erzc59cGdQb_AMdyey9qycehUKAHyV7Rmpe6u1a9iMQ/edit?usp=drivesdk) |
+
+No separate Day 5 deck was located during the migration.
