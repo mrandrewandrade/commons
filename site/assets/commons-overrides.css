@@ -187,7 +187,7 @@ body.bs-research-article #title-block-header .quarto-categories {
 }
 
 
-/* Distinguish presentations from collaborative notes on the TER home page. */
+/* Slides use a presentation-screen icon; Notes use a notebook icon on the TER home page. */
 body.bs-landing-page
   .bs-home-explore-link--slides
   .bs-home-explore-icon::before {
