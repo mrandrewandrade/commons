@@ -36,16 +36,14 @@ website:
     title: "Tech Edu"
     collapse-below: xl
     left:
+      - href: slides/tas.qmd
+        text: TAS Slides
+      - href: slides/tej.qmd
+        text: TEJ Slides
       - href: tas2/index.qmd
-        text: TAS2
+        text: TAS Notes
       - href: tej3-4/index.qmd
-        text: TEJ3/4
-      - text: Class Slides
-        menu:
-          - text: TAS
-            href: slides/tas.qmd
-          - text: TEJ
-            href: slides/tej.qmd
+        text: TEJ Notes
     right:
       - href: teacher-slides/index.qmd
         text: General Slides
@@ -57,61 +55,39 @@ website:
         text: About
   sidebar:
     - id: tas2
-      title: "TAS2O"
+      title: "TAS Notes"
       style: docked
       collapse-level: 1
       contents:
         - text: "Course Home"
           href: tas2/index.qmd
-        - section: "Getting Started"
-          contents:
-            - text: "1. Starting Point"
-              href: tas2/01-starting-point.qmd
-            - text: "2. Identity, Logo & Emblem"
-              href: tas2/02-identity-logo-emblem.qmd
-        - section: "Design & Make"
-          contents:
-            - text: "3. Digital Design & Photopea"
-              href: tas2/03-digital-design-photopea.qmd
-            - text: "4. Measurement & Onshape"
-              href: tas2/04-measurement-onshape.qmd
-            - text: "5. Fabrication & Materials"
-              href: tas2/05-fabrication-materials.qmd
-            - text: "6. Electronics & Tinkercad"
-              href: tas2/06-electronics-tinkercad.qmd
-        - section: "Bring It Together"
-          contents:
-            - text: "7. Integrated Project & Portfolio"
-              href: tas2/07-integrated-project-portfolio.qmd
+        - text: "0. Getting to Know You"
+          href: tas2/00-getting-to-know-you.qmd
+        - text: "1. N.I.C.E. Design Process"
+          href: tas2/01-nice-design-process.qmd
+        - text: "2. Building Computers"
+          href: tas2/02-building-computers.qmd
+        - text: "3. Logo Design & Animation"
+          href: tas2/03-logo-design-animation.qmd
+        - text: "4. Website Design"
+          href: tas2/04-website-design.qmd
     - id: tej
-      title: "TEJ3M / TEJ4M"
+      title: "TEJ Notes"
       style: docked
       collapse-level: 1
       contents:
         - text: "Course Home"
           href: tej3-4/index.qmd
-        - section: "Environment"
-          contents:
-            - text: "1. Starting Point"
-              href: tej3-4/01-starting-point.qmd
-            - text: "2. Linux & Computer Systems"
-              href: tej3-4/02-linux-computer-systems.qmd
-            - text: "3. Git, GitHub & Portfolio"
-              href: tej3-4/03-git-github-portfolio.qmd
-        - section: "Programming & Logic"
-          contents:
-            - text: "4. Python Foundations"
-              href: tej3-4/04-python-foundations.qmd
-            - text: "5. Logic & Digital Systems"
-              href: tej3-4/05-logic-digital-systems.qmd
-            - text: "6. Python, Data & DataFrames"
-              href: tej3-4/06-python-data-dataframes.qmd
-        - section: "Machine Learning"
-          contents:
-            - text: "7. Machine Learning"
-              href: tej3-4/07-machine-learning.qmd
-            - text: "8. Major Project & Portfolio"
-              href: tej3-4/08-major-project-portfolio.qmd
+        - text: "0. Getting to Know You"
+          href: tej3-4/00-getting-to-know-you.qmd
+        - text: "1. Number Systems & Basic Circuits"
+          href: tej3-4/01-number-systems-basic-circuits.qmd
+        - text: "2. Building Computers"
+          href: tej3-4/02-building-computers.qmd
+        - text: "3. Logo Design & Animation"
+          href: tej3-4/03-logo-design-animation.qmd
+        - text: "4. Website Design"
+          href: tej3-4/04-website-design.qmd
   page-footer:
     left: |
       Open educational resources by [Andrew Andrade](https://www.linkedin.com/in/andrewandrade) and contributors. Hosted on [GitHub Pages](https://github.com/mrandrewandrade/tech-edu-resources).
