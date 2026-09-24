@@ -19,7 +19,7 @@ execute:
 Reusable slide decks for teachers. Search by topic, narrow the collection, or use the tags to find something quickly.
 :::
 
-General decks come from the shared **General** Drive folder. Student Wellness collects reusable activities and opening material that can work across courses.
+General decks are focused on broad-based technology courses and are designed to connect with other curricular and co-curricular subjects. **Human Wellness** collects reusable activities and opening material that can work across courses, from JK to post-secondary and beyond.
 :::
 
 ```{=html}
@@ -40,7 +40,7 @@ General decks come from the shared **General** Drive folder. Student Wellness co
     <select id="teacher-slide-collection" class="bs-slide-select" data-slide-collection>
       <option value="">All collections</option>
       <option value="General">General</option>
-      <option value="Student Wellness">Student Wellness</option>
+      <option value="Human Wellness">Human Wellness</option>
     </select>
   </div>
 
@@ -126,12 +126,12 @@ General decks come from the shared **General** Drive folder. Student Wellness co
   <article
     class="bs-slide-card"
     data-slide-card
-    data-collection="Student Wellness"
+    data-collection="Human Wellness"
     data-tags="zentangle|sketching|creativity|calm focus|drawing|design"
     data-search="zentangle sketching creativity calm focus drawing design patterns tech easy examples wellness">
     <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/1JsEdT6M2GLdKGlGTI9XF9-c-Y2xoe5KjYqFU2n0OL8I/edit?usp=drivesdk" aria-label="Open Zentangle Pattern Inspiration Loop">
       <span class="bs-slide-thumb-fallback" aria-hidden="true">
-        <span class="bs-slide-thumb-kicker">Student Wellness</span>
+        <span class="bs-slide-thumb-kicker">Human Wellness</span>
         <strong>////</strong>
         <span>Sketch + focus</span>
       </span>
@@ -142,7 +142,7 @@ General decks come from the shared **General** Drive folder. Student Wellness co
         onerror="this.hidden=true">
     </a>
     <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">Student Wellness</p>
+      <p class="bs-slide-card-collection">Human Wellness</p>
       <h2 class="bs-slide-card-title">
         <a href="https://docs.google.com/presentation/d/1JsEdT6M2GLdKGlGTI9XF9-c-Y2xoe5KjYqFU2n0OL8I/edit?usp=drivesdk">Zentangle Pattern Inspiration Loop</a>
       </h2>
@@ -159,12 +159,12 @@ General decks come from the shared **General** Drive folder. Student Wellness co
   <article
     class="bs-slide-card"
     data-slide-card
-    data-collection="Student Wellness"
+    data-collection="Human Wellness"
     data-tags="reflection|opening activity|quotes|indigenous voices|community|wellness"
     data-search="daily opening quotes reflection opening activity indigenous voices community wellness class start">
     <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY/edit?usp=drivesdk" aria-label="Open Daily Opening Quotes">
       <span class="bs-slide-thumb-fallback" aria-hidden="true">
-        <span class="bs-slide-thumb-kicker">Student Wellness</span>
+        <span class="bs-slide-thumb-kicker">Human Wellness</span>
         <strong>“ ”</strong>
         <span>Reflect + connect</span>
       </span>
@@ -175,7 +175,7 @@ General decks come from the shared **General** Drive folder. Student Wellness co
         onerror="this.hidden=true">
     </a>
     <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">Student Wellness</p>
+      <p class="bs-slide-card-collection">Human Wellness</p>
       <h2 class="bs-slide-card-title">
         <a href="https://docs.google.com/presentation/d/12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY/edit?usp=drivesdk">Daily Opening Quotes</a>
       </h2>
