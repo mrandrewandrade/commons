@@ -51,7 +51,7 @@ Reusable slide decks for educators and learners across subjects including mathem
 
   <details class="bs-slide-filter-disclosure">
     <summary>Courses</summary>
-    <p class="bs-slide-filter-help">Broad-based technology course families where the deck is directly useful.</p>
+    <p class="bs-slide-filter-help">Optional Ontario technology course families where the deck is directly useful. Many General decks are intentionally broader than these course codes.</p>
     <div class="bs-slide-filter-buttons" data-slide-course-filters></div>
   </details>
 
@@ -131,6 +131,34 @@ Reusable slide decks for educators and learners across subjects including mathem
         <button type="button" data-slide-card-tag="precision">Precision</button>
       </div>
       <a class="bs-slide-open" href="https://docs.google.com/presentation/d/1OzjY3_6Bzwwn2aOW3LG2lZzpOJBF4tZ_03eQTGXMlWw/edit?usp=drivesdk">Open Google Slides</a>
+    </div>
+  </article>
+
+  <article
+    class="bs-slide-card"
+    data-slide-card
+    data-collection="General"
+    data-courses=""
+    data-tags="presentation design|lesson planning|template|slides|visual communication|teaching"
+    data-search="generic course slide template presentation lesson planning teaching visual communication slides classroom template math science business arts technology">
+    <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/14KxlgBA_S76bCRweUln5AsAvA27Gd_BzuXAP2PUKpBM/edit?usp=drivesdk" aria-label="Open Generic Course Slide Template">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true">
+        <span class="bs-slide-thumb-kicker">General</span>
+        <strong>SLIDES</strong>
+        <span>Reusable course template</span>
+      </span>
+      <img src="https://drive.google.com/thumbnail?id=14KxlgBA_S76bCRweUln5AsAvA27Gd_BzuXAP2PUKpBM&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
+    </a>
+    <div class="bs-slide-card-body">
+      <p class="bs-slide-card-collection">General</p>
+      <h2 class="bs-slide-card-title"><a href="https://docs.google.com/presentation/d/14KxlgBA_S76bCRweUln5AsAvA27Gd_BzuXAP2PUKpBM/edit?usp=drivesdk">Generic Course Slide Template</a></h2>
+      <p class="bs-slide-card-description">A clean reusable presentation template intended to be adapted across mathematics, science, business, arts, technology, and other subjects.</p>
+      <div class="bs-slide-card-tags" aria-label="Topics">
+        <button type="button" data-slide-card-tag="presentation design">Presentation design</button>
+        <button type="button" data-slide-card-tag="lesson planning">Lesson planning</button>
+        <button type="button" data-slide-card-tag="template">Template</button>
+      </div>
+      <a class="bs-slide-open" href="https://docs.google.com/presentation/d/14KxlgBA_S76bCRweUln5AsAvA27Gd_BzuXAP2PUKpBM/edit?usp=drivesdk">Open Google Slides</a>
     </div>
   </article>
 
