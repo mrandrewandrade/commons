@@ -1,7 +1,7 @@
 ---
 title: "General Slides"
 subtitle: "Reusable classroom decks across subjects and learning environments"
-description: "Search reusable classroom slides across mathematics, science, business, technology, arts, human wellness, and other learning environments."
+description: "Search reusable classroom slides across mathematics, science, business, technology, arts, human well-being, and other learning environments."
 format:
   html:
     page-layout: full
@@ -19,7 +19,7 @@ execute:
 Reusable slide decks for educators and learners across subjects including mathematics, science, business, arts, and technological education.
 :::
 
-**General** contains broadly reusable teaching decks. **Human Wellness** contains opening activities, reflection, creativity, attention, and connection material that can work from JK through post-secondary and beyond.
+**General** contains broadly reusable teaching decks. **Human Well-Being** contains opening activities, reflection, creativity, attention, and connection material that can work from JK through post-secondary and beyond.
 :::
 
 ```{=html}
@@ -45,7 +45,7 @@ Reusable slide decks for educators and learners across subjects including mathem
     <p class="bs-slide-control-label">Collection</p>
     <div class="bs-slide-filter-buttons" data-slide-collection-filters>
       <button type="button" data-slide-collection-filter="General" aria-pressed="false">General</button>
-      <button type="button" data-slide-collection-filter="Human Wellness" aria-pressed="false">Human Wellness</button>
+      <button type="button" data-slide-collection-filter="Human Well-Being" aria-pressed="false">Human Well-Being</button>
     </div>
   </div>
 
@@ -165,20 +165,20 @@ Reusable slide decks for educators and learners across subjects including mathem
   <article
     class="bs-slide-card"
     data-slide-card
-    data-collection="Human Wellness"
+    data-collection="Human Well-Being"
     data-courses="TAS"
     data-tags="zentangle|sketching|creativity|calm focus|drawing|design|art"
-    data-search="zentangle sketching creativity calm focus drawing design patterns art wellness quiet activity">
+    data-search="zentangle sketching creativity calm focus drawing design patterns art well-being quiet activity">
     <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/1JsEdT6M2GLdKGlGTI9XF9-c-Y2xoe5KjYqFU2n0OL8I/edit?usp=drivesdk" aria-label="Open Zentangle Pattern Inspiration Loop">
       <span class="bs-slide-thumb-fallback" aria-hidden="true">
-        <span class="bs-slide-thumb-kicker">Human Wellness</span>
+        <span class="bs-slide-thumb-kicker">Human Well-Being</span>
         <strong>////</strong>
         <span>Sketch + focus</span>
       </span>
       <img src="https://drive.google.com/thumbnail?id=1JsEdT6M2GLdKGlGTI9XF9-c-Y2xoe5KjYqFU2n0OL8I&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
     </a>
     <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">Human Wellness</p>
+      <p class="bs-slide-card-collection">Human Well-Being</p>
       <h2 class="bs-slide-card-title"><a href="https://docs.google.com/presentation/d/1JsEdT6M2GLdKGlGTI9XF9-c-Y2xoe5KjYqFU2n0OL8I/edit?usp=drivesdk">Zentangle Pattern Inspiration Loop</a></h2>
       <p class="bs-slide-card-description">Easy-to-more-complex pattern prompts for quiet sketching, creative focus, and low-pressure drawing.</p>
       <div class="bs-slide-card-courses" aria-label="Courses">
@@ -196,20 +196,20 @@ Reusable slide decks for educators and learners across subjects including mathem
   <article
     class="bs-slide-card"
     data-slide-card
-    data-collection="Human Wellness"
+    data-collection="Human Well-Being"
     data-courses=""
     data-tags="reflection|opening activity|quotes|indigenous voices|community|wellness"
-    data-search="daily opening quotes reflection opening activity indigenous voices community wellness class start discussion connection">
+    data-search="daily opening quotes reflection opening activity indigenous voices community well-being class start discussion connection">
     <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY/edit?usp=drivesdk" aria-label="Open Daily Opening Quotes">
       <span class="bs-slide-thumb-fallback" aria-hidden="true">
-        <span class="bs-slide-thumb-kicker">Human Wellness</span>
+        <span class="bs-slide-thumb-kicker">Human Well-Being</span>
         <strong>“ ”</strong>
         <span>Reflect + connect</span>
       </span>
       <img src="https://drive.google.com/thumbnail?id=12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
     </a>
     <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">Human Wellness</p>
+      <p class="bs-slide-card-collection">Human Well-Being</p>
       <h2 class="bs-slide-card-title"><a href="https://docs.google.com/presentation/d/12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY/edit?usp=drivesdk">Daily Opening Quotes</a></h2>
       <p class="bs-slide-card-description">A course-neutral opening deck for reflection, connection, discussion, and short classroom pauses.</p>
       <div class="bs-slide-card-tags" aria-label="Topics">
