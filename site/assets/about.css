@@ -1,0 +1,75 @@
+.ter-about-page .bs-reading-column {
+  max-width: 920px;
+}
+
+.ter-about-intro {
+  display: grid;
+  grid-template-columns: minmax(180px, 240px) minmax(0, 1fr);
+  gap: 2rem;
+  align-items: center;
+  margin: 0.5rem 0 2.5rem;
+}
+
+.ter-about-portrait img {
+  width: 100%;
+  aspect-ratio: 1;
+  object-fit: cover;
+  border-radius: 1.25rem;
+  display: block;
+}
+
+.ter-about-intro-copy h2 {
+  margin-top: 0;
+}
+
+.ter-kite-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 1rem;
+  margin: 1.75rem 0 2.5rem;
+}
+
+.ter-kite-grid figure {
+  margin: 0;
+}
+
+.ter-kite-grid img {
+  width: 100%;
+  aspect-ratio: 3 / 2;
+  object-fit: cover;
+  border-radius: 1rem;
+  display: block;
+}
+
+.ter-about-page blockquote {
+  margin: 1.25rem 0;
+  padding: 1rem 1.2rem;
+  border-left-width: 0.25rem;
+  background: rgba(17, 24, 47, 0.035);
+}
+
+.ter-about-page blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+@media (max-width: 720px) {
+  .ter-about-intro {
+    grid-template-columns: 110px minmax(0, 1fr);
+    gap: 1rem;
+    align-items: start;
+  }
+
+  .ter-kite-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+@media (max-width: 480px) {
+  .ter-about-intro {
+    grid-template-columns: 1fr;
+  }
+
+  .ter-about-portrait {
+    max-width: 170px;
+  }
+}
