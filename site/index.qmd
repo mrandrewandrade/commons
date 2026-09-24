@@ -49,7 +49,7 @@ Open classroom resources for Ontario Technological Education. The notes are inte
 
 ::::: {.bs-home-explore-list}
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
-<span class="bs-home-explore-copy"><span class="bs-home-explore-title">General Slides</span><span class="bs-home-explore-description">Search reusable presentations across technology, mathematics, science, business, arts, human wellness, and other subjects.</span></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">General Slides</span><span class="bs-home-explore-description">Search reusable presentations across technology, mathematics, science, business, arts, human well-being, and other subjects.</span></span>
 <span class="bs-home-explore-chevron" aria-hidden="true">›</span>](teacher-slides/index.qmd){.bs-home-explore-link .bs-home-explore-link--resources .bs-home-explore-link--slides}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
