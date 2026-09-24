@@ -1,30 +1,61 @@
 ---
 title: "0. Getting to Know You"
-description: "Personal identity, group identity, and visual communication as a starting point in TEJ."
+description: "Personal identity, listening, communication, and group identity in TEJ."
 ---
 
-> **These notes are unfinished intentionally.** Students will help build them as we document our work.
+> **These notes are unfinished intentionally.** They reflect what we have actually done so far and will grow from student contributions.
 
-## Personal identity
+## What we covered
 
-Before we build systems, we start with the people using and creating them.
+### Course routines and Name Tag V1
 
-Think about:
+We started with a small communication problem: make it easier for people in the room to know who you are.
 
-- experiences
-- interests
-- communities
-- skills
-- values
-- goals
-- how you want to be understood by other people
+Even a simple name tag has requirements. It needs to communicate clearly before it can be decorative.
 
-## Group identity
+[Open the Day 1 slides](https://docs.google.com/presentation/d/1p0yf6PA4mhSOfAxJ19wpXhxePFQx4kz5Jz4989cHkOU/edit?usp=drivesdk)
 
-Technical work is rarely individual. Teams develop shared expectations, language, symbols, habits, and ways of communicating.
+### Personal identity
 
-We will use this idea later when we develop visual identity and logos.
+The About Me work asked what you would want another person to understand about you.
 
-## From identity to design
+We used identity, experiences, interests, communities, skills, and goals as material for communication.
 
-Identity gives us something meaningful to communicate. That leads into graphic design, animation, technical documentation, and eventually website design.
+[Open the Day 2 slides](https://docs.google.com/presentation/d/1rIvj40b5GO1Xzyo0S38Cm4R6WesIWgqj6C-eGYEG2Q8/edit?usp=drivesdk)
+
+### Listening and learning about other people
+
+We practised listening while classmates presented and recording what we learned.
+
+[Open the Day 3 slides](https://docs.google.com/presentation/d/1FkCCxUMBeYAQexZACz91rfpqw9DYzpc_vCTU3fVtXhA/edit?usp=drivesdk)
+
+### Technical description and communication
+
+We then moved toward describing things clearly enough that another person could understand the object, system, or idea.
+
+Technical work depends on communication that another person can follow.
+
+[Open the Day 4 slides](https://docs.google.com/presentation/d/1R2MjvtUzQPXqrCgDTu3L_wF46BSiIM5OyjBI7ysw0W0/edit?usp=drivesdk)
+
+### Funday Friday: Machine Charades
+
+We used machine charades as a low-stakes communication activity. The goal was to represent a machine or process clearly without depending only on spoken explanation.
+
+## From personal identity to group identity
+
+Technical teams also develop identities through shared:
+
+- language
+- routines
+- expectations
+- symbols
+- visual conventions
+- ways of solving problems
+
+This gives us a bridge from personal identity to group identity and later to visual communication.
+
+## Materials used
+
+- [Past, Present & Becoming](../teaching-materials/index.qmd)
+- [The Way We Meet: Listening Notes & Reflection](../teaching-materials/index.qmd)
+- [Name Tag material](../teaching-materials/index.qmd)
