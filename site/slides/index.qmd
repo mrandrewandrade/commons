@@ -7,6 +7,5 @@ Current classroom decks are maintained in native Google Slides so other teachers
 
 - [TAS slides](tas.qmd)
 - [TEJ slides](tej.qmd)
-- [TTS slides](tts.qmd)
 
 The former Quarto/RevealJS slide system is preserved in the [archived slides repository](https://github.com/mrandrewandrade/slides).
