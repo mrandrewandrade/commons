@@ -17,7 +17,7 @@ Begin with the same private identity mind map used across the Commons. Consider 
 
 Start with a simple product that gives you something real to design, make, test, photograph, and improve before computer access becomes a barrier. Create a name tag that clearly shows your name, can stand at your workspace, and can later incorporate your personal logo.
 
-Use the [NICE Design Process](../resources/nice-design-process.qmd) to identify needs, rank useful extras, investigate possible solutions, create a first version, and evaluate it against the requirements before improving it.
+Use the NICE Design Process to identify needs, rank useful extras, investigate possible solutions, create a first version, and evaluate it against the requirements before improving it.
 
 ## Computer systems overview
 
@@ -25,4 +25,4 @@ Map a computer as a system: processor, memory, storage, operating system, networ
 
 ## NICE in computing
 
-Use the [NICE Design Process](../resources/nice-design-process.qmd) to define what a useful classroom workstation must do before installing or configuring it.
+Use the NICE Design Process to define what a useful classroom workstation must do before installing or configuring it.
