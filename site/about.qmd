@@ -439,7 +439,7 @@ A shared engineering design cycle for defining requirements, investigating, crea
 :::
 
 ::: {.bs-repository-action}
-[Open NICE](resources/nice-design-process.qmd)
+NICE Design Process
 :::
 :::::
 
