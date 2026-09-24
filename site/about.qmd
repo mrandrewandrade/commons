@@ -24,7 +24,7 @@ format:
 ::: {.ter-about-intro-copy}
 ## Hi, I'm Andrew Andrade, B.A.Sc., B.Ed., OCT.
 
-I teach Technological Education at Port Credit Secondary School. I am still learning how to do this work well, and this site is one way of making the lessons, assignments, slides, experiments, and revisions useful beyond a single classroom.
+I teach Technological Education at Port Credit Secondary School. I am still learning how to do this work well. Teaching and learning are not only about content; they are about living the experiences through which knowledge becomes skill, judgement, and practical wisdom. Content and knowledge give us language, tools, reference points, and ways to make better decisions, but the aim is growing capability, depth of practice, and the ability to live a good life with what we learn. This site gathers the content, examples, experiments, assignments, slides, and revisions so other people can find them, adapt them, learn through doing, and follow the way in their own work.
 
 The resources are organized around Ontario's [Technological Education curriculum](https://www.dcp.edu.gov.on.ca/en/curriculum/technological-education), with connections to other curricular and co-curricular learning where they are useful. Transportation resources can also support Ontario's [Specialist High Skills Major (SHSM) in Transportation](https://www.ontario.ca/document/specialist-high-skills-major-shsm-policy-and-implementation-guide/transportation), including sector-focused learning, certifications, experiential learning, career exploration, reach-ahead experiences, and sector-partnered experiences.
 :::
