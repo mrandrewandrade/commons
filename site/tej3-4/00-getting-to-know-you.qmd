@@ -1,0 +1,30 @@
+---
+title: "0. Getting to Know You"
+description: "Personal identity, group identity, and visual communication as a starting point in TEJ."
+---
+
+> **These notes are unfinished intentionally.** Students will help build them as we document our work.
+
+## Personal identity
+
+Before we build systems, we start with the people using and creating them.
+
+Think about:
+
+- experiences
+- interests
+- communities
+- skills
+- values
+- goals
+- how you want to be understood by other people
+
+## Group identity
+
+Technical work is rarely individual. Teams develop shared expectations, language, symbols, habits, and ways of communicating.
+
+We will use this idea later when we develop visual identity and logos.
+
+## From identity to design
+
+Identity gives us something meaningful to communicate. That leads into graphic design, animation, technical documentation, and eventually website design.
