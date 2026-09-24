@@ -1,6 +1,6 @@
 ---
-title: "TEJ3M / TEJ4M - Computer Engineering Technology"
-description: "Course home for TEJ3M and TEJ4M Computer Engineering Technology."
+title: "TEJ Notes"
+description: "Intentionally unfinished collaborative notes for TEJ Computer Engineering Technology."
 page-layout: full
 toc: false
 format:
@@ -14,24 +14,26 @@ execute:
 ::: {.bs-page-shell}
 ::: {.bs-reading-column}
 ::: {.bs-lesson-preamble}
-TEJ3M and TEJ4M connect computer systems, programming, digital logic, data, and machine learning through practical technical work.
+These notes are **unfinished intentionally**. We will build them with students as the course develops, especially after we rebuild salvaged computers, install Ubuntu, and begin contributing documentation from our own work.
 :::
 
 ## Course path
 
-The shared course structure will move through:
+0. **Getting to Know You**  
+   Personal identity → group identity → visual identity → logo design.
 
-1. Starting Point
-2. Linux & Computer Systems
-3. Git, GitHub & Portfolio
-4. Python Foundations
-5. Logic & Digital Systems
-6. Python, Data & DataFrames
-7. Machine Learning
-8. Major Project & Portfolio
+1. **Number Systems & Basic Circuits**  
+   Binary, decimal, hexadecimal, representation, voltage, current, resistance, components, simple circuits, measurement, and safe troubleshooting.
 
-Grade 12 work can extend the shared foundation through more independent technical investigation and project depth.
+2. **Building Computers**  
+   Identify components, rebuild salvaged computers, install Ubuntu, test the systems, and document what we learn.
 
-Detailed lessons and the course sidebar are added in the next curriculum iteration.
+3. **Logo Design & Animation**  
+   Connect identity and communication with graphics, iteration, motion, and technical presentation.
+
+4. **Website Design**  
+   Build and publish a site that combines writing, graphics, structure, accessibility, and technical documentation.
+
+The notes will grow from classroom work rather than being presented as a finished textbook.
 :::
 :::
