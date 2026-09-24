@@ -108,7 +108,7 @@ format:
   #identity-fields
   #v(4pt)
   #instruction-panel([
-    Make space for each speaker: phones away unless directed otherwise, face the speaker, avoid side conversations, and write one brief note for every presenter. Circle #text(weight: "bold")[A] = Attentive, #text(weight: "bold")[S] = Some lapses, or #text(weight: "bold")[N] = Not attentive. Be honest: an honest S or N is better than a false A. After the final presentation, complete the reflection pages.
+    Make space for each speaker: phones away unless directed otherwise, face the speaker, avoid side conversations, and write one brief note for every presenter. Circle #text(weight: "bold")[A] = Attentive, #text(weight: "bold")[S] = Some lapses, or #text(weight: "bold")[N] = Not attentive as a quick self-check. The rating is about observable learning behaviours, not character or mental health. After the final presentation, complete the reflection pages.
   ])
   #v(4pt)
 ]
@@ -178,11 +178,11 @@ format:
       inset: (x: 3pt, y: 3pt),
       stroke: 0.5pt + mist,
       [#text(size: 6.9pt, weight: "bold", fill: technical-blue)[Area]], [#text(size: 6.9pt, weight: "bold", fill: technical-blue)[/2]], [#text(size: 6.9pt, weight: "bold", fill: technical-blue)[My evidence / next step]],
-      [#text(size: 6.6pt, weight: "bold")[Attention & Presence] #linebreak() #text(size: 6.2pt, fill: slate)[phone away, face speaker, avoid side talk, refocus]], [#line(length: 0.24in, stroke: 0.55pt + slate)], [#v(10pt)],
+      [#text(size: 6.6pt, weight: "bold")[Listening & Response] #linebreak() #text(size: 6.2pt, fill: slate)[phone away, face speaker, avoid side talk, refocus]], [#line(length: 0.24in, stroke: 0.55pt + slate)], [#v(10pt)],
       [#text(size: 6.6pt, weight: "bold")[Audience Notes] #linebreak() #text(size: 6.2pt, fill: slate)[specific note for each presenter]], [#line(length: 0.24in, stroke: 0.55pt + slate)], [#v(10pt)],
       [#text(size: 6.6pt, weight: "bold")[Discussion & Connections] #linebreak() #text(size: 6.2pt, fill: slate)[questions, comments, or connections]], [#line(length: 0.24in, stroke: 0.55pt + slate)], [#v(10pt)],
       [#text(size: 6.6pt, weight: "bold")[Completion & Consistency] #linebreak() #text(size: 6.2pt, fill: slate)[kept up across all presenters]], [#line(length: 0.24in, stroke: 0.55pt + slate)], [#v(10pt)],
-      [#text(size: 6.6pt, weight: "bold")[Integrity & Reflection] #linebreak() #text(size: 6.2pt, fill: slate)[honest ratings and thoughtful reflection]], [#line(length: 0.24in, stroke: 0.55pt + slate)], [#v(10pt)],
+      [#text(size: 6.6pt, weight: "bold")[Reflection & Self-Assessment] #linebreak() #text(size: 6.2pt, fill: slate)[honest ratings and thoughtful reflection]], [#line(length: 0.24in, stroke: 0.55pt + slate)], [#v(10pt)],
     )
     #v(3pt)
     #text(size: 7.6pt, weight: "bold")[My listening total: ] #line(length: 0.42in, stroke: 0.6pt + slate) #text(size: 7.6pt, weight: "bold")[ /10]
@@ -209,6 +209,8 @@ format:
 
 #v(8pt)
 #section-title([Listening reflection - write in your own words])
+#v(2pt)
+#text(size: 7.2pt, fill: slate)[Keep the reflection focused on learning behaviours. Private circumstances do not need to be explained. If something private affected your attention or participation, you can write "private circumstance" and focus on the evidence available or a useful next step.]
 #v(3pt)
 #grid(
   columns: (1fr, 1fr, 1fr),
@@ -260,7 +262,7 @@ format:
   columns: (1fr, 1fr),
   column-gutter: 12pt,
   [#response-box([Activity feedback: What helped you listen, connect, or learn from other people?], height: 0.78in)],
-  [#response-box([Improve it next time: What should change to make this activity better?], height: 0.78in)],
+  [#response-box([Improve it next time: What could change to make this activity better?], height: 0.78in)],
 )
 
 #v(7pt)
