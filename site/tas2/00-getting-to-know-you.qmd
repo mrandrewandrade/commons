@@ -1,0 +1,26 @@
+---
+title: "0. Getting to Know You"
+description: "Personal identity, group identity, and the starting point for visual identity in TAS."
+---
+
+> **These notes are unfinished intentionally.** Students will help build them as we document our work.
+
+## Personal identity
+
+Start with the person before the product. What experiences, interests, places, communities, skills, values, and goals shape how you see yourself?
+
+The goal is not to reduce identity to a logo. It is to notice what matters enough to communicate.
+
+## Group identity
+
+Groups also develop identity through shared stories, symbols, colours, language, routines, and expectations.
+
+A useful design question is:
+
+**What should someone understand or feel when they encounter this group?**
+
+## From identity to visual identity
+
+Personal and group identity give us material for visual communication. We will eventually turn that thinking into marks, logos, typography, colour, and motion.
+
+That becomes the foundation for **Unit 3: Logo Design & Animation**.
