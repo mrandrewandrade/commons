@@ -1,0 +1,17 @@
+---
+title: "4. Website Design"
+description: "Collaborative notes for website design in TAS."
+---
+
+> **These notes are unfinished intentionally.** Students will help build them after the computer, identity, and graphics work gives us something worth publishing.
+
+We will connect:
+
+- information structure
+- readable layouts
+- images and graphics
+- accessibility
+- HTML/CSS concepts
+- links and navigation
+- testing on different screens
+- publishing and improving a real site
