@@ -111,17 +111,17 @@ The library intentionally links to **generic source materials**, not student sub
     data-courses="TAS|TEJ|TTJ"
     data-tags="listening|reflection|communication|community|presentation"
     data-search="the way we meet listening notes reflection presentation community connection communication">
-    <a class="bs-slide-thumb" href="https://drive.google.com/file/d/18qnub3_bvTyc4YBNywmxr12zLswRc_gE/view?usp=drivesdk" aria-label="Open The Way We Meet Listening Notes and Reflection">
+    <a class="bs-slide-thumb" href="https://docs.google.com/document/d/1hAmElSY8qL7bGIAtZ8gGLXHEDra1b5cYGd2k9jx8vsI/edit?usp=drivesdk" aria-label="Open The Way We Meet Listening Notes and Reflection">
       <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Wellness</span><strong>0.2</strong><span>Listen + connect</span></span>
-      <img src="https://drive.google.com/thumbnail?id=18qnub3_bvTyc4YBNywmxr12zLswRc_gE&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
+      <img src="https://drive.google.com/thumbnail?id=1hAmElSY8qL7bGIAtZ8gGLXHEDra1b5cYGd2k9jx8vsI&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
     </a>
     <div class="bs-slide-card-body">
       <p class="bs-slide-card-collection">Human Wellness</p>
-      <h2 class="bs-slide-card-title"><a href="https://drive.google.com/file/d/18qnub3_bvTyc4YBNywmxr12zLswRc_gE/view?usp=drivesdk">The Way We Meet: Listening Notes &amp; Reflection</a></h2>
+      <h2 class="bs-slide-card-title"><a href="https://docs.google.com/document/d/1hAmElSY8qL7bGIAtZ8gGLXHEDra1b5cYGd2k9jx8vsI/edit?usp=drivesdk">The Way We Meet: Listening Notes &amp; Reflection</a></h2>
       <p class="bs-slide-card-description">Listening notes and reflection prompts for learning about classmates, noticing connections, and practising attentive participation.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="listening">Listening</button><button type="button" data-slide-card-tag="reflection">Reflection</button><button type="button" data-slide-card-tag="community">Community</button></div>
-      <a class="bs-slide-open" href="https://drive.google.com/file/d/18qnub3_bvTyc4YBNywmxr12zLswRc_gE/view?usp=drivesdk">Open material</a>
+      <a class="bs-slide-open" href="https://docs.google.com/document/d/1hAmElSY8qL7bGIAtZ8gGLXHEDra1b5cYGd2k9jx8vsI/edit?usp=drivesdk">Open material</a>
     </div>
   </article>
 
@@ -141,6 +141,44 @@ The library intentionally links to **generic source materials**, not student sub
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="needs">Needs</button><button type="button" data-slide-card-tag="necessities">Necessities</button><button type="button" data-slide-card-tag="engineering design">Engineering design</button></div>
       <a class="bs-slide-open" href="https://docs.google.com/document/d/1E7Io8pd1ZfymHki94Jnn5-1JUzcM5wrODzr5hTEjoa8/edit?usp=drivesdk">Open material</a>
+    </div>
+  </article>
+
+  <article class="bs-slide-card" data-slide-card
+    data-collection="General"
+    data-courses="TAS"
+    data-tags="needs|necessities|requirements|constraints|engineering design|planning"
+    data-search="end of term celebration NICE worksheet needs necessities requirements restrictions constraints planning engineering design TAS">
+    <a class="bs-slide-thumb" href="https://docs.google.com/document/d/1NjqU14fbHXOqF4TcLscAD4cMvwVFL1gOJjMWn86-OzE/edit?usp=drivesdk" aria-label="Open End-of-Term Celebration NICE Worksheet">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">General</span><strong>NICE</strong><span>Needs + constraints</span></span>
+      <img src="https://drive.google.com/thumbnail?id=1NjqU14fbHXOqF4TcLscAD4cMvwVFL1gOJjMWn86-OzE&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
+    </a>
+    <div class="bs-slide-card-body">
+      <p class="bs-slide-card-collection">General</p>
+      <h2 class="bs-slide-card-title"><a href="https://docs.google.com/document/d/1NjqU14fbHXOqF4TcLscAD4cMvwVFL1gOJjMWn86-OzE/edit?usp=drivesdk">End-of-Term Celebration NICE Worksheet</a></h2>
+      <p class="bs-slide-card-description">A simple design brief for identifying facts, needs, necessities, nice-to-haves, requirements, and restrictions while planning a class celebration.</p>
+      <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button></div>
+      <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="needs">Needs</button><button type="button" data-slide-card-tag="requirements">Requirements</button><button type="button" data-slide-card-tag="engineering design">Engineering design</button></div>
+      <a class="bs-slide-open" href="https://docs.google.com/document/d/1NjqU14fbHXOqF4TcLscAD4cMvwVFL1gOJjMWn86-OzE/edit?usp=drivesdk">Open template</a>
+    </div>
+  </article>
+
+  <article class="bs-slide-card" data-slide-card
+    data-collection="General"
+    data-courses="TAS"
+    data-tags="inquiry|research|brainstorming|compare solutions|improvement|engineering design"
+    data-search="celebration research brainstorming inquiry investigate existing solutions compare improve engineering design TAS">
+    <a class="bs-slide-thumb" href="https://docs.google.com/document/d/1_a1V6ecPPywiNxMBiH2gyxDWQUfNZZUYa_sMOXsm9k4/edit?usp=drivesdk" aria-label="Open Celebration Research and Brainstorming Worksheet">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">General</span><strong>?</strong><span>Inquiry + research</span></span>
+      <img src="https://drive.google.com/thumbnail?id=1_a1V6ecPPywiNxMBiH2gyxDWQUfNZZUYa_sMOXsm9k4&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
+    </a>
+    <div class="bs-slide-card-body">
+      <p class="bs-slide-card-collection">General</p>
+      <h2 class="bs-slide-card-title"><a href="https://docs.google.com/document/d/1_a1V6ecPPywiNxMBiH2gyxDWQUfNZZUYa_sMOXsm9k4/edit?usp=drivesdk">Celebration Research &amp; Brainstorming Worksheet</a></h2>
+      <p class="bs-slide-card-description">An inquiry worksheet for finding existing ideas, comparing what works, identifying problems, and adapting a solution to the class needs.</p>
+      <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button></div>
+      <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="inquiry">Inquiry</button><button type="button" data-slide-card-tag="research">Research</button><button type="button" data-slide-card-tag="brainstorming">Brainstorming</button></div>
+      <a class="bs-slide-open" href="https://docs.google.com/document/d/1_a1V6ecPPywiNxMBiH2gyxDWQUfNZZUYa_sMOXsm9k4/edit?usp=drivesdk">Open template</a>
     </div>
   </article>
 
