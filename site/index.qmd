@@ -35,10 +35,6 @@ The way becomes clear through practice. The tools are here. Use what serves you.
 <span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tej3-4/index.qmd){.bs-home-explore-link .bs-home-explore-link--tej}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
-<span class="bs-home-explore-copy"><span class="bs-home-explore-title">TTS - Transportation Technology</span><span class="bs-home-explore-description">Build shop skills through measurement, CAD, fabrication, automotive systems, diagnosis, and service work.</span></span>
-<span class="bs-home-explore-chevron" aria-hidden="true">›</span>](ttj3-4/index.qmd){.bs-home-explore-link .bs-home-explore-link--ttj}
-
-[<span class="bs-home-explore-icon" aria-hidden="true"></span>
 <span class="bs-home-explore-copy"><span class="bs-home-explore-title">Lore</span><span class="bs-home-explore-description">Read what I am learning, testing, remembering, and carrying forward through teaching, engineering, making, and community.</span></span>
 <span class="bs-home-explore-chevron" aria-hidden="true">›</span>](lore/index.qmd){.bs-home-explore-link .bs-home-explore-link--lore}
 :::::
