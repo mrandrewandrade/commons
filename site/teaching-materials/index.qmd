@@ -190,7 +190,10 @@ The library intentionally links to **generic teaching materials, not student sub
       <p class="bs-slide-card-description">A reusable goal-setting and progress-reflection log for planning, monitoring learning, and recording formative next steps.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="goals">Goals</button><button type="button" data-slide-card-tag="reflection">Reflection</button><button type="button" data-slide-card-tag="progress">Progress</button></div>
-      <a class="bs-slide-open" href="https://andrewandrade.ca/assets/weekly-smart-goal-progress-log.pdf">Open PDF</a>
+      <div class="bs-slide-actions">
+        <a class="bs-slide-open" href="https://andrewandrade.ca/assets/weekly-smart-goal-progress-log.pdf">Open colour PDF</a>
+        <a class="bs-slide-open" href="https://andrewandrade.ca/assets/weekly-smart-goal-progress-log-bw.pdf">Open B&amp;W print PDF</a>
+      </div>
     </div>
   </article>
 
