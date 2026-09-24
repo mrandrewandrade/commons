@@ -58,10 +58,11 @@ def check(root: Path) -> tuple[int, list[str]]:
         for match in re.finditer(r'url\(\s*[\'"]?([^\)\'"\s]+)', path.read_text(encoding='utf-8')):
             if not match[1].startswith('#'):
                 inspect(path, 'css', match[1])
-    for required in ['index.html', 'tas2/index.html', 'tej3-4/index.html', 'ttj3-4/index.html',
-                     'lore/index.html', 'lore/from-a-pen-and-paper-mark-to-a-crest.html',
-                     'resources/nice-design-process.html', 'resources/nice-design-process-slides.html',
-                     'tools/nice-design-tool.html', 'glossary/index.html']:
+    for required in ['index.html', 'learners/index.html', 'educators/index.html',
+                     'tas2/index.html', 'tej3-4/index.html', 'ttj3-4/index.html',
+                     'slides/index.html', 'teacher-slides/index.html',
+                     'teaching-materials/index.html', 'wellbeing/index.html',
+                     'lore/index.html', 'lore/from-a-pen-and-paper-mark-to-a-crest.html']:
         if not (root / required).is_file():
             problems.append('Missing main page: ' + required)
     for path in root.rglob('*.webp'):
