@@ -1,6 +1,6 @@
 ---
 title: "4. Fabrication & Shop Skills"
-subtitle: "TTJ3C / TTJ4C :: SHOP"
+subtitle: "TTS :: SHOP"
 sidebar: ttj
 page-layout: article
 toc: true
