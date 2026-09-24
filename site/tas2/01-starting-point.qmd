@@ -19,4 +19,4 @@ The full mind map is private by default. Choose only the parts that you are comf
 
 ## First NICE cycle
 
-Use the [NICE Design Process](../resources/nice-design-process.qmd) to identify what a personal identity needs to communicate before designing anything.
+Use the NICE Design Process to identify what a personal identity needs to communicate before designing anything.
