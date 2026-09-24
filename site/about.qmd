@@ -26,7 +26,7 @@ format:
 
 I teach Technological Education at Port Credit Secondary School. I am still learning how to do this work well, and this site is one way of making the lessons, assignments, slides, experiments, and revisions useful beyond a single classroom.
 
-The resources are organized around Ontario's [Technological Education curriculum](https://www.dcp.edu.gov.on.ca/en/curriculum/technological-education), with connections to other curricular and co-curricular learning where they are useful.
+The resources are organized around Ontario's [Technological Education curriculum](https://www.dcp.edu.gov.on.ca/en/curriculum/technological-education), with connections to other curricular and co-curricular learning where they are useful. Transportation resources can also support Ontario's [Specialist High Skills Major (SHSM) in Transportation](https://www.ontario.ca/document/specialist-high-skills-major-shsm-policy-and-implementation-guide/transportation), including sector-focused learning, certifications, experiential learning, career exploration, reach-ahead experiences, and sector-partnered experiences.
 :::
 :::
 
@@ -48,9 +48,9 @@ I now volunteer, guest speak, and run workshops with a variety of organizations,
 
 I take my own beliefs seriously while also trying to study other philosophies and religious traditions with respect. That helps me understand more of the people I teach and work with, and gives me more ways to think about learning, discipline, community, service, attention, and human wellness. More recently, I have been training in **Gong Fu and Qigong** with the [Chung Wah Kung Fu International System](https://www.chungwahkungfu.com/) and the [Human Wellness and Recuperation Centre](https://www.chungwahhealth.com/).
 
-## Why this site is open
+## Why this should be open-source and free
 
-The goal is simple: make useful teaching and learning material available to **learners, educators, and anyone else who can use it**, without putting basic knowledge behind a paywall or inside one classroom.
+The goal is simple: useful teaching and learning material should be **open-source, free to access, and easy to adapt**. Learners, educators, and anyone else who can use it should not have to pay for basic knowledge or depend on access to a single classroom, platform, or account.
 
 This approach is influenced by open education projects such as Tony R. Kuphaldt's [Socratic Electronics](https://www.ibiblio.org/kuphaldt/socratic/), which emphasizes learning through questions, research, discussion, explaining ideas to others, and developing the ability to teach yourself.
 
@@ -63,7 +63,7 @@ These are not meant to collapse different religions or philosophies into one sys
 - **Paul Cormier / Indigenous learning methodology:** [**Kinoo'amaadawaad Megwaa Doodamawaad**](https://www.lakeheadu.ca/users/C/pcormier), translated by Cormier as **“they are learning with each other while they are doing.”** I want that idea to shape these notes: students learn with one another while doing real work, and the documentation grows from that work.
 - **Confucianism:** [learn something, then practise it](https://confucius-analects.org/en/books/01/01/). Learning is not complete when something has merely been heard or read.
 - **Daoism:** [a long journey begins beneath your feet](https://taoism.net/tao-te-ching-chapter-64/). Large work starts from what is small and present, and care at the end matters as much as enthusiasm at the beginning.
-- **The Way:** I use *the Way* here in a broad, non-doctrinal sense: a path becomes clearer through practice. It is not only what you are told to do, but the habits, judgement, attention, and character that develop while you keep doing the work. Different traditions use the idea of a way or path differently, and those differences matter.
+- **The Way:** I use *the Way* here in a broad, non-doctrinal sense: work with things as they are and let the path become clearer through practice. Try to meet the work non-judgmentally, do one thing mindfully, act effectively, and accept what is present without becoming attached to a particular outcome. Different traditions use the idea of a way or path differently, and those differences matter.
 - **Spirit:** Spirit can describe something carried within a person, but also something strengthened between people: school spirit, team spirit, community spirit. It can grow through belonging, responsibility, shared effort, service, and the feeling that your work is connected to something larger than yourself.
 - **Stoicism:** Epictetus treats education as more than book knowledge; character and judgement are developed through [repeated practice and self-correction](https://plato.stanford.edu/entries/epictetus/).
 - **Epicureanism:** Epicurus places unusual weight on [friendship as part of a good life](https://www.zhaibian.com/quotes/epicurus-on-friendship). Learning is easier to sustain when people enjoy doing worthwhile things together.
@@ -94,9 +94,8 @@ A useful attribution is:
 
 > Based on **Technological Education Resources** by Andrew Andrade and contributors, originally published at **andrewandrade.ca** with source at **github.com/mrandrewandrade**. Licensed under **CC BY-SA 4.0**. Changes were made.
 
-For a code or repository reference, linking directly to [github.com/mrandrewandrade/tech-edu-resources](https://github.com/mrandrewandrade/tech-edu-resources) is even better.
 
-Original website code, scripts, build tooling, and other executable materials are released under the **[GNU Affero General Public License v3](https://www.gnu.org/licenses/agpl-3.0.html)**.
+Original website code, scripts, build tooling, and other executable materials are released under the **[GNU Affero General Public License v3](https://www.gnu.org/licenses/agpl-3.0.html)**. In plain language, the AGPL lets people use, study, modify, and redistribute the code. If someone distributes a modified version, or runs a modified version as a network service that other people interact with, they must make the corresponding source code available under the same AGPL licence. It is a copyleft licence intended to keep shared software and improvements to it open.
 
 Third-party images, quotations, fonts, logos, and other materials keep their own licences and attribution requirements. The [Licensing and Attribution](licensing.qmd) page has the fuller details.
 
