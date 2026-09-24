@@ -25,19 +25,17 @@ filters:
   - bs-link-policy
 
 website:
-  title: "TechEd Commons"
-  description: "Course materials, projects, tools, and resources for technology education."
+  title: "Technological Education Resources"
+  description: "Open classroom materials, slides, assignments, and educator resources supporting the Ontario Technological Education curriculum."
   search:
     location: navbar
     type: overlay
   navbar:
     logo: assets/branding/emblem/commons-emblem-monochrome-blue.svg
-    logo-alt: "TechEd Commons"
-    title: "TechEd Commons"
+    logo-alt: "Technological Education Resources"
+    title: "Tech Edu"
     collapse-below: xl
     left:
-      - href: learners/index.qmd
-        text: "← Learners"
       - href: tas2/index.qmd
         text: TAS2
       - href: tej3-4/index.qmd
@@ -53,14 +51,10 @@ website:
           - text: TTS
             href: slides/tts.qmd
     right:
-      - href: educators/index.qmd
-        text: "Educators →"
       - href: teacher-slides/index.qmd
-        text: Reusable Slides
+        text: General Slides
       - href: teaching-materials/index.qmd
-        text: Teaching Materials
-      - href: wellbeing/index.qmd
-        text: Human Wellness
+        text: General Materials
       - href: lore/index.qmd
         text: Lore
       - href: about.qmd
@@ -151,7 +145,7 @@ website:
               href: ttj3-4/07-major-project-portfolio.qmd
   page-footer:
     left: |
-      Open sourced by [Andrew Andrade](https://www.linkedin.com/in/andrewandrade) for Port Credit Secondary School. Hosted on [GitHub Pages](https://github.com/mrandrewandrade/commons).
+      Open educational resources by [Andrew Andrade](https://www.linkedin.com/in/andrewandrade) and contributors. Hosted on [GitHub Pages](https://github.com/mrandrewandrade/tech-edu-resources).
     center: |
       Text: [CC BY-SA 4.0](/licensing.html), attribution and share-alike required. Code: [AGPL 3.0](/licensing.html), copyleft applies.
     right:
