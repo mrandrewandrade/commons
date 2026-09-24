@@ -1,0 +1,12 @@
+---
+title: "Classroom Slides"
+toc: false
+---
+
+Current classroom decks are maintained in native Google Slides so teachers can open, copy, edit, adapt, and reuse the materials more easily.
+
+- [TAS slides](tas.qmd)
+- [TEJ slides](tej.qmd)
+- [TTS slides](tts.qmd)
+
+The former Quarto/RevealJS slide system is preserved in the [archived slides repository](https://github.com/mrandrewandrade/slides).
