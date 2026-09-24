@@ -1,7 +1,7 @@
 ---
 title: "General Slides"
 subtitle: "Reusable classroom decks across subjects and learning environments"
-description: "Search and filter reusable Google Slides for broad-based technology, cross-curricular learning, creativity, and human wellness."
+description: "Search reusable classroom slides across mathematics, science, business, technology, arts, human wellness, and other learning environments."
 format:
   html:
     page-layout: full
@@ -16,42 +16,53 @@ execute:
 ::: {.bs-page-shell}
 ::: {.bs-reading-column}
 ::: {.bs-editorial-lead}
-Reusable slide decks for educators and learners. Search by topic, narrow the collection, or use the tags to find something quickly.
+Reusable slide decks for educators and learners across subjects including mathematics, science, business, arts, and technological education.
 :::
 
-General decks support broad-based technology courses and are designed to connect with other curricular and co-curricular subjects. The **Human Wellness Collection** brings together reusable activities and opening material that can work across courses and learning environments, from JK to post-secondary and beyond.
+**General** contains broadly reusable teaching decks. **Human Wellness** contains opening activities, reflection, creativity, attention, and connection material that can work from JK through post-secondary and beyond.
 :::
 
 ```{=html}
-<section class="bs-slide-library-controls" data-slide-controls aria-label="Filter reusable slides">
+<section
+  class="bs-slide-library-controls"
+  data-slide-controls
+  data-item-singular="deck"
+  data-item-plural="decks"
+  aria-label="Search and filter general slides">
+
   <div class="bs-slide-search-wrap">
-    <label class="bs-slide-control-label" for="reusable-slide-search">Search</label>
+    <label class="bs-slide-control-label" for="general-slide-search">Search</label>
     <input
-      id="reusable-slide-search"
+      id="general-slide-search"
       class="bs-slide-search"
       type="search"
-      placeholder="Search powers of 10, sketching, reflection..."
+      placeholder="Search significant figures, reflection, sketching, measurement..."
       autocomplete="off"
       data-slide-search>
   </div>
 
-  <div class="bs-slide-select-wrap">
-    <label class="bs-slide-control-label" for="reusable-slide-collection">Collection</label>
-    <select id="reusable-slide-collection" class="bs-slide-select" data-slide-collection>
-      <option value="">All collections</option>
-      <option value="General">General</option>
-      <option value="Human Wellness">Human Wellness</option>
-    </select>
+  <div class="bs-slide-filter-group bs-slide-filter-group--collection">
+    <p class="bs-slide-control-label">Collection</p>
+    <div class="bs-slide-filter-buttons" data-slide-collection-filters>
+      <button type="button" data-slide-collection-filter="General" aria-pressed="false">General</button>
+      <button type="button" data-slide-collection-filter="Human Wellness" aria-pressed="false">Human Wellness</button>
+    </div>
   </div>
 
-  <div class="bs-slide-filter-group">
-    <p class="bs-slide-control-label">Topics</p>
-    <div class="bs-slide-tag-filters" data-slide-tag-filters></div>
-  </div>
+  <details class="bs-slide-filter-disclosure">
+    <summary>Courses</summary>
+    <p class="bs-slide-filter-help">Broad-based technology course families where the deck is directly useful.</p>
+    <div class="bs-slide-filter-buttons" data-slide-course-filters></div>
+  </details>
+
+  <details class="bs-slide-filter-disclosure">
+    <summary>Topics</summary>
+    <div class="bs-slide-filter-buttons" data-slide-topic-filters></div>
+  </details>
 
   <div class="bs-slide-filter-footer">
     <p class="bs-slide-result-count" aria-live="polite" data-slide-result-count></p>
-    <button type="button" class="bs-slide-clear" data-slide-clear hidden>Clear filters</button>
+    <button type="button" class="bs-slide-clear" data-slide-clear hidden>Reset search and filters</button>
   </div>
 </section>
 
@@ -61,26 +72,26 @@ General decks support broad-based technology courses and are designed to connect
     class="bs-slide-card"
     data-slide-card
     data-collection="General"
-    data-tags="powers of 10|metric prefixes|scientific notation|engineering notation|measurement|electronics"
-    data-search="powers of 10 metric prefixes scientific notation engineering notation measurement electronics powers prefixes exponents">
+    data-courses="TEJ|TTJ|TAS"
+    data-tags="powers of 10|metric prefixes|scientific notation|engineering notation|measurement|mathematics|science|electronics"
+    data-search="powers of 10 metric prefixes scientific notation engineering notation measurement electronics math mathematics science exponents SI">
     <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/1R83ueeAShw-97hP0p1humFnsE6BlQ09e-n96G387Yu4/edit?usp=drivesdk" aria-label="Open Powers of 10 and Metric Prefixes">
       <span class="bs-slide-thumb-fallback" aria-hidden="true">
         <span class="bs-slide-thumb-kicker">General</span>
         <strong>10<sup>n</sup></strong>
         <span>Prefixes + notation</span>
       </span>
-      <img
-        src="https://drive.google.com/thumbnail?id=1R83ueeAShw-97hP0p1humFnsE6BlQ09e-n96G387Yu4&sz=w1200"
-        alt=""
-        loading="lazy"
-        onerror="this.hidden=true">
+      <img src="https://drive.google.com/thumbnail?id=1R83ueeAShw-97hP0p1humFnsE6BlQ09e-n96G387Yu4&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
     </a>
     <div class="bs-slide-card-body">
       <p class="bs-slide-card-collection">General</p>
-      <h2 class="bs-slide-card-title">
-        <a href="https://docs.google.com/presentation/d/1R83ueeAShw-97hP0p1humFnsE6BlQ09e-n96G387Yu4/edit?usp=drivesdk">Powers of 10 and Metric Prefixes</a>
-      </h2>
-      <p class="bs-slide-card-description">Powers of ten, SI prefixes, and scientific and engineering notation for technology and electronics classes.</p>
+      <h2 class="bs-slide-card-title"><a href="https://docs.google.com/presentation/d/1R83ueeAShw-97hP0p1humFnsE6BlQ09e-n96G387Yu4/edit?usp=drivesdk">Powers of 10 and Metric Prefixes</a></h2>
+      <p class="bs-slide-card-description">Powers of ten, SI prefixes, scientific notation, and engineering notation for mathematics, science, electronics, and technology classrooms.</p>
+      <div class="bs-slide-card-courses" aria-label="Courses">
+        <button type="button" data-slide-card-course="TEJ">TEJ</button>
+        <button type="button" data-slide-card-course="TTJ">TTJ</button>
+        <button type="button" data-slide-card-course="TAS">TAS</button>
+      </div>
       <div class="bs-slide-card-tags" aria-label="Topics">
         <button type="button" data-slide-card-tag="powers of 10">Powers of 10</button>
         <button type="button" data-slide-card-tag="metric prefixes">Metric prefixes</button>
@@ -94,26 +105,26 @@ General decks support broad-based technology courses and are designed to connect
     class="bs-slide-card"
     data-slide-card
     data-collection="General"
-    data-tags="significant figures|measurement|precision|rounding|electronics|math"
-    data-search="significant figures sig figs measurement precision rounding electronics math review">
+    data-courses="TEJ|TTJ|TAS"
+    data-tags="significant figures|measurement|precision|rounding|mathematics|science|electronics"
+    data-search="significant figures sig figs significant digits measurement precision rounding electronics mathematics math science">
     <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/1OzjY3_6Bzwwn2aOW3LG2lZzpOJBF4tZ_03eQTGXMlWw/edit?usp=drivesdk" aria-label="Open Significant Figures Review">
       <span class="bs-slide-thumb-fallback" aria-hidden="true">
         <span class="bs-slide-thumb-kicker">General</span>
         <strong>3.14</strong>
         <span>Precision + sig figs</span>
       </span>
-      <img
-        src="https://drive.google.com/thumbnail?id=1OzjY3_6Bzwwn2aOW3LG2lZzpOJBF4tZ_03eQTGXMlWw&sz=w1200"
-        alt=""
-        loading="lazy"
-        onerror="this.hidden=true">
+      <img src="https://drive.google.com/thumbnail?id=1OzjY3_6Bzwwn2aOW3LG2lZzpOJBF4tZ_03eQTGXMlWw&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
     </a>
     <div class="bs-slide-card-body">
       <p class="bs-slide-card-collection">General</p>
-      <h2 class="bs-slide-card-title">
-        <a href="https://docs.google.com/presentation/d/1OzjY3_6Bzwwn2aOW3LG2lZzpOJBF4tZ_03eQTGXMlWw/edit?usp=drivesdk">Significant Figures Review</a>
-      </h2>
-      <p class="bs-slide-card-description">A clean review deck for significant figures, measurement precision, rounding, and reporting values.</p>
+      <h2 class="bs-slide-card-title"><a href="https://docs.google.com/presentation/d/1OzjY3_6Bzwwn2aOW3LG2lZzpOJBF4tZ_03eQTGXMlWw/edit?usp=drivesdk">Significant Figures Review</a></h2>
+      <p class="bs-slide-card-description">A reusable review of significant figures, measurement precision, rounding, and reporting values.</p>
+      <div class="bs-slide-card-courses" aria-label="Courses">
+        <button type="button" data-slide-card-course="TEJ">TEJ</button>
+        <button type="button" data-slide-card-course="TTJ">TTJ</button>
+        <button type="button" data-slide-card-course="TAS">TAS</button>
+      </div>
       <div class="bs-slide-card-tags" aria-label="Topics">
         <button type="button" data-slide-card-tag="significant figures">Significant figures</button>
         <button type="button" data-slide-card-tag="measurement">Measurement</button>
@@ -127,26 +138,24 @@ General decks support broad-based technology courses and are designed to connect
     class="bs-slide-card"
     data-slide-card
     data-collection="Human Wellness"
-    data-tags="zentangle|sketching|creativity|calm focus|drawing|design"
-    data-search="zentangle sketching creativity calm focus drawing design patterns tech easy examples wellness">
+    data-courses="TAS"
+    data-tags="zentangle|sketching|creativity|calm focus|drawing|design|art"
+    data-search="zentangle sketching creativity calm focus drawing design patterns art wellness quiet activity">
     <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/1JsEdT6M2GLdKGlGTI9XF9-c-Y2xoe5KjYqFU2n0OL8I/edit?usp=drivesdk" aria-label="Open Zentangle Pattern Inspiration Loop">
       <span class="bs-slide-thumb-fallback" aria-hidden="true">
         <span class="bs-slide-thumb-kicker">Human Wellness</span>
         <strong>////</strong>
         <span>Sketch + focus</span>
       </span>
-      <img
-        src="https://drive.google.com/thumbnail?id=1JsEdT6M2GLdKGlGTI9XF9-c-Y2xoe5KjYqFU2n0OL8I&sz=w1200"
-        alt=""
-        loading="lazy"
-        onerror="this.hidden=true">
+      <img src="https://drive.google.com/thumbnail?id=1JsEdT6M2GLdKGlGTI9XF9-c-Y2xoe5KjYqFU2n0OL8I&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
     </a>
     <div class="bs-slide-card-body">
       <p class="bs-slide-card-collection">Human Wellness</p>
-      <h2 class="bs-slide-card-title">
-        <a href="https://docs.google.com/presentation/d/1JsEdT6M2GLdKGlGTI9XF9-c-Y2xoe5KjYqFU2n0OL8I/edit?usp=drivesdk">Zentangle Pattern Inspiration Loop</a>
-      </h2>
+      <h2 class="bs-slide-card-title"><a href="https://docs.google.com/presentation/d/1JsEdT6M2GLdKGlGTI9XF9-c-Y2xoe5KjYqFU2n0OL8I/edit?usp=drivesdk">Zentangle Pattern Inspiration Loop</a></h2>
       <p class="bs-slide-card-description">Easy-to-more-complex pattern prompts for quiet sketching, creative focus, and low-pressure drawing.</p>
+      <div class="bs-slide-card-courses" aria-label="Courses">
+        <button type="button" data-slide-card-course="TAS">TAS</button>
+      </div>
       <div class="bs-slide-card-tags" aria-label="Topics">
         <button type="button" data-slide-card-tag="zentangle">Zentangle</button>
         <button type="button" data-slide-card-tag="sketching">Sketching</button>
@@ -160,26 +169,21 @@ General decks support broad-based technology courses and are designed to connect
     class="bs-slide-card"
     data-slide-card
     data-collection="Human Wellness"
+    data-courses=""
     data-tags="reflection|opening activity|quotes|indigenous voices|community|wellness"
-    data-search="daily opening quotes reflection opening activity indigenous voices community wellness class start">
+    data-search="daily opening quotes reflection opening activity indigenous voices community wellness class start discussion connection">
     <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY/edit?usp=drivesdk" aria-label="Open Daily Opening Quotes">
       <span class="bs-slide-thumb-fallback" aria-hidden="true">
         <span class="bs-slide-thumb-kicker">Human Wellness</span>
         <strong>“ ”</strong>
         <span>Reflect + connect</span>
       </span>
-      <img
-        src="https://drive.google.com/thumbnail?id=12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY&sz=w1200"
-        alt=""
-        loading="lazy"
-        onerror="this.hidden=true">
+      <img src="https://drive.google.com/thumbnail?id=12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
     </a>
     <div class="bs-slide-card-body">
       <p class="bs-slide-card-collection">Human Wellness</p>
-      <h2 class="bs-slide-card-title">
-        <a href="https://docs.google.com/presentation/d/12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY/edit?usp=drivesdk">Daily Opening Quotes</a>
-      </h2>
-      <p class="bs-slide-card-description">A reusable opening deck for reflection, connection, discussion, and short classroom pauses.</p>
+      <h2 class="bs-slide-card-title"><a href="https://docs.google.com/presentation/d/12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY/edit?usp=drivesdk">Daily Opening Quotes</a></h2>
+      <p class="bs-slide-card-description">A course-neutral opening deck for reflection, connection, discussion, and short classroom pauses.</p>
       <div class="bs-slide-card-tags" aria-label="Topics">
         <button type="button" data-slide-card-tag="reflection">Reflection</button>
         <button type="button" data-slide-card-tag="opening activity">Opening activity</button>
@@ -191,7 +195,7 @@ General decks support broad-based technology courses and are designed to connect
 
 </div>
 
-<p class="bs-slide-empty" data-slide-empty hidden>No teacher slides match those filters.</p>
+<p class="bs-slide-empty" data-slide-empty hidden>No slide decks match those filters.</p>
 
 <script src="../assets/teacher-slides.js" defer></script>
 ```
