@@ -3,7 +3,7 @@ title: "From a University Sketch to a Logo and Commons Emblem"
 subtitle: "A personal mark can stay simple while a larger identity carries more of the story"
 description: >
   How an AA mark I made in university evolved with me as an educator, then expanded
-  through many experiments into the current Technology Commons emblem.
+  through many experiments into the current Technological Education Resources emblem.
 author: "Andrew Andrade"
 date: "2026-09-09"
 categories:
@@ -14,7 +14,7 @@ tags:
   - Logo Design
   - Iteration
   - Visual Identity
-  - Technology Commons
+  - Technological Education Resources
 reading-time: "5 min"
 image: "../assets/lore/logo-redesign/04-crest-iteration-sequence.webp"
 format:
@@ -84,7 +84,7 @@ The black-and-white work helped me judge shape without depending on colour, text
 
 ## From a personal logo to a Commons emblem
 
-The larger symbol is doing a different job. It represents **Technology Commons**, not just me, so it can carry more information than the AA logo.
+The larger symbol is doing a different job. It represents **Technological Education Resources**, not just me, so it can carry more information than the AA logo.
 
 The current emblem combines several ideas:
 
