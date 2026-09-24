@@ -6,6 +6,8 @@ project:
     - "!mindfulness/"
     - "!posts/"
     - "!research/"
+    - "!ttj3-4/"
+    - "!slides/tts.qmd"
   pre-render:
   - python ../scripts/bs_pre_render.py
   resources:
@@ -40,16 +42,12 @@ website:
         text: TAS2
       - href: tej3-4/index.qmd
         text: TEJ3/4
-      - href: ttj3-4/index.qmd
-        text: TTS
       - text: Class Slides
         menu:
           - text: TAS
             href: slides/tas.qmd
           - text: TEJ
             href: slides/tej.qmd
-          - text: TTS
-            href: slides/tts.qmd
     right:
       - href: teacher-slides/index.qmd
         text: General Slides
@@ -116,33 +114,6 @@ website:
               href: tej3-4/07-machine-learning.qmd
             - text: "8. Major Project & Portfolio"
               href: tej3-4/08-major-project-portfolio.qmd
-    - id: ttj
-      title: "TTS"
-      style: docked
-      collapse-level: 1
-      contents:
-        - text: "Course Home"
-          href: ttj3-4/index.qmd
-        - section: "Getting Started"
-          contents:
-            - text: "1. Starting Point"
-              href: ttj3-4/01-starting-point.qmd
-            - text: "2. Identity, Marque & Shop Log"
-              href: ttj3-4/02-identity-marque-shop-log.qmd
-            - text: "3. Measurement & Onshape"
-              href: ttj3-4/03-measurement-onshape.qmd
-        - section: "Shop & Vehicle Systems"
-          contents:
-            - text: "4. Fabrication & Shop Skills"
-              href: ttj3-4/04-fabrication-shop-skills.qmd
-            - text: "5. Automotive Systems"
-              href: ttj3-4/05-automotive-systems.qmd
-            - text: "6. Diagnosis & Service"
-              href: ttj3-4/06-diagnosis-service.qmd
-        - section: "Bring It Together"
-          contents:
-            - text: "7. Major Project & Portfolio"
-              href: ttj3-4/07-major-project-portfolio.qmd
   page-footer:
     left: |
       Open educational resources by [Andrew Andrade](https://www.linkedin.com/in/andrewandrade) and contributors. Hosted on [GitHub Pages](https://github.com/mrandrewandrade/tech-edu-resources).
