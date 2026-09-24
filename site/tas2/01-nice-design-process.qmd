@@ -1,0 +1,49 @@
+---
+title: "1. N.I.C.E. Design Process"
+description: "The N.I.C.E. iterative design process used in TAS."
+---
+
+> **These notes are unfinished intentionally.** Students will add examples, diagrams, and evidence from our own projects.
+
+## N — Needs & Necessities
+
+Identify what the design must do before deciding what it should look like.
+
+Consider:
+
+- the user or audience
+- required functions
+- restrictions and constraints
+- safety
+- available time, tools, materials, and budget
+- necessities versus useful extras
+
+## I — Investigate & Inquire
+
+Ask questions before jumping to a solution.
+
+- What already exists?
+- What works well?
+- What fails?
+- What can we measure, test, compare, or research?
+- What do we still need to know?
+
+## C — Create & Communicate
+
+Make something that can be tested.
+
+This may be a sketch, prototype, CAD model, circuit, animation, web page, physical object, or explanation.
+
+Communicate the decisions clearly enough that another person can understand what you tried and why.
+
+## E — Evaluate
+
+Compare the result against the needs and evidence.
+
+- What worked?
+- What did not?
+- What changed?
+- What should be improved?
+- Did the original requirements still make sense?
+
+Then repeat the cycle with better information.
