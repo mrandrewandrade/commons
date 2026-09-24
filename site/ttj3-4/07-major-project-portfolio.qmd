@@ -1,6 +1,6 @@
 ---
 title: "7. Major Project & Portfolio"
-subtitle: "TTJ3C / TTJ4C :: PROJECT"
+subtitle: "TTS :: PROJECT"
 sidebar: ttj
 page-layout: article
 toc: true
