@@ -25,8 +25,16 @@ The following tools and libraries are build dependencies and are not incorporate
 
 ## Project-owned visual assets
 
-The favicon, logo, app-icon, and generated social-preview assets are project-owned Backgammon Simplified branding, not third-party material. Their inclusion does not grant trademark rights. See `LICENSE.md` and `docs/ASSET_PROVENANCE.md`.
+Project-created Technological Education Resources visual assets remain subject to the repository's licensing and identity terms. Their inclusion does not grant trademark or endorsement rights. See `LICENSE.md` and `docs/ASSET_PROVENANCE.md`.
+
+## School and board marks
+
+Port Credit Secondary School, SciTech, Peel District School Board, and other school or board names, logos, marks, historical images, and source colours remain the property of their respective owners. Their inclusion for educational, historical, identification, or contextual purposes does not relicense them under this repository's AGPL or Creative Commons terms and does not imply official endorsement of every resource on this site.
+
+## Student work, images, and identifiable stories
+
+Identifiable student work, photographs, recordings, project stories, or links to student work are not relicensed merely because they appear with this project. Applicable permission, consent, privacy, and board requirements remain in effect. Where a public story identifies a student, the relevant page records permission where applicable.
 
 ## Other third-party material
 
-Engine names, output, screenshots, quotations, datasets, and other third-party material retain their original licences or terms and must be recorded alongside the relevant release or file. The website's AGPL and CC BY-SA terms do not relicense them.
+Screenshots, quotations, datasets, externally sourced images, logos, and other third-party material retain their original licences or terms and must be recorded alongside the relevant release or file. The website's AGPL and CC BY-SA terms do not relicense them.
