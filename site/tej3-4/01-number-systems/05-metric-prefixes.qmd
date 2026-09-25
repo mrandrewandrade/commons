@@ -4,7 +4,7 @@ description: "Metric prefixes for powers of 10."
 sidebar: tej
 body-classes: "bs-learn-article ter-notes-lesson"
 toc: true
-toc-depth: 2
+toc-depth: 3
 execute:
   enabled: false
 ---
