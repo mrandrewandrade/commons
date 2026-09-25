@@ -73,16 +73,16 @@ The library intentionally links to **generic teaching materials, not student sub
     data-courses="TAS|TEJ|TTJ"
     data-tags="identity|communication|documentation|pdf|introductory"
     data-search="name tag pdf student number introductory identity communication documentation submission">
-    <a class="bs-slide-thumb" href="https://andrewandrade.ca/assets/0.0-name-tag-pdf.pdf" aria-label="Open Name Tag PDF">
+    <a class="bs-slide-thumb" href="../assets/materials/0.0-name-tag-pdf.pdf" aria-label="Open Name Tag PDF">
       <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">General</span><strong>0.0</strong><span>Name tag + PDF</span></span>
     </a>
     <div class="bs-slide-card-body">
       <p class="bs-slide-card-collection">General</p>
-      <h2 class="bs-slide-card-title"><a href="https://andrewandrade.ca/assets/0.0-name-tag-pdf.pdf">Name Tag PDF</a></h2>
+      <h2 class="bs-slide-card-title"><a href="../assets/materials/0.0-name-tag-pdf.pdf">Name Tag PDF</a></h2>
       <p class="bs-slide-card-description">A short introductory deliverable for making a readable name tag, documenting it clearly, and submitting a checked PDF.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="identity">Identity</button><button type="button" data-slide-card-tag="documentation">Documentation</button><button type="button" data-slide-card-tag="pdf">PDF</button></div>
-      <a class="bs-slide-open" href="https://andrewandrade.ca/assets/0.0-name-tag-pdf.pdf">Open PDF</a>
+      <a class="bs-slide-open" href="../assets/materials/0.0-name-tag-pdf.pdf">Open PDF</a>
     </div>
   </article>
 
@@ -91,16 +91,16 @@ The library intentionally links to **generic teaching materials, not student sub
     data-courses="TAS|TEJ|TTJ"
     data-tags="identity|reflection|goals|self-awareness|introductory"
     data-search="past present becoming identity reflection self awareness goals introductory about me">
-    <a class="bs-slide-thumb" href="https://andrewandrade.ca/assets/0.1-past-present-becoming.pdf" aria-label="Open Past Present and Becoming PDF">
+    <a class="bs-slide-thumb" href="../assets/materials/0.1-past-present-becoming.pdf" aria-label="Open Past Present and Becoming PDF">
       <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being</span><strong>0.1</strong><span>Past · present · becoming</span></span>
     </a>
     <div class="bs-slide-card-body">
       <p class="bs-slide-card-collection">Human Well-Being</p>
-      <h2 class="bs-slide-card-title"><a href="https://andrewandrade.ca/assets/0.1-past-present-becoming.pdf">Past, Present &amp; Becoming</a></h2>
+      <h2 class="bs-slide-card-title"><a href="../assets/materials/0.1-past-present-becoming.pdf">Past, Present &amp; Becoming</a></h2>
       <p class="bs-slide-card-description">An introductory communication and reflection activity with explicit student choice, privacy, and non-disclosure safeguards.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="identity">Identity</button><button type="button" data-slide-card-tag="reflection">Reflection</button><button type="button" data-slide-card-tag="goals">Goals</button></div>
-      <a class="bs-slide-open" href="https://andrewandrade.ca/assets/0.1-past-present-becoming.pdf">Open PDF</a>
+      <a class="bs-slide-open" href="../assets/materials/0.1-past-present-becoming.pdf">Open PDF</a>
     </div>
   </article>
 
@@ -109,16 +109,16 @@ The library intentionally links to **generic teaching materials, not student sub
     data-courses="TAS|TEJ|TTJ"
     data-tags="listening|reflection|communication|community|presentation"
     data-search="the way we meet listening notes reflection presentation community connection communication">
-    <a class="bs-slide-thumb" href="https://andrewandrade.ca/assets/0.2-the-way-we-meet-notes.pdf" aria-label="Open The Way We Meet listening notes PDF">
+    <a class="bs-slide-thumb" href="../assets/materials/0.2-the-way-we-meet-notes.pdf" aria-label="Open The Way We Meet listening notes PDF">
       <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being</span><strong>0.2</strong><span>Listen + connect</span></span>
     </a>
     <div class="bs-slide-card-body">
       <p class="bs-slide-card-collection">Human Well-Being</p>
-      <h2 class="bs-slide-card-title"><a href="https://andrewandrade.ca/assets/0.2-the-way-we-meet-notes.pdf">The Way We Meet: Listening Notes &amp; Reflection</a></h2>
+      <h2 class="bs-slide-card-title"><a href="../assets/materials/0.2-the-way-we-meet-notes.pdf">The Way We Meet: Listening Notes &amp; Reflection</a></h2>
       <p class="bs-slide-card-description">Listening notes and reflection prompts for learning about classmates, noticing connections, and practising attentive participation.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="listening">Listening</button><button type="button" data-slide-card-tag="reflection">Reflection</button><button type="button" data-slide-card-tag="community">Community</button></div>
-      <a class="bs-slide-open" href="https://andrewandrade.ca/assets/0.2-the-way-we-meet-notes.pdf">Open PDF</a>
+      <a class="bs-slide-open" href="../assets/materials/0.2-the-way-we-meet-notes.pdf">Open PDF</a>
     </div>
   </article>
 
@@ -181,18 +181,18 @@ The library intentionally links to **generic teaching materials, not student sub
     data-courses="TAS|TEJ|TTJ"
     data-tags="goals|reflection|progress|self-regulation|planning"
     data-search="weekly smart goal progress log goals reflection progress self regulation planning">
-    <a class="bs-slide-thumb" href="https://andrewandrade.ca/assets/weekly-smart-goal-progress-log.pdf" aria-label="Open Weekly SMART Goal Progress Log PDF">
+    <a class="bs-slide-thumb" href="../assets/materials/weekly-smart-goal-progress-log.pdf" aria-label="Open Weekly SMART Goal Progress Log PDF">
       <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being</span><strong>GOAL</strong><span>Plan + reflect</span></span>
     </a>
     <div class="bs-slide-card-body">
       <p class="bs-slide-card-collection">Human Well-Being</p>
-      <h2 class="bs-slide-card-title"><a href="https://andrewandrade.ca/assets/weekly-smart-goal-progress-log.pdf">Weekly SMART Goal Progress Log</a></h2>
+      <h2 class="bs-slide-card-title"><a href="../assets/materials/weekly-smart-goal-progress-log.pdf">Weekly SMART Goal Progress Log</a></h2>
       <p class="bs-slide-card-description">A reusable goal-setting and progress-reflection log for planning, monitoring learning, and recording formative next steps.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="goals">Goals</button><button type="button" data-slide-card-tag="reflection">Reflection</button><button type="button" data-slide-card-tag="progress">Progress</button></div>
       <div class="bs-slide-actions">
-        <a class="bs-slide-open" href="https://andrewandrade.ca/assets/weekly-smart-goal-progress-log.pdf">Open colour PDF</a>
-        <a class="bs-slide-open" href="https://andrewandrade.ca/assets/weekly-smart-goal-progress-log-bw.pdf">Open B&amp;W print PDF</a>
+        <a class="bs-slide-open" href="../assets/materials/weekly-smart-goal-progress-log.pdf">Open colour PDF</a>
+        <a class="bs-slide-open" href="../assets/materials/weekly-smart-goal-progress-log-bw.pdf">Open B&amp;W print PDF</a>
       </div>
     </div>
   </article>
