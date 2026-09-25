@@ -64,6 +64,33 @@
               "source": "tej3-4/01-number-systems/05-metric-prefixes.qmd"
             }
           ]
+        },
+        {
+          "id": "tej-basic-electronics",
+          "order": 2,
+          "title": "2. Basic Electronics",
+          "lessons": [
+            {
+              "order": 1,
+              "title": "Charge, Voltage & Current",
+              "source": "tej3-4/02-basic-electronics/01-charge-voltage-current.qmd"
+            },
+            {
+              "order": 2,
+              "title": "Closed, Open & Short Circuits",
+              "source": "tej3-4/02-basic-electronics/02-circuits-opens-shorts.qmd"
+            },
+            {
+              "order": 3,
+              "title": "Ohm's Law",
+              "source": "tej3-4/02-basic-electronics/03-ohms-law.qmd"
+            },
+            {
+              "order": 4,
+              "title": "Power & Energy",
+              "source": "tej3-4/02-basic-electronics/04-power-energy.qmd"
+            }
+          ]
         }
       ]
     }
