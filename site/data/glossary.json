@@ -1,0 +1,538 @@
+{
+  "schema_version": "1.0",
+  "entries": [
+    {
+      "aliases": [],
+      "categories": [
+        "Measurement & Motion"
+      ],
+      "category": "Measurement & Motion",
+      "date_added": "2026-09-24",
+      "definition": "Acceleration describes how quickly velocity changes. A change in speed, direction, or both is acceleration. Its common SI unit is metres per second squared (m/s²). An acceleration of 1 m/s² means the velocity changes by 1 m/s every second.",
+      "definition_links": [],
+      "learning_tracks": [],
+      "redirect_slugs": [],
+      "references": [],
+      "related_terms": [
+        {
+          "term": "Metres per Second Squared",
+          "slug": "metres-per-second-squared"
+        },
+        {
+          "term": "Velocity",
+          "slug": "velocity"
+        }
+      ],
+      "short_definition": "Acceleration is how quickly velocity changes with time.",
+      "slug": "acceleration",
+      "term": "Acceleration"
+    },
+    {
+      "aliases": [
+        {
+          "slug": "a",
+          "term": "A"
+        },
+        {
+          "slug": "amp",
+          "term": "amp"
+        },
+        {
+          "slug": "amps",
+          "term": "amps"
+        }
+      ],
+      "categories": [
+        "Units & Notation"
+      ],
+      "category": "Units & Notation",
+      "date_added": "2026-09-24",
+      "definition": "The ampere, symbol A, is the SI unit used to measure electric current. In basic circuit work, current values are stated in amperes or amps.",
+      "definition_links": [],
+      "learning_tracks": [],
+      "redirect_slugs": [],
+      "references": [],
+      "related_terms": [
+        {
+          "term": "Current",
+          "slug": "current"
+        }
+      ],
+      "short_definition": "The ampere (A) is the SI unit of electric current.",
+      "slug": "ampere",
+      "term": "Ampere"
+    },
+    {
+      "aliases": [
+        {
+          "slug": "electric-current",
+          "term": "Electric Current"
+        },
+        {
+          "slug": "i",
+          "term": "I"
+        }
+      ],
+      "categories": [
+        "Electrical & Electronics"
+      ],
+      "category": "Electrical & Electronics",
+      "date_added": "2026-09-24",
+      "definition": "Electric current is the rate at which electric charge flows through a circuit. The common quantity symbol is I and the SI unit is the ampere (A). More current means more electric charge is moving past a point each second.",
+      "definition_links": [],
+      "learning_tracks": [],
+      "redirect_slugs": [],
+      "references": [],
+      "related_terms": [
+        {
+          "term": "Ampere",
+          "slug": "ampere"
+        },
+        {
+          "term": "Resistance",
+          "slug": "resistance"
+        },
+        {
+          "term": "Voltage",
+          "slug": "voltage"
+        },
+        {
+          "term": "Power",
+          "slug": "power"
+        }
+      ],
+      "short_definition": "Current is the rate at which electric charge flows through a circuit.",
+      "slug": "current",
+      "term": "Current"
+    },
+    {
+      "aliases": [
+        {
+          "slug": "design-process",
+          "term": "Design Process"
+        },
+        {
+          "slug": "edp",
+          "term": "EDP"
+        }
+      ],
+      "categories": [
+        "Design Process"
+      ],
+      "category": "Design Process",
+      "date_added": "2026-09-24",
+      "definition": "The engineering design process is a flexible, iterative approach to solving problems. A typical cycle identifies the problem and needs, investigates existing information and solutions, develops ideas, creates or prototypes a solution, tests and evaluates it, communicates results, and improves the design. The process can loop backward or repeat whenever new evidence changes what the design needs.",
+      "definition_links": [],
+      "learning_tracks": [],
+      "redirect_slugs": [],
+      "references": [],
+      "related_terms": [
+        {
+          "term": "N.I.C.E. Design Process",
+          "slug": "nice-design-process"
+        }
+      ],
+      "short_definition": "The engineering design process is an iterative way to identify needs, create solutions, test them, and improve them.",
+      "slug": "engineering-design-process",
+      "term": "Engineering Design Process"
+    },
+    {
+      "aliases": [
+        {
+          "slug": "m",
+          "term": "m"
+        },
+        {
+          "slug": "meter",
+          "term": "meter"
+        }
+      ],
+      "categories": [
+        "Units & Notation"
+      ],
+      "category": "Units & Notation",
+      "date_added": "2026-09-24",
+      "definition": "The metre, symbol m, is the SI base unit used to measure length. In motion problems it can describe distance or displacement.",
+      "definition_links": [],
+      "learning_tracks": [],
+      "redirect_slugs": [],
+      "references": [],
+      "related_terms": [
+        {
+          "term": "Metres per Second",
+          "slug": "metres-per-second"
+        }
+      ],
+      "short_definition": "The metre (m) is the SI base unit of length.",
+      "slug": "metre",
+      "term": "Metre"
+    },
+    {
+      "aliases": [
+        {
+          "slug": "m-s",
+          "term": "m/s"
+        }
+      ],
+      "categories": [
+        "Units & Notation"
+      ],
+      "category": "Units & Notation",
+      "date_added": "2026-09-24",
+      "definition": "Metres per second, written m/s, tells how many metres of distance or displacement are covered each second. It is a common SI unit for both speed and velocity.",
+      "definition_links": [],
+      "learning_tracks": [],
+      "redirect_slugs": [],
+      "references": [],
+      "related_terms": [
+        {
+          "term": "Metre",
+          "slug": "metre"
+        },
+        {
+          "term": "Speed",
+          "slug": "speed"
+        },
+        {
+          "term": "Velocity",
+          "slug": "velocity"
+        }
+      ],
+      "short_definition": "Metres per second (m/s) is a unit of speed and velocity.",
+      "slug": "metres-per-second",
+      "term": "Metres per Second"
+    },
+    {
+      "aliases": [
+        {
+          "slug": "m-s-2",
+          "term": "m/s^2"
+        },
+        {
+          "slug": "m-s2",
+          "term": "m/s²"
+        }
+      ],
+      "categories": [
+        "Units & Notation"
+      ],
+      "category": "Units & Notation",
+      "date_added": "2026-09-24",
+      "definition": "Metres per second squared, written m/s², is a unit of acceleration. A value of 1 m/s² means velocity changes by 1 metre per second during each second.",
+      "definition_links": [],
+      "learning_tracks": [],
+      "redirect_slugs": [],
+      "references": [],
+      "related_terms": [
+        {
+          "term": "Acceleration",
+          "slug": "acceleration"
+        },
+        {
+          "term": "Metres per Second",
+          "slug": "metres-per-second"
+        }
+      ],
+      "short_definition": "Metres per second squared (m/s²) is a unit of acceleration.",
+      "slug": "metres-per-second-squared",
+      "term": "Metres per Second Squared"
+    },
+    {
+      "aliases": [
+        {
+          "slug": "n-i-c-e",
+          "term": "N.I.C.E."
+        },
+        {
+          "slug": "nice-design-process",
+          "term": "NICE Design Process"
+        }
+      ],
+      "categories": [
+        "Design Process"
+      ],
+      "category": "Design Process",
+      "date_added": "2026-09-24",
+      "definition": "The N.I.C.E. Design Process is a classroom design cycle used in these resources: Needs & Necessities → Investigate & Inquire → Create & Communicate → Evaluate → repeat. It begins with what the design actually needs to accomplish, uses inquiry and investigation before choosing a solution, makes and communicates the solution, and uses evaluation to return to the needs and improve the next version.",
+      "definition_links": [],
+      "learning_tracks": [],
+      "redirect_slugs": [],
+      "references": [],
+      "related_terms": [
+        {
+          "term": "Engineering Design Process",
+          "slug": "engineering-design-process"
+        }
+      ],
+      "short_definition": "N.I.C.E. is a classroom design cycle: Needs & Necessities → Investigate & Inquire → Create & Communicate → Evaluate → repeat.",
+      "slug": "nice-design-process",
+      "term": "N.I.C.E. Design Process"
+    },
+    {
+      "aliases": [
+        {
+          "slug": "ohms",
+          "term": "ohms"
+        }
+      ],
+      "categories": [
+        "Units & Notation"
+      ],
+      "category": "Units & Notation",
+      "date_added": "2026-09-24",
+      "definition": "The ohm, symbol Ω, is the SI unit used to measure electrical resistance. In a simple resistive circuit, 1 ohm of resistance allows 1 ampere of current when 1 volt is applied.",
+      "definition_links": [],
+      "learning_tracks": [],
+      "redirect_slugs": [],
+      "references": [],
+      "related_terms": [
+        {
+          "term": "Resistance",
+          "slug": "resistance"
+        },
+        {
+          "term": "Voltage",
+          "slug": "voltage"
+        },
+        {
+          "term": "Current",
+          "slug": "current"
+        }
+      ],
+      "short_definition": "The ohm (Ω) is the SI unit of electrical resistance.",
+      "slug": "ohm",
+      "term": "Ohm"
+    },
+    {
+      "aliases": [
+        {
+          "slug": "p",
+          "term": "P"
+        }
+      ],
+      "categories": [
+        "Electrical & Electronics"
+      ],
+      "category": "Electrical & Electronics",
+      "date_added": "2026-09-24",
+      "definition": "Power describes how quickly energy is transferred or used. The SI unit is the watt (W). In a DC electrical circuit, power can be calculated with P = V × I, where V is voltage and I is current.",
+      "definition_links": [],
+      "learning_tracks": [],
+      "redirect_slugs": [],
+      "references": [],
+      "related_terms": [
+        {
+          "term": "Watt",
+          "slug": "watt"
+        },
+        {
+          "term": "Voltage",
+          "slug": "voltage"
+        },
+        {
+          "term": "Current",
+          "slug": "current"
+        }
+      ],
+      "short_definition": "Power is the rate at which energy is transferred or used.",
+      "slug": "power",
+      "term": "Power"
+    },
+    {
+      "aliases": [
+        {
+          "slug": "r",
+          "term": "R"
+        }
+      ],
+      "categories": [
+        "Electrical & Electronics"
+      ],
+      "category": "Electrical & Electronics",
+      "date_added": "2026-09-24",
+      "definition": "Electrical resistance describes how strongly a component or material opposes electric current. The common quantity symbol is R and the SI unit is the ohm (Ω). For a simple resistive circuit, voltage, current, and resistance are related by V = I × R.",
+      "definition_links": [],
+      "learning_tracks": [],
+      "redirect_slugs": [],
+      "references": [],
+      "related_terms": [
+        {
+          "term": "Ohm",
+          "slug": "ohm"
+        },
+        {
+          "term": "Voltage",
+          "slug": "voltage"
+        },
+        {
+          "term": "Current",
+          "slug": "current"
+        }
+      ],
+      "short_definition": "Resistance is opposition to electric current.",
+      "slug": "resistance",
+      "term": "Resistance"
+    },
+    {
+      "aliases": [],
+      "categories": [
+        "Measurement & Motion"
+      ],
+      "category": "Measurement & Motion",
+      "date_added": "2026-09-24",
+      "definition": "Speed describes how quickly an object covers distance. It has magnitude but no direction. A common SI unit is metres per second (m/s).",
+      "definition_links": [],
+      "learning_tracks": [],
+      "redirect_slugs": [],
+      "references": [],
+      "related_terms": [
+        {
+          "term": "Metres per Second",
+          "slug": "metres-per-second"
+        },
+        {
+          "term": "Velocity",
+          "slug": "velocity"
+        },
+        {
+          "term": "Acceleration",
+          "slug": "acceleration"
+        }
+      ],
+      "short_definition": "Speed describes how quickly distance changes with time.",
+      "slug": "speed",
+      "term": "Speed"
+    },
+    {
+      "aliases": [],
+      "categories": [
+        "Measurement & Motion"
+      ],
+      "category": "Measurement & Motion",
+      "date_added": "2026-09-24",
+      "definition": "Velocity is the rate of change of displacement and includes direction. A common SI unit is metres per second (m/s). Changing speed, changing direction, or both means the velocity is changing.",
+      "definition_links": [],
+      "learning_tracks": [],
+      "redirect_slugs": [],
+      "references": [],
+      "related_terms": [
+        {
+          "term": "Metres per Second",
+          "slug": "metres-per-second"
+        },
+        {
+          "term": "Speed",
+          "slug": "speed"
+        },
+        {
+          "term": "Acceleration",
+          "slug": "acceleration"
+        }
+      ],
+      "short_definition": "Velocity describes how quickly displacement changes and includes direction.",
+      "slug": "velocity",
+      "term": "Velocity"
+    },
+    {
+      "aliases": [
+        {
+          "slug": "v",
+          "term": "V"
+        },
+        {
+          "slug": "volts",
+          "term": "volts"
+        }
+      ],
+      "categories": [
+        "Units & Notation"
+      ],
+      "category": "Units & Notation",
+      "date_added": "2026-09-24",
+      "definition": "The volt, symbol V, is the SI unit used to measure electric potential difference, commonly called voltage. One volt is one joule of energy per coulomb of electric charge.",
+      "definition_links": [],
+      "learning_tracks": [],
+      "redirect_slugs": [],
+      "references": [],
+      "related_terms": [
+        {
+          "term": "Voltage",
+          "slug": "voltage"
+        }
+      ],
+      "short_definition": "The volt (V) is the SI unit of electric potential difference.",
+      "slug": "volt",
+      "term": "Volt"
+    },
+    {
+      "aliases": [
+        {
+          "slug": "potential-difference",
+          "term": "Potential Difference"
+        }
+      ],
+      "categories": [
+        "Electrical & Electronics"
+      ],
+      "category": "Electrical & Electronics",
+      "date_added": "2026-09-24",
+      "definition": "Voltage is the electric potential difference between two points. It describes energy transferred per unit charge. The SI unit is the volt (V). In introductory circuit work, voltage is sometimes described as electrical push, but potential difference is the more precise idea.",
+      "definition_links": [],
+      "learning_tracks": [],
+      "redirect_slugs": [],
+      "references": [],
+      "related_terms": [
+        {
+          "term": "Volt",
+          "slug": "volt"
+        },
+        {
+          "term": "Current",
+          "slug": "current"
+        },
+        {
+          "term": "Resistance",
+          "slug": "resistance"
+        },
+        {
+          "term": "Power",
+          "slug": "power"
+        }
+      ],
+      "short_definition": "Voltage is electric potential difference: energy transferred per unit charge.",
+      "slug": "voltage",
+      "term": "Voltage"
+    },
+    {
+      "aliases": [
+        {
+          "slug": "w",
+          "term": "W"
+        },
+        {
+          "slug": "watts",
+          "term": "watts"
+        }
+      ],
+      "categories": [
+        "Units & Notation"
+      ],
+      "category": "Units & Notation",
+      "date_added": "2026-09-24",
+      "definition": "The watt, symbol W, is the SI unit used to measure power. One watt means one joule of energy is transferred or used each second.",
+      "definition_links": [],
+      "learning_tracks": [],
+      "redirect_slugs": [],
+      "references": [],
+      "related_terms": [
+        {
+          "term": "Power",
+          "slug": "power"
+        }
+      ],
+      "short_definition": "The watt (W) is the SI unit of power.",
+      "slug": "watt",
+      "term": "Watt"
+    }
+  ]
+}
