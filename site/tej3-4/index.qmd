@@ -45,7 +45,7 @@ These notes are intentionally **lean and unfinished**. They record what we have 
 
 <div class="bs-learn-catalogue" data-bs-learn-list>
 
-<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tej-getting-to-know-you" open>
+<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tej-getting-to-know-you" data-bs-total-lessons="1" open>
 <summary class="bs-learn-catalogue-section-heading">
 <span class="bs-learn-track-heading"><a href="00-getting-to-know-you/index.qmd">0. Getting to Know You</a><span data-bs-learn-group-count>1 lesson</span></span>
 </summary>
@@ -56,7 +56,7 @@ These notes are intentionally **lean and unfinished**. They record what we have 
 </div>
 </details>
 
-<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tej-number-systems" open>
+<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tej-number-systems" data-bs-total-lessons="6" open>
 <summary class="bs-learn-catalogue-section-heading">
 <span class="bs-learn-track-heading"><a href="01-number-systems/index.qmd">1. Number Systems</a><span data-bs-learn-group-count>6 lessons</span></span>
 </summary>
