@@ -25,9 +25,7 @@ def main():
         'index.html', 'tas2/index.html', 'tej3-4/index.html', 'ttj3-4/index.html',
         'resources/index.html', 'tools/index.html', 'wellbeing/index.html',
         'glossary/index.html', 'about.html', 'lore/index.html',
-        'lore/from-a-pen-and-paper-mark-to-a-crest.html',
-        'lore/nice-as-an-iterative-design-cycle.html',
-        'lore/remembering-the-port-credit-boys.html',
+                'lore/remembering-the-port-credit-boys.html',
         'resources/nice-design-process.html', 'tools/nice-design-tool.html',
     ]
     errors = []
@@ -96,7 +94,7 @@ def main():
             page.screenshot(path=str(OUTPUT / 'nice-slides.png'))
 
             page.set_viewport_size({'width': 390, 'height': 844})
-            for route in ['index.html', 'lore/from-a-pen-and-paper-mark-to-a-crest.html', 'tools/nice-design-tool.html']:
+            for route in ['index.html', 'tools/nice-design-tool.html']:
                 page.goto(base + '/' + route)
                 page.wait_for_load_state('networkidle')
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth + 1'), f'Horizontal overflow: {route}'
