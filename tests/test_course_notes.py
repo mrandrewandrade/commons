@@ -21,7 +21,7 @@ class CourseNotesManifestTests(unittest.TestCase):
         self.assertEqual(
             routes_by_course["tas"],
             [
-                "/tech-edu-resources/tas2/01-nice-design-process/01-needs-necessities.html",
+                "/commons/tas2/01-nice-design-process/01-needs-necessities.html",
                 "/tech-edu-resources/tas2/01-nice-design-process/02-investigate-inquire.html",
             ],
         )
