@@ -16,10 +16,10 @@ execute:
 ::: {.bs-page-shell}
 ::: {.bs-reading-column}
 ::: {.bs-editorial-lead}
-Reusable slide decks for educators and learners across subjects including mathematics, science, business, arts, and technological education.
+Reusable slide decks and lightweight classroom activities for educators and learners across subjects including mathematics, science, business, arts, and technological education. Source files are organized in the [Teaching folder](https://drive.google.com/drive/folders/1rWNYdJpppXTj5Oq_FO6mBqT-Ihee6b3S).
 :::
 
-**General** contains broadly reusable teaching decks. **Human Well-Being** contains opening activities, reflection, creativity, attention, and connection material that can work from JK through post-secondary and beyond.
+**Number Systems** contains significant figures, powers of ten, notation, and related measurement material. **Well-Being** contains Funday Friday activities, reflection, creativity, attention, and connection material. **General** holds reusable templates that do not belong to one of those collections.
 :::
 
 ```{=html}
@@ -45,7 +45,8 @@ Reusable slide decks for educators and learners across subjects including mathem
     <p class="bs-slide-control-label">Collection</p>
     <div class="bs-slide-filter-buttons" data-slide-collection-filters>
       <button type="button" data-slide-collection-filter="General" aria-pressed="false">General</button>
-      <button type="button" data-slide-collection-filter="Human Well-Being" aria-pressed="false">Human Well-Being</button>
+      <button type="button" data-slide-collection-filter="Number Systems" aria-pressed="false">Number Systems</button>
+      <button type="button" data-slide-collection-filter="Well-Being" aria-pressed="false">Well-Being</button>
     </div>
   </div>
 
@@ -71,20 +72,20 @@ Reusable slide decks for educators and learners across subjects including mathem
   <article
     class="bs-slide-card"
     data-slide-card
-    data-collection="General"
+    data-collection="Number Systems"
     data-courses="TEJ|TTJ|TAS"
     data-tags="powers of 10|metric prefixes|scientific notation|engineering notation|measurement|mathematics|science|electronics"
     data-search="powers of 10 metric prefixes scientific notation engineering notation measurement electronics math mathematics science exponents SI">
     <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/1R83ueeAShw-97hP0p1humFnsE6BlQ09e-n96G387Yu4/edit?usp=drivesdk" aria-label="Open Powers of 10 and Metric Prefixes">
       <span class="bs-slide-thumb-fallback" aria-hidden="true">
-        <span class="bs-slide-thumb-kicker">General</span>
+        <span class="bs-slide-thumb-kicker">Number Systems</span>
         <strong>10<sup>n</sup></strong>
         <span>Prefixes + notation</span>
       </span>
       <img src="https://drive.google.com/thumbnail?id=1R83ueeAShw-97hP0p1humFnsE6BlQ09e-n96G387Yu4&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
     </a>
     <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">General</p>
+      <p class="bs-slide-card-collection">Number Systems</p>
       <h2 class="bs-slide-card-title"><a href="https://docs.google.com/presentation/d/1R83ueeAShw-97hP0p1humFnsE6BlQ09e-n96G387Yu4/edit?usp=drivesdk">Powers of 10 and Metric Prefixes</a></h2>
       <p class="bs-slide-card-description">Powers of ten, SI prefixes, scientific notation, and engineering notation for mathematics, science, electronics, and technology classrooms.</p>
       <div class="bs-slide-card-courses" aria-label="Courses">
@@ -104,20 +105,20 @@ Reusable slide decks for educators and learners across subjects including mathem
   <article
     class="bs-slide-card"
     data-slide-card
-    data-collection="General"
+    data-collection="Number Systems"
     data-courses="TEJ|TTJ|TAS"
     data-tags="significant figures|measurement|precision|rounding|mathematics|science|electronics"
     data-search="significant figures sig figs significant digits measurement precision rounding electronics mathematics math science">
     <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/1OzjY3_6Bzwwn2aOW3LG2lZzpOJBF4tZ_03eQTGXMlWw/edit?usp=drivesdk" aria-label="Open Significant Figures Review">
       <span class="bs-slide-thumb-fallback" aria-hidden="true">
-        <span class="bs-slide-thumb-kicker">General</span>
+        <span class="bs-slide-thumb-kicker">Number Systems</span>
         <strong>3.14</strong>
         <span>Precision + sig figs</span>
       </span>
       <img src="https://drive.google.com/thumbnail?id=1OzjY3_6Bzwwn2aOW3LG2lZzpOJBF4tZ_03eQTGXMlWw&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
     </a>
     <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">General</p>
+      <p class="bs-slide-card-collection">Number Systems</p>
       <h2 class="bs-slide-card-title"><a href="https://docs.google.com/presentation/d/1OzjY3_6Bzwwn2aOW3LG2lZzpOJBF4tZ_03eQTGXMlWw/edit?usp=drivesdk">Significant Figures Review</a></h2>
       <p class="bs-slide-card-description">A reusable review of significant figures, measurement precision, rounding, and reporting values.</p>
       <div class="bs-slide-card-courses" aria-label="Courses">
@@ -165,20 +166,20 @@ Reusable slide decks for educators and learners across subjects including mathem
   <article
     class="bs-slide-card"
     data-slide-card
-    data-collection="Human Well-Being"
+    data-collection="Well-Being"
     data-courses="TAS"
     data-tags="zentangle|sketching|creativity|calm focus|drawing|design|art"
     data-search="zentangle sketching creativity calm focus drawing design patterns art well-being quiet activity">
     <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/1JsEdT6M2GLdKGlGTI9XF9-c-Y2xoe5KjYqFU2n0OL8I/edit?usp=drivesdk" aria-label="Open Zentangle Pattern Inspiration Loop">
       <span class="bs-slide-thumb-fallback" aria-hidden="true">
-        <span class="bs-slide-thumb-kicker">Human Well-Being</span>
+        <span class="bs-slide-thumb-kicker">Well-Being</span>
         <strong>////</strong>
         <span>Sketch + focus</span>
       </span>
       <img src="https://drive.google.com/thumbnail?id=1JsEdT6M2GLdKGlGTI9XF9-c-Y2xoe5KjYqFU2n0OL8I&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
     </a>
     <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">Human Well-Being</p>
+      <p class="bs-slide-card-collection">Well-Being</p>
       <h2 class="bs-slide-card-title"><a href="https://docs.google.com/presentation/d/1JsEdT6M2GLdKGlGTI9XF9-c-Y2xoe5KjYqFU2n0OL8I/edit?usp=drivesdk">Zentangle Pattern Inspiration Loop</a></h2>
       <p class="bs-slide-card-description">Easy-to-more-complex pattern prompts for quiet sketching, creative focus, and low-pressure drawing.</p>
       <div class="bs-slide-card-courses" aria-label="Courses">
@@ -196,20 +197,52 @@ Reusable slide decks for educators and learners across subjects including mathem
   <article
     class="bs-slide-card"
     data-slide-card
-    data-collection="Human Well-Being"
+    data-collection="Well-Being"
+    data-courses="TAS|TEJ|TTJ"
+    data-tags="machine charades|funday friday|communication|movement|teamwork|creativity|well-being"
+    data-search="machine charades funday friday acting movement communication teamwork machines creativity well-being classroom activity">
+    <a class="bs-slide-thumb" href="https://drive.google.com/file/d/1IyQoPx1Tem5Y86sxd7uH2IGIrGinEF0W/view?usp=drivesdk" aria-label="Open Machine Charades Funday Friday activity">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true">
+        <span class="bs-slide-thumb-kicker">Well-Being</span>
+        <strong>ACT</strong>
+        <span>Funday Friday</span>
+      </span>
+    </a>
+    <div class="bs-slide-card-body">
+      <p class="bs-slide-card-collection">Well-Being</p>
+      <h2 class="bs-slide-card-title"><a href="https://drive.google.com/file/d/1IyQoPx1Tem5Y86sxd7uH2IGIrGinEF0W/view?usp=drivesdk">Machine Charades: Funday Friday</a></h2>
+      <p class="bs-slide-card-description">A quick participatory classroom activity using movement, communication, teamwork, and machine ideas.</p>
+      <div class="bs-slide-card-courses" aria-label="Courses">
+        <button type="button" data-slide-card-course="TAS">TAS</button>
+        <button type="button" data-slide-card-course="TEJ">TEJ</button>
+        <button type="button" data-slide-card-course="TTJ">TTJ</button>
+      </div>
+      <div class="bs-slide-card-tags" aria-label="Topics">
+        <button type="button" data-slide-card-tag="machine charades">Machine charades</button>
+        <button type="button" data-slide-card-tag="funday friday">Funday Friday</button>
+        <button type="button" data-slide-card-tag="teamwork">Teamwork</button>
+      </div>
+      <a class="bs-slide-open" href="https://drive.google.com/file/d/1IyQoPx1Tem5Y86sxd7uH2IGIrGinEF0W/view?usp=drivesdk">Open activity PDF</a>
+    </div>
+  </article>
+
+  <article
+    class="bs-slide-card"
+    data-slide-card
+    data-collection="Well-Being"
     data-courses=""
     data-tags="reflection|opening activity|quotes|indigenous voices|community|wellness"
     data-search="daily opening quotes reflection opening activity indigenous voices community well-being class start discussion connection">
     <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY/edit?usp=drivesdk" aria-label="Open Daily Opening Quotes">
       <span class="bs-slide-thumb-fallback" aria-hidden="true">
-        <span class="bs-slide-thumb-kicker">Human Well-Being</span>
+        <span class="bs-slide-thumb-kicker">Well-Being</span>
         <strong>“ ”</strong>
         <span>Reflect + connect</span>
       </span>
       <img src="https://drive.google.com/thumbnail?id=12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY&sz=w1200" alt="" loading="lazy" onerror="this.hidden=true">
     </a>
     <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">Human Well-Being</p>
+      <p class="bs-slide-card-collection">Well-Being</p>
       <h2 class="bs-slide-card-title"><a href="https://docs.google.com/presentation/d/12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY/edit?usp=drivesdk">Daily Opening Quotes</a></h2>
       <p class="bs-slide-card-description">A course-neutral opening deck for reflection, connection, discussion, and short classroom pauses.</p>
       <div class="bs-slide-card-tags" aria-label="Topics">
