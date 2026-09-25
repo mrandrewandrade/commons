@@ -13,7 +13,7 @@ This unit records the first activities we actually completed. It stays short so 
 
 ```{=html}
 <div class="bs-learn-catalogue" data-bs-learn-list>
-<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tej-getting-to-know-you" open>
+<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tej-getting-to-know-you" data-bs-total-lessons="1" open>
 <summary class="bs-learn-catalogue-section-heading"><span class="bs-learn-track-heading"><span class="bs-learn-track-lessons-label">Lessons</span><span data-bs-learn-group-count>1 lesson</span></span></summary>
 <div class="bs-learn-catalogue-section-items">
 <article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-getting-to-know-you" data-bs-terms="[]" data-bs-search-primary='["Identity, Listening & Communication"]' data-bs-search-body='["Name tags, About Me, listening, technical description, Machine Charades."]'>
