@@ -775,6 +775,12 @@ def build_imported_public_entries(
         for alias in entry.get("aliases", [])
         if isinstance(alias, dict)
     }
+    used_alias_slugs = {
+        str(alias["slug"])
+        for entry in curated_entries
+        for alias in entry.get("aliases", [])
+        if isinstance(alias, dict)
+    }
     imported: list[dict[str, object]] = []
 
     notation_terms = {
@@ -804,6 +810,7 @@ def build_imported_public_entries(
             normalized_term in used_names
             or normalized_term in used_aliases
             or slug in used_slugs
+            or slug in used_alias_slugs
         ):
             continue
 
@@ -827,12 +834,13 @@ def build_imported_public_entries(
                 alias_lookup_slug = alias_slug(raw_alias)
             except ValidationError:
                 continue
-            if alias_lookup_slug in used_slugs:
+            if alias_lookup_slug in used_slugs or alias_lookup_slug in used_alias_slugs:
                 continue
             public_aliases.append(
                 {"slug": alias_lookup_slug, "term": raw_alias}
             )
             used_aliases.add(normalized_alias)
+            used_alias_slugs.add(alias_lookup_slug)
 
         category = (
             "Units & Notation"
