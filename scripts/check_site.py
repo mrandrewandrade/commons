@@ -40,11 +40,13 @@ def check(root: Path) -> tuple[int, list[str]]:
             return
         count += 1
         path_text = unquote(url.path)
-        site_base = '/tech-edu-resources'
-        if path_text == site_base:
-            path_text = '/'
-        elif path_text.startswith(site_base + '/'):
-            path_text = path_text[len(site_base):]
+        for site_base in ('/commons', '/tech-edu-resources'):
+            if path_text == site_base:
+                path_text = '/'
+                break
+            if path_text.startswith(site_base + '/'):
+                path_text = path_text[len(site_base):]
+                break
         target = (root / path_text.lstrip('/') if path_text.startswith('/')
                   else source.parent / path_text) if path_text else source
         target = target.resolve()
