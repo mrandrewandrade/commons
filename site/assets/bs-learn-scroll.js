@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  const MANIFEST_ROUTE = "/tech-edu-resources/assets/bs-learn-sequence.json";
+  const MANIFEST_ROUTE = "/assets/bs-learn-sequence.json";
   let bootstrapToc = null;
   const ID_TOKEN_ATTRIBUTES = [
     "for",
