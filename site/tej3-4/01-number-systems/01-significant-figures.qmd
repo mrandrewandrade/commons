@@ -26,9 +26,19 @@ Examples:
 
 ## Calculations
 
-- Multiplication/division: use the fewest significant figures.
-- Addition/subtraction: use the least precise decimal place.
-- Keep full calculator precision through the calculation and round once, at the end.
+### Adding and subtracting
+
+Round the answer to the least precise decimal place.
+
+**16.3 + 17.14 = 33.44 → 33.4**
+
+### Multiplying and dividing
+
+Round the answer to the same number of significant figures as the value with the fewest significant figures.
+
+**6.23 × 1.23 = 7.6629 → 7.66** (3 significant figures)
+
+Keep full calculator precision through the calculation and round once, at the end.
 
 ## Class material
 

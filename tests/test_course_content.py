@@ -61,6 +61,14 @@ class CourseContentTests(unittest.TestCase):
         self.assertIn("Assignment: Number Systems practice problems", lesson)
         self.assertIn("1eDQR4YRVu6Ny7Ud5PC6YKqn-lvc6FZof", lesson)
 
+    def test_significant_figures_has_brief_calculation_examples(self) -> None:
+        lesson = self.read("tej3-4/01-number-systems/01-significant-figures.qmd")
+        self.assertIn("### Adding and subtracting", lesson)
+        self.assertIn("16.3 + 17.14 = 33.44 → 33.4", lesson)
+        self.assertIn("### Multiplying and dividing", lesson)
+        self.assertIn("6.23 × 1.23 = 7.6629 → 7.66", lesson)
+        self.assertIn("round once, at the end", lesson)
+
 
 if __name__ == "__main__":
     unittest.main()
