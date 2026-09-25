@@ -29,11 +29,10 @@ The rendered output is `site/_site`. Do not edit generated output directly.
 - `site/tas2/`: intentionally unfinished TAS collaborative notes.
 - `site/tej3-4/`: intentionally unfinished TEJ collaborative notes.
 - `site/teacher-slides/`: General Slides, searchable reusable presentations.
-- `site/teaching-materials/`: General Materials, searchable assignments and source packages.
+- `site/teaching-materials/`: General Materials, searchable assignments, worksheets, and worked examples.
 - `site/lore/`: stories, reflections, investigations, and design-process examples.
 - `site/about.qmd`: project purpose, attribution, influences, Port Credit history, and TER visual identity.
-- `teaching-materials/`: migrated regenerable assignment sources, templates, branding, and build tooling.
-- `site/assets/`: site styling, scripts, images, icons, and branding.
+- `site/assets/`: site styling, scripts, images, icons, branding, and the canonical published teaching PDFs/DOCX files under `site/assets/materials/`.
 - `glossary/glossary.json`: retained glossary source used by internal tooling.
 
 ## Design principle
@@ -46,7 +45,7 @@ A guiding idea is **Kinoo'amaadawaad Megwaa Doodamawaad**, translated by Paul Co
 
 Original educational content uses CC BY-SA 4.0. Original project code and executable materials use AGPL-3.0-only.
 
-When adapting educational resources, attribute **Technological Education Resources**, reference **andrewandrade.ca** and **github.com/mrandrewandrade**, identify changes, and use the applicable share-alike terms.
+When adapting educational resources, keep the work under **CC BY-SA 4.0**, identify changes, and preserve attribution to **andrewandrade.ca** and **github.com/mrandrewandrade**. Add your own name, website, repository, or links so later versions can credit your contribution too. **Sharing is caring.**
 
 Legacy and third-party attribution is retained in `THIRD_PARTY_NOTICES.md` and the repository licence files.
 
