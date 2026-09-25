@@ -1,0 +1,11 @@
+---
+title: "1. Number Systems"
+description: "The former combined page has been split into the Number Systems unit and lesson pages."
+toc: false
+---
+
+The material formerly on this page is now organized as **Unit 1: Number Systems** with separate lesson pages.
+
+[Open 1. Number Systems](01-number-systems/index.qmd)
+
+Basic circuits will appear as a separate unit after that work is taught in class.
