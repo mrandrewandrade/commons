@@ -5,6 +5,17 @@
     return String(value || "").trim().toLowerCase();
   }
 
+  function normaliseCollection(value) {
+    const collection = normalise(value);
+    if (collection === "human well-being" || collection === "wellbeing") {
+      return "well-being";
+    }
+    if (collection === "number-systems") {
+      return "number systems";
+    }
+    return collection;
+  }
+
   function parseList(value) {
     return String(value || "")
       .split("|")
@@ -32,6 +43,35 @@
         button.textContent = label + " ×" + entry[1];
         container.appendChild(button);
       });
+  }
+
+  function readUrlState() {
+    const params = new URLSearchParams(window.location.search);
+    return {
+      query: params.get("q") || "",
+      collection: params.get("collection") || "",
+      course: params.get("course") || "",
+      topic: params.get("topic") || ""
+    };
+  }
+
+  function writeUrlState(query, collection, course, topic) {
+    const url = new URL(window.location.href);
+
+    [
+      ["q", query],
+      ["collection", collection],
+      ["course", course],
+      ["topic", topic]
+    ].forEach(function (entry) {
+      if (entry[1]) {
+        url.searchParams.set(entry[0], entry[1]);
+      } else {
+        url.searchParams.delete(entry[0]);
+      }
+    });
+
+    window.history.replaceState({}, "", url.pathname + url.search + url.hash);
   }
 
   function initPanel(controls) {
@@ -74,12 +114,12 @@
       });
     }
 
-    function update() {
+    function update(syncUrl) {
       const query = normalise(search.value);
       let visible = 0;
 
       cards.forEach(function (card) {
-        const cardCollection = normalise(card.dataset.collection);
+        const cardCollection = normaliseCollection(card.dataset.collection);
         const courses = parseList(card.dataset.courses);
         const topics = parseList(card.dataset.tags);
         const haystack = normalise(
@@ -118,33 +158,51 @@
         clear.hidden =
           !query && !activeCollection && !activeCourse && !activeTopic;
       }
+
+      if (syncUrl !== false) {
+        writeUrlState(query, activeCollection, activeCourse, activeTopic);
+      }
     }
 
-    function setCollection(value) {
-      activeCollection = normalise(value);
+    function setCollection(value, syncUrl) {
+      activeCollection = normaliseCollection(value);
       updatePressed(collectionFilters, "slideCollectionFilter", activeCollection);
-      update();
+      update(syncUrl);
     }
 
-    function setCourse(value) {
+    function setCourse(value, syncUrl) {
       activeCourse = normalise(value);
       updatePressed(courseFilters, "slideCourse", activeCourse);
-      update();
+      update(syncUrl);
     }
 
-    function setTopic(value) {
+    function setTopic(value, syncUrl) {
       activeTopic = normalise(value);
       updatePressed(topicFilters, "slideTopic", activeTopic);
-      update();
+      update(syncUrl);
     }
 
-    search.addEventListener("input", update);
+    function applyUrlState() {
+      const state = readUrlState();
+      search.value = state.query;
+      activeCollection = normaliseCollection(state.collection);
+      activeCourse = normalise(state.course);
+      activeTopic = normalise(state.topic);
+      updatePressed(collectionFilters, "slideCollectionFilter", activeCollection);
+      updatePressed(courseFilters, "slideCourse", activeCourse);
+      updatePressed(topicFilters, "slideTopic", activeTopic);
+      update(false);
+    }
+
+    search.addEventListener("input", function () {
+      update(true);
+    });
 
     collectionFilters.addEventListener("click", function (event) {
       const button = event.target.closest("[data-slide-collection-filter]");
       if (!button) return;
-      const next = normalise(button.dataset.slideCollectionFilter);
-      setCollection(next === activeCollection ? "" : next);
+      const next = normaliseCollection(button.dataset.slideCollectionFilter);
+      setCollection(next === activeCollection ? "" : next, true);
     });
 
     if (courseFilters) {
@@ -152,7 +210,7 @@
         const button = event.target.closest("[data-slide-course]");
         if (!button) return;
         const next = normalise(button.dataset.slideCourse);
-        setCourse(next === activeCourse ? "" : next);
+        setCourse(next === activeCourse ? "" : next, true);
       });
     }
 
@@ -161,19 +219,19 @@
         const button = event.target.closest("[data-slide-topic]");
         if (!button) return;
         const next = normalise(button.dataset.slideTopic);
-        setTopic(next === activeTopic ? "" : next);
+        setTopic(next === activeTopic ? "" : next, true);
       });
     }
 
     document.addEventListener("click", function (event) {
       const topicButton = event.target.closest("[data-slide-card-tag]");
       if (topicButton) {
-        setTopic(topicButton.dataset.slideCardTag);
+        setTopic(topicButton.dataset.slideCardTag, true);
       }
 
       const courseButton = event.target.closest("[data-slide-card-course]");
       if (courseButton) {
-        setCourse(courseButton.dataset.slideCardCourse);
+        setCourse(courseButton.dataset.slideCardCourse, true);
       }
 
       if (topicButton || courseButton) {
@@ -196,12 +254,13 @@
         updatePressed(collectionFilters, "slideCollectionFilter", "");
         updatePressed(courseFilters, "slideCourse", "");
         updatePressed(topicFilters, "slideTopic", "");
-        update();
+        update(true);
         search.focus();
       });
     }
 
-    update();
+    window.addEventListener("popstate", applyUrlState);
+    applyUrlState();
   }
 
   function init() {
