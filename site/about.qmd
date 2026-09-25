@@ -18,7 +18,7 @@ format:
 
 ::: {.ter-about-intro}
 ::: {.ter-about-portrait}
-![](assets/about/andrade-collage.png){fig-alt="Collage of Andrew Andrade teaching, technology, sport, and community activities" loading="lazy"}
+![](assets/about/andrew-linkedin.jpg){fig-alt="Andrew Andrade" loading="lazy"}
 :::
 
 ::: {.ter-about-intro-copy}
@@ -28,6 +28,10 @@ I teach and learn Technological Education at Port Credit Secondary School. Teach
 
 The resources are organized around Ontario's [Technological Education curriculum](https://www.dcp.edu.gov.on.ca/en/curriculum/technological-education), with connections to other curricular and co-curricular learning where they are useful. Transportation resources can also support Ontario's [Specialist High Skills Major (SHSM) in Transportation](https://www.ontario.ca/document/specialist-high-skills-major-shsm-policy-and-implementation-guide/transportation), including sector-focused learning, certifications, experiential learning, career exploration, reach-ahead experiences, and sector-partnered experiences.
 :::
+:::
+
+::: {.ter-about-collage}
+![](assets/about/andrade-collage.png){fig-alt="Collage of Andrew Andrade teaching, technology, sport, and community activities" loading="lazy"}
 :::
 
 ::: {.callout-note}
