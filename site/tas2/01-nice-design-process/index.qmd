@@ -9,29 +9,13 @@ execute:
   enabled: false
 ---
 
-The working cycle is:
+**Work in progress.**
 
 **Needs & Necessities → Investigate & Inquire → Create & Communicate → Evaluate → repeat**
 
-So far, our detailed classroom work has focused on the first two parts.
+Only the parts taught so far are outlined here.
 
-```{=html}
-<details class="bs-learn-filter-panel" data-bs-learn-filters data-bs-learn-mode="track" aria-label="Search N.I.C.E. lessons">
-<summary class="bs-learn-filters-summary">Search N.I.C.E. lessons</summary>
-<div class="bs-learn-filter-body">
-<div class="bs-learn-search-group"><label for="bs-learn-search">Search lessons</label><input id="bs-learn-search" type="search" placeholder="Try constraints or existing solutions" autocomplete="off" data-bs-learn-search></div>
-<div class="bs-learn-filter-footer"><p class="bs-learn-result-count" aria-live="polite" data-bs-learn-result-count></p><button type="button" class="bs-learn-clear" data-bs-learn-clear hidden>Clear search</button></div>
-</div>
-</details>
+Current lessons:
 
-<div class="bs-learn-catalogue" data-bs-learn-list>
-<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tas-nice" data-bs-total-lessons="2" open>
-<summary class="bs-learn-catalogue-section-heading"><span class="bs-learn-track-heading"><span class="bs-learn-track-lessons-label">Lessons</span><span data-bs-learn-group-count>2 lessons</span></span></summary>
-<div class="bs-learn-catalogue-section-items">
-<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tas-nice" data-bs-terms="[]" data-bs-search-primary='["Needs & Necessities","requirements","constraints"]' data-bs-search-body='["Who is this for, what must it do, what restrictions matter, what is necessary."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="01-needs-necessities.qmd">1. Needs &amp; Necessities</a></div></article>
-<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tas-nice" data-bs-terms="[]" data-bs-search-primary='["Investigate & Inquire","research","compare"]' data-bs-search-body='["Ask, Search, Compare, Improve."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="02-investigate-inquire.qmd">2. Investigate &amp; Inquire</a></div></article>
-</div>
-</details>
-</div>
-<p class="bs-learn-empty" data-bs-learn-empty hidden>No N.I.C.E. lessons match this search.</p>
-```
+1. [1.1 Needs & Necessities](01-needs-necessities.qmd)
+2. [1.2 Investigate & Inquire](02-investigate-inquire.qmd)

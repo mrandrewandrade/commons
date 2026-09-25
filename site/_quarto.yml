@@ -69,11 +69,9 @@ website:
       contents:
         - text: "Course Home"
           href: tas2/index.qmd
-        - section: "0. Getting to Know You"
-          href: tas2/00-getting-to-know-you/index.qmd
-          contents:
-            - text: "0.1 Identity, Listening & Communication"
-              href: tas2/00-getting-to-know-you/01-identity-listening-communication.qmd
+        - section: "0. Expectations"
+          href: tas2/00-expectations/index.qmd
+          contents: []
         - section: "1. N.I.C.E. Design Process"
           href: tas2/01-nice-design-process/index.qmd
           contents:
@@ -88,11 +86,9 @@ website:
       contents:
         - text: "Course Home"
           href: tej3-4/index.qmd
-        - section: "0. Getting to Know You"
-          href: tej3-4/00-getting-to-know-you/index.qmd
-          contents:
-            - text: "0.1 Identity, Listening & Communication"
-              href: tej3-4/00-getting-to-know-you/01-identity-listening-communication.qmd
+        - section: "0. Expectations"
+          href: tej3-4/00-expectations/index.qmd
+          contents: []
         - section: "1. Number Systems"
           href: tej3-4/01-number-systems/index.qmd
           contents:

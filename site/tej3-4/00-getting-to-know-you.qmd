@@ -1,9 +1,8 @@
 ---
-title: "0. Getting to Know You"
-description: "This unit now uses separate lesson pages."
+title: "0. Expectations"
+description: "Compatibility link for the former Unit 0 route."
 toc: false
+search: false
 ---
 
-This unit now has a unit page and separate lesson notes.
-
-[Open 0. Getting to Know You](00-getting-to-know-you/index.qmd)
+This page moved to [0. Expectations](00-expectations/index.qmd).

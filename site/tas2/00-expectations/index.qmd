@@ -1,0 +1,11 @@
+---
+title: "0. Expectations"
+description: "Course expectations."
+sidebar: tas2
+body-classes: "bs-learn-article bs-learn-track-index"
+toc: false
+execute:
+  enabled: false
+---
+
+Refer to the current course outline for course expectations.
