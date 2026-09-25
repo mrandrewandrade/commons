@@ -473,16 +473,16 @@ const generatedGlossaryItems = Array.from(
 
 const multiCategoryItems = [
   {
-    categories: ["Checker Play", "Game Plans & Position Types"],
+    categories: ["Electrical & Electronics", "Units & Notation"],
     element: { hidden: false, open: false },
-    canonical: "Active Builder",
+    canonical: "Voltage",
     aliases: [],
     tracks: []
   },
   {
-    categories: ["Checker Play"],
+    categories: ["Electrical & Electronics"],
     element: { hidden: false, open: false },
-    canonical: "Ace",
+    canonical: "Current",
     aliases: [],
     tracks: []
   }
@@ -491,7 +491,7 @@ assert.equal(
   glossary.itemMatchesGlossary(
     multiCategoryItems[0],
     "",
-    ["Game Plans & Position Types"],
+    ["Units & Notation"],
     []
   ),
   true,
@@ -500,10 +500,10 @@ assert.equal(
 assert.equal(
   glossary.expandCategoryMatches(
     multiCategoryItems,
-    "Game Plans & Position Types"
+    "Units & Notation"
   )[0].canonical,
-  "Active Builder",
-  "either Active Builder category resolves to the canonical entry"
+  "Voltage",
+  "either Voltage category resolves to the canonical entry"
 );
 multiCategoryItems.forEach((item) => {
   item.element.open = false;
@@ -511,7 +511,7 @@ multiCategoryItems.forEach((item) => {
 assert.equal(
   glossary.expandCategoryMatches(
     multiCategoryItems,
-    "Checker Play"
+    "Electrical & Electronics"
   ).length,
   2,
   "category filtering expands every matching entry"
@@ -523,7 +523,7 @@ assert.equal(
 );
 assert.equal(
   generatedGlossaryItems.length,
-  37,
+  16,
   "the JavaScript integration fixture uses every canonical entry"
 );
 assert.equal(
@@ -531,18 +531,17 @@ assert.equal(
     (count, item) => count + item.aliasSlugs.length,
     0
   ),
-  29,
+  24,
   "the JavaScript integration fixture uses every canonical alias"
 );
 
 [
-  ["10 in the zone", "10 in the Zone"],
-  ["Ten in the Zone", "10 in the Zone"],
-  ["American Backgammon Tour", "ABT"],
-  ["Error Rate", "Performance Rating"],
-  ["Time Delay", "Simple Delay"],
-  ["Zone of Attack", "Attack Zone"],
-  ["Ahead in the Race", "Ahead in the Count"]
+  ["amps", "Ampere"],
+  ["volts", "Volt"],
+  ["m/s", "Metres per Second"],
+  ["m/s²", "Metres per Second Squared"],
+  ["N.I.C.E.", "N.I.C.E. Design Process"],
+  ["Potential Difference", "Voltage"]
 ].forEach(([query, expectedCanonical]) => {
   const matchingItems = generatedGlossaryItems.filter((item) =>
     glossary.itemMatchesGlossary(item, query, [], [])
@@ -561,7 +560,7 @@ assert.equal(
   );
 });
 const previouslyOpened = generatedGlossaryItems.find(
-  (item) => item.canonical === "Ahead in the Count"
+  (item) => item.canonical === "Voltage"
 );
 assert.equal(
   previouslyOpened.element.open,
@@ -571,9 +570,9 @@ assert.equal(
 glossary.expandBestGlossaryMatch(
   generatedGlossaryItems,
   generatedGlossaryItems.filter((item) =>
-    glossary.itemMatchesGlossary(item, "American Backgammon Tour", [], [])
+    glossary.itemMatchesGlossary(item, "amps", [], [])
   ),
-  "American Backgammon Tour"
+  "amps"
 );
 assert.equal(
   previouslyOpened.element.open,
