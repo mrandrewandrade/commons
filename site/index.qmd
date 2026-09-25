@@ -39,7 +39,7 @@ Open classroom resources for Ontario Technological Education. The notes are inte
 <span class="bs-home-explore-chevron" aria-hidden="true">›</span>](slides/tej.qmd){.bs-home-explore-link .bs-home-explore-link--tej .bs-home-explore-link--slides}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
-<span class="bs-home-explore-copy"><span class="bs-home-explore-title">TEJ Notes</span><span class="bs-home-explore-description">Collaborative notes for the work completed so far and the current Measurement & Basic Circuits unit.</span></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">TEJ Notes</span><span class="bs-home-explore-description">Lean collaborative notes organized by unit and lesson for the work actually taught so far, including Number Systems.</span></span>
 <span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tej3-4/index.qmd){.bs-home-explore-link .bs-home-explore-link--tej .bs-home-explore-link--notes}
 :::::
 ::::::
