@@ -15,17 +15,7 @@ def run(command: list[str]) -> None:
 
 
 def main() -> int:
-    # Full project renders generate and validate the glossary. Incremental page
-    # previews reuse the committed generated glossary files so editing a lesson
-    # or Lore post does not launch the glossary pipeline on every refresh.
-    if os.getenv("QUARTO_PROJECT_RENDER_ALL") != "1":
-        print("Incremental preview: reusing generated Commons glossary files.")
-        print(
-            "After glossary edits, run: python scripts/commons_glossary.py generate"
-        )
-        return 0
-
-    print("Full project render: generating Commons glossary source.")
+    print("Generating Technology Commons glossary.")
     run(
         [
             sys.executable,
@@ -34,7 +24,6 @@ def main() -> int:
         ]
     )
     return 0
-
 
 if __name__ == "__main__":
     raise SystemExit(main())
