@@ -1,0 +1,39 @@
+---
+title: "1.2 Investigate & Inquire"
+description: "Ask questions, search with purpose, compare existing solutions, and use evidence to improve an idea."
+sidebar: tas2
+body-classes: "bs-learn-article ter-notes-lesson"
+toc: true
+toc-depth: 2
+execute:
+  enabled: false
+---
+
+::: {.bs-lesson-meta}
+Unit: N.I.C.E. Design Process  
+Stage: Investigate & Inquire
+:::
+
+## Core idea
+
+Research starts with a question, not a search box.
+
+Our working sequence is:
+
+**Ask → Search → Compare → Improve**
+
+1. Use the needs already identified to form questions.
+2. Find existing solutions.
+3. Compare at least two.
+4. Check how well each solution meets the actual needs and constraints.
+5. Use the evidence to improve the next idea.
+
+The point is not to collect links. The point is to learn something that changes or strengthens the design.
+
+[Open the Inquiry slides](https://docs.google.com/presentation/d/1FoN2vg_Tmm2QAUfiJSqPqeSmV7y_m5Brknn0JXxKv0s/edit?usp=drivesdk)
+
+::: {.callout-tip}
+## Improve these notes
+
+Add one good inquiry question and explain what evidence would help answer it. Add a comparison only if it changes the design decision.
+:::
