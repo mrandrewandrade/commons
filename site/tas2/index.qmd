@@ -1,39 +1,67 @@
 ---
 title: "TAS Notes"
-description: "Intentionally unfinished collaborative notes for TAS2O Exploring Technologies."
+description: "Lean, collaborative Exploring Technologies notes organized by unit and lesson."
+sidebar: tas2
 page-layout: full
 toc: false
 format:
   html:
     title-block-style: plain
-    body-classes: "bs-learn-article bs-title-eyebrow"
+    body-classes: "bs-learn-index bs-title-eyebrow"
 execute:
   enabled: false
 ---
 
-::: {.bs-page-shell}
-::: {.bs-reading-column}
 ::: {.bs-lesson-preamble}
-These notes are **unfinished intentionally**. They record what we have actually covered so far. Students will help expand them as we build, test, explain, and document our work.
+These notes are intentionally **lean and unfinished**. They record what we have actually learned in class and give students a structure to improve with examples, diagrams, corrections, and clearer explanations.
 :::
 
-## Course path so far
+```{=html}
+<details class="bs-learn-filter-panel" data-bs-learn-filters aria-label="Search TAS notes">
+<summary class="bs-learn-filters-summary">Search and filter TAS lessons</summary>
+<div class="bs-learn-filter-body">
+<div class="bs-learn-search-group">
+<label for="bs-learn-search">Search lessons</label>
+<input id="bs-learn-search" type="search" placeholder="Try needs, inquiry, listening..." autocomplete="off" data-bs-learn-search>
+</div>
+<details class="bs-learn-filter-disclosure">
+<summary>Unit Filter</summary>
+<div class="bs-learn-filter-options" role="group" aria-label="Filter by unit">
+<button type="button" class="bs-learn-filter" data-bs-filter-track="tas-getting-to-know-you" aria-pressed="false">0. Getting to Know You</button>
+<button type="button" class="bs-learn-filter" data-bs-filter-track="tas-nice" aria-pressed="false">1. N.I.C.E. Design Process</button>
+</div>
+</details>
+<div class="bs-learn-filter-footer"><p class="bs-learn-result-count" aria-live="polite" data-bs-learn-result-count></p><button type="button" class="bs-learn-clear" data-bs-learn-clear hidden>Clear search and filters</button></div>
+</div>
+</details>
 
-0. **Getting to Know You**
-   Personal identity, listening, communication, group identity, and the beginnings of visual identity.
+<div class="bs-learn-section-actions" role="group" aria-label="TAS units">
+<button type="button" data-bs-learn-collapse-all>Collapse all</button>
+<button type="button" data-bs-learn-expand-all>Expand all</button>
+</div>
 
-1. **N.I.C.E. Design Process**
-   Needs & Necessities first, then Investigate & Inquire.
+<div class="bs-learn-catalogue" data-bs-learn-list>
+<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tas-getting-to-know-you" open>
+<summary class="bs-learn-catalogue-section-heading"><span class="bs-learn-track-heading"><a href="00-getting-to-know-you/index.qmd">0. Getting to Know You</a><span data-bs-learn-group-count>1 lesson</span></span></summary>
+<div class="bs-learn-catalogue-section-items">
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tas-getting-to-know-you" data-bs-terms="[]" data-bs-search-primary='["Identity, Listening & Communication","name tag","about me","machine charades"]' data-bs-search-body='["Identity, listening, technical description, group identity, visual identity."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="00-getting-to-know-you/01-identity-listening-communication.qmd">1. Identity, Listening &amp; Communication</a></div></article>
+</div>
+</details>
 
-Anything after this is **TBD** until we actually do it in class.
+<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tas-nice" open>
+<summary class="bs-learn-catalogue-section-heading"><span class="bs-learn-track-heading"><a href="01-nice-design-process/index.qmd">1. N.I.C.E. Design Process</a><span data-bs-learn-group-count>2 lessons</span></span></summary>
+<div class="bs-learn-catalogue-section-items">
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tas-nice" data-bs-terms="[]" data-bs-search-primary='["Needs & Necessities","requirements","constraints","nice to have"]' data-bs-search-body='["Identify what a design needs to accomplish before choosing a solution."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="01-nice-design-process/01-needs-necessities.qmd">1. Needs &amp; Necessities</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tas-nice" data-bs-terms="[]" data-bs-search-primary='["Investigate & Inquire","research","compare","existing solutions"]' data-bs-search-body='["Ask, search, compare, and improve using evidence from existing solutions."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="01-nice-design-process/02-investigate-inquire.qmd">2. Investigate &amp; Inquire</a></div></article>
+</div>
+</details>
+</div>
+<p class="bs-learn-empty" data-bs-learn-empty hidden>No TAS lessons match this search.</p>
+```
 
-## Current class slides
+## Current classroom material
 
-- [TAS Slides](../slides/tas.qmd)
-
-## Reusable materials
-
+- [TAS classroom slides](../slides/tas.qmd)
 - [General Materials](../teaching-materials/index.qmd)
-- [General Slides](../teacher-slides/index.qmd)
-:::
-:::
+
+Later parts of the course appear here after we actually teach them.
