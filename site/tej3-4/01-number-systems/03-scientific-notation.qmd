@@ -1,0 +1,38 @@
+---
+title: "1.3 Scientific Notation"
+description: "Writing a number from 1 to 10 multiplied by a power of 10."
+sidebar: tej
+body-classes: "bs-learn-article ter-notes-lesson"
+toc: true
+toc-depth: 2
+execute:
+  enabled: false
+---
+
+::: {.bs-lesson-meta}
+Unit: Number Systems  
+Reference: [1, pp. 4–6](../../references.qmd#ref-grob2016)
+:::
+
+## Core idea
+
+Scientific notation writes a number as:
+
+**a × 10ⁿ**
+
+where the coefficient **a** is at least 1 and less than 10.
+
+Examples:
+
+- **27 000 = 2.7 × 10⁴**
+- **0.00047 = 4.7 × 10⁻⁴**
+
+Moving the decimal point changes the exponent so the value stays the same.
+
+Scientific notation also makes significant figures easy to see because they are carried by the coefficient.
+
+::: {.callout-tip}
+## Improve these notes
+
+Add one large-number example and one small-number example. Show how the direction of the decimal shift relates to the sign of the exponent.
+:::
