@@ -1705,6 +1705,15 @@ def public_references_html(entry: dict[str, object]) -> str:
     return "\n".join(lines)
 
 
+def inline_alias_is_safe(phrase: str) -> bool:
+    # Search aliases remain available, but very short symbols such as A, V, R,
+    # P, I, and Unicode unit forms are too ambiguous for automatic prose links.
+    if any(ord(character) > 127 for character in phrase):
+        return False
+    words = re.findall(r"[A-Za-z0-9]+", phrase)
+    return len("".join(words)) > 1
+
+
 @lru_cache(maxsize=None)
 def inline_term_pattern(phrase: str) -> re.Pattern[str] | None:
     """Compile each glossary phrase once across all generated definitions."""
@@ -1743,11 +1752,13 @@ def inline_definition_candidates(
         slug = str(target["slug"])
         if slug == entry_slug:
             continue
-        values = [str(target["term"])] + [
+        values = [str(target["term"])]
+        values.extend(
             str(alias["term"])
             for alias in target.get("aliases", [])
             if isinstance(alias, dict)
-        ]
+            and inline_alias_is_safe(str(alias["term"]))
+        )
         for phrase in values:
             candidates.setdefault(
                 phrase.casefold(),
