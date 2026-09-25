@@ -13,7 +13,7 @@ This unit records the first classroom activities. It stays short so students can
 
 ```{=html}
 <div class="bs-learn-catalogue" data-bs-learn-list>
-<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tas-getting-to-know-you" open>
+<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tas-getting-to-know-you" data-bs-total-lessons="1" open>
 <summary class="bs-learn-catalogue-section-heading"><span class="bs-learn-track-heading"><span class="bs-learn-track-lessons-label">Lessons</span><span data-bs-learn-group-count>1 lesson</span></span></summary>
 <div class="bs-learn-catalogue-section-items">
 <article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tas-getting-to-know-you" data-bs-terms="[]" data-bs-search-primary='["Identity, Listening & Communication"]' data-bs-search-body='["Name tags, About Me, listening, technical description, Machine Charades, group identity."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="01-identity-listening-communication.qmd">1. Identity, Listening &amp; Communication</a></div></article>
