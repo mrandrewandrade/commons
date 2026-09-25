@@ -22,6 +22,8 @@ Reusable slide decks and lightweight classroom activities for educators and lear
 **Number Systems** contains significant figures, powers of ten, notation, and related measurement material. **Well-Being** contains Funday Friday activities, reflection, creativity, attention, and connection material. **General** holds reusable templates that do not belong to one of those collections.
 :::
 
+Filters are saved in the page URL as you select them, so you can copy the address bar and send someone the same filtered view.
+
 ```{=html}
 <section
   class="bs-slide-library-controls"
@@ -231,7 +233,7 @@ Reusable slide decks and lightweight classroom activities for educators and lear
     data-slide-card
     data-collection="Well-Being"
     data-courses=""
-    data-tags="reflection|opening activity|quotes|indigenous voices|community|wellness"
+    data-tags="reflection|opening activity|quotes|indigenous voices|community|well-being"
     data-search="daily opening quotes reflection opening activity indigenous voices community well-being class start discussion connection">
     <a class="bs-slide-thumb" href="https://docs.google.com/presentation/d/12lSM17wHkTa8dLq8lOXYFlrLnFQ1xUaXNGmz-egsxVY/edit?usp=drivesdk" aria-label="Open Daily Opening Quotes">
       <span class="bs-slide-thumb-fallback" aria-hidden="true">
