@@ -1,0 +1,36 @@
+---
+title: "0.1 Identity, Listening & Communication"
+description: "A compact record of the first TEJ communication activities."
+sidebar: tej
+body-classes: "bs-learn-article ter-notes-lesson"
+toc: true
+toc-depth: 2
+execute:
+  enabled: false
+---
+
+::: {.bs-lesson-meta}
+Unit: Getting to Know You  
+Status: What we actually did
+:::
+
+## What we learned
+
+Technical work starts with communication.
+
+- A **name tag** has a need: another person has to be able to identify you.
+- The **About Me** activity practised deciding what information is useful to communicate.
+- **Listening notes** practised learning from other people rather than waiting to speak.
+- **Technical description** moved from personal communication toward describing objects and systems clearly.
+- **Machine Charades** used movement and teamwork to communicate a machine or process without relying on a long explanation.
+
+## Class material
+
+- [TEJ Days 1–4 and Funday Friday](../../slides/tej.qmd)
+- [General Materials](../../teaching-materials/index.qmd)
+
+::: {.callout-tip}
+## Improve these notes
+
+Add one clear example from class, one detail that would help a student who was absent, or one correction. Keep it short and based on what actually happened.
+:::
