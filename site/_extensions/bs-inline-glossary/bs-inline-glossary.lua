@@ -77,6 +77,15 @@ local function load_lookup()
   fail("generated lookup was not found; tried " .. table.concat(attempted, ", "))
 end
 
+local function safe_inline_alias(phrase)
+  if phrase:find("[\\128-\\255]") then
+    return false
+  end
+  local normalized = normalized_phrase(phrase)
+  local compact = normalized:gsub("%s+", "")
+  return #compact > 1
+end
+
 local function validate_metadata(doc, entries)
   local highlighted = meta_list(doc.meta["highlighted-terms"], "highlighted-terms")
   if highlighted == nil or #highlighted == 0 then
@@ -132,7 +141,10 @@ local function validate_metadata(doc, entries)
     local entry = canonical[slug]
     local values = { tostring(entry.term) }
     for _, alias in ipairs(entry.aliases or {}) do
-      table.insert(values, tostring(alias))
+      local alias_text = tostring(alias)
+      if safe_inline_alias(alias_text) then
+        table.insert(values, alias_text)
+      end
     end
     for _, phrase in ipairs(values) do
       local normalized = normalized_phrase(phrase)
