@@ -65,6 +65,7 @@ const manifest = {
   schema_version: 1,
   lessons: [
     {
+      course_id: "course-one",
       sequence_index: 0,
       route: "/learn/first/",
       previous_route: null,
@@ -73,6 +74,7 @@ const manifest = {
       next_starts_new_track: false
     },
     {
+      course_id: "course-one",
       sequence_index: 1,
       route: "/learn/middle.html",
       previous_route: "/learn/first/",
@@ -81,6 +83,7 @@ const manifest = {
       next_starts_new_track: true
     },
     {
+      course_id: "course-one",
       sequence_index: 2,
       route: "/learn/second-track/",
       previous_route: "/learn/middle.html",
@@ -121,6 +124,43 @@ assert.deepEqual(
 );
 assert.equal(scroll.startsNewTrack(middle), true);
 assert.equal(scroll.startsNewTrack(first), false);
+
+const courseBoundaryManifest = {
+  schema_version: 1,
+  lessons: [
+    {
+      course_id: "tas",
+      sequence_index: 0,
+      route: "/tech-edu-resources/tas2/lesson-one.html",
+      previous_route: null,
+      next_route: null,
+      track_id: "tas-unit",
+      next_starts_new_track: false
+    },
+    {
+      course_id: "tej",
+      sequence_index: 1,
+      route: "/tech-edu-resources/tej3-4/lesson-one.html",
+      previous_route: null,
+      next_route: null,
+      track_id: "tej-unit",
+      next_starts_new_track: false
+    }
+  ]
+};
+const tasFinal = scroll.findCurrentLesson(
+  courseBoundaryManifest,
+  "/tech-edu-resources/tas2/lesson-one.html"
+);
+assert.equal(scroll.nextLesson(courseBoundaryManifest, tasFinal), null);
+assert.deepEqual(
+  scroll.laterLessonRoutes(
+    courseBoundaryManifest,
+    "/tech-edu-resources/tas2/lesson-one.html"
+  ),
+  [],
+  "later routes never cross from TAS into TEJ"
+);
 
 const zeroWidthToc = {
   location: "zero-width",

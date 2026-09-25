@@ -16,6 +16,7 @@ if __name__ == '__main__':
     parser.add_argument('--rendered', action='store_true')
     args = parser.parse_args()
     run(sys.executable, 'scripts/commons_glossary.py', 'validate')
+    run(sys.executable, 'scripts/course_notes.py', 'validate')
     run(sys.executable, '-m', 'unittest', 'discover', '-s', 'tests', '-p', 'test_*.py')
     for script in sorted((ROOT / 'site/assets').glob('*.js')):
         run('node', '--check', str(script))
