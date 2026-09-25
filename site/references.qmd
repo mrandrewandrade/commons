@@ -1,0 +1,23 @@
+---
+title: "References"
+description: "Sources used across Technological Education Resources, listed in IEEE-style numbered format."
+sidebar: false
+page-layout: article
+toc: true
+---
+
+This page keeps source citations in one place so references can remain consistent as more textbooks, manuals, standards, articles, and other technical sources are added.
+
+References use a numbered IEEE-style format. The same number can be cited from the glossary, notes, or other pages without repeating the full bibliographic entry.
+
+## Textbooks and technical references
+
+[1] M. E. Schultz, *Grob's Basic Electronics*, 12th ed. New York, NY, USA: McGraw-Hill Education, 2016.
+
+The electronics definitions imported into the site glossary are based on the glossary in [1, pp. 1182–1190]. Wording is kept concise and close to the source, with light normalization where PDF extraction introduces broken ligatures, symbols, or spacing.
+
+## Using these references
+
+A page can cite a whole source as **[1]** or a specific location as **[1, p. 1182]** or **[1, pp. 1182–1190]**.
+
+As additional sources are added, their reference numbers will remain stable so existing links and citations do not need to be rewritten.
