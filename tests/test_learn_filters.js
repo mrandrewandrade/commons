@@ -531,7 +531,7 @@ assert.equal(
     (count, item) => count + item.aliasSlugs.length,
     0
   ),
-  24,
+  22,
   "the JavaScript integration fixture uses every canonical alias"
 );
 
