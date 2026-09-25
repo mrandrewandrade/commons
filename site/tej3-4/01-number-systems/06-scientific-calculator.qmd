@@ -1,6 +1,6 @@
 ---
-title: "1.6 Scientific Calculator"
-description: "Entering powers of 10 without confusing the exponent with ordinary multiplication."
+title: "1.3 Scientific Calculator"
+description: "Entering powers of 10 with EXP, EE, or ×10ˣ."
 sidebar: tej
 body-classes: "bs-learn-article ter-notes-lesson"
 toc: true
@@ -11,30 +11,25 @@ execute:
 
 ::: {.bs-lesson-meta}
 Unit: Number Systems  
-Reference: [1, pp. 15–16](../../references.qmd#ref-grob2016)
+Reference: [[1, pp. 15–17]](../../references.qmd#ref-grob2016)
 :::
 
-## Core idea
+## What we learned
 
-Scientific calculators usually have an exponent-entry key labelled something like **EXP**, **EE**, or **×10ˣ**.
+Scientific calculators commonly use **EXP**, **EE**, or **×10ˣ** to enter the exponent in powers-of-10 notation.
 
-To enter **4.7 × 10⁻⁶**, enter the coefficient 4.7, use the exponent key, then enter −6.
+For **4.7 × 10⁻⁶**:
 
-The exponent key represents the **× 10ⁿ** part. It is different from multiplying by 10 with the ordinary multiplication key.
+1. enter **4.7**;
+2. press the exponent key;
+3. enter **−6**.
 
-Calculator displays vary, so check how your calculator shows scientific and engineering notation.
+The exponent key already represents the **× 10ⁿ** part. Do not enter an extra **× 10** before using it. [[1, pp. 15–16]](../../references.qmd#ref-grob2016)
 
-## Class check
-
-Before trusting the display:
-
-- identify the coefficient;
-- identify the exponent;
-- check the sign of the exponent;
-- ask whether the size of the answer makes sense.
+Calculator displays vary. Check the coefficient, exponent, sign, and whether the size of the answer makes sense.
 
 ::: {.callout-tip}
-## Improve these notes
+## Improve this page
 
-Add the exact key sequence for a calculator used in class and one example of a common input mistake.
+Add the exact key sequence for a calculator used in class and one common input mistake.
 :::
