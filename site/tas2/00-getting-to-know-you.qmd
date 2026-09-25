@@ -1,0 +1,9 @@
+---
+title: "0. Getting to Know You"
+description: "This unit now uses separate lesson pages."
+toc: false
+---
+
+This unit now has a unit page and separate lesson notes.
+
+[Open 0. Getting to Know You](00-getting-to-know-you/index.qmd)
