@@ -1,7 +1,10 @@
 (function () {
   "use strict";
 
-  const MANIFEST_ROUTE = "/assets/bs-learn-sequence.json";
+  const SITE_BASE = window.location.pathname.startsWith("/tech-edu-resources/")
+    ? "/tech-edu-resources"
+    : "";
+  const MANIFEST_ROUTE = SITE_BASE + "/assets/bs-learn-sequence.json";
   let bootstrapToc = null;
   const ID_TOKEN_ATTRIBUTES = [
     "for",
@@ -560,13 +563,13 @@
     const message = document.createElement("p");
     const link = document.createElement("a");
     const pathname = window.location.pathname;
-    let courseHome = "/tech-edu-resources/";
+    let courseHome = SITE_BASE + "/";
     let courseLabel = "Notes Home";
     if (pathname.includes("/tej3-4/")) {
-      courseHome = "/tech-edu-resources/tej3-4/";
+      courseHome = SITE_BASE + "/tej3-4/";
       courseLabel = "Return to TEJ Notes";
     } else if (pathname.includes("/tas2/")) {
-      courseHome = "/tech-edu-resources/tas2/";
+      courseHome = SITE_BASE + "/tas2/";
       courseLabel = "Return to TAS Notes";
     }
     end.className = "bs-learn-scroll-end";
