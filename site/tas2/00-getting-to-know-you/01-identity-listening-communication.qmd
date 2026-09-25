@@ -1,0 +1,35 @@
+---
+title: "0.1 Identity, Listening & Communication"
+description: "A compact record of the first TAS communication activities."
+sidebar: tas2
+body-classes: "bs-learn-article ter-notes-lesson"
+toc: true
+toc-depth: 2
+execute:
+  enabled: false
+---
+
+::: {.bs-lesson-meta}
+Unit: Getting to Know You  
+Status: What we actually did
+:::
+
+## What we learned
+
+- **Name Tag V1:** a design has to communicate its purpose clearly.
+- **About Me / Past, Present & Becoming:** identity can be communicated through selected experiences, interests, communities, skills, and goals.
+- **Listening notes:** learning about another person takes attention, not only speaking.
+- **Technical description:** communication is part of technological work.
+- **Machine Charades:** movement and teamwork can communicate a machine or process.
+- These activities created a bridge from **personal identity** toward **group and visual identity**.
+
+## Class material
+
+- [TAS classroom slides](../../slides/tas.qmd)
+- [General Materials](../../teaching-materials/index.qmd)
+
+::: {.callout-tip}
+## Improve these notes
+
+Add one useful example from class, one detail an absent student would need, or one correction. Keep it short and concrete.
+:::
