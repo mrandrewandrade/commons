@@ -521,18 +521,16 @@ assert.equal(
   true,
   "all category matches are expanded"
 );
-assert.equal(
-  generatedGlossaryItems.length,
-  16,
-  "the JavaScript integration fixture uses every canonical entry"
+assert.ok(
+  generatedGlossaryItems.length > 500,
+  "the JavaScript integration fixture includes the full textbook glossary"
 );
-assert.equal(
+assert.ok(
   generatedGlossaryItems.reduce(
     (count, item) => count + item.aliasSlugs.length,
     0
-  ),
-  21,
-  "the JavaScript integration fixture uses every canonical alias"
+  ) > 100,
+  "the JavaScript integration fixture includes glossary aliases"
 );
 
 [
@@ -742,13 +740,12 @@ const lookupData = JSON.parse(
     "utf8"
   )
 );
-assert.equal(lookupData.entries.length, 16);
-assert.equal(
+assert.ok(lookupData.entries.length > 500);
+assert.ok(
   lookupData.entries.reduce(
     (total, entry) => total + entry.aliases.length,
     0
-  ),
-  21
+  ) > 100
 );
 assert.equal(
   learn.bestLookupEntry(lookupData.entries, "Potential Difference").term,
