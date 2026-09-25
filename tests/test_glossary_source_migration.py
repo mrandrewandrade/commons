@@ -47,6 +47,20 @@ class CanonicalGlossaryJsonTests(unittest.TestCase):
             {entry["slug"] for entry in self.data["entries"]},
         )
 
+    def test_imported_terms_keep_grob_provenance_only(self) -> None:
+        curated_slugs = set(self.entries)
+        imported = [
+            entry for entry in self.data["entries"] if entry["slug"] not in curated_slugs
+        ]
+        self.assertTrue(imported)
+        for entry in imported:
+            self.assertEqual(entry["references"][0]["key"], "grob2016")
+        for entry in self.data["entries"]:
+            if entry["slug"] in curated_slugs:
+                self.assertFalse(
+                    any(reference.get("key") == "grob2016" for reference in entry["references"])
+                )
+
     def test_contract_fields_map_without_rewriting_authoritative_json(self) -> None:
         source_entry = self.entries["nice-design-process"]
         generated = {

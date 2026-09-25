@@ -75,6 +75,7 @@ REFERENCE_TYPES = {
     "editorial",
     "unresolved",
 }
+BIBLIOGRAPHY_KEYS = {"grob2016"}
 
 ValidationError = learn_glossary.ValidationError
 
@@ -180,8 +181,15 @@ def _validate_reference(reference: object, slug: str, index: int) -> None:
     if reference_type not in REFERENCE_TYPES:
         raise ValidationError(f"{slug} reference {index} has an invalid type")
     if reference_type == "book":
-        for field in ("title", "author"):
-            _require_contract_string(reference, field, f"{slug} reference {index}")
+        key = reference.get("key")
+        if key is not None:
+            if key not in BIBLIOGRAPHY_KEYS:
+                raise ValidationError(
+                    f"{slug} reference {index} has an unknown bibliography key"
+                )
+        else:
+            for field in ("title", "author"):
+                _require_contract_string(reference, field, f"{slug} reference {index}")
         if not reference.get("pages") and not reference.get("section"):
             raise ValidationError(
                 f"{slug} reference {index} requires pages or a section"
@@ -802,6 +810,9 @@ def build_imported_public_entries(
         long_definition = clean_imported_text(
             _require_contract_string(row, "long", f"imported term {term}")
         )
+        source_page = row.get("page")
+        if not isinstance(source_page, int) or source_page < 1:
+            raise ValidationError(f"Imported glossary page for {term} must be positive")
         if not SLUG_VALUE.fullmatch(slug):
             raise ValidationError(f"Imported glossary slug is malformed: {slug!r}")
 
@@ -857,7 +868,13 @@ def build_imported_public_entries(
                 "definition_links": [],
                 "learning_tracks": [],
                 "redirect_slugs": [],
-                "references": [],
+                "references": [
+                    {
+                        "type": "book",
+                        "key": "grob2016",
+                        "pages": str(source_page),
+                    }
+                ],
                 "related_terms": [],
                 "short_definition": short_definition,
                 "slug": slug,

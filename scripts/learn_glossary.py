@@ -104,6 +104,12 @@ GLOSSARY_CATEGORIES = (
     "Slang & Expressions",
 )
 CANONICAL_SLUG_PATTERN = re.compile(r"^[a-z0-9]+(?:-[a-z0-9]+)*$")
+BIBLIOGRAPHY_REFERENCES = {
+    "grob2016": {
+        "number": "1",
+        "href": "../references.html#ref-grob2016",
+    }
+}
 
 FORBIDDEN_KEYS = {
     "source_ids",
@@ -538,6 +544,20 @@ def validate_public_data(
             not isinstance(reference, dict) for reference in references
         ):
             raise ValidationError(f"Tracked entry {slug} references must be objects")
+        for reference_index, reference in enumerate(references):
+            key = reference.get("key")
+            if key is None:
+                continue
+            if set(reference) - {"type", "key", "pages", "section"}:
+                raise ValidationError(
+                    f"Tracked entry {slug} reference {reference_index} "
+                    "has unexpected bibliography fields"
+                )
+            if reference.get("type") != "book" or key not in BIBLIOGRAPHY_REFERENCES:
+                raise ValidationError(
+                    f"Tracked entry {slug} reference {reference_index} "
+                    "has an invalid bibliography key"
+                )
         optional_string(entry, "usage_note")
         if slug in canonical_slugs:
             raise ValidationError(f"Duplicate canonical term slug: {slug}")
@@ -1683,6 +1703,7 @@ def public_references_html(entry: dict[str, object]) -> str:
         for reference in entry.get("references", [])
         if isinstance(reference, dict)
         and reference.get("type") not in {"editorial", "unresolved"}
+        and reference.get("key") not in BIBLIOGRAPHY_REFERENCES
     ]
     if not references:
         return ""
@@ -1703,6 +1724,27 @@ def public_references_html(entry: dict[str, object]) -> str:
         lines.append(f"<li>{label}{(': ' + suffix) if suffix else ''}</li>")
     lines.extend(["</ul>", "</section>"])
     return "\n".join(lines)
+
+
+def inline_bibliography_citations_html(entry: dict[str, object]) -> str:
+    keys: list[str] = []
+    for reference in entry.get("references", []):
+        if not isinstance(reference, dict):
+            continue
+        key = str(reference.get("key") or "")
+        if key in BIBLIOGRAPHY_REFERENCES and key not in keys:
+            keys.append(key)
+    links = []
+    for key in keys:
+        citation = BIBLIOGRAPHY_REFERENCES[key]
+        number = html.escape(str(citation["number"]))
+        links.append(
+            f'<a class="bs-glossary-citation" '
+            f'href="{html_attr(citation["href"])}" target="_blank" '
+            f'rel="noopener noreferrer" aria-label="Reference {number}">'
+            f'[{number}]</a>'
+        )
+    return " ".join(links)
 
 
 def inline_alias_is_safe(phrase: str) -> bool:
@@ -1846,6 +1888,9 @@ def full_definition_html(
         )
         if paragraph.strip()
     ]
+    citation = inline_bibliography_citations_html(entry)
+    if citation and paragraphs:
+        paragraphs[-1] = f"{paragraphs[-1]} {citation}"
     body = "\n".join(f"<p>{paragraph}</p>" for paragraph in paragraphs)
     return f'<div class="bs-glossary-definition">\n{body}\n</div>'
 

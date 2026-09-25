@@ -19,6 +19,7 @@ def public_entry(
     categories: tuple[str, ...] = ("Checker Play",),
     links: tuple[tuple[str, str], ...] = (),
     related: tuple[tuple[str, str | None], ...] = (),
+    references: tuple[dict[str, object], ...] = (),
 ) -> dict[str, object]:
     entry: dict[str, object] = {
         "aliases": [
@@ -35,6 +36,7 @@ def public_entry(
             {"term": label, **({"slug": target} if target else {})}
             for label, target in related
         ],
+        "references": list(references),
         "short_definition": short or f"Short definition for {term}.",
         "slug": slug,
         "term": term,
@@ -151,6 +153,25 @@ class GlossaryPageGenerationTests(unittest.TestCase):
             learn_glossary.build_lookup_data(self.entries, {}),
             learn_glossary.build_lookup_data(self.entries, {}),
         )
+
+    def test_grob_bibliography_reference_is_an_inline_new_tab_citation(self) -> None:
+        entry = public_entry(
+            "Imported term",
+            "imported-term",
+            references=({"type": "book", "key": "grob2016", "pages": "1211"},),
+        )
+        output = learn_glossary.build_entries_html([entry], {}, {})
+        self.assertIn(
+            'href="../references.html#ref-grob2016" target="_blank" '
+            'rel="noopener noreferrer"',
+            output,
+        )
+        self.assertIn('aria-label="Reference 1">[1]</a></p>', output)
+        self.assertNotIn('<section class="bs-glossary-references">', output)
+
+    def test_unrelated_definition_has_no_grob_citation(self) -> None:
+        output = learn_glossary.build_entries_html([self.ace], {}, {})
+        self.assertNotIn("bs-glossary-citation", output)
 
 
 if __name__ == "__main__":

@@ -14,8 +14,6 @@ This page keeps source citations in one place as more textbooks, manuals, standa
 [1] M. E. Schultz, *Grob's Basic Electronics*, 12th ed. New York, NY, USA: McGraw-Hill Education, 2016.
 :::
 
-The electronics definitions imported into the glossary are based on the glossary in [1, pp. 1182–1190]. Wording is kept concise and close to the source, with light normalization where PDF extraction introduces broken ligatures, symbols, or spacing.
-
 ## Citation style
 
 References use stable IEEE-style numbering. A page can cite a whole source as **[1]** or a specific location as **[1, p. 1182]** or **[1, pp. 1182–1190]**.
