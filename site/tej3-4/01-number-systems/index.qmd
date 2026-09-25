@@ -1,0 +1,53 @@
+---
+title: "1. Number Systems"
+description: "Significant figures, powers of 10, scientific notation, engineering notation, metric prefixes, and calculator notation."
+sidebar: tej
+page-layout: full
+body-classes: "bs-learn-article bs-learn-track-index"
+toc: false
+execute:
+  enabled: false
+---
+
+We learned significant figures first, then powers of 10 and calculator entry, followed by scientific notation, engineering notation, and metric prefixes.
+
+Grob calls the related textbook material **Introduction to Powers of 10**. Its concise summary and definitions are the reference for the powers-of-10 lessons here. [[1, pp. 2–17]](../../references.qmd#ref-grob2016)
+
+```{=html}
+<details class="bs-learn-filter-panel" data-bs-learn-filters data-bs-learn-mode="track" aria-label="Search Number Systems lessons">
+<summary class="bs-learn-filters-summary">Search Number Systems lessons</summary>
+<div class="bs-learn-filter-body">
+<div class="bs-learn-search-group">
+<label for="bs-learn-search">Search lessons</label>
+<input id="bs-learn-search" type="search" placeholder="Try metric prefixes or calculator" autocomplete="off" data-bs-learn-search>
+</div>
+<div class="bs-learn-filter-footer"><p class="bs-learn-result-count" aria-live="polite" data-bs-learn-result-count></p><button type="button" class="bs-learn-clear" data-bs-learn-clear hidden>Clear search</button></div>
+</div>
+</details>
+
+<div class="bs-learn-section-actions" role="group" aria-label="Number Systems lessons">
+<button type="button" data-bs-learn-collapse-all>Collapse all</button>
+<button type="button" data-bs-learn-expand-all>Expand all</button>
+</div>
+
+<div class="bs-learn-catalogue" data-bs-learn-list>
+<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tej-number-systems" open>
+<summary class="bs-learn-catalogue-section-heading"><span class="bs-learn-track-heading"><span class="bs-learn-track-lessons-label">Lessons</span><span data-bs-learn-group-count>6 lessons</span></span></summary>
+<div class="bs-learn-catalogue-section-items">
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary='["Significant Figures","precision","rounding"]' data-bs-search-body='["Measured values, precision, rounding once at the end."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="01-significant-figures.qmd">1. Significant Figures</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary='["Powers of 10","exponent"]' data-bs-search-body='["Base 10, exponent, large and small quantities."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="02-powers-of-10.qmd">2. Powers of 10</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary='["Scientific Notation"]' data-bs-search-body='["Coefficient from 1 to 10 times a power of 10."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="03-scientific-notation.qmd">3. Scientific Notation</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary='["Engineering Notation"]' data-bs-search-body='["Coefficient from 1 to 1000 and exponent multiple of 3."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="04-engineering-notation.qmd">4. Engineering Notation</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary='["Metric Prefixes","kilo","milli","micro","nano","pico"]' data-bs-search-body='["Prefixes replace powers of 10 that are multiples of 3."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="05-metric-prefixes.qmd">5. Metric Prefixes</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary='["Scientific Calculator","EXP","EE"]' data-bs-search-body='["Enter powers of 10 with a calculator exponent key."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="06-scientific-calculator.qmd">6. Scientific Calculator</a></div></article>
+</div>
+</details>
+</div>
+<p class="bs-learn-empty" data-bs-learn-empty hidden>No Number Systems lessons match this search.</p>
+```
+
+## Practice
+
+- [Significant Figures practice 1](https://drive.google.com/file/d/1ep-nUmzdp9LIc74qZqz_OfeASG1rulMA/view?usp=drivesdk)
+- [Significant Figures practice 2](https://drive.google.com/file/d/1yexhwUDedo25OSewC8WK8FDLQ0Cw89D_/view?usp=drivesdk)
+- [Powers of 10, scientific/engineering notation, and metric-prefix problems](https://drive.google.com/file/d/1eDQR4YRVu6Ny7Ud5PC6YKqn-lvc6FZof/view?usp=drivesdk)
