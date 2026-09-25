@@ -22,6 +22,8 @@ Reusable classroom materials for students and teachers. Published PDFs, black-an
 The library intentionally links to **generic teaching materials, not student submissions or student copies**. **General** materials are broadly reusable across subjects and technology courses. **Well-Being** materials focus on identity, reflection, listening, goal setting, community, and related learning routines.
 :::
 
+Filters are saved in the page URL as you select them, so you can copy the address bar and send someone the same filtered view.
+
 ```{=html}
 <section
   class="bs-slide-library-controls"
