@@ -611,12 +611,9 @@
       let visibleCount = 0;
 
       items.forEach(function (item) {
-        const visible = itemMatchesLesson(
-          item,
-          query,
-          difficulties,
-          terms
-        );
+        const visible =
+          itemMatchesLesson(item, query, difficulties, terms) &&
+          (!selectedTrack || item.track === selectedTrack);
         item.element.hidden = !visible;
         if (visible) {
           visibleCount += 1;
