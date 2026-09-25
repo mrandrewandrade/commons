@@ -1,0 +1,100 @@
+---
+title: "2.2 Closed, Open & Short Circuits"
+description: "Complete paths, open circuits, short circuits, fuses, and basic troubleshooting."
+sidebar: tej
+body-classes: "bs-learn-article ter-notes-lesson"
+toc: true
+toc-depth: 3
+execute:
+  enabled: false
+---
+
+## A circuit needs a complete path
+
+A basic electric circuit needs:
+
+1. a **source** that creates a potential difference
+2. a **conductive path**
+3. a **load** that uses or transforms electrical energy
+4. a path back to the source
+
+A **closed circuit** has a complete path, so current can flow. [[1, pp. 40-42]](../../references.qmd#ref-grob2016)
+
+## Open circuit
+
+An **open circuit** has a break in the path.
+
+In the ideal model:
+
+- current is **0 A**
+- resistance across the break is treated as extremely high
+- voltage can still exist across the open gap
+
+Grob uses a simple 10 V circuit to show that opening the path stops current everywhere in that series path. [[1, p. 96]](../../references.qmd#ref-grob2016)
+
+Open circuits can be intentional or accidental:
+
+- an open switch
+- a disconnected cable
+- a broken wire or PCB trace
+- a failed component
+- a blown fuse
+
+::: {.callout-important}
+## Troubleshooting idea
+
+**No current does not automatically mean no voltage.**
+
+An open circuit can still have the applied voltage across the break.
+:::
+
+## Short circuit
+
+A **short circuit** creates a path with very low resistance.
+
+Ohm's law predicts that, for a given voltage, lower resistance allows more current:
+
+**I = V / R**
+
+Real wires and sources never have exactly zero resistance, but a short can still allow enough current to overheat wiring or damage components. [[1, pp. 96-97]](../../references.qmd#ref-grob2016)
+
+## Fuses intentionally create an open
+
+A fuse protects a circuit by **opening the path** if the current becomes too high.
+
+*Open Circuits* shows cartridge fuses in which a metal element heats and melts when current exceeds the fuse rating. [[2, pp. 54-58]](../../references.qmd#ref-opencircuits2023)
+
+The sequence is:
+
+**excess current -> heating -> fuse element opens -> current stops**
+
+A blown fuse is usually evidence of another problem. Find the cause before simply replacing the fuse.
+
+## Switches are controlled opens and closes
+
+A normally open pushbutton has a deliberate break in the circuit until it is pressed. Pressing the button moves a metal contact into place and completes the circuit. [[2, p. 109]](../../references.qmd#ref-opencircuits2023)
+
+This gives us a useful mental model:
+
+- **open switch** -> path broken
+- **closed switch** -> path complete
+
+## Measurement reminder
+
+Measure resistance with the circuit power off. A voltage can remain across an open circuit even when no current is flowing. [[1, pp. 95-96]](../../references.qmd#ref-grob2016)
+
+## Quick check
+
+For each situation, predict the current and explain why:
+
+1. a switch is open
+2. a switch is closed
+3. a wire directly connects the positive and negative sides of a low-voltage source
+4. a fuse has blown
+5. a USB cable has an internal broken conductor
+
+::: {.callout-tip}
+## Improve these notes
+
+Add a real troubleshooting example of an open or short circuit.
+:::
