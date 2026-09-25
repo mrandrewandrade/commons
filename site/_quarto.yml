@@ -100,14 +100,14 @@ website:
               href: tej3-4/01-number-systems/01-significant-figures.qmd
             - text: "1.2 Powers of 10"
               href: tej3-4/01-number-systems/02-powers-of-10.qmd
-            - text: "1.3 Scientific Notation"
-              href: tej3-4/01-number-systems/03-scientific-notation.qmd
-            - text: "1.4 Engineering Notation"
-              href: tej3-4/01-number-systems/04-engineering-notation.qmd
-            - text: "1.5 Metric Prefixes"
-              href: tej3-4/01-number-systems/05-metric-prefixes.qmd
-            - text: "1.6 Scientific Calculator"
+            - text: "1.3 Scientific Calculator"
               href: tej3-4/01-number-systems/06-scientific-calculator.qmd
+            - text: "1.4 Scientific Notation"
+              href: tej3-4/01-number-systems/03-scientific-notation.qmd
+            - text: "1.5 Engineering Notation"
+              href: tej3-4/01-number-systems/04-engineering-notation.qmd
+            - text: "1.6 Metric Prefixes"
+              href: tej3-4/01-number-systems/05-metric-prefixes.qmd
   page-footer:
     left: |
       **CC BY-SA 4.0 · Share, modify, and redistribute.** Modified versions remain CC BY-SA 4.0 and attribute the original source: [andrewandrade.ca](https://andrewandrade.ca/) · [github.com/mrandrewandrade](https://github.com/mrandrewandrade). Add your own name and links when you adapt it so future versions can credit you too. **Sharing is caring.**
