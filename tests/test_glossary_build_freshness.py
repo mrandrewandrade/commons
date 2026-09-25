@@ -14,12 +14,15 @@ from scripts import learn_glossary
 
 
 class GlossaryBuildFreshnessTests(unittest.TestCase):
-    def test_current_source_generates_current_public_data(self) -> None:
-        result = glossary_source.check_production_source()
+    def test_current_source_generates_public_data(self) -> None:
+        serialized, result = glossary_source.build_production_source()
         source_entries = glossary_source.load_contract_json()
+        generated = json.loads(serialized)
 
-        self.assertEqual(result["canonical_entries"], len(source_entries))
-        self.assertEqual(result["published_entries"], len(source_entries))
+        self.assertEqual(result["curated_entries"], len(source_entries))
+        self.assertGreater(result["imported_entries"], 500)
+        self.assertEqual(result["canonical_entries"], len(generated["entries"]))
+        self.assertEqual(result["published_entries"], len(generated["entries"]))
 
     def test_stale_public_data_fails_with_a_regeneration_instruction(self) -> None:
         generated, _ = glossary_source.build_production_source()
@@ -64,9 +67,10 @@ class GlossaryBuildFreshnessTests(unittest.TestCase):
         html = learn_glossary.build_entries_html(public_entries, {}, {})
         lookup = json.loads(learn_glossary.build_lookup_data(public_entries, {}))
 
-        self.assertEqual(len(public_entries), 17)
-        self.assertEqual(html.count('class="bs-glossary-entry"'), 17)
-        self.assertEqual(len(lookup["entries"]), 17)
+        expected = len(entries)
+        self.assertEqual(len(public_entries), expected)
+        self.assertEqual(html.count('class="bs-glossary-entry"'), expected)
+        self.assertEqual(len(lookup["entries"]), expected)
 
     def test_render_generates_glossary(self) -> None:
         with mock.patch.dict(os.environ, {}, clear=True), mock.patch.object(bs_pre_render, "run") as run:
