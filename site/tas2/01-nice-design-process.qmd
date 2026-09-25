@@ -1,0 +1,9 @@
+---
+title: "1. N.I.C.E. Design Process"
+description: "This unit now uses separate lesson pages."
+toc: false
+---
+
+This unit now has a unit page and separate lesson notes.
+
+[Open 1. N.I.C.E. Design Process](01-nice-design-process/index.qmd)
