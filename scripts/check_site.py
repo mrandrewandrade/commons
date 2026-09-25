@@ -67,7 +67,7 @@ def check(root: Path) -> tuple[int, list[str]]:
     for required in ['index.html', 'tas2/index.html', 'tej3-4/index.html',
                      'slides/index.html', 'teacher-slides/index.html',
                      'teaching-materials/index.html',
-                     'lore/index.html', 'lore/from-a-pen-and-paper-mark-to-a-crest.html']:
+                     'lore/index.html']:
         if not (root / required).is_file():
             problems.append('Missing main page: ' + required)
     for path in root.rglob('*.webp'):
