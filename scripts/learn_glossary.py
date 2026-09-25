@@ -1814,7 +1814,7 @@ def linked_definition_html(
         visible = match.group(0)
         parts.append(
             f'<a class="bs-inline-glossary" '
-            f'href="/tech-edu-resources/glossary/#{html_attr(slug)}" '
+            f'href="#{html_attr(slug)}" '
             f'data-bs-glossary-slug="{html_attr(slug)}" '
             f'data-bs-definition-link="{html_attr(slug)}">'
             f"{html.escape(visible)}</a>"
@@ -1855,7 +1855,7 @@ def related_terms_html(entry: dict[str, object]) -> str:
         slug = related.get("slug")
         if slug:
             lines.append(
-                f'<li><a href="/tech-edu-resources/glossary/#{html_attr(slug)}">'
+                f'<li><a href="#{html_attr(slug)}">'
                 f"{html.escape(term)}</a></li>"
             )
         else:
