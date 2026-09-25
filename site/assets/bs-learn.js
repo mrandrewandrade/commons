@@ -1,6 +1,12 @@
 (function () {
   "use strict";
 
+  const REPOSITORY_BASE = "/tech-edu-resources";
+  const SITE_BASE =
+    typeof window !== "undefined" &&
+    window.location.pathname.startsWith(REPOSITORY_BASE + "/")
+      ? REPOSITORY_BASE
+      : "";
   const DIFFICULTY_SELECTOR = "[data-bs-filter-difficulty]";
   const TRACK_SELECTOR = "[data-bs-filter-track]";
   const TERM_SELECTOR = "[data-bs-filter-term]";
@@ -252,7 +258,7 @@
   function loadGlossaryLookupEntries() {
     if (!glossaryLookupEntriesPromise) {
       glossaryLookupEntriesPromise = fetch(
-        "/tech-edu-resources/assets/bs-glossary-lookup.json",
+        SITE_BASE + "/assets/bs-glossary-lookup.json",
         { credentials: "same-origin" }
       )
         .then(function (response) {
@@ -1005,7 +1011,7 @@
       'aria-expanded="true" aria-label="Collapse term lookup">' +
       '<span aria-hidden="true">&rarr;</span></button>' +
       "</div>" +
-      '<form action="/tech-edu-resources/glossary/" method="get" data-bs-term-lookup-form>' +
+      '<form action="' + SITE_BASE + '/glossary/" method="get" data-bs-term-lookup-form>' +
       '<label class="visually-hidden" for="bs-term-lookup-input">' +
       "Term or alias</label>" +
       '<div class="bs-term-lookup-controls">' +
@@ -1029,7 +1035,7 @@
       const fullSearch = document.createElement("a");
       fullSearch.className = "bs-term-lookup-full";
       fullSearch.href =
-        "/tech-edu-resources/glossary/?q=" + encodeURIComponent(query);
+        SITE_BASE + "/glossary/?q=" + encodeURIComponent(query);
       fullSearch.textContent = "Search the Full Glossary \u2192";
       container.append(message, fullSearch);
       return;
@@ -1112,7 +1118,7 @@
 
     const fullEntry = document.createElement("a");
     fullEntry.className = "bs-term-lookup-full";
-    fullEntry.href = "/tech-edu-resources/glossary/#" + encodeURIComponent(entry.slug);
+    fullEntry.href = SITE_BASE + "/glossary/#" + encodeURIComponent(entry.slug);
     fullEntry.textContent = "Go to glossary entry";
     container.appendChild(fullEntry);
   }
@@ -1409,7 +1415,7 @@
       if (formElement && !lookup.querySelector(".bs-term-lookup-browse")) {
         const browseGlossary = document.createElement("a");
         browseGlossary.className = "bs-term-lookup-browse";
-        browseGlossary.href = "/tech-edu-resources/glossary/";
+        browseGlossary.href = SITE_BASE + "/glossary/";
         browseGlossary.textContent = "Browse the full glossary";
         formElement.insertAdjacentElement("afterend", browseGlossary);
       }
@@ -2064,7 +2070,7 @@
           })
           .catch(function () {
             window.location.href =
-              "/tech-edu-resources/glossary/?q=" + encodeURIComponent(query);
+              SITE_BASE + "/glossary/?q=" + encodeURIComponent(query);
           });
       });
     }
@@ -2098,7 +2104,7 @@
       }
       if (!desktopQuery.matches) {
         window.location.href =
-          "/tech-edu-resources/glossary/#" + encodeURIComponent(slug);
+          SITE_BASE + "/glossary/#" + encodeURIComponent(slug);
         return;
       }
       suppressRightRailAutoCollapse = true;
@@ -2129,7 +2135,7 @@
         })
         .catch(function () {
           window.location.href =
-            "/tech-edu-resources/glossary/#" + encodeURIComponent(slug);
+            SITE_BASE + "/glossary/#" + encodeURIComponent(slug);
         });
       window.setTimeout(function () {
         lastRightRailScrollY = window.scrollY;

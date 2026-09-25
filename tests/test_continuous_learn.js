@@ -101,6 +101,19 @@ assert.equal(
   scroll.normalizeRoute("https://example.test/learn/middle.html?x=1#part"),
   "/learn/middle.html"
 );
+assert.equal(
+  scroll.deploymentRelativeRoute(
+    "/tech-edu-resources/tej3-4/01-number-systems/01-significant-figures.html"
+  ),
+  "/tej3-4/01-number-systems/01-significant-figures.html"
+);
+assert.equal(
+  scroll.browserRoute(
+    "/tech-edu-resources/tej3-4/01-number-systems/01-significant-figures.html"
+  ),
+  "/tej3-4/01-number-systems/01-significant-figures.html",
+  "root-mounted previews strip the repository base"
+);
 
 const first = scroll.findCurrentLesson(manifest, "/learn/first/index.html");
 const middle = scroll.findCurrentLesson(manifest, "/learn/middle.html");

@@ -1,10 +1,11 @@
 (function () {
   "use strict";
 
+  const REPOSITORY_BASE = "/tech-edu-resources";
   const SITE_BASE =
     typeof window !== "undefined" &&
-    window.location.pathname.startsWith("/tech-edu-resources/")
-      ? "/tech-edu-resources"
+    window.location.pathname.startsWith(REPOSITORY_BASE + "/")
+      ? REPOSITORY_BASE
       : "";
   const MANIFEST_ROUTE = SITE_BASE + "/assets/bs-learn-sequence.json";
   let bootstrapToc = null;
@@ -66,11 +67,27 @@
     return manifest.lessons;
   }
 
-  function findCurrentLesson(manifest, pathname) {
+  function deploymentRelativeRoute(pathname) {
     const route = normalizeRoute(pathname);
+    if (route === REPOSITORY_BASE || route === REPOSITORY_BASE + "/") {
+      return "/";
+    }
+    if (route.startsWith(REPOSITORY_BASE + "/")) {
+      return normalizeRoute(route.slice(REPOSITORY_BASE.length));
+    }
+    return route;
+  }
+
+  function browserRoute(pathname) {
+    const relative = deploymentRelativeRoute(pathname);
+    return SITE_BASE + (relative === "/" ? "/" : relative);
+  }
+
+  function findCurrentLesson(manifest, pathname) {
+    const route = deploymentRelativeRoute(pathname);
     return (
       lessonsFromManifest(manifest).find(function (lesson) {
-        return normalizeRoute(lesson.route) === route;
+        return deploymentRelativeRoute(lesson.route) === route;
       }) || null
     );
   }
@@ -85,7 +102,8 @@
       !candidate ||
       candidate.course_id !== lesson.course_id ||
       candidate.sequence_index !== lesson.sequence_index + 1 ||
-      normalizeRoute(candidate.previous_route) !== normalizeRoute(lesson.route)
+      deploymentRelativeRoute(candidate.previous_route) !==
+        deploymentRelativeRoute(lesson.route)
     ) {
       return null;
     }
@@ -104,14 +122,14 @@
     const routes = [];
     let candidate = nextLesson(manifest, lesson);
     while (candidate) {
-      routes.push(normalizeRoute(candidate.route));
+      routes.push(browserRoute(candidate.route));
       candidate = nextLesson(manifest, candidate);
     }
     return routes;
   }
 
   function idPrefixForRoute(route) {
-    const parts = normalizeRoute(route).split("/").filter(Boolean);
+    const parts = deploymentRelativeRoute(route).split("/").filter(Boolean);
     if (parts[0] === "learn") {
       parts.shift();
     }
@@ -355,8 +373,8 @@
   function sidebarRouteMatches(href, route, baseUrl) {
     try {
       return (
-        normalizeRoute(new URL(href, baseUrl).pathname) ===
-        normalizeRoute(route)
+        deploymentRelativeRoute(new URL(href, baseUrl).pathname) ===
+        deploymentRelativeRoute(route)
       );
     } catch (_error) {
       return false;
@@ -879,7 +897,7 @@
 
           function attemptLoad() {
             const requestUrl = sameOriginUrl(
-              followingLesson.route,
+              browserRoute(followingLesson.route),
               window.location.origin
             );
             if (
@@ -905,8 +923,8 @@
                 const finalUrl = sameOriginUrl(response.url, window.location.origin);
                 if (
                   !finalUrl ||
-                  normalizeRoute(finalUrl.pathname) !==
-                    normalizeRoute(followingLesson.route)
+                  deploymentRelativeRoute(finalUrl.pathname) !==
+                    deploymentRelativeRoute(followingLesson.route)
                 ) {
                   throw new Error("Next lesson redirected unexpectedly");
                 }
@@ -1031,9 +1049,11 @@
   }
 
   const publicApi = {
+    browserRoute: browserRoute,
     captureToc: captureToc,
     createLessonRecord: createLessonRecord,
     createLoadedRouteTracker: createLoadedRouteTracker,
+    deploymentRelativeRoute: deploymentRelativeRoute,
     errorStateForLesson: errorStateForLesson,
     findCurrentLesson: findCurrentLesson,
     findPrimaryToc: findPrimaryToc,
