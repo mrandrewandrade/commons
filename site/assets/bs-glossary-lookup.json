@@ -220,12 +220,10 @@
     },
     {
       "aliases": [
-        "N.I.C.E.",
-        "NICE Design Process"
+        "N.I.C.E."
       ],
       "alias_slugs": [
-        "n-i-c-e",
-        "nice-design-process"
+        "n-i-c-e"
       ],
       "definition": "The N.I.C.E. Design Process is a classroom design cycle used in these resources: Needs & Necessities → Investigate & Inquire → Create & Communicate → Evaluate → repeat. It begins with what the design actually needs to accomplish, uses inquiry and investigation before choosing a solution, makes and communicates the solution, and uses evaluation to return to the needs and improve the next version.",
       "related_lessons": [],
