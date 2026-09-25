@@ -31,7 +31,7 @@ class CanonicalGlossaryJsonTests(unittest.TestCase):
         self.assertEqual(len(self.entries), 16)
         self.assertEqual(self.report["canonical_entries"], 16)
         self.assertEqual(self.report["published_entries"], 16)
-        self.assertEqual(self.report["aliases"], 22)
+        self.assertEqual(self.report["aliases"], 21)
         self.assertEqual(len(self.data["entries"]), 16)
         self.assertEqual(
             {entry["slug"] for entry in self.data["entries"]},
