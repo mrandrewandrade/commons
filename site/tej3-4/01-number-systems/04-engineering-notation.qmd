@@ -1,5 +1,5 @@
 ---
-title: "1.4 Engineering Notation"
+title: "1.5 Engineering Notation"
 description: "Powers of 10 with exponents that are multiples of 3."
 sidebar: tej
 body-classes: "bs-learn-article ter-notes-lesson"
@@ -11,29 +11,24 @@ execute:
 
 ::: {.bs-lesson-meta}
 Unit: Number Systems  
-Reference: [1, pp. 6–7](../../references.qmd#ref-grob2016)
+Reference: [[1, pp. 6–7]](../../references.qmd#ref-grob2016)
 :::
 
-## Core idea
+## What we learned
 
-Engineering notation uses a coefficient from **1 up to, but not including, 1000** and a power of 10 whose exponent is a **multiple of 3**.
+Engineering notation writes a value as a number from **1 to less than 1000** multiplied by a power of 10 whose exponent is a **multiple of 3**.
 
 Examples:
 
 - **27 000 = 27 × 10³**
 - **0.00047 = 470 × 10⁻⁶**
 
-This form is common in electronics because powers such as 10³, 10⁻³, 10⁻⁶, and 10⁻⁹ correspond directly to metric prefixes.
+If the exponent changes, move the decimal point in the coefficient so the value stays the same.
 
-## Quick check
-
-An expression is in engineering notation when:
-
-1. the coefficient is from 1 to less than 1000; and
-2. the exponent is a multiple of 3.
+Engineering notation is especially useful in electronics because its powers of 10 line up with metric prefixes. [[1, pp. 6–8]](../../references.qmd#ref-grob2016)
 
 ::: {.callout-tip}
-## Improve these notes
+## Improve this page
 
-Add an example that starts in scientific notation and is converted to engineering notation without changing the value.
+Add one conversion from scientific notation to engineering notation and explain how the value stays unchanged.
 :::
