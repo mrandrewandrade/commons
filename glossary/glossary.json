@@ -3,15 +3,20 @@
     "term": "Acceleration",
     "aliases": [],
     "redirect_slugs": [],
-    "short_definition": "Acceleration is the rate of change of velocity with time.",
-    "long_definition": "Acceleration describes how quickly velocity changes with time. In straight-line motion where direction is not changing, this can also be thought of as how speed changes with time. In calculus language, acceleration is the derivative of velocity with respect to time. Because velocity is the derivative of position or displacement with respect to time, acceleration is the second derivative of position or displacement with respect to time. Saying 'the derivative of distance twice' is a useful informal picture only when direction is not important; position or displacement is the more precise quantity. Its common SI unit is metres per second squared (m/s²).",
+    "short_definition": "Acceleration is the rate of change of velocity with time and is a vector.",
+    "long_definition": "Acceleration is the rate of change of velocity with time. It is a vector, so a change in speed, direction, or both is acceleration. In calculus, acceleration is the derivative of velocity with respect to time. Because velocity is the derivative of position or displacement with respect to time, acceleration is the second derivative of position or displacement with respect to time. Common units include metres per second squared (m/s²) and feet per second squared (ft/s²).",
     "categories": [
       "Measurement & Motion"
     ],
     "tracks": [],
     "related_terms": [
+      "vector",
+      "velocity",
+      "position",
+      "displacement",
       "metres-per-second-squared",
-      "velocity"
+      "feet-per-second-squared",
+      "speed"
     ],
     "inline_terms": {},
     "status": "published",
@@ -67,6 +72,50 @@
     "updated": "2026-09-24",
     "references": []
   },
+  "displacement": {
+    "term": "Displacement",
+    "aliases": [],
+    "redirect_slugs": [],
+    "short_definition": "Displacement is the change in position from a starting point to an ending point, including direction.",
+    "long_definition": "Displacement is a vector that describes the change in position from a starting point to an ending point. It has both magnitude and direction and does not depend on the total path travelled.",
+    "categories": [
+      "Measurement & Motion"
+    ],
+    "tracks": [],
+    "related_terms": [
+      "vector",
+      "position",
+      "distance",
+      "velocity"
+    ],
+    "inline_terms": {},
+    "status": "published",
+    "added": "2026-09-24",
+    "updated": "2026-09-24",
+    "references": []
+  },
+  "distance": {
+    "term": "Distance",
+    "aliases": [],
+    "redirect_slugs": [],
+    "short_definition": "Distance is the total length of the path travelled.",
+    "long_definition": "Distance is a scalar measure of the total length of the path travelled. It has magnitude but no direction. Common units include metres (m), kilometres (km), feet (ft), and miles (mi).",
+    "categories": [
+      "Measurement & Motion"
+    ],
+    "tracks": [],
+    "related_terms": [
+      "scalar",
+      "displacement",
+      "metre",
+      "speed"
+    ],
+    "inline_terms": {},
+    "status": "published",
+    "added": "2026-09-24",
+    "updated": "2026-09-24",
+    "references": []
+  },
   "engineering-design-process": {
     "term": "Engineering Design Process",
     "aliases": [
@@ -82,6 +131,52 @@
     "tracks": [],
     "related_terms": [
       "nice-design-process"
+    ],
+    "inline_terms": {},
+    "status": "published",
+    "added": "2026-09-24",
+    "updated": "2026-09-24",
+    "references": []
+  },
+  "feet-per-second-squared": {
+    "term": "Feet per Second Squared",
+    "aliases": [
+      "ft/s^2",
+      "ft/s²"
+    ],
+    "redirect_slugs": [],
+    "short_definition": "Feet per second squared (ft/s²) is a non-SI unit of acceleration.",
+    "long_definition": "Feet per second squared, written ft/s², is a common non-SI unit of acceleration.",
+    "categories": [
+      "Units & Notation"
+    ],
+    "tracks": [],
+    "related_terms": [
+      "acceleration",
+      "metres-per-second-squared"
+    ],
+    "inline_terms": {},
+    "status": "published",
+    "added": "2026-09-24",
+    "updated": "2026-09-24",
+    "references": []
+  },
+  "kilometres-per-hour": {
+    "term": "Kilometres per Hour",
+    "aliases": [
+      "km/h"
+    ],
+    "redirect_slugs": [],
+    "short_definition": "Kilometres per hour (km/h) is a common unit of speed and velocity.",
+    "long_definition": "Kilometres per hour, written km/h, states how many kilometres are covered in one hour. It is commonly used for road speed in Canada and many other countries. When a direction is included, it can also be used for velocity.",
+    "categories": [
+      "Units & Notation"
+    ],
+    "tracks": [],
+    "related_terms": [
+      "speed",
+      "velocity",
+      "metres-per-second"
     ],
     "inline_terms": {},
     "status": "published",
@@ -157,6 +252,29 @@
     "updated": "2026-09-24",
     "references": []
   },
+  "miles-per-hour": {
+    "term": "Miles per Hour",
+    "aliases": [
+      "mph"
+    ],
+    "redirect_slugs": [],
+    "short_definition": "Miles per hour (mph) is a common non-SI unit of speed and velocity.",
+    "long_definition": "Miles per hour, written mph, states how many miles are covered in one hour. It is common in U.S. customary and some Imperial contexts. When a direction is included, it can also be used for velocity.",
+    "categories": [
+      "Units & Notation"
+    ],
+    "tracks": [],
+    "related_terms": [
+      "speed",
+      "velocity",
+      "kilometres-per-hour"
+    ],
+    "inline_terms": {},
+    "status": "published",
+    "added": "2026-09-24",
+    "updated": "2026-09-24",
+    "references": []
+  },
   "nice-design-process": {
     "term": "N.I.C.E. Design Process",
     "aliases": [
@@ -194,6 +312,27 @@
       "resistance",
       "voltage",
       "current"
+    ],
+    "inline_terms": {},
+    "status": "published",
+    "added": "2026-09-24",
+    "updated": "2026-09-24",
+    "references": []
+  },
+  "position": {
+    "term": "Position",
+    "aliases": [],
+    "redirect_slugs": [],
+    "short_definition": "Position describes where an object is relative to a chosen reference point.",
+    "long_definition": "Position describes an object's location relative to a chosen reference point or coordinate system. A change in position is displacement.",
+    "categories": [
+      "Measurement & Motion"
+    ],
+    "tracks": [],
+    "related_terms": [
+      "displacement",
+      "velocity",
+      "acceleration"
     ],
     "inline_terms": {},
     "status": "published",
@@ -247,18 +386,64 @@
     "updated": "2026-09-24",
     "references": []
   },
-  "speed": {
-    "term": "Speed",
+  "scalar": {
+    "term": "Scalar",
     "aliases": [],
     "redirect_slugs": [],
-    "short_definition": "Speed is the rate of change of distance with time.",
-    "long_definition": "Speed describes how quickly distance changes with time. In calculus language, speed can be treated as the derivative of distance travelled with respect to time: it tells us how much distance is added for each small change in time. Speed has magnitude but no direction. A common SI unit is metres per second (m/s).",
+    "short_definition": "A scalar is a quantity with magnitude but no direction.",
+    "long_definition": "A scalar is a quantity that has magnitude but no direction. Distance, speed, time, and temperature are common scalar quantities.",
     "categories": [
       "Measurement & Motion"
     ],
     "tracks": [],
     "related_terms": [
+      "vector",
+      "distance",
+      "speed"
+    ],
+    "inline_terms": {},
+    "status": "published",
+    "added": "2026-09-24",
+    "updated": "2026-09-24",
+    "references": []
+  },
+  "speed": {
+    "term": "Speed",
+    "aliases": [],
+    "redirect_slugs": [],
+    "short_definition": "Speed is the rate of change of distance with time.",
+    "long_definition": "Speed is a scalar: it has magnitude but no direction. It is the rate of change of distance with time. In calculus, speed is the derivative of distance travelled with respect to time. Common units include metres per second (m/s), kilometres per hour (km/h), and miles per hour (mph).",
+    "categories": [
+      "Measurement & Motion"
+    ],
+    "tracks": [],
+    "related_terms": [
+      "distance",
       "metres-per-second",
+      "kilometres-per-hour",
+      "miles-per-hour",
+      "velocity",
+      "acceleration"
+    ],
+    "inline_terms": {},
+    "status": "published",
+    "added": "2026-09-24",
+    "updated": "2026-09-24",
+    "references": []
+  },
+  "vector": {
+    "term": "Vector",
+    "aliases": [],
+    "redirect_slugs": [],
+    "short_definition": "A vector is a quantity with both magnitude and direction.",
+    "long_definition": "A vector is a quantity with both magnitude and direction. Displacement, velocity, and acceleration are vector quantities.",
+    "categories": [
+      "Measurement & Motion"
+    ],
+    "tracks": [],
+    "related_terms": [
+      "scalar",
+      "displacement",
       "velocity",
       "acceleration"
     ],
@@ -272,14 +457,18 @@
     "term": "Velocity",
     "aliases": [],
     "redirect_slugs": [],
-    "short_definition": "Velocity describes how quickly displacement changes and includes direction.",
-    "long_definition": "Velocity is the rate of change of displacement and includes direction. A common SI unit is metres per second (m/s). Changing speed, changing direction, or both means the velocity is changing.",
+    "short_definition": "Velocity is the rate of change of displacement with time and is a vector.",
+    "long_definition": "Velocity is the rate of change of displacement with time. It is a vector, so it has both magnitude and direction. The SI unit is metres per second (m/s); common everyday units can also include kilometres per hour (km/h) or miles per hour (mph) when a direction is included. For example, 100 km/h north while driving northbound on Highway 410 describes a velocity, while 100 km/h by itself describes only speed.",
     "categories": [
       "Measurement & Motion"
     ],
     "tracks": [],
     "related_terms": [
+      "vector",
+      "displacement",
       "metres-per-second",
+      "kilometres-per-hour",
+      "miles-per-hour",
       "speed",
       "acceleration"
     ],
