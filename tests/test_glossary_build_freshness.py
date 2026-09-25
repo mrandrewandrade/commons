@@ -42,7 +42,7 @@ class GlossaryBuildFreshnessTests(unittest.TestCase):
 
     def test_changed_published_term_count_regenerates_glossary_outputs(self) -> None:
         entries = copy.deepcopy(glossary_source.load_contract_json())
-        added = copy.deepcopy(entries["ace"])
+        added = copy.deepcopy(entries["voltage"])
         added.update(
             {
                 "term": "Z Freshness Term",
@@ -64,16 +64,11 @@ class GlossaryBuildFreshnessTests(unittest.TestCase):
         html = learn_glossary.build_entries_html(public_entries, {}, {})
         lookup = json.loads(learn_glossary.build_lookup_data(public_entries, {}))
 
-        self.assertEqual(len(public_entries), 38)
-        self.assertEqual(html.count('class="bs-glossary-entry"'), 38)
-        self.assertEqual(len(lookup["entries"]), 38)
+        self.assertEqual(len(public_entries), 17)
+        self.assertEqual(html.count('class="bs-glossary-entry"'), 17)
+        self.assertEqual(len(lookup["entries"]), 17)
 
-    def test_partial_render_reuses_glossary(self) -> None:
+    def test_render_generates_glossary(self) -> None:
         with mock.patch.dict(os.environ, {}, clear=True), mock.patch.object(bs_pre_render, "run") as run:
-            self.assertEqual(bs_pre_render.main(), 0)
-        run.assert_not_called()
-
-    def test_full_render_generates_glossary(self) -> None:
-        with mock.patch.dict(os.environ, {"QUARTO_PROJECT_RENDER_ALL": "1"}), mock.patch.object(bs_pre_render, "run") as run:
             self.assertEqual(bs_pre_render.main(), 0)
         run.assert_called_once_with([bs_pre_render.sys.executable, str(bs_pre_render.REPO_ROOT / "scripts" / "commons_glossary.py"), "generate"])
