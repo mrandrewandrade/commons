@@ -1,6 +1,6 @@
 ---
 title: "1.2 Investigate & Inquire"
-description: "Ask questions, search with purpose, compare existing solutions, and use evidence to improve an idea."
+description: "Research, compare, and build on what already exists."
 sidebar: tas2
 body-classes: "bs-learn-article ter-notes-lesson"
 toc: true
@@ -9,31 +9,36 @@ execute:
   enabled: false
 ---
 
-::: {.bs-lesson-meta}
-Unit: N.I.C.E. Design Process  
-Stage: Investigate & Inquire
-:::
-
 ## Core idea
 
-Research starts with a question, not a search box.
+Inquiry asks what we need to know before choosing a solution.
 
-Our working sequence is:
+**Need → Look → Choose → Change**
 
-**Ask → Search → Compare → Improve**
+1. What do we need?
+2. What already exists?
+3. What could work for us?
+4. What would we change?
 
-1. Use the needs already identified to form questions.
-2. Find existing solutions.
-3. Compare at least two.
-4. Check how well each solution meets the actual needs and constraints.
-5. Use the evidence to improve the next idea.
+Research is not copying. Use existing solutions to learn, compare, and improve.
 
-The point is not to collect links. The point is to learn something that changes or strengthens the design.
+## Inquiry worksheet
 
-[Open the Inquiry slides](https://docs.google.com/presentation/d/1FoN2vg_Tmm2QAUfiJSqPqeSmV7y_m5Brknn0JXxKv0s/edit?usp=drivesdk)
+- Focus the inquiry.
+- Ask useful questions.
+- Compare at least two existing solutions.
+- Record where the ideas came from.
+- Identify what fits the needs and what does not.
+- Brainstorm before judging ideas too quickly.
+- Borrow, combine, adapt, or improve.
+- Explain which need, requirement, or restriction the idea meets.
+
+## Class material
+
+- [Day 7 Inquiry slides](https://docs.google.com/presentation/d/1FoN2vg_Tmm2QAUfiJSqPqeSmV7y_m5Brknn0JXxKv0s/edit?usp=drivesdk)
 
 ::: {.callout-tip}
 ## Improve these notes
 
-Add one good inquiry question and explain what evidence would help answer it. Add a comparison only if it changes the design decision.
+Add one useful inquiry question, comparison, or example that changed a design decision.
 :::

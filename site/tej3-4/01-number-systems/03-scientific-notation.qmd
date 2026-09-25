@@ -1,6 +1,6 @@
 ---
 title: "1.4 Scientific Notation"
-description: "A number from 1 to 10 multiplied by a power of 10."
+description: "A coefficient from 1 to less than 10 times a power of 10."
 sidebar: tej
 body-classes: "bs-learn-article ter-notes-lesson"
 toc: true
@@ -9,30 +9,21 @@ execute:
   enabled: false
 ---
 
-::: {.bs-lesson-meta}
-Unit: Number Systems  
-Reference: [[1, pp. 4–6]](../../references.qmd#ref-grob2016)
-:::
-
-## What we learned
+## Core idea
 
 Scientific notation writes a value as:
 
-**a × 10ⁿ**
-
-where **1 ≤ a < 10**.
+**a × 10ⁿ**, where **1 ≤ a < 10**. [[1, pp. 4–6]](../../references.qmd#ref-grob2016)
 
 Examples:
 
 - **27 000 = 2.7 × 10⁴**
 - **0.00047 = 4.7 × 10⁻⁴**
 
-Move the decimal point until the coefficient is between 1 and 10. The exponent records how far and in which direction the decimal moved.
-
-Grob defines scientific notation as a number between 1 and 10 multiplied by a power of 10. [[1, p. 17]](../../references.qmd#ref-grob2016)
+The exponent records the decimal movement needed to write the coefficient between 1 and 10.
 
 ::: {.callout-tip}
-## Improve this page
+## Improve these notes
 
-Add one large-number example and one small-number example with the decimal movement shown.
+Add one large or small number conversion.
 :::

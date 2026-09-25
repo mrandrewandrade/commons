@@ -1,6 +1,6 @@
 ---
 title: "1.1 Significant Figures"
-description: "A lean classroom guide to significant figures and rounding."
+description: "Significant figures and rounding."
 sidebar: tej
 body-classes: "bs-learn-article ter-notes-lesson"
 toc: true
@@ -9,12 +9,7 @@ execute:
   enabled: false
 ---
 
-::: {.bs-lesson-meta}
-Unit: Number Systems  
-Source: Class lesson and practice
-:::
-
-## What we learned
+## Core idea
 
 Significant figures communicate the precision of a measured or stated value.
 
@@ -22,23 +17,26 @@ Significant figures communicate the precision of a measured or stated value.
 - Zeros between significant digits are significant.
 - Leading zeros are not significant.
 - Trailing zeros are significant when the notation makes the precision clear.
-- Scientific notation makes the intended significant figures clear in the coefficient.
+- In scientific notation, the coefficient makes the intended significant figures clear.
 
-Examples: **42.7** has 3 significant figures. **0.00420** has 3 significant figures.
+Examples:
+
+**42.7** has 3 significant figures.<br>
+**0.00420** has 3 significant figures.
 
 ## Calculations
 
 - Multiplication/division: use the fewest significant figures.
 - Addition/subtraction: use the least precise decimal place.
-- Keep unrounded values through the calculation and **round once at the end**.
+- Keep full calculator precision through the calculation and round once, at the end.
 
-## Practice
+## Class material
 
 - [Significant Figures practice 1](https://drive.google.com/file/d/1ep-nUmzdp9LIc74qZqz_OfeASG1rulMA/view?usp=drivesdk)
 - [Significant Figures practice 2](https://drive.google.com/file/d/1yexhwUDedo25OSewC8WK8FDLQ0Cw89D_/view?usp=drivesdk)
 
 ::: {.callout-tip}
-## Improve this page
+## Improve these notes
 
-Add a worked example, a common mistake, or a clearer explanation of why a digit is significant.
+Add one worked example or common mistake.
 :::

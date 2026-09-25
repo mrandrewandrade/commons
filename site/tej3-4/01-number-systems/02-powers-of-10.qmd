@@ -1,6 +1,6 @@
 ---
 title: "1.2 Powers of 10"
-description: "Base 10, exponents, and compact notation for very large and very small quantities."
+description: "Base 10 and exponent rules."
 sidebar: tej
 body-classes: "bs-learn-article ter-notes-lesson"
 toc: true
@@ -9,33 +9,24 @@ execute:
   enabled: false
 ---
 
-::: {.bs-lesson-meta}
-Unit: Number Systems  
-Reference: [[1, pp. 2–17]](../../references.qmd#ref-grob2016)
-:::
+## Core idea
 
-## What we learned
-
-A power of 10 has a **base of 10** and an **exponent**.
+A power of 10 has a base of 10 and an exponent. [[1, pp. 2–4]](../../references.qmd#ref-grob2016)
 
 - **10³ = 1000**
 - **10⁰ = 1**
 - **10⁻³ = 0.001**
-- Positive powers represent values greater than 1.
-- Negative powers represent values less than 1.
 
-Powers-of-10 notation lets very large or very small values be written compactly.
+## Rules
 
-## Rules we used
+- Multiply powers of 10: add exponents.
+- Divide powers of 10: subtract exponents.
+- Reciprocal: change the sign of the exponent.
 
-- Multiply powers of 10: **add exponents**.
-- Divide powers of 10: **subtract exponents**.
-- Reciprocal: **change the sign of the exponent**.
-
-These are the same rules summarized in Grob's *Introduction to Powers of 10*. [[1, p. 17]](../../references.qmd#ref-grob2016)
+[[1, p. 17]](../../references.qmd#ref-grob2016)
 
 ::: {.callout-tip}
-## Improve this page
+## Improve these notes
 
-Add one decimal-to-power-of-10 example and explain what the exponent tells you.
+Add one example that shows what the exponent means.
 :::

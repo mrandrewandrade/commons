@@ -9,27 +9,20 @@ execute:
   enabled: false
 ---
 
-::: {.bs-lesson-meta}
-Unit: Number Systems  
-Reference: [[1, pp. 15–17]](../../references.qmd#ref-grob2016)
-:::
+## Core idea
 
-## What we learned
-
-Scientific calculators commonly use **EXP**, **EE**, or **×10ˣ** to enter the exponent in powers-of-10 notation.
+Scientific calculators commonly use **EXP**, **EE**, or **×10ˣ** to enter a power of 10. [[1, pp. 15–16]](../../references.qmd#ref-grob2016)
 
 For **4.7 × 10⁻⁶**:
 
-1. enter **4.7**;
-2. press the exponent key;
-3. enter **−6**.
+1. enter **4.7**
+2. press the exponent key
+3. enter **-6**
 
-The exponent key already represents the **× 10ⁿ** part. Do not enter an extra **× 10** before using it. [[1, pp. 15–16]](../../references.qmd#ref-grob2016)
-
-Calculator displays vary. Check the coefficient, exponent, sign, and whether the size of the answer makes sense.
+The exponent key already represents the **×10ⁿ** part. Do not enter another **×10** first. [[1, pp. 15–16]](../../references.qmd#ref-grob2016)
 
 ::: {.callout-tip}
-## Improve this page
+## Improve these notes
 
-Add the exact key sequence for a calculator used in class and one common input mistake.
+Add the key sequence for a calculator used in class.
 :::
