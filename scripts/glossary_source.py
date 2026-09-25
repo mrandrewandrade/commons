@@ -19,6 +19,7 @@ except ImportError:  # Direct execution sets sys.path to scripts/.
 
 
 GLOSSARY_SOURCE_PATH = learn_glossary.REPOSITORY_ROOT / "glossary" / "glossary.json"
+GLOSSARY_IMPORT_DIR = learn_glossary.REPOSITORY_ROOT / "glossary" / "imports"
 # Compatibility name for review tooling. It points to the one production source.
 CONFIRMED_SOURCE_PATH = GLOSSARY_SOURCE_PATH
 PRODUCTION_SOURCE_PATH = learn_glossary.PUBLIC_DATA_PATH
@@ -740,17 +741,139 @@ def validate_with_observed_counts(
     )
 
 
+def load_imported_glossary_rows() -> list[dict[str, object]]:
+    rows: list[dict[str, object]] = []
+    if not GLOSSARY_IMPORT_DIR.exists():
+        return rows
+    for path in sorted(GLOSSARY_IMPORT_DIR.glob("*.json")):
+        parsed = json.loads(path.read_text(encoding="utf-8"))
+        if not isinstance(parsed, list):
+            raise ValidationError(f"{path} must contain a JSON array")
+        for index, row in enumerate(parsed):
+            if not isinstance(row, dict):
+                raise ValidationError(f"{path} row {index} must be an object")
+            rows.append(row)
+    return rows
+
+
+def build_imported_public_entries(
+    curated_entries: list[dict[str, object]],
+) -> list[dict[str, object]]:
+    used_slugs = {str(entry["slug"]) for entry in curated_entries}
+    used_names = {normalize_lookup(str(entry["term"])) for entry in curated_entries}
+    used_aliases = {
+        normalize_lookup(str(alias["term"]))
+        for entry in curated_entries
+        for alias in entry.get("aliases", [])
+        if isinstance(alias, dict)
+    }
+    imported: list[dict[str, object]] = []
+
+    notation_terms = {
+        "decimal notation",
+        "engineering notation",
+        "metric prefixes",
+        "powers of 10",
+        "scientific notation",
+    }
+
+    for row in load_imported_glossary_rows():
+        term = _require_contract_string(row, "term", "imported glossary row")
+        slug = _require_contract_string(row, "slug", f"imported term {term}")
+        short_definition = _require_contract_string(
+            row, "short", f"imported term {term}"
+        )
+        long_definition = _require_contract_string(
+            row, "long", f"imported term {term}"
+        )
+        if not SLUG_VALUE.fullmatch(slug):
+            raise ValidationError(f"Imported glossary slug is malformed: {slug!r}")
+
+        normalized_term = normalize_lookup(term)
+        if normalized_term in used_names or slug in used_slugs:
+            continue
+
+        raw_aliases = row.get("aliases", [])
+        if not isinstance(raw_aliases, list):
+            raise ValidationError(f"Imported aliases for {term} must be a list")
+        public_aliases: list[dict[str, str]] = []
+        for raw_alias in raw_aliases:
+            if not isinstance(raw_alias, str) or not raw_alias.strip():
+                continue
+            normalized_alias = normalize_lookup(raw_alias)
+            if (
+                not normalized_alias
+                or normalized_alias in used_names
+                or normalized_alias in used_aliases
+                or normalized_alias == normalized_term
+            ):
+                continue
+            try:
+                alias_lookup_slug = alias_slug(raw_alias)
+            except ValidationError:
+                continue
+            if alias_lookup_slug in used_slugs:
+                continue
+            public_aliases.append(
+                {"slug": alias_lookup_slug, "term": raw_alias}
+            )
+            used_aliases.add(normalized_alias)
+
+        category = (
+            "Units & Notation"
+            if term.casefold() in notation_terms
+            else "Electrical & Electronics"
+        )
+        imported.append(
+            {
+                "aliases": public_aliases,
+                "categories": [category],
+                "category": category,
+                "date_added": "2026-09-24",
+                "definition": long_definition,
+                "definition_links": [],
+                "learning_tracks": [],
+                "redirect_slugs": [],
+                "references": [],
+                "related_terms": [],
+                "short_definition": short_definition,
+                "slug": slug,
+                "term": term,
+            }
+        )
+        used_slugs.add(slug)
+        used_names.add(normalized_term)
+
+    return imported
+
+
 def build_production_source() -> tuple[str, dict[str, object]]:
     entries = load_contract_json()
     data = build_public_data_from_contract(entries)
+    public_entries = data["entries"]
+    assert isinstance(public_entries, list)
+    public_entries.extend(build_imported_public_entries(public_entries))
+    public_entries.sort(
+        key=lambda item: (
+            str(item["term"]).casefold(),
+            str(item["slug"]),
+        )
+    )
+    validate_with_observed_counts(data)
     serialized = learn_glossary.json_text(data)
     learn_glossary.assert_no_forbidden_text(
         serialized, "generated production glossary data"
     )
     report: dict[str, object] = {
-        "aliases": sum(len(entry["aliases"]) for entry in entries.values()),
-        "canonical_entries": len(entries),
-        "published_entries": len(entries),
+        "aliases": sum(
+            len(entry.get("aliases", []))
+            for entry in public_entries
+            if isinstance(entry, dict)
+        ),
+        "canonical_entries": len(public_entries),
+        "published_entries": len(public_entries),
+        "curated_entries": len(entries),
+        "imported_entries": len(public_entries) - len(entries),
         "unresolved_related_terms": sum(
             target not in entries
             for entry in entries.values()
