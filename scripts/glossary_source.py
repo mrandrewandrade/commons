@@ -800,7 +800,11 @@ def build_imported_public_entries(
             raise ValidationError(f"Imported glossary slug is malformed: {slug!r}")
 
         normalized_term = normalize_lookup(term)
-        if normalized_term in used_names or slug in used_slugs:
+        if (
+            normalized_term in used_names
+            or normalized_term in used_aliases
+            or slug in used_slugs
+        ):
             continue
 
         raw_aliases = row.get("aliases", [])
