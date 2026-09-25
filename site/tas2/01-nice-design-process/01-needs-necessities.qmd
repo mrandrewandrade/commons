@@ -1,0 +1,48 @@
+---
+title: "1.1 Needs & Necessities"
+description: "Identify requirements, restrictions, necessities, and nice-to-haves before choosing a solution."
+sidebar: tas2
+body-classes: "bs-learn-article ter-notes-lesson"
+toc: true
+toc-depth: 2
+execute:
+  enabled: false
+---
+
+::: {.bs-lesson-meta}
+Unit: N.I.C.E. Design Process  
+Stage: Needs & Necessities
+:::
+
+## Core idea
+
+Start with what the design needs to accomplish before choosing a solution.
+
+Useful questions:
+
+- Who is this for?
+- What must it do?
+- What restrictions matter?
+- What would make it fail?
+- What is necessary?
+- What is only nice to have?
+
+A **need** describes an outcome the design has to accomplish.
+
+A **necessity** is something that must be present or respected.
+
+A **constraint** limits possible solutions, such as time, cost, space, materials, tools, or rules.
+
+A **nice-to-have** can improve a design without being required for success.
+
+## Class example
+
+We used name tags and the end-of-term celebration to separate needs from possible solutions.
+
+[Open the Needs & Necessities slides](https://docs.google.com/presentation/d/1TX9yMuScKH04QcF0TBzkMZTycqwOfSDpK0wZtJ-EbJQ/edit?usp=drivesdk)
+
+::: {.callout-tip}
+## Improve these notes
+
+Add one need, one constraint, and one nice-to-have from a class example. Explain why each belongs in that category.
+:::
