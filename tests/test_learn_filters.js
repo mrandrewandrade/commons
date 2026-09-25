@@ -742,17 +742,17 @@ const lookupData = JSON.parse(
     "utf8"
   )
 );
-assert.equal(lookupData.entries.length, 37);
+assert.equal(lookupData.entries.length, 16);
 assert.equal(
   lookupData.entries.reduce(
     (total, entry) => total + entry.aliases.length,
     0
   ),
-  29
+  22
 );
 assert.equal(
-  learn.bestLookupEntry(lookupData.entries, "Ahead in the Race").term,
-  "Ahead in the Count",
+  learn.bestLookupEntry(lookupData.entries, "Potential Difference").term,
+  "Voltage",
   "generated lookup data supports approved alias search"
 );
 
