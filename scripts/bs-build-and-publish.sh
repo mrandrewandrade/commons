@@ -16,7 +16,6 @@ cd "$REPO_ROOT"
 
 PYTHON_BIN="$REPO_ROOT/.venv/bin/python"
 QUARTO_BIN="${QUARTO_BIN:-$HOME/opt/quarto-$QUARTO_VERSION/bin/quarto}"
-R_LIBRARY_DIR="$REPO_ROOT/.r-library"
 
 if [[ ! -x "$PYTHON_BIN" ]]; then
     printf 'Missing Python environment: %s\n' "$PYTHON_BIN" >&2
@@ -29,16 +28,9 @@ if [[ ! -x "$QUARTO_BIN" ]]; then
     exit 1
 fi
 
-if [[ ! -d "$R_LIBRARY_DIR" ]]; then
-    printf 'Missing R library: %s\n' "$R_LIBRARY_DIR" >&2
-    printf 'Run scripts/bs-setup-server-environment.sh first.\n' >&2
-    exit 1
-fi
 
 export PATH="$REPO_ROOT/.venv/bin:$HOME/opt/quarto-$QUARTO_VERSION/bin:$PATH"
-export R_LIBS_USER="$R_LIBRARY_DIR"
 export BS_JOBS
-export BS_PUBLICATION_MODE=production
 export OMP_NUM_THREADS="1"
 export OPENBLAS_NUM_THREADS="1"
 export MKL_NUM_THREADS="1"
@@ -63,7 +55,6 @@ git pull --ff-only origin "$EXPECTED_BRANCH"
 
 printf '\nTool versions:\n'
 printf 'Python %s\n' "$($PYTHON_BIN --version 2>&1 | sed 's/^Python //')"
-printf 'Rscript %s\n' "$(Rscript --version 2>&1 | sed 's/^Rscript (R) version //')"
 printf 'Quarto %s\n' "$($QUARTO_BIN --version | head -n 1)"
 printf 'Build workers %s\n' "$BS_JOBS"
 
