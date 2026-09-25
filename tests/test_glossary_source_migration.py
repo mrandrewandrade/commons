@@ -28,57 +28,40 @@ class CanonicalGlossaryJsonTests(unittest.TestCase):
         self.assertNotIn("staged", implementation)
 
     def test_only_published_entries_are_projected(self) -> None:
-        self.assertEqual(len(self.entries), 37)
-        self.assertEqual(self.report["canonical_entries"], 37)
-        self.assertEqual(self.report["published_entries"], 37)
-        self.assertEqual(self.report["aliases"], 29)
-        self.assertEqual(len(self.data["entries"]), 37)
+        self.assertEqual(len(self.entries), 16)
+        self.assertEqual(self.report["canonical_entries"], 16)
+        self.assertEqual(self.report["published_entries"], 16)
+        self.assertEqual(self.report["aliases"], 24)
+        self.assertEqual(len(self.data["entries"]), 16)
         self.assertEqual(
             {entry["slug"] for entry in self.data["entries"]},
             set(self.entries),
         )
 
     def test_contract_fields_map_without_rewriting_authoritative_json(self) -> None:
-        source_entry = self.entries["10-in-the-zone"]
+        source_entry = self.entries["nice-design-process"]
         generated = {
             entry["slug"]: entry for entry in self.data["entries"]
-        }["10-in-the-zone"]
+        }["nice-design-process"]
         self.assertEqual(generated["term"], source_entry["term"])
         self.assertEqual(generated["short_definition"], source_entry["short_definition"])
         self.assertEqual(generated["definition"], source_entry["long_definition"])
         self.assertEqual(generated["categories"], source_entry["categories"])
         self.assertEqual(generated["learning_tracks"], source_entry["tracks"])
         self.assertEqual(generated["date_added"], source_entry["added"])
-        self.assertEqual(
-            generated["definition_links"],
-            [{"slug": "active-builder", "text": "active builders"}],
-        )
 
-    def test_unresolved_related_slugs_remain_plain_compatibility_labels(self) -> None:
-        generated = {
-            entry["slug"]: entry for entry in self.data["entries"]
-        }["10-in-the-zone"]
-        related = {item["term"]: item for item in generated["related_terms"]}
-        self.assertEqual(related["Active Builder"]["slug"], "active-builder")
-        self.assertEqual(related["Attack Zone"]["slug"], "attack-zone")
-        self.assertNotIn("slug", related["Home Board"])
-        self.assertGreater(self.report["unresolved_related_terms"], 0)
-
-    def test_july_31_entries_only_link_to_published_canonicals(self) -> None:
+    def test_related_terms_resolve_to_published_canonicals(self) -> None:
         published = set(self.entries)
         for slug, entry in self.entries.items():
-            if entry["added"] != "2026-07-31":
-                continue
-            self.assertLessEqual(
-                set(entry["related_terms"]),
-                published,
-                slug,
-            )
+            self.assertLessEqual(set(entry["related_terms"]), published, slug)
+        self.assertEqual(self.report["unresolved_related_terms"], 0)
 
-    def test_historical_canonical_merges_are_aliases(self) -> None:
-        self.assertIn("Error Rate", self.entries["performance-rating"]["aliases"])
-        self.assertIn("Time Delay", self.entries["simple-delay"]["aliases"])
-        self.assertIn("Zone of Attack", self.entries["attack-zone"]["aliases"])
+    def test_basic_unit_aliases_are_preserved(self) -> None:
+        self.assertIn("amps", self.entries["ampere"]["aliases"])
+        self.assertIn("volts", self.entries["volt"]["aliases"])
+        self.assertIn("m/s", self.entries["metres-per-second"]["aliases"])
+        self.assertIn("m/s²", self.entries["metres-per-second-squared"]["aliases"])
+        self.assertIn("N.I.C.E.", self.entries["nice-design-process"]["aliases"])
 
     def test_duplicate_raw_json_keys_fail_before_normal_parsing(self) -> None:
         with self.assertRaisesRegex(source.ValidationError, "Duplicate raw JSON key"):
@@ -89,13 +72,13 @@ class CanonicalGlossaryJsonTests(unittest.TestCase):
 
     def test_alias_collision_and_broken_inline_target_fail(self) -> None:
         collision = copy.deepcopy(self.entries)
-        collision["abt"]["aliases"] = ["Ace"]
+        collision["ampere"]["aliases"] = ["Voltage"]
         with self.assertRaisesRegex(source.ValidationError, "conflicts with a canonical"):
             source.validate_contract_entries(collision)
 
         broken = copy.deepcopy(self.entries)
-        broken["10-in-the-zone"]["inline_terms"] = {
-            "active builders": "not-published"
+        broken["nice-design-process"]["inline_terms"] = {
+            "design cycle": "not-published"
         }
         with self.assertRaisesRegex(source.ValidationError, "broken inline target"):
             source.validate_contract_entries(broken)
