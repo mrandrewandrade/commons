@@ -25,7 +25,7 @@ So far, our detailed classroom work has focused on the first two parts.
 </details>
 
 <div class="bs-learn-catalogue" data-bs-learn-list>
-<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tas-nice" open>
+<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tas-nice" data-bs-total-lessons="2" open>
 <summary class="bs-learn-catalogue-section-heading"><span class="bs-learn-track-heading"><span class="bs-learn-track-lessons-label">Lessons</span><span data-bs-learn-group-count>2 lessons</span></span></summary>
 <div class="bs-learn-catalogue-section-items">
 <article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tas-nice" data-bs-terms="[]" data-bs-search-primary='["Needs & Necessities","requirements","constraints"]' data-bs-search-body='["Who is this for, what must it do, what restrictions matter, what is necessary."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="01-needs-necessities.qmd">1. Needs &amp; Necessities</a></div></article>
