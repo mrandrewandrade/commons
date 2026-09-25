@@ -18,6 +18,21 @@
   display: block;
 }
 
+.ter-about-collage {
+  margin: 0 0 2.5rem;
+}
+
+.ter-about-collage figure {
+  margin: 0;
+}
+
+.ter-about-collage img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 1.25rem;
+}
+
 .ter-about-intro-copy h2 {
   margin-top: 0;
 }
