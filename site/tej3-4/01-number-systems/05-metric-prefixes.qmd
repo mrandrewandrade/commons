@@ -1,0 +1,48 @@
+---
+title: "1.5 Metric Prefixes"
+description: "Replacing powers of 10 with common engineering prefixes."
+sidebar: tej
+body-classes: "bs-learn-article ter-notes-lesson"
+toc: true
+toc-depth: 2
+execute:
+  enabled: false
+---
+
+::: {.bs-lesson-meta}
+Unit: Number Systems  
+Reference: [1, pp. 7–10](../../references.qmd#ref-grob2016)
+:::
+
+## Core idea
+
+Metric prefixes replace powers of 10 that are multiples of 3.
+
+| Prefix | Symbol | Power of 10 |
+|---|---:|---:|
+| tera | T | 10¹² |
+| giga | G | 10⁹ |
+| mega | M | 10⁶ |
+| kilo | k | 10³ |
+| base unit |  | 10⁰ |
+| milli | m | 10⁻³ |
+| micro | µ | 10⁻⁶ |
+| nano | n | 10⁻⁹ |
+| pico | p | 10⁻¹² |
+
+Examples:
+
+- **33 × 10³ Ω = 33 kΩ**
+- **7.5 × 10⁻⁶ A = 7.5 µA**
+
+The lowercase **k** is used for kilo.
+
+## Converting prefixes
+
+A prefix conversion changes the power of 10 used to express the quantity. The physical value does not change.
+
+::: {.callout-tip}
+## Improve these notes
+
+Add one conversion between prefixes and explain how you know the number still represents the same quantity.
+:::
