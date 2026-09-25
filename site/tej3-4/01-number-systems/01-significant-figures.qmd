@@ -32,8 +32,11 @@ Examples:
 
 ## Class material
 
-- [Significant Figures practice 1](https://drive.google.com/file/d/1ep-nUmzdp9LIc74qZqz_OfeASG1rulMA/view?usp=drivesdk)
-- [Significant Figures practice 2](https://drive.google.com/file/d/1yexhwUDedo25OSewC8WK8FDLQ0Cw89D_/view?usp=drivesdk)
+- [Day 6 slides: Significant figures](https://docs.google.com/presentation/d/1_EwePZ6fGRK-brHzccWetx0QSCgA4LFQ_vYn8hibq8c/edit?usp=drivesdk)
+- [Day 7 slides: Significant figures review and number systems](https://docs.google.com/presentation/d/1erzc59cGdQb_AMdyey9qycehUKAHyV7Rmpe6u1a9iMQ/edit?usp=drivesdk)
+- [Presentation 1: Significant Figures](https://drive.google.com/file/d/1ep-nUmzdp9LIc74qZqz_OfeASG1rulMA/view?usp=drivesdk)
+- [Presentation 2: Significant Figures](https://drive.google.com/file/d/1yexhwUDedo25OSewC8WK8FDLQ0Cw89D_/view?usp=drivesdk)
+- [Assignment: Number Systems practice problems](https://drive.google.com/file/d/1eDQR4YRVu6Ny7Ud5PC6YKqn-lvc6FZof/view?usp=drivesdk)
 
 ::: {.callout-tip}
 ## Improve these notes

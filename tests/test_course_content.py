@@ -50,6 +50,17 @@ class CourseContentTests(unittest.TestCase):
         self.assertIn("1FoN2vg_Tmm2QAUfiJSqPqeSmV7y_m5Brknn0JXxKv0s", inquiry)
         self.assertNotIn("Inquiry Worksheet](http", inquiry)
 
+    def test_significant_figures_links_slides_and_actual_assignment(self) -> None:
+        lesson = self.read("tej3-4/01-number-systems/01-significant-figures.qmd")
+        self.assertIn("Day 6 slides: Significant figures", lesson)
+        self.assertIn("Day 7 slides: Significant figures review and number systems", lesson)
+        self.assertIn("Presentation 1: Significant Figures", lesson)
+        self.assertIn("Presentation 2: Significant Figures", lesson)
+        self.assertNotIn("Significant Figures practice 1", lesson)
+        self.assertNotIn("Significant Figures practice 2", lesson)
+        self.assertIn("Assignment: Number Systems practice problems", lesson)
+        self.assertIn("1eDQR4YRVu6Ny7Ud5PC6YKqn-lvc6FZof", lesson)
+
 
 if __name__ == "__main__":
     unittest.main()

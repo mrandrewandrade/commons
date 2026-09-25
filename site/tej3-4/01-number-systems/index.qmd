@@ -24,4 +24,4 @@ Students can improve these notes with useful examples, worked problems, diagrams
 
 ## Class material
 
-- [Powers of 10, scientific/engineering notation, and metric-prefix problems](https://drive.google.com/file/d/1eDQR4YRVu6Ny7Ud5PC6YKqn-lvc6FZof/view?usp=drivesdk)
+- [Number Systems practice problems: significant figures, powers of 10, notation, and metric prefixes](https://drive.google.com/file/d/1eDQR4YRVu6Ny7Ud5PC6YKqn-lvc6FZof/view?usp=drivesdk)
