@@ -14,6 +14,10 @@ This page keeps source citations in one place as more textbooks, manuals, standa
 [1] M. E. Schultz, *Grob's Basic Electronics*, 12th ed. New York, NY, USA: McGraw-Hill Education, 2016.
 :::
 
+::: {#ref-opencircuits2023}
+[2] E. Schlaepfer and W. H. Oskay, *Open Circuits: The Inner Beauty of Electronic Components*. San Francisco, CA, USA: No Starch Press, 2023.
+:::
+
 ## Citation style
 
 References use stable IEEE-style numbering. A page can cite a whole source as **[1]** or a specific location as **[1, p. 1182]** or **[1, pp. 1182–1190]**.
