@@ -759,7 +759,7 @@ def load_imported_glossary_rows() -> list[dict[str, object]]:
 def clean_imported_text(value: str) -> str:
     # The source PDF splits fi/fl ligatures in extracted text. Normalize only
     # those extraction artifacts; otherwise preserve the concise source meaning.
-    value = re.sub(r"(fi|fl|ff) (?=[a-z])", r"\\1", value)
+    value = re.sub(r"(fi|fl|ff) (?=[a-z])", r"\1", value)
     value = value.replace("_", " ")
     return " ".join(value.split())
 
