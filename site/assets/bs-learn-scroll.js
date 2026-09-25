@@ -1070,6 +1070,12 @@
 
   if (typeof document !== "undefined") {
     bootstrapToc = captureToc(findPrimaryToc(document));
-    document.addEventListener("DOMContentLoaded", initializeContinuousLearn);
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initializeContinuousLearn, {
+        once: true
+      });
+    } else {
+      initializeContinuousLearn();
+    }
   }
 })();
