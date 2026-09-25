@@ -3,8 +3,8 @@
     "term": "Acceleration",
     "aliases": [],
     "redirect_slugs": [],
-    "short_definition": "Acceleration is how quickly velocity changes with time.",
-    "long_definition": "Acceleration describes how quickly velocity changes. A change in speed, direction, or both is acceleration. Its common SI unit is metres per second squared (m/s²). An acceleration of 1 m/s² means the velocity changes by 1 m/s every second.",
+    "short_definition": "Acceleration is the rate of change of velocity with time.",
+    "long_definition": "Acceleration describes how quickly velocity changes with time. In straight-line motion where direction is not changing, this can also be thought of as how speed changes with time. In calculus language, acceleration is the derivative of velocity with respect to time. Because velocity is the derivative of position or displacement with respect to time, acceleration is the second derivative of position or displacement with respect to time. Saying 'the derivative of distance twice' is a useful informal picture only when direction is not important; position or displacement is the more precise quantity. Its common SI unit is metres per second squared (m/s²).",
     "categories": [
       "Measurement & Motion"
     ],
@@ -251,8 +251,8 @@
     "term": "Speed",
     "aliases": [],
     "redirect_slugs": [],
-    "short_definition": "Speed describes how quickly distance changes with time.",
-    "long_definition": "Speed describes how quickly an object covers distance. It has magnitude but no direction. A common SI unit is metres per second (m/s).",
+    "short_definition": "Speed is the rate of change of distance with time.",
+    "long_definition": "Speed describes how quickly distance changes with time. In calculus language, speed can be treated as the derivative of distance travelled with respect to time: it tells us how much distance is added for each small change in time. Speed has magnitude but no direction. A common SI unit is metres per second (m/s).",
     "categories": [
       "Measurement & Motion"
     ],
