@@ -49,6 +49,6 @@ Use this glossary for the basic terms and units that appear across the course no
     <button type="button" class="bs-glossary-sidebar-close" data-bs-glossary-sidebar-close aria-label="Close glossary definition">Close</button>
   </div>
   <div class="bs-glossary-sidebar-content" data-bs-glossary-sidebar-content></div>
-  <a class="bs-glossary-sidebar-entry-link" href="/tech-edu-resources/glossary/" data-bs-glossary-sidebar-entry-link>Go to glossary entry</a>
+  <a class="bs-glossary-sidebar-entry-link" href="#bs-glossary-top" data-bs-glossary-sidebar-entry-link>Go to glossary entry</a>
 </aside>
 ```
