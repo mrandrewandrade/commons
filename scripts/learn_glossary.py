@@ -85,6 +85,10 @@ TRACKS = (
     "Engines and Analysis",
 )
 GLOSSARY_CATEGORIES = (
+    "Design Process",
+    "Electrical & Electronics",
+    "Measurement & Motion",
+    "Units & Notation",
     "Checker Play",
     "Cube Action",
     "Match Score",
@@ -1810,7 +1814,7 @@ def linked_definition_html(
         visible = match.group(0)
         parts.append(
             f'<a class="bs-inline-glossary" '
-            f'href="/glossary/#{html_attr(slug)}" '
+            f'href="/tech-edu-resources/glossary/#{html_attr(slug)}" '
             f'data-bs-glossary-slug="{html_attr(slug)}" '
             f'data-bs-definition-link="{html_attr(slug)}">'
             f"{html.escape(visible)}</a>"
@@ -1851,7 +1855,7 @@ def related_terms_html(entry: dict[str, object]) -> str:
         slug = related.get("slug")
         if slug:
             lines.append(
-                f'<li><a href="/glossary/#{html_attr(slug)}">'
+                f'<li><a href="/tech-edu-resources/glossary/#{html_attr(slug)}">'
                 f"{html.escape(term)}</a></li>"
             )
         else:
@@ -2023,7 +2027,7 @@ def build_authoring_terms(entries: list[dict[str, object]]) -> str:
     for entry in entries:
         term = str(entry["term"]).replace("|", "\\|")
         slug = str(entry["slug"])
-        lines.append(f"| {term} | `{slug}` | `/glossary/#{slug}` |")
+        lines.append(f"| {term} | `{slug}` | `/tech-edu-resources/glossary/#{slug}` |")
     content = "\n".join(lines) + "\n"
     assert_no_forbidden_text(content, "generated authoring term list")
     return content
