@@ -59,7 +59,7 @@ website:
         text: Glossary
       - href: lore/index.qmd
         text: Lore
-      - href: https://andrewandrade.ca/tech-edu-resources/about.html
+      - href: https://andrewandrade.ca/commons/about.html
         text: About
   sidebar:
     - id: tas2
@@ -108,7 +108,7 @@ website:
     left: |
       **CC BY-SA 4.0 · Share, modify, and redistribute.** Modified versions remain CC BY-SA 4.0 and attribute the original source: [andrewandrade.ca](https://andrewandrade.ca/) · [github.com/mrandrewandrade](https://github.com/mrandrewandrade). Add your own name and links when you adapt it so future versions can credit you too. **Sharing is caring.**
     center: |
-      Website code: [AGPL 3.0](https://andrewandrade.ca/tech-edu-resources/licensing.html). Educational content: [CC BY-SA 4.0](https://andrewandrade.ca/tech-edu-resources/licensing.html).
+      Website code: [AGPL 3.0](https://andrewandrade.ca/commons/licensing.html). Educational content: [CC BY-SA 4.0](https://andrewandrade.ca/commons/licensing.html).
     right:
       - text: References
         href: references.qmd
