@@ -1,4 +1,19 @@
-<script src="/assets/commons-lore.js" defer></script>
-<script src="/assets/bs-learn.js" defer></script>
-<script src="/assets/bs-glossary.js" defer></script>
-<script src="/assets/bs-learn-scroll.js" defer></script>
+<script>
+(function () {
+  "use strict";
+  const base = window.location.pathname.startsWith("/tech-edu-resources/")
+    ? "/tech-edu-resources"
+    : "";
+  [
+    "commons-lore.js",
+    "bs-learn.js",
+    "bs-glossary.js",
+    "bs-learn-scroll.js"
+  ].forEach(function (file) {
+    const script = document.createElement("script");
+    script.src = base + "/assets/" + file;
+    script.async = false;
+    document.body.appendChild(script);
+  });
+})();
+</script>
