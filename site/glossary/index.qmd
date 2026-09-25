@@ -11,7 +11,7 @@ execute:
 
 Use this glossary for terms and units that appear across the course notes, slides, assignments, and classroom examples.
 
-The electronics vocabulary closely follows the glossary in *Grob's Basic Electronics, 12th Edition* by Mitchel E. Schultz. Wording is kept concise and close to the source, with only light normalization where PDF extraction makes symbols, ligatures, or formulas unclear. Project-specific design, motion, and classroom-process terms are added alongside it.
+The electronics vocabulary closely follows the glossary in *Grob's Basic Electronics, 12th Edition* [1, pp. 1182–1190]. Wording is kept concise and close to the source, with only light normalization where PDF extraction makes symbols, ligatures, or formulas unclear. Project-specific design, motion, and classroom-process terms are added alongside it. See the [References](../references.qmd) page for the full IEEE-style citation.
 
 ```{=html}
 <span id="bs-glossary-top" class="bs-glossary-top-target" tabindex="-1"></span>
