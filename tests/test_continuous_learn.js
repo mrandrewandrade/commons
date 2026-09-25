@@ -9,6 +9,10 @@ const scrollSource = fs.readFileSync(
   path.join(__dirname, "../site/assets/bs-learn-scroll.js"),
   "utf8"
 );
+const learnSource = fs.readFileSync(
+  path.join(__dirname, "../site/assets/bs-learn.js"),
+  "utf8"
+);
 
 assert.match(
   scrollSource,
@@ -60,6 +64,11 @@ assert.match(
   scrollSource,
   /main\.addEventListener\(\s*"toggle"[\s\S]*?scheduleActiveLessonUpdate\(0\)/
 );
+assert.match(learnSource, /persistentLessonToc/);
+assert.match(
+  learnSource,
+  /!marginSidebar \|\| !inRefinedRightRail\(\) \|\| persistentLessonToc/
+);
 
 const manifest = {
   schema_version: 1,
@@ -100,6 +109,28 @@ assert.equal(scroll.normalizeRoute("/learn/middle.html/"), "/learn/middle.html")
 assert.equal(
   scroll.normalizeRoute("https://example.test/learn/middle.html?x=1#part"),
   "/learn/middle.html"
+);
+assert.equal(
+  scroll.siteBaseForPath(
+    "/commons/tej3-4/01-number-systems/01-significant-figures.html"
+  ),
+  "/commons"
+);
+assert.equal(
+  scroll.siteBaseForPath(
+    "/tech-edu-resources/tej3-4/01-number-systems/01-significant-figures.html"
+  ),
+  "/tech-edu-resources"
+);
+assert.equal(
+  learn.siteBaseForPath("/commons/tas2/01-nice-design-process/01-needs-necessities.html"),
+  "/commons"
+);
+assert.equal(
+  scroll.deploymentRelativeRoute(
+    "/commons/tej3-4/01-number-systems/01-significant-figures.html"
+  ),
+  "/tej3-4/01-number-systems/01-significant-figures.html"
 );
 assert.equal(
   scroll.deploymentRelativeRoute(

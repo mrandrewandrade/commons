@@ -1,9 +1,10 @@
 <script>
 (function () {
   "use strict";
-  const base = window.location.pathname.startsWith("/tech-edu-resources/")
-    ? "/tech-edu-resources"
-    : "";
+  const base = ["/commons", "/tech-edu-resources"].find(function (candidate) {
+    return window.location.pathname === candidate ||
+      window.location.pathname.startsWith(candidate + "/");
+  }) || "";
   [
     "commons-lore.js",
     "bs-learn.js",

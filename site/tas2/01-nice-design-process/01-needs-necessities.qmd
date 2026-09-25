@@ -4,7 +4,7 @@ description: "Define the need before choosing the solution."
 sidebar: tas2
 body-classes: "bs-learn-article ter-notes-lesson"
 toc: true
-toc-depth: 2
+toc-depth: 3
 execute:
   enabled: false
 ---

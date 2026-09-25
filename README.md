@@ -2,7 +2,7 @@
 
 Open classroom resources supporting the Ontario Technological Education curriculum, including current TAS and TEJ class slides, collaborative notes, reusable presentations, assignments, and teaching materials.
 
-Live site: https://andrewandrade.ca/tech-edu-resources/
+Live site: https://andrewandrade.ca/commons/
 
 ## Build and check
 

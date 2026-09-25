@@ -4,7 +4,7 @@ description: "Research, compare, and build on what already exists."
 sidebar: tas2
 body-classes: "bs-learn-article ter-notes-lesson"
 toc: true
-toc-depth: 2
+toc-depth: 3
 execute:
   enabled: false
 ---

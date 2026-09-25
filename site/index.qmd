@@ -31,7 +31,7 @@ Open classroom resources for Ontario Technological Education. The notes are inte
 <span class="bs-home-explore-chevron" aria-hidden="true">›</span>](slides/tas.qmd){.bs-home-explore-link .bs-home-explore-link--tas .bs-home-explore-link--slides}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
-<span class="bs-home-explore-copy"><span class="bs-home-explore-title">TAS Notes</span><span class="bs-home-explore-description">Collaborative notes on identity, communication, Needs & Necessities, and Investigate & Inquire in the N.I.C.E. Design Process.</span></span>
+<span class="bs-home-explore-copy"><span class="bs-home-explore-title">TAS Notes</span><span class="bs-home-explore-description">Collaborative notes for current TAS learning, including Needs & Necessities and Investigate & Inquire in the N.I.C.E. Design Process.</span></span>
 <span class="bs-home-explore-chevron" aria-hidden="true">›</span>](tas2/index.qmd){.bs-home-explore-link .bs-home-explore-link--tas .bs-home-explore-link--notes}
 
 [<span class="bs-home-explore-icon" aria-hidden="true"></span>
