@@ -34,6 +34,10 @@ class CourseNotesManifestTests(unittest.TestCase):
                 "/commons/tej3-4/01-number-systems/03-scientific-notation.html",
                 "/commons/tej3-4/01-number-systems/04-engineering-notation.html",
                 "/commons/tej3-4/01-number-systems/05-metric-prefixes.html",
+                "/commons/tej3-4/02-basic-electronics/01-charge-voltage-current.html",
+                "/commons/tej3-4/02-basic-electronics/02-circuits-opens-shorts.html",
+                "/commons/tej3-4/02-basic-electronics/03-ohms-law.html",
+                "/commons/tej3-4/02-basic-electronics/04-power-energy.html",
             ],
         )
 
