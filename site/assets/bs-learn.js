@@ -2491,7 +2491,7 @@
   }
 
   if (typeof document !== "undefined") {
-    document.addEventListener("DOMContentLoaded", function () {
+    const initializeLearn = function () {
       if (document.documentElement.dataset.bsLearnInitialized === "true") {
         return;
       }
@@ -2505,6 +2505,11 @@
       placeLessonTrackLinks();
       placeLessonRightRailCards();
       mountLesson(document);
-    });
+    };
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initializeLearn, { once: true });
+    } else {
+      initializeLearn();
+    }
   }
 })();
