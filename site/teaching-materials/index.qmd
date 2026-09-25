@@ -16,7 +16,7 @@ execute:
 ::: {.bs-page-shell}
 ::: {.bs-reading-column}
 ::: {.bs-editorial-lead}
-Reusable classroom materials for students and teachers. Printable resources link to the published PDFs from the Assets collection. Current TAS design-process examples and templates link to their student-facing Google Docs in the Teaching folder.
+Reusable classroom materials for students and teachers. Published PDFs, black-and-white print versions, and editable Word files are stored with this site under the same CC BY-SA 4.0 attribution. Current TAS design-process examples and templates link to their student-facing Google Docs in the Teaching folder.
 :::
 
 The library intentionally links to **generic teaching materials, not student submissions or student copies**. **General** materials are broadly reusable across subjects and technology courses. **Human Well-Being** materials focus on identity, reflection, listening, goal setting, community, and related learning routines.
@@ -82,7 +82,10 @@ The library intentionally links to **generic teaching materials, not student sub
       <p class="bs-slide-card-description">A short introductory deliverable for making a readable name tag, documenting it clearly, and submitting a checked PDF.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="identity">Identity</button><button type="button" data-slide-card-tag="documentation">Documentation</button><button type="button" data-slide-card-tag="pdf">PDF</button></div>
-      <a class="bs-slide-open" href="../assets/materials/0.0-name-tag-pdf.pdf">Open PDF</a>
+      <div class="bs-slide-actions">
+        <a class="bs-slide-open" href="../assets/materials/0.0-name-tag-pdf.pdf">Open PDF</a>
+        <a class="bs-slide-open" href="../assets/materials/0.0-name-tag-pdf.docx">Editable Word</a>
+      </div>
     </div>
   </article>
 
@@ -100,7 +103,10 @@ The library intentionally links to **generic teaching materials, not student sub
       <p class="bs-slide-card-description">An introductory communication and reflection activity with explicit student choice, privacy, and non-disclosure safeguards.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="identity">Identity</button><button type="button" data-slide-card-tag="reflection">Reflection</button><button type="button" data-slide-card-tag="goals">Goals</button></div>
-      <a class="bs-slide-open" href="../assets/materials/0.1-past-present-becoming.pdf">Open PDF</a>
+      <div class="bs-slide-actions">
+        <a class="bs-slide-open" href="../assets/materials/0.1-past-present-becoming.pdf">Open PDF</a>
+        <a class="bs-slide-open" href="../assets/materials/0.1-past-present-becoming.docx">Editable Word</a>
+      </div>
     </div>
   </article>
 
@@ -118,7 +124,11 @@ The library intentionally links to **generic teaching materials, not student sub
       <p class="bs-slide-card-description">Listening notes and reflection prompts for learning about classmates, noticing connections, and practising attentive participation.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="listening">Listening</button><button type="button" data-slide-card-tag="reflection">Reflection</button><button type="button" data-slide-card-tag="community">Community</button></div>
-      <a class="bs-slide-open" href="../assets/materials/0.2-the-way-we-meet-notes.pdf">Open PDF</a>
+      <div class="bs-slide-actions">
+        <a class="bs-slide-open" href="../assets/materials/0.2-the-way-we-meet-notes.pdf">Open PDF</a>
+        <a class="bs-slide-open" href="../assets/materials/0.2-the-way-we-meet-notes-bw.pdf">B&amp;W print PDF</a>
+        <a class="bs-slide-open" href="../assets/materials/0.2-the-way-we-meet-notes.docx">Editable Word</a>
+      </div>
     </div>
   </article>
 
@@ -193,6 +203,7 @@ The library intentionally links to **generic teaching materials, not student sub
       <div class="bs-slide-actions">
         <a class="bs-slide-open" href="../assets/materials/weekly-smart-goal-progress-log.pdf">Open colour PDF</a>
         <a class="bs-slide-open" href="../assets/materials/weekly-smart-goal-progress-log-bw.pdf">Open B&amp;W print PDF</a>
+        <a class="bs-slide-open" href="../assets/materials/weekly-smart-goal-progress-log.docx">Editable Word</a>
       </div>
     </div>
   </article>
