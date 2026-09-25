@@ -1,6 +1,12 @@
 (function () {
   "use strict";
 
+  const REPOSITORY_BASE = "/tech-edu-resources";
+  const SITE_BASE =
+    typeof window !== "undefined" &&
+    window.location.pathname.startsWith(REPOSITORY_BASE + "/")
+      ? REPOSITORY_BASE
+      : "";
   const DIFFICULTY_SELECTOR = "[data-bs-filter-difficulty]";
   const TRACK_SELECTOR = "[data-bs-filter-track]";
   const TERM_SELECTOR = "[data-bs-filter-term]";
@@ -252,7 +258,7 @@
   function loadGlossaryLookupEntries() {
     if (!glossaryLookupEntriesPromise) {
       glossaryLookupEntriesPromise = fetch(
-        "/assets/bs-glossary-lookup.json",
+        SITE_BASE + "/assets/bs-glossary-lookup.json",
         { credentials: "same-origin" }
       )
         .then(function (response) {
@@ -611,12 +617,9 @@
       let visibleCount = 0;
 
       items.forEach(function (item) {
-        const visible = itemMatchesLesson(
-          item,
-          query,
-          difficulties,
-          terms
-        );
+        const visible =
+          itemMatchesLesson(item, query, difficulties, terms) &&
+          (!selectedTrack || item.track === selectedTrack);
         item.element.hidden = !visible;
         if (visible) {
           visibleCount += 1;
@@ -1008,7 +1011,7 @@
       'aria-expanded="true" aria-label="Collapse term lookup">' +
       '<span aria-hidden="true">&rarr;</span></button>' +
       "</div>" +
-      '<form action="/glossary/" method="get" data-bs-term-lookup-form>' +
+      '<form action="' + SITE_BASE + '/glossary/" method="get" data-bs-term-lookup-form>' +
       '<label class="visually-hidden" for="bs-term-lookup-input">' +
       "Term or alias</label>" +
       '<div class="bs-term-lookup-controls">' +
@@ -1032,7 +1035,7 @@
       const fullSearch = document.createElement("a");
       fullSearch.className = "bs-term-lookup-full";
       fullSearch.href =
-        "/glossary/?q=" + encodeURIComponent(query);
+        SITE_BASE + "/glossary/?q=" + encodeURIComponent(query);
       fullSearch.textContent = "Search the Full Glossary \u2192";
       container.append(message, fullSearch);
       return;
@@ -1115,7 +1118,7 @@
 
     const fullEntry = document.createElement("a");
     fullEntry.className = "bs-term-lookup-full";
-    fullEntry.href = "/glossary/#" + encodeURIComponent(entry.slug);
+    fullEntry.href = SITE_BASE + "/glossary/#" + encodeURIComponent(entry.slug);
     fullEntry.textContent = "Go to glossary entry";
     container.appendChild(fullEntry);
   }
@@ -1412,7 +1415,7 @@
       if (formElement && !lookup.querySelector(".bs-term-lookup-browse")) {
         const browseGlossary = document.createElement("a");
         browseGlossary.className = "bs-term-lookup-browse";
-        browseGlossary.href = "/glossary/";
+        browseGlossary.href = SITE_BASE + "/glossary/";
         browseGlossary.textContent = "Browse the full glossary";
         formElement.insertAdjacentElement("afterend", browseGlossary);
       }
@@ -2067,7 +2070,7 @@
           })
           .catch(function () {
             window.location.href =
-              "/glossary/?q=" + encodeURIComponent(query);
+              SITE_BASE + "/glossary/?q=" + encodeURIComponent(query);
           });
       });
     }
@@ -2101,7 +2104,7 @@
       }
       if (!desktopQuery.matches) {
         window.location.href =
-          "/glossary/#" + encodeURIComponent(slug);
+          SITE_BASE + "/glossary/#" + encodeURIComponent(slug);
         return;
       }
       suppressRightRailAutoCollapse = true;
@@ -2132,7 +2135,7 @@
         })
         .catch(function () {
           window.location.href =
-            "/glossary/#" + encodeURIComponent(slug);
+            SITE_BASE + "/glossary/#" + encodeURIComponent(slug);
         });
       window.setTimeout(function () {
         lastRightRailScrollY = window.scrollY;
@@ -2494,7 +2497,7 @@
   }
 
   if (typeof document !== "undefined") {
-    document.addEventListener("DOMContentLoaded", function () {
+    const initializeLearn = function () {
       if (document.documentElement.dataset.bsLearnInitialized === "true") {
         return;
       }
@@ -2508,6 +2511,11 @@
       placeLessonTrackLinks();
       placeLessonRightRailCards();
       mountLesson(document);
-    });
+    };
+    if (document.readyState === "loading") {
+      document.addEventListener("DOMContentLoaded", initializeLearn, { once: true });
+    } else {
+      initializeLearn();
+    }
   }
 })();

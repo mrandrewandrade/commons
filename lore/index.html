@@ -2,24 +2,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.10.15">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 <meta name="description" content="Reflections, experiments, stories, technical notes, and ideas I am learning through teaching, engineering, making, and community.">
 
-<title>Lore – TechEd Commons</title>
+<title>Lore – Technological Education Resources</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -45,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-f89a7d261f03095004b58a86639a53da.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-71c7b49c685e597d910cb795eccce780.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ee904ee5b1e9e5159d851980a5da8848.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-8d450d615d30163466618d5f2985fcb2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -85,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: ['listing-project','listing-filters','listing-website','listing-format','listing-execute','listing-editor','listing-engines','listing-language','listing-title','listing-subtitle','listing-description','listing-author','listing-date','listing-categories','listing-tags','listing-reading-time','listing-image','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-filters','listing-website','listing-format','listing-execute','listing-editor','listing-engines','listing-language','listing-title','listing-subtitle','listing-description','listing-author','listing-date','listing-categories','listing-image','listing-path','listing-outputHref','listing-date-modified','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-tags',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-filters","listing-website","listing-format","listing-execute","listing-editor","listing-engines","listing-language","listing-title","listing-subtitle","listing-description","listing-author","listing-date","listing-categories","listing-tags","listing-reading-time","listing-image","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-word-count"],
+      searchColumns: ["listing-project","listing-filters","listing-website","listing-format","listing-execute","listing-editor","listing-engines","listing-language","listing-title","listing-subtitle","listing-description","listing-author","listing-date","listing-categories","listing-image","listing-path","listing-outputHref","listing-date-modified","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-tags"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -105,14 +102,19 @@ ul.task-list li input[type="checkbox"] {
   })
   </script>
 <style>html{ scroll-behavior: smooth; }</style>
-<link rel="icon" type="image/svg+xml" href="../assets/branding/logo/aa-logo.svg">
-<link rel="icon" href="../assets/branding/logo/favicon.ico" sizes="any">
-<link rel="apple-touch-icon" href="../assets/branding/logo/apple-touch-icon.png">
-<link rel="manifest" href="../assets/branding/logo/site.webmanifest">
+<link rel="icon" type="image/svg+xml" href="https://andrewandrade.ca/tech-edu-resources/assets/branding/logo/aa-logo.svg">
+
+<link rel="icon" href="https://andrewandrade.ca/tech-edu-resources/assets/branding/logo/favicon.ico" sizes="any">
+
+<link rel="apple-touch-icon" href="https://andrewandrade.ca/tech-edu-resources/assets/branding/logo/apple-touch-icon.png">
+
+<link rel="manifest" href="https://andrewandrade.ca/tech-edu-resources/assets/branding/logo/site.webmanifest">
+
 <meta name="theme-color" content="#062650">
 
+
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -145,6 +147,12 @@ window.Quarto = {
 <link rel="stylesheet" href="../assets/bs-components.css">
 <link rel="stylesheet" href="../assets/commons-overrides.css">
 <link rel="stylesheet" href="../assets/bs-learn.css">
+<meta property="og:title" content="Lore – Technological Education Resources">
+<meta property="og:description" content="Reflections, experiments, stories, technical notes, and ideas I am learning through teaching, engineering, making, and community.">
+<meta property="og:site_name" content="Technological Education Resources">
+<meta name="twitter:title" content="Lore – Technological Education Resources">
+<meta name="twitter:description" content="Reflections, experiments, stories, technical notes, and ideas I am learning through teaching, engineering, making, and community.">
+<meta name="twitter:card" content="summary">
 </head>
 
 <body class="nav-fixed bs-editorial-page bs-title-eyebrow bs-research-index fullcontent quarto-light">
@@ -155,11 +163,11 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/branding/emblem/commons-emblem-monochrome-blue.svg" alt="TechEd Commons" class="navbar-logo light-content">
-    <img src="../assets/branding/emblem/commons-emblem-monochrome-blue.svg" alt="TechEd Commons" class="navbar-logo dark-content">
+    <img src="../assets/branding/emblem/commons-emblem-monochrome-blue.svg" alt="Technological Education Resources" class="navbar-logo light-content">
+    <img src="../assets/branding/emblem/commons-emblem-monochrome-blue.svg" alt="Technological Education Resources" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">TechEd Commons</span>
+    <span class="navbar-title">Tech Edu</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -169,60 +177,41 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
+    <a class="nav-link" href="../slides/2026-27-tas-2-sem-1.html"> 
+<span class="menu-text">TAS Slides</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../slides/2026-27-tej-3-sem-1.html"> 
+<span class="menu-text">TEJ Slides</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../tas2/index.html"> 
-<span class="menu-text">TAS2</span></a>
+<span class="menu-text">TAS Notes</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../tej3-4/index.html"> 
-<span class="menu-text">TEJ3/4</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../ttj3-4/index.html"> 
-<span class="menu-text">TTJ3/4</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Slides</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-slides">    
-        <li>
-    <a class="dropdown-item" href="../slides/tas.html">
- <span class="dropdown-text">TAS</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../slides/tej.html">
- <span class="dropdown-text">TEJ</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../slides/tts.html">
- <span class="dropdown-text">TTS</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="../tools/index.html"> 
-<span class="menu-text">Tools</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../resources/index.html"> 
-<span class="menu-text">Resources</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../glossary/index.html"> 
-<span class="menu-text">Glossary</span></a>
+<span class="menu-text">TEJ Notes</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../wellbeing/index.html"> 
-<span class="menu-text">Well-being</span></a>
+    <a class="nav-link" href="../teacher-slides/index.html"> 
+<span class="menu-text">General Slides</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching-materials/index.html"> 
+<span class="menu-text">General Materials</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../glossary/index.html"> 
+<span class="menu-text">Glossary</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../lore/index.html" aria-current="page"> 
 <span class="menu-text">Lore</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="https://andrewandrade.ca/tech-edu-resources/about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -268,7 +257,7 @@ window.Quarto = {
 <div class="bs-page-shell">
 <div class="bs-reading-column">
 <div class="bs-editorial-lead">
-<p>The course side of Technology Commons is where I teach. <strong>Lore is the learning side:</strong> what I am learning, testing, remembering, questioning, and carrying forward.</p>
+<p>The course side of Technological Education Resources is where I teach. <strong>Lore is the learning side:</strong> what I am learning, testing, remembering, questioning, and carrying forward.</p>
 </div>
 <p>Teaching and learning are reciprocal. Ideas developed in class can become questions worth investigating, and things I learn through research, engineering, history, community, or reflection can come back into the classroom in a better form.</p>
 </div>
@@ -311,7 +300,7 @@ window.Quarto = {
 
 <div class="bs-research-list list" data-bs-research-list="">
 
-  <article class="bs-research-post" data-index="0" data-categories="TG9yZSUyQ1RlYWNoaW5n" data-listing-date-sort="1790035200000" data-listing-file-modified-sort="1790262986105" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="611" data-bs-research-item="" data-bs-categories="[&quot;Lore&quot;,&quot;Teaching&quot;]" data-bs-tags="[]">
+  <article class="bs-research-post" data-index="0" data-categories="TG9yZSUyQ1RlYWNoaW5n" data-listing-date-sort="1790049600000" data-listing-file-modified-sort="1790307258056" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="4" data-listing-word-count-sort="611" data-bs-research-item="" data-bs-categories="[&quot;Lore&quot;,&quot;Teaching&quot;]" data-bs-tags="[]">
 
     <div class="bs-research-post-header">
       <div>
@@ -358,141 +347,7 @@ window.Quarto = {
     </p>
   </article>
 
-  <article class="bs-research-post" data-index="1" data-categories="TG9yZSUyQ0Rlc2lnbiUyQ1JlZmxlY3Rpb24=" data-listing-date-sort="1788912000000" data-listing-file-modified-sort="1790262986105" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="6" data-listing-word-count-sort="1131" data-bs-research-item="" data-bs-categories="[&quot;Lore&quot;,&quot;Design&quot;,&quot;Reflection&quot;]" data-bs-tags="[&quot;Logo Design&quot;,&quot;Iteration&quot;,&quot;Visual Identity&quot;,&quot;Technology Commons&quot;]">
-
-    <div class="bs-research-post-header">
-      <div>
-        <h2 class="listing-title bs-research-post-title anchored">
-          <a href="../lore/from-a-pen-and-paper-mark-to-a-crest.html">From a University Sketch to a Logo and Commons Emblem</a>
-        </h2>
-        
-          <p class="listing-subtitle bs-research-post-subtitle">A personal mark can stay simple while a larger identity carries more of the story</p>
-        
-      </div>
-
-      
-        <p class="listing-reading-time bs-research-post-time">6 min read</p>
-      
-    </div>
-
-    
-      <p class="listing-description bs-research-post-description">How an AA mark I made in university evolved with me as an educator, then expanded through many experiments into the current Technology Commons emblem.
-</p>
-    
-
-    
-      <div class="bs-research-post-taxonomy">
-        
-          <div class="bs-research-post-taxonomy-group" aria-label="Article themes">
-            
-              <button type="button" class="bs-research-card-taxonomy bs-research-card-taxonomy--category" data-bs-card-category="Lore">
-                Lore
-              </button>
-            
-              <button type="button" class="bs-research-card-taxonomy bs-research-card-taxonomy--category" data-bs-card-category="Design">
-                Design
-              </button>
-            
-              <button type="button" class="bs-research-card-taxonomy bs-research-card-taxonomy--category" data-bs-card-category="Reflection">
-                Reflection
-              </button>
-            
-          </div>
-        
-
-        
-          <div class="bs-research-post-taxonomy-group" aria-label="Article tags">
-            
-              <button type="button" class="bs-research-card-taxonomy bs-research-card-taxonomy--tag" data-bs-card-tag="Logo Design">
-                Logo Design
-              </button>
-            
-              <button type="button" class="bs-research-card-taxonomy bs-research-card-taxonomy--tag" data-bs-card-tag="Iteration">
-                Iteration
-              </button>
-            
-              <button type="button" class="bs-research-card-taxonomy bs-research-card-taxonomy--tag" data-bs-card-tag="Visual Identity">
-                Visual Identity
-              </button>
-            
-              <button type="button" class="bs-research-card-taxonomy bs-research-card-taxonomy--tag" data-bs-card-tag="Technology Commons">
-                Technology Commons
-              </button>
-            
-          </div>
-        
-      </div>
-    
-
-    <p class="bs-research-post-action">
-      <a href="../lore/from-a-pen-and-paper-mark-to-a-crest.html">Read article</a>
-    </p>
-  </article>
-
-  <article class="bs-research-post" data-index="2" data-categories="TG9yZSUyQ0Rlc2lnbg==" data-listing-date-sort="1788825600000" data-listing-file-modified-sort="1790262986105" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="3" data-listing-word-count-sort="453" data-bs-research-item="" data-bs-categories="[&quot;Lore&quot;,&quot;Design&quot;]" data-bs-tags="[&quot;N.I.C.E.&quot;,&quot;Engineering Design&quot;,&quot;Iteration&quot;]">
-
-    <div class="bs-research-post-header">
-      <div>
-        <h2 class="listing-title bs-research-post-title anchored">
-          <a href="../lore/nice-as-an-iterative-design-cycle.html">N.I.C.E. Design</a>
-        </h2>
-        
-          <p class="listing-subtitle bs-research-post-subtitle">Redesigning the Design Process</p>
-        
-      </div>
-
-      
-        <p class="listing-reading-time bs-research-post-time">3 min read</p>
-      
-    </div>
-
-    
-      <p class="listing-description bs-research-post-description">Why I wanted a simpler design process for technology education, and why evaluation should send us back to the needs.
-</p>
-    
-
-    
-      <div class="bs-research-post-taxonomy">
-        
-          <div class="bs-research-post-taxonomy-group" aria-label="Article themes">
-            
-              <button type="button" class="bs-research-card-taxonomy bs-research-card-taxonomy--category" data-bs-card-category="Lore">
-                Lore
-              </button>
-            
-              <button type="button" class="bs-research-card-taxonomy bs-research-card-taxonomy--category" data-bs-card-category="Design">
-                Design
-              </button>
-            
-          </div>
-        
-
-        
-          <div class="bs-research-post-taxonomy-group" aria-label="Article tags">
-            
-              <button type="button" class="bs-research-card-taxonomy bs-research-card-taxonomy--tag" data-bs-card-tag="N.I.C.E.">
-                N.I.C.E.
-              </button>
-            
-              <button type="button" class="bs-research-card-taxonomy bs-research-card-taxonomy--tag" data-bs-card-tag="Engineering Design">
-                Engineering Design
-              </button>
-            
-              <button type="button" class="bs-research-card-taxonomy bs-research-card-taxonomy--tag" data-bs-card-tag="Iteration">
-                Iteration
-              </button>
-            
-          </div>
-        
-      </div>
-    
-
-    <p class="bs-research-post-action">
-      <a href="../lore/nice-as-an-iterative-design-cycle.html">Read article</a>
-    </p>
-  </article>
-
-  <article class="bs-research-post" data-index="3" data-categories="UmVmbGVjdGlvbiUyQ1RlYWNoaW5nJTJDQ29tbXVuaXR5" data-listing-date-sort="1762992000000" data-listing-file-modified-sort="1790262986105" data-listing-date-modified-sort="1763424000000" data-listing-reading-time-sort="5" data-listing-word-count-sort="849" data-bs-research-item="" data-bs-categories="[&quot;Reflection&quot;,&quot;Teaching&quot;,&quot;Community&quot;]" data-bs-tags="[&quot;Remembrance Day&quot;,&quot;History&quot;,&quot;Cadets&quot;,&quot;Teaching&quot;,&quot;Robotics&quot;,&quot;Music&quot;]">
+  <article class="bs-research-post" data-index="1" data-categories="UmVmbGVjdGlvbiUyQ1RlYWNoaW5nJTJDQ29tbXVuaXR5" data-listing-date-sort="1763010000000" data-listing-file-modified-sort="1789039588993" data-listing-date-modified-sort="1763442000000" data-listing-reading-time-sort="5" data-listing-word-count-sort="849" data-bs-research-item="" data-bs-categories="[&quot;Reflection&quot;,&quot;Teaching&quot;,&quot;Community&quot;]" data-bs-tags="[&quot;Remembrance Day&quot;,&quot;History&quot;,&quot;Cadets&quot;,&quot;Teaching&quot;,&quot;Robotics&quot;,&quot;Music&quot;]">
 
     <div class="bs-research-post-header">
       <div>
@@ -583,9 +438,44 @@ window.Quarto = {
 
 
 </main> <!-- /main -->
-<script src="../assets/commons-lore.js" defer=""></script>
-<script src="../assets/bs-learn.js" defer=""></script>
-<script src="../assets/bs-glossary.js" defer=""></script>
+<script>
+
+(function () {
+
+  "use strict";
+
+  const base = window.location.pathname.startsWith("/tech-edu-resources/")
+
+    ? "/tech-edu-resources"
+
+    : "";
+
+  [
+
+    "commons-lore.js",
+
+    "bs-learn.js",
+
+    "bs-glossary.js",
+
+    "bs-learn-scroll.js"
+
+  ].forEach(function (file) {
+
+    const script = document.createElement("script");
+
+    script.src = base + "/assets/" + file;
+
+    script.async = false;
+
+    document.body.appendChild(script);
+
+  });
+
+})();
+
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -659,7 +549,7 @@ window.Quarto = {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/andrewandrade\.ca\/tech-edu-resources\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -990,13 +880,23 @@ window.Quarto = {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Open sourced by <a href="https://www.linkedin.com/in/andrewandrade">Andrew Andrade</a> for Port Credit Secondary School. Hosted on <a href="https://github.com/mrandrewandrade/commons">GitHub Pages</a>.</p>
+<p><strong>CC BY-SA 4.0 · Share, modify, and redistribute.</strong> Modified versions remain CC BY-SA 4.0 and attribute the original source: <a href="https://andrewandrade.ca/">andrewandrade.ca</a> · <a href="https://github.com/mrandrewandrade">github.com/mrandrewandrade</a>. Add your own name and links when you adapt it so future versions can credit you too. <strong>Sharing is caring.</strong></p>
 </div>   
     <div class="nav-footer-center">
-<p>Text: <a href="../licensing.html">CC BY-SA 4.0</a>, attribution and share-alike required. Code: <a href="../licensing.html">AGPL 3.0</a>, copyleft applies.</p>
+<p>Website code: <a href="https://andrewandrade.ca/tech-edu-resources/licensing.html">AGPL 3.0</a>. Educational content: <a href="https://andrewandrade.ca/tech-edu-resources/licensing.html">CC BY-SA 4.0</a>.</p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../references.html">
+<p>References</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../licensing.html">
+<p>Licensing</p>
+</a>
+  </li>  
     <li class="nav-item">
     <a class="nav-link" href="../about.html">
 <p>About</p>

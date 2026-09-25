@@ -2,24 +2,21 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.10.15">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Course home for TEJ3M and TEJ4M Computer Engineering Technology.">
+<meta name="description" content="Lean, collaborative Computer Engineering Technology notes organized by unit and lesson.">
 
-<title>TEJ3M / TEJ4M - Computer Engineering Technology – TechEd Commons</title>
+<title>TEJ Notes – Technological Education Resources</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -43,10 +40,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-f89a7d261f03095004b58a86639a53da.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-71c7b49c685e597d910cb795eccce780.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ee904ee5b1e9e5159d851980a5da8848.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-8d450d615d30163466618d5f2985fcb2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -74,20 +71,31 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<link rel="icon" type="image/svg+xml" href="../assets/branding/logo/aa-logo.svg">
-<link rel="icon" href="../assets/branding/logo/favicon.ico" sizes="any">
-<link rel="apple-touch-icon" href="../assets/branding/logo/apple-touch-icon.png">
-<link rel="manifest" href="../assets/branding/logo/site.webmanifest">
+<link rel="icon" type="image/svg+xml" href="https://andrewandrade.ca/tech-edu-resources/assets/branding/logo/aa-logo.svg">
+
+<link rel="icon" href="https://andrewandrade.ca/tech-edu-resources/assets/branding/logo/favicon.ico" sizes="any">
+
+<link rel="apple-touch-icon" href="https://andrewandrade.ca/tech-edu-resources/assets/branding/logo/apple-touch-icon.png">
+
+<link rel="manifest" href="https://andrewandrade.ca/tech-edu-resources/assets/branding/logo/site.webmanifest">
+
 <meta name="theme-color" content="#062650">
+
 
 
 <link rel="stylesheet" href="../assets/bs-shared.css">
 <link rel="stylesheet" href="../assets/bs-components.css">
 <link rel="stylesheet" href="../assets/commons-overrides.css">
 <link rel="stylesheet" href="../assets/bs-learn.css">
+<meta property="og:title" content="TEJ Notes – Technological Education Resources">
+<meta property="og:description" content="Lean, collaborative Computer Engineering Technology notes organized by unit and lesson.">
+<meta property="og:site_name" content="Technological Education Resources">
+<meta name="twitter:title" content="TEJ Notes – Technological Education Resources">
+<meta name="twitter:description" content="Lean, collaborative Computer Engineering Technology notes organized by unit and lesson.">
+<meta name="twitter:card" content="summary">
 </head>
 
-<body class="nav-sidebar docked nav-fixed bs-learn-article bs-title-eyebrow quarto-light">
+<body class="nav-sidebar docked nav-fixed bs-learn-index bs-title-eyebrow quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top">
@@ -95,11 +103,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/branding/emblem/commons-emblem-monochrome-blue.svg" alt="TechEd Commons" class="navbar-logo light-content">
-    <img src="../assets/branding/emblem/commons-emblem-monochrome-blue.svg" alt="TechEd Commons" class="navbar-logo dark-content">
+    <img src="../assets/branding/emblem/commons-emblem-monochrome-blue.svg" alt="Technological Education Resources" class="navbar-logo light-content">
+    <img src="../assets/branding/emblem/commons-emblem-monochrome-blue.svg" alt="Technological Education Resources" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">TechEd Commons</span>
+    <span class="navbar-title">Tech Edu</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -109,60 +117,41 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
+    <a class="nav-link" href="../slides/2026-27-tas-2-sem-1.html"> 
+<span class="menu-text">TAS Slides</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../slides/2026-27-tej-3-sem-1.html"> 
+<span class="menu-text">TEJ Slides</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../tas2/index.html"> 
-<span class="menu-text">TAS2</span></a>
+<span class="menu-text">TAS Notes</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link active" href="../tej3-4/index.html" aria-current="page"> 
-<span class="menu-text">TEJ3/4</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../ttj3-4/index.html"> 
-<span class="menu-text">TTJ3/4</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Slides</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-slides">    
-        <li>
-    <a class="dropdown-item" href="../slides/tas.html">
- <span class="dropdown-text">TAS</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../slides/tej.html">
- <span class="dropdown-text">TEJ</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../slides/tts.html">
- <span class="dropdown-text">TTS</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="../tools/index.html"> 
-<span class="menu-text">Tools</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../resources/index.html"> 
-<span class="menu-text">Resources</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../glossary/index.html"> 
-<span class="menu-text">Glossary</span></a>
+<span class="menu-text">TEJ Notes</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../wellbeing/index.html"> 
-<span class="menu-text">Well-being</span></a>
+    <a class="nav-link" href="../teacher-slides/index.html"> 
+<span class="menu-text">General Slides</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching-materials/index.html"> 
+<span class="menu-text">General Materials</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../glossary/index.html"> 
+<span class="menu-text">Glossary</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../lore/index.html"> 
 <span class="menu-text">Lore</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="https://andrewandrade.ca/tech-edu-resources/about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -195,82 +184,52 @@ ul.task-list li input[type="checkbox"] {
   </div>
 </li>
         <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false">
- <span class="menu-text">Environment</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tej3-4/01-starting-point.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">1. Starting Point</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tej3-4/02-linux-computer-systems.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">2. Linux &amp; Computer Systems</span></a>
-  </div>
-</li>
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tej3-4/03-git-github-portfolio.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">3. Git, GitHub &amp; Portfolio</span></a>
-  </div>
-</li>
-      </ul>
+      <span class="sidebar-item-text sidebar-link text-start">
+ <span class="menu-text">0. Expectations</span></span>
   </li>
         <li class="sidebar-item sidebar-item-section">
       <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false">
- <span class="menu-text">Programming &amp; Logic</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="false" aria-label="Toggle section">
+            <a href="../tej3-4/01-number-systems/index.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1. Number Systems</span></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" role="navigation" aria-expanded="true" aria-label="Toggle section">
             <i class="bi bi-chevron-right ms-2"></i>
           </a> 
       </div>
-      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 ">  
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tej3-4/04-python-foundations.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">4. Python Foundations</span></a>
+  <a href="../tej3-4/01-number-systems/01-significant-figures.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.1 Significant Figures</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tej3-4/05-logic-digital-systems.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">5. Logic &amp; Digital Systems</span></a>
+  <a href="../tej3-4/01-number-systems/02-powers-of-10.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.2 Powers of 10</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tej3-4/06-python-data-dataframes.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">6. Python, Data &amp; DataFrames</span></a>
-  </div>
-</li>
-      </ul>
-  </li>
-        <li class="sidebar-item sidebar-item-section">
-      <div class="sidebar-item-container"> 
-            <a class="sidebar-item-text sidebar-link text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false">
- <span class="menu-text">Machine Learning</span></a>
-          <a class="sidebar-item-toggle text-start collapsed" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-3" role="navigation" aria-expanded="false" aria-label="Toggle section">
-            <i class="bi bi-chevron-right ms-2"></i>
-          </a> 
-      </div>
-      <ul id="quarto-sidebar-section-3" class="collapse list-unstyled sidebar-section depth1 ">  
-          <li class="sidebar-item">
-  <div class="sidebar-item-container"> 
-  <a href="../tej3-4/07-machine-learning.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">7. Machine Learning</span></a>
+  <a href="../tej3-4/01-number-systems/06-scientific-calculator.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.3 Scientific Calculator</span></a>
   </div>
 </li>
           <li class="sidebar-item">
   <div class="sidebar-item-container"> 
-  <a href="../tej3-4/08-major-project-portfolio.html" class="sidebar-item-text sidebar-link">
- <span class="menu-text">8. Major Project &amp; Portfolio</span></a>
+  <a href="../tej3-4/01-number-systems/03-scientific-notation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.4 Scientific Notation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tej3-4/01-number-systems/04-engineering-notation.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.5 Engineering Notation</span></a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="../tej3-4/01-number-systems/05-metric-prefixes.html" class="sidebar-item-text sidebar-link">
+ <span class="menu-text">1.6 Metric Prefixes</span></a>
   </div>
 </li>
       </ul>
@@ -286,12 +245,12 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">TEJ3M / TEJ4M - Computer Engineering Technology</h1>
+<h1 class="title">TEJ Notes</h1>
 </div>
 
 <div>
   <div class="description">
-    Course home for TEJ3M and TEJ4M Computer Engineering Technology.
+    Lean, collaborative Computer Engineering Technology notes organized by unit and lesson.
   </div>
 </div>
 
@@ -308,36 +267,85 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<div class="bs-page-shell">
-<div class="bs-reading-column">
-<div class="bs-lesson-preamble">
-<p>TEJ3M and TEJ4M connect computer systems, programming, digital logic, data, and machine learning through practical technical work.</p>
-</div>
-<section id="course-path" class="level2">
-<h2 class="anchored" data-anchor-id="course-path">Course path</h2>
-<p>The shared course structure will move through:</p>
-<ol type="1">
-<li>Starting Point</li>
-<li>Linux &amp; Computer Systems</li>
-<li>Git, GitHub &amp; Portfolio</li>
-<li>Python Foundations</li>
-<li>Logic &amp; Digital Systems</li>
-<li>Python, Data &amp; DataFrames</li>
-<li>Machine Learning</li>
-<li>Major Project &amp; Portfolio</li>
+<p><strong>Work in progress.</strong> These notes are intentionally lean. They record what we have taught so far and are a starting point for student improvements.</p>
+<p>Current units:</p>
+<ol start="0" type="1">
+<li><a href="../tej3-4/00-expectations/index.html">Expectations</a></li>
+<li><a href="../tej3-4/01-number-systems/index.html">Number Systems</a></li>
 </ol>
-<p>Grade 12 work can extend the shared foundation through more independent technical investigation and project depth.</p>
-<p>Detailed lessons and the course sidebar are added in the next curriculum iteration.</p>
-</section>
+<details class="bs-learn-filter-panel" data-bs-learn-filters="" aria-label="Search TEJ notes">
+<summary class="bs-learn-filters-summary">Search and filter TEJ lessons</summary>
+<div class="bs-learn-filter-body">
+<div class="bs-learn-search-group">
+<label for="bs-learn-search">Search lessons</label>
+<input id="bs-learn-search" type="search" placeholder="Try significant figures, exponents, or prefixes" autocomplete="off" data-bs-learn-search="">
 </div>
+<details class="bs-learn-filter-disclosure">
+<summary>Unit Filter</summary>
+<div class="bs-learn-filter-options" role="group" aria-label="Filter by unit">
+<button type="button" class="bs-learn-filter" data-bs-filter-track="tej-number-systems" aria-pressed="false">1. Number Systems</button>
 </div>
+</details>
+<div class="bs-learn-filter-footer"><p class="bs-learn-result-count" aria-live="polite" data-bs-learn-result-count=""></p><button type="button" class="bs-learn-clear" data-bs-learn-clear="" hidden="">Clear search and filters</button></div>
+</div>
+</details>
+
+<div class="bs-learn-catalogue" data-bs-learn-list="">
+<details class="bs-learn-catalogue-section" data-bs-learn-group="" data-bs-track-id="tej-number-systems" data-bs-total-lessons="6" open="">
+<summary class="bs-learn-catalogue-section-heading"><span class="bs-learn-track-heading"><a href="../tej3-4/01-number-systems/index.html">1. Number Systems</a><span data-bs-learn-group-count="">6 lessons</span></span></summary>
+<div class="bs-learn-catalogue-section-items">
+<article class="bs-learn-catalogue-item" data-bs-learn-item="" data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary="[&quot;Significant Figures&quot;,&quot;precision&quot;,&quot;rounding&quot;]" data-bs-search-body="[&quot;Precision of measured or stated values.&quot;]"><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="../tej3-4/01-number-systems/01-significant-figures.html">1.1 Significant Figures</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item="" data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary="[&quot;Powers of 10&quot;,&quot;exponent&quot;,&quot;base 10&quot;,&quot;reciprocal&quot;]" data-bs-search-body="[&quot;Multiply, divide, and interpret powers of 10.&quot;]"><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="../tej3-4/01-number-systems/02-powers-of-10.html">1.2 Powers of 10</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item="" data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary="[&quot;Scientific Calculator&quot;,&quot;EXP&quot;,&quot;EE&quot;,&quot;calculator&quot;]" data-bs-search-body="[&quot;Enter a coefficient and exponent.&quot;]"><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="../tej3-4/01-number-systems/06-scientific-calculator.html">1.3 Scientific Calculator</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item="" data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary="[&quot;Scientific Notation&quot;,&quot;coefficient&quot;,&quot;decimal movement&quot;]" data-bs-search-body="[&quot;A coefficient from 1 to less than 10 times a power of 10.&quot;]"><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="../tej3-4/01-number-systems/03-scientific-notation.html">1.4 Scientific Notation</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item="" data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary="[&quot;Engineering Notation&quot;,&quot;multiple of 3&quot;,&quot;coefficient&quot;]" data-bs-search-body="[&quot;A coefficient from 1 to less than 1000 and an exponent that is a multiple of 3.&quot;]"><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="../tej3-4/01-number-systems/04-engineering-notation.html">1.5 Engineering Notation</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item="" data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary="[&quot;Metric Prefixes&quot;,&quot;tera&quot;,&quot;giga&quot;,&quot;mega&quot;,&quot;kilo&quot;,&quot;milli&quot;,&quot;micro&quot;,&quot;nano&quot;,&quot;pico&quot;]" data-bs-search-body="[&quot;Metric prefixes for powers of 10.&quot;]"><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="../tej3-4/01-number-systems/05-metric-prefixes.html">1.6 Metric Prefixes</a></div></article>
+</div>
+</details>
+</div>
+<p class="bs-learn-empty" data-bs-learn-empty="" hidden="">No TEJ lessons match this search.</p>
 
 
 
 </main> <!-- /main -->
-<script src="../assets/commons-lore.js" defer=""></script>
-<script src="../assets/bs-learn.js" defer=""></script>
-<script src="../assets/bs-glossary.js" defer=""></script>
+<script>
+
+(function () {
+
+  "use strict";
+
+  const base = window.location.pathname.startsWith("/tech-edu-resources/")
+
+    ? "/tech-edu-resources"
+
+    : "";
+
+  [
+
+    "commons-lore.js",
+
+    "bs-learn.js",
+
+    "bs-glossary.js",
+
+    "bs-learn-scroll.js"
+
+  ].forEach(function (file) {
+
+    const script = document.createElement("script");
+
+    script.src = base + "/assets/" + file;
+
+    script.async = false;
+
+    document.body.appendChild(script);
+
+  });
+
+})();
+
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -411,7 +419,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/andrewandrade\.ca\/tech-edu-resources\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -742,13 +750,23 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Open sourced by <a href="https://www.linkedin.com/in/andrewandrade">Andrew Andrade</a> for Port Credit Secondary School. Hosted on <a href="https://github.com/mrandrewandrade/commons">GitHub Pages</a>.</p>
+<p><strong>CC BY-SA 4.0 · Share, modify, and redistribute.</strong> Modified versions remain CC BY-SA 4.0 and attribute the original source: <a href="https://andrewandrade.ca/">andrewandrade.ca</a> · <a href="https://github.com/mrandrewandrade">github.com/mrandrewandrade</a>. Add your own name and links when you adapt it so future versions can credit you too. <strong>Sharing is caring.</strong></p>
 </div>   
     <div class="nav-footer-center">
-<p>Text: <a href="../licensing.html">CC BY-SA 4.0</a>, attribution and share-alike required. Code: <a href="../licensing.html">AGPL 3.0</a>, copyleft applies.</p>
+<p>Website code: <a href="https://andrewandrade.ca/tech-edu-resources/licensing.html">AGPL 3.0</a>. Educational content: <a href="https://andrewandrade.ca/tech-edu-resources/licensing.html">CC BY-SA 4.0</a>.</p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../references.html">
+<p>References</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../licensing.html">
+<p>Licensing</p>
+</a>
+  </li>  
     <li class="nav-item">
     <a class="nav-link" href="../about.html">
 <p>About</p>

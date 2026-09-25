@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.10.15">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -10,18 +10,15 @@
 <meta name="dcterms.date" content="2026-09-22">
 <meta name="description" content="Robert Abraham went far beyond the assigned Grade 11 computer engineering work to research, rebuild, re-control, and program a discarded CNC lathe.">
 
-<title>Iteration 1: Robert Abraham and the CNC Lathe – TechEd Commons</title>
+<title>Iteration 1: Robert Abraham and the CNC Lathe – Technological Education Resources</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
+code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: 1.5em;}
-div.column{flex: auto;}
-@media screen {
-div.columns{gap: min(4vw, 1.5em);}
-div.column{overflow-x: auto;}
-}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -45,10 +42,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting-f89a7d261f03095004b58a86639a53da.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-71c7b49c685e597d910cb795eccce780.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-ee904ee5b1e9e5159d851980a5da8848.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="../site_libs/bootstrap/bootstrap-8d450d615d30163466618d5f2985fcb2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,17 +73,30 @@ ul.task-list li input[type="checkbox"] {
   }
 }</script>
 <style>html{ scroll-behavior: smooth; }</style>
-<link rel="icon" type="image/svg+xml" href="../assets/branding/logo/aa-logo.svg">
-<link rel="icon" href="../assets/branding/logo/favicon.ico" sizes="any">
-<link rel="apple-touch-icon" href="../assets/branding/logo/apple-touch-icon.png">
-<link rel="manifest" href="../assets/branding/logo/site.webmanifest">
+<link rel="icon" type="image/svg+xml" href="https://andrewandrade.ca/tech-edu-resources/assets/branding/logo/aa-logo.svg">
+
+<link rel="icon" href="https://andrewandrade.ca/tech-edu-resources/assets/branding/logo/favicon.ico" sizes="any">
+
+<link rel="apple-touch-icon" href="https://andrewandrade.ca/tech-edu-resources/assets/branding/logo/apple-touch-icon.png">
+
+<link rel="manifest" href="https://andrewandrade.ca/tech-edu-resources/assets/branding/logo/site.webmanifest">
+
 <meta name="theme-color" content="#062650">
+
 
 
 <link rel="stylesheet" href="../assets/bs-shared.css">
 <link rel="stylesheet" href="../assets/bs-components.css">
 <link rel="stylesheet" href="../assets/commons-overrides.css">
 <link rel="stylesheet" href="../assets/bs-learn.css">
+<meta property="og:title" content="Iteration 1: Robert Abraham and the CNC Lathe – Technological Education Resources">
+<meta property="og:description" content="Robert Abraham went far beyond the assigned Grade 11 computer engineering work to research, rebuild, re-control, and program a discarded CNC lathe.">
+<meta property="og:image" content="https://andrewandrade.ca/tech-edu-resources/assets/lore/robert-abraham-cnc/finished-lathe.jpg">
+<meta property="og:site_name" content="Technological Education Resources">
+<meta name="twitter:title" content="Iteration 1: Robert Abraham and the CNC Lathe – Technological Education Resources">
+<meta name="twitter:description" content="Robert Abraham went far beyond the assigned Grade 11 computer engineering work to research, rebuild, re-control, and program a discarded CNC lathe.">
+<meta name="twitter:image" content="https://andrewandrade.ca/tech-edu-resources/assets/lore/robert-abraham-cnc/finished-lathe.jpg">
+<meta name="twitter:card" content="summary_large_image">
 </head>
 
 <body class="nav-fixed bs-editorial-page bs-title-eyebrow bs-research-article quarto-light">
@@ -97,11 +107,11 @@ ul.task-list li input[type="checkbox"] {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../assets/branding/emblem/commons-emblem-monochrome-blue.svg" alt="TechEd Commons" class="navbar-logo light-content">
-    <img src="../assets/branding/emblem/commons-emblem-monochrome-blue.svg" alt="TechEd Commons" class="navbar-logo dark-content">
+    <img src="../assets/branding/emblem/commons-emblem-monochrome-blue.svg" alt="Technological Education Resources" class="navbar-logo light-content">
+    <img src="../assets/branding/emblem/commons-emblem-monochrome-blue.svg" alt="Technological Education Resources" class="navbar-logo dark-content">
     </a>
     <a class="navbar-brand" href="../index.html">
-    <span class="navbar-title">TechEd Commons</span>
+    <span class="navbar-title">Tech Edu</span>
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -111,60 +121,41 @@ ul.task-list li input[type="checkbox"] {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
+    <a class="nav-link" href="../slides/2026-27-tas-2-sem-1.html"> 
+<span class="menu-text">TAS Slides</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../slides/2026-27-tej-3-sem-1.html"> 
+<span class="menu-text">TEJ Slides</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../tas2/index.html"> 
-<span class="menu-text">TAS2</span></a>
+<span class="menu-text">TAS Notes</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../tej3-4/index.html"> 
-<span class="menu-text">TEJ3/4</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../ttj3-4/index.html"> 
-<span class="menu-text">TTJ3/4</span></a>
-  </li>  
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-slides" role="link" data-bs-toggle="dropdown" aria-expanded="false">
- <span class="menu-text">Slides</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-slides">    
-        <li>
-    <a class="dropdown-item" href="../slides/tas.html">
- <span class="dropdown-text">TAS</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../slides/tej.html">
- <span class="dropdown-text">TEJ</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../slides/tts.html">
- <span class="dropdown-text">TTS</span></a>
-  </li>  
-    </ul>
-  </li>
-  <li class="nav-item">
-    <a class="nav-link" href="../tools/index.html"> 
-<span class="menu-text">Tools</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../resources/index.html"> 
-<span class="menu-text">Resources</span></a>
-  </li>  
-  <li class="nav-item">
-    <a class="nav-link" href="../glossary/index.html"> 
-<span class="menu-text">Glossary</span></a>
+<span class="menu-text">TEJ Notes</span></a>
   </li>  
 </ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../wellbeing/index.html"> 
-<span class="menu-text">Well-being</span></a>
+    <a class="nav-link" href="../teacher-slides/index.html"> 
+<span class="menu-text">General Slides</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../teaching-materials/index.html"> 
+<span class="menu-text">General Materials</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../glossary/index.html"> 
+<span class="menu-text">Glossary</span></a>
   </li>  
   <li class="nav-item">
     <a class="nav-link" href="../lore/index.html"> 
 <span class="menu-text">Lore</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../about.html"> 
+    <a class="nav-link" href="https://andrewandrade.ca/tech-edu-resources/about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -282,9 +273,44 @@ ul.task-list li input[type="checkbox"] {
 </section>
 
 </main> <!-- /main -->
-<script src="../assets/commons-lore.js" defer=""></script>
-<script src="../assets/bs-learn.js" defer=""></script>
-<script src="../assets/bs-glossary.js" defer=""></script>
+<script>
+
+(function () {
+
+  "use strict";
+
+  const base = window.location.pathname.startsWith("/tech-edu-resources/")
+
+    ? "/tech-edu-resources"
+
+    : "";
+
+  [
+
+    "commons-lore.js",
+
+    "bs-learn.js",
+
+    "bs-glossary.js",
+
+    "bs-learn-scroll.js"
+
+  ].forEach(function (file) {
+
+    const script = document.createElement("script");
+
+    script.src = base + "/assets/" + file;
+
+    script.async = false;
+
+    document.body.appendChild(script);
+
+  });
+
+})();
+
+</script>
+
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
     const icon = "";
@@ -358,7 +384,7 @@ ul.task-list li input[type="checkbox"] {
     }
       var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
       var mailtoRegex = new RegExp(/^mailto:/);
-        var filterRegex = new RegExp('/' + window.location.host + '/');
+        var filterRegex = new RegExp("https:\/\/andrewandrade\.ca\/tech-edu-resources\/");
       var isInternal = (href) => {
           return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
       }
@@ -689,13 +715,23 @@ ul.task-list li input[type="checkbox"] {
 <footer class="footer">
   <div class="nav-footer">
     <div class="nav-footer-left">
-<p>Open sourced by <a href="https://www.linkedin.com/in/andrewandrade">Andrew Andrade</a> for Port Credit Secondary School. Hosted on <a href="https://github.com/mrandrewandrade/commons">GitHub Pages</a>.</p>
+<p><strong>CC BY-SA 4.0 · Share, modify, and redistribute.</strong> Modified versions remain CC BY-SA 4.0 and attribute the original source: <a href="https://andrewandrade.ca/">andrewandrade.ca</a> · <a href="https://github.com/mrandrewandrade">github.com/mrandrewandrade</a>. Add your own name and links when you adapt it so future versions can credit you too. <strong>Sharing is caring.</strong></p>
 </div>   
     <div class="nav-footer-center">
-<p>Text: <a href="../licensing.html">CC BY-SA 4.0</a>, attribution and share-alike required. Code: <a href="../licensing.html">AGPL 3.0</a>, copyleft applies.</p>
+<p>Website code: <a href="https://andrewandrade.ca/tech-edu-resources/licensing.html">AGPL 3.0</a>. Educational content: <a href="https://andrewandrade.ca/tech-edu-resources/licensing.html">CC BY-SA 4.0</a>.</p>
 </div>
     <div class="nav-footer-right">
       <ul class="footer-items list-unstyled">
+    <li class="nav-item">
+    <a class="nav-link" href="../references.html">
+<p>References</p>
+</a>
+  </li>  
+    <li class="nav-item">
+    <a class="nav-link" href="../licensing.html">
+<p>Licensing</p>
+</a>
+  </li>  
     <li class="nav-item">
     <a class="nav-link" href="../about.html">
 <p>About</p>
