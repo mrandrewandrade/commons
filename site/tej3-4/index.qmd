@@ -1,39 +1,82 @@
 ---
 title: "TEJ Notes"
-description: "Intentionally unfinished collaborative notes for TEJ Computer Engineering Technology."
+description: "Lean, collaborative Computer Engineering Technology notes organized by unit and lesson."
+sidebar: tej
 page-layout: full
 toc: false
 format:
   html:
     title-block-style: plain
-    body-classes: "bs-learn-article bs-title-eyebrow"
+    body-classes: "bs-learn-index bs-title-eyebrow"
 execute:
   enabled: false
 ---
 
-::: {.bs-page-shell}
-::: {.bs-reading-column}
 ::: {.bs-lesson-preamble}
-These notes are **unfinished intentionally**. They record what we have actually covered so far. Students will help expand them as we build, test, measure, explain, and document our work.
+These notes are intentionally **lean and unfinished**. They record what we have actually learned in class and provide a structure students can improve with clearer examples, diagrams, corrections, and explanations.
 :::
 
-## Course path so far
+```{=html}
+<details class="bs-learn-filter-panel" data-bs-learn-filters aria-label="Search TEJ notes">
+<summary class="bs-learn-filters-summary">Search and filter TEJ lessons</summary>
+<div class="bs-learn-filter-body">
+<div class="bs-learn-search-group">
+<label for="bs-learn-search">Search lessons</label>
+<input id="bs-learn-search" type="search" placeholder="Try significant figures, metric prefixes, listening..." autocomplete="off" data-bs-learn-search>
+</div>
+<details class="bs-learn-filter-disclosure">
+<summary>Unit Filter</summary>
+<div class="bs-learn-filter-options" role="group" aria-label="Filter by unit">
+<button type="button" class="bs-learn-filter" data-bs-filter-track="tej-getting-to-know-you" aria-pressed="false">0. Getting to Know You</button>
+<button type="button" class="bs-learn-filter" data-bs-filter-track="tej-number-systems" aria-pressed="false">1. Number Systems</button>
+</div>
+</details>
+<div class="bs-learn-filter-footer">
+<p class="bs-learn-result-count" aria-live="polite" data-bs-learn-result-count></p>
+<button type="button" class="bs-learn-clear" data-bs-learn-clear hidden>Clear search and filters</button>
+</div>
+</div>
+</details>
 
-0. **Getting to Know You**
-   Personal identity, listening, communication, group identity, and the beginnings of visual identity.
+<div class="bs-learn-section-actions" role="group" aria-label="TEJ units">
+<button type="button" data-bs-learn-collapse-all>Collapse all</button>
+<button type="button" data-bs-learn-expand-all>Expand all</button>
+</div>
 
-1. **Measurement & Basic Circuits**
-   Significant figures → scientific notation → engineering notation → metric prefixes → Ohm's law → electrical power.
+<div class="bs-learn-catalogue" data-bs-learn-list>
 
-Everything after Unit 1 is **TBD** until we actually do it in class.
+<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tej-getting-to-know-you" open>
+<summary class="bs-learn-catalogue-section-heading">
+<span class="bs-learn-track-heading"><a href="00-getting-to-know-you/index.qmd">0. Getting to Know You</a><span data-bs-learn-group-count>1 lesson</span></span>
+</summary>
+<div class="bs-learn-catalogue-section-items">
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-getting-to-know-you" data-bs-terms="[]" data-bs-search-primary='["Identity, Listening & Communication","name tag","about me","listening","technical description","machine charades"]' data-bs-search-body='["A compact record of the first classroom activities and the communication ideas they introduced."]'>
+<div class="bs-learn-catalogue-title-row"><details class="bs-learn-catalogue-description"><summary><a class="bs-learn-catalogue-link" href="00-getting-to-know-you/01-identity-listening-communication.qmd">1. Identity, Listening &amp; Communication</a><span class="bs-learn-description-arrow">&#9662;</span></summary><p>Name tags, About Me, listening, technical description, and Machine Charades.</p></details></div>
+</article>
+</div>
+</details>
 
-## Current class slides
+<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tej-number-systems" open>
+<summary class="bs-learn-catalogue-section-heading">
+<span class="bs-learn-track-heading"><a href="01-number-systems/index.qmd">1. Number Systems</a><span data-bs-learn-group-count>6 lessons</span></span>
+</summary>
+<div class="bs-learn-catalogue-section-items">
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary='["Significant Figures","precision","rounding"]' data-bs-search-body='["How measured values communicate precision and how we round answers."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="01-number-systems/01-significant-figures.qmd">1. Significant Figures</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary='["Powers of 10","exponent","base 10"]' data-bs-search-body='["Using a base of 10 and an exponent to represent very large and very small quantities."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="01-number-systems/02-powers-of-10.qmd">2. Powers of 10</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary='["Scientific Notation","coefficient","exponent"]' data-bs-search-body='["A number from 1 to 10 multiplied by a power of 10."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="01-number-systems/03-scientific-notation.qmd">3. Scientific Notation</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary='["Engineering Notation","multiple of 3"]' data-bs-search-body='["A number from 1 to 1000 multiplied by a power of 10 whose exponent is a multiple of 3."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="01-number-systems/04-engineering-notation.qmd">4. Engineering Notation</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary='["Metric Prefixes","kilo","milli","micro","nano","pico"]' data-bs-search-body='["Metric prefixes replace powers of 10 that are multiples of 3."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="01-number-systems/05-metric-prefixes.qmd">5. Metric Prefixes</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary='["Scientific Calculator","EXP","EE","calculator"]' data-bs-search-body='["Entering powers of 10 cleanly and checking notation on a calculator."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="01-number-systems/06-scientific-calculator.qmd">6. Scientific Calculator</a></div></article>
+</div>
+</details>
 
-- [TEJ Slides](../slides/tej.qmd)
+</div>
+<p class="bs-learn-empty" data-bs-learn-empty hidden>No TEJ lessons match this search.</p>
+```
 
-## Reusable materials
+## Current classroom material
 
-- [General Materials](../teaching-materials/index.qmd)
-- [General Slides](../teacher-slides/index.qmd)
-:::
-:::
+- [TEJ classroom slides](../slides/tej.qmd)
+- [TEJ Week 2 files](https://drive.google.com/drive/folders/1P3NaCNCtP4JRAt8ns4E2g36btEVJLhTS)
+
+Future units stay out of the notes until we actually teach them.
