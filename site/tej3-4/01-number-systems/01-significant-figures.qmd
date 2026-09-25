@@ -1,0 +1,50 @@
+---
+title: "1.1 Significant Figures"
+description: "A short classroom guide to significant figures and rounding."
+sidebar: tej
+body-classes: "bs-learn-article ter-notes-lesson"
+toc: true
+toc-depth: 2
+execute:
+  enabled: false
+---
+
+::: {.bs-lesson-meta}
+Unit: Number Systems  
+Source: Class lesson and practice
+:::
+
+## Core idea
+
+Significant figures communicate the precision of a measured or stated value.
+
+- Non-zero digits are significant.
+- Zeros between significant digits are significant.
+- Leading zeros are not significant.
+- Trailing zeros are significant when the notation makes that precision clear.
+- Scientific notation makes the intended significant figures explicit in the coefficient.
+
+Examples:
+
+- **42.7** → 3 significant figures
+- **0.00420** → 3 significant figures
+- **1.20 × 10³** → 3 significant figures
+
+## Calculations
+
+Carry the calculator result through the full calculation and **round once at the end**.
+
+- Multiplication and division: the final answer follows the value with the fewest significant figures.
+- Addition and subtraction: the final answer follows the least precise decimal place.
+- Mixed calculations: keep unrounded intermediate values, apply the relevant precision rule, and round the final result once.
+
+## Practice
+
+- [Significant Figures practice 1](https://drive.google.com/file/d/1ep-nUmzdp9LIc74qZqz_OfeASG1rulMA/view?usp=drivesdk)
+- [Significant Figures practice 2](https://drive.google.com/file/d/1yexhwUDedo25OSewC8WK8FDLQ0Cw89D_/view?usp=drivesdk)
+
+::: {.callout-tip}
+## Improve these notes
+
+Add one worked example that shows **why** a digit is or is not significant, or one mixed calculation where the rounding happens only at the end.
+:::
