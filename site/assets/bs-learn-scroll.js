@@ -1,9 +1,11 @@
 (function () {
   "use strict";
 
-  const SITE_BASE = window.location.pathname.startsWith("/tech-edu-resources/")
-    ? "/tech-edu-resources"
-    : "";
+  const SITE_BASE =
+    typeof window !== "undefined" &&
+    window.location.pathname.startsWith("/tech-edu-resources/")
+      ? "/tech-edu-resources"
+      : "";
   const MANIFEST_ROUTE = SITE_BASE + "/assets/bs-learn-sequence.json";
   let bootstrapToc = null;
   const ID_TOKEN_ATTRIBUTES = [
