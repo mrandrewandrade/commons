@@ -53,6 +53,8 @@ website:
         text: General Slides
       - href: teaching-materials/index.qmd
         text: General Materials
+      - href: glossary/index.qmd
+        text: Glossary
       - href: lore/index.qmd
         text: Lore
       - href: https://andrewandrade.ca/tech-edu-resources/about.html
