@@ -1,0 +1,87 @@
+---
+title: "2.1 Charge, Voltage & Current"
+description: "Coulombs, potential difference, current, reference voltage, and a first connection to capacitors."
+sidebar: tej
+body-classes: "bs-learn-article ter-notes-lesson"
+toc: true
+toc-depth: 3
+execute:
+  enabled: false
+---
+
+## Charge
+
+Electric charge is represented by **Q** and measured in **coulombs (C)**.
+
+One coulomb corresponds to approximately **6.25 × 10¹⁸ elementary charges**. [[1, pp. 30-32]](../../references.qmd#ref-grob2016)
+
+We normally do not count individual electrons. The coulomb gives us a practical unit for talking about an amount of charge.
+
+## Voltage: potential difference
+
+Voltage is a **potential difference between two points**. It is measured in **volts (V)**. [[1, pp. 33-35]](../../references.qmd#ref-grob2016)
+
+A useful relationship is:
+
+**1 V = 1 J/C**
+
+That means voltage can be understood as energy available per unit of charge.
+
+### Raised-glass analogy
+
+Imagine choosing the floor as a reference height.
+
+- a glass on the floor is at the reference level
+- lifting the glass gives it more gravitational potential energy
+- a point above the reference can be treated as positive
+- a point below a chosen reference can be treated as negative
+
+Voltage works similarly as a **difference relative to a reference point**. In an electronic system, that reference is often called **ground**.
+
+The analogy is about **potential**, not about electricity literally behaving like water.
+
+::: {.callout-important}
+## Voltage can exist without current
+
+A battery can have a voltage across its terminals even when nothing is connected and no current is flowing. [[1, p. 49]](../../references.qmd#ref-grob2016)
+:::
+
+## Current: charge in motion
+
+Current is represented by **I** and measured in **amperes (A)**.
+
+**I = Q / t**
+
+Therefore:
+
+**1 A = 1 C/s**
+
+Current is a **rate**. A useful water analogy is the rate at which water is being poured, not the total amount of water in the glass. [[1, pp. 35-38]](../../references.qmd#ref-grob2016)
+
+## Why coulombs matter later
+
+Capacitors give charge a practical meaning.
+
+A capacitor stores separated charge and electrical energy. Its capacitance tells us how much charge can be stored at a given voltage:
+
+**C = Q / V**
+
+We will use that relationship later. For now, the important connection is:
+
+**charge + voltage -> capacitor behaviour**
+
+Modern multilayer ceramic capacitors are extremely common. *Open Circuits* notes that a smartphone may contain hundreds of MLCCs, many used to help stabilize power supplies. [[2, p. 36]](../../references.qmd#ref-opencircuits2023)
+
+## Quick check
+
+1. What does a coulomb measure?
+2. What is the difference between voltage and current?
+3. Can voltage exist when current is zero?
+4. If 3.0 C of charge passes a point in 2.0 s, what is the current?
+5. Why might capacitors make the idea of charge useful when looking at a motherboard?
+
+::: {.callout-tip}
+## Improve these notes
+
+Add one better analogy, diagram, or real component example for charge, voltage, or current.
+:::
