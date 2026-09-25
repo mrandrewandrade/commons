@@ -109,9 +109,65 @@
       "track_order": 1,
       "track_title": "1. Number Systems",
       "previous_route": "/commons/tej3-4/01-number-systems/04-engineering-notation.html",
+      "next_route": "/commons/tej3-4/02-basic-electronics/01-charge-voltage-current.html",
+      "next_starts_new_track": true,
+      "sequence_index": 7
+    },
+    {
+      "course_id": "tej",
+      "course_title": "TEJ Notes",
+      "lesson_order": 1,
+      "route": "/commons/tej3-4/02-basic-electronics/01-charge-voltage-current.html",
+      "title": "Charge, Voltage & Current",
+      "track_id": "tej-basic-electronics",
+      "track_order": 2,
+      "track_title": "2. Basic Electronics",
+      "previous_route": "/commons/tej3-4/01-number-systems/05-metric-prefixes.html",
+      "next_route": "/commons/tej3-4/02-basic-electronics/02-circuits-opens-shorts.html",
+      "next_starts_new_track": false,
+      "sequence_index": 8
+    },
+    {
+      "course_id": "tej",
+      "course_title": "TEJ Notes",
+      "lesson_order": 2,
+      "route": "/commons/tej3-4/02-basic-electronics/02-circuits-opens-shorts.html",
+      "title": "Closed, Open & Short Circuits",
+      "track_id": "tej-basic-electronics",
+      "track_order": 2,
+      "track_title": "2. Basic Electronics",
+      "previous_route": "/commons/tej3-4/02-basic-electronics/01-charge-voltage-current.html",
+      "next_route": "/commons/tej3-4/02-basic-electronics/03-ohms-law.html",
+      "next_starts_new_track": false,
+      "sequence_index": 9
+    },
+    {
+      "course_id": "tej",
+      "course_title": "TEJ Notes",
+      "lesson_order": 3,
+      "route": "/commons/tej3-4/02-basic-electronics/03-ohms-law.html",
+      "title": "Ohm's Law",
+      "track_id": "tej-basic-electronics",
+      "track_order": 2,
+      "track_title": "2. Basic Electronics",
+      "previous_route": "/commons/tej3-4/02-basic-electronics/02-circuits-opens-shorts.html",
+      "next_route": "/commons/tej3-4/02-basic-electronics/04-power-energy.html",
+      "next_starts_new_track": false,
+      "sequence_index": 10
+    },
+    {
+      "course_id": "tej",
+      "course_title": "TEJ Notes",
+      "lesson_order": 4,
+      "route": "/commons/tej3-4/02-basic-electronics/04-power-energy.html",
+      "title": "Power & Energy",
+      "track_id": "tej-basic-electronics",
+      "track_order": 2,
+      "track_title": "2. Basic Electronics",
+      "previous_route": "/commons/tej3-4/02-basic-electronics/03-ohms-law.html",
       "next_route": null,
       "next_starts_new_track": false,
-      "sequence_index": 7
+      "sequence_index": 11
     }
   ]
 }
