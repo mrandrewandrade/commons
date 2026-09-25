@@ -531,7 +531,7 @@ assert.equal(
     (count, item) => count + item.aliasSlugs.length,
     0
   ),
-  22,
+  21,
   "the JavaScript integration fixture uses every canonical alias"
 );
 
@@ -748,7 +748,7 @@ assert.equal(
     (total, entry) => total + entry.aliases.length,
     0
   ),
-  22
+  21
 );
 assert.equal(
   learn.bestLookupEntry(lookupData.entries, "Potential Difference").term,
