@@ -28,7 +28,7 @@ require_command Rscript
 
 REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || true)"
 if [[ -z "$REPO_ROOT" ]]; then
-    printf 'Run this script from inside the BS website Git repository.\n' >&2
+    printf 'Run this script from inside the Technological Education Resources Git repository.\n' >&2
     exit 1
 fi
 cd "$REPO_ROOT"
@@ -128,5 +128,5 @@ printf 'Verifying Playwright Chromium...\n'
     'from playwright.sync_api import sync_playwright; p = sync_playwright().start(); b = p.chromium.launch(); print("Chromium", b.version); b.close(); p.stop()'
 
 printf '\nEnvironment setup passed.\n'
-printf 'Future builds can run with:\n  bash bs-build-and-publish.sh\n'
+printf 'Future builds can run with:\n  bash scripts/bs-build-and-publish.sh\n'
 printf 'Optional interactive Bash environment:\n  source %s\n' "$ENV_FILE"
