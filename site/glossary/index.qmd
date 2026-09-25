@@ -1,0 +1,54 @@
+---
+title: "Glossary"
+description: "A searchable reference for basic Technological Education design, electrical, measurement, motion, and unit vocabulary."
+sidebar: false
+page-layout: article
+body-classes: bs-glossary-index
+toc: false
+execute:
+  enabled: false
+---
+
+Use this glossary for the basic terms and units that appear across the course notes, slides, assignments, and classroom examples. More vocabulary can be added as the courses grow.
+
+```{=html}
+<span id="bs-glossary-top" class="bs-glossary-top-target" tabindex="-1"></span>
+```
+
+```{=html}
+<section class="bs-glossary-filter-panel" data-bs-glossary-filters aria-label="Search and filter the glossary">
+  <div class="bs-glossary-search-group">
+    <label for="bs-glossary-search">Search terms and aliases</label>
+    <input id="bs-glossary-search" type="search" autocomplete="off" spellcheck="false" placeholder="Try voltage, amps, N.I.C.E., or m/s²" data-bs-glossary-search>
+  </div>
+
+  <details class="bs-glossary-filter-disclosure" data-bs-glossary-category-disclosure>
+    <summary>Glossary category</summary>
+    <div class="bs-glossary-filter-options" role="group" aria-label="Filter by glossary category" data-bs-glossary-category-filters></div>
+  </details>
+
+  <div class="bs-glossary-filter-footer">
+    <p class="bs-glossary-result-count" aria-live="polite" data-bs-glossary-result-count></p>
+    <button type="button" class="bs-glossary-clear" data-bs-glossary-clear hidden>Reset search and filters</button>
+  </div>
+</section>
+```
+
+{{< include _entries.html >}}
+
+```{=html}
+<p class="bs-glossary-empty" data-bs-glossary-empty hidden>
+  No glossary terms match this search and filter combination.
+</p>
+<a class="bs-glossary-back-to-top" href="#bs-glossary-top" data-bs-glossary-back-to-top hidden>
+  Back to top
+</a>
+<aside class="bs-glossary-sidebar" data-bs-glossary-sidebar role="dialog" aria-modal="false" aria-labelledby="bs-glossary-sidebar-title" aria-hidden="true" hidden>
+  <div class="bs-glossary-sidebar-heading">
+    <h2 id="bs-glossary-sidebar-title" tabindex="-1" data-bs-glossary-sidebar-title>Glossary definition</h2>
+    <button type="button" class="bs-glossary-sidebar-close" data-bs-glossary-sidebar-close aria-label="Close glossary definition">Close</button>
+  </div>
+  <div class="bs-glossary-sidebar-content" data-bs-glossary-sidebar-content></div>
+  <a class="bs-glossary-sidebar-entry-link" href="/tech-edu-resources/glossary/" data-bs-glossary-sidebar-entry-link>Go to glossary entry</a>
+</aside>
+```
