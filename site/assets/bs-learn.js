@@ -252,7 +252,7 @@
   function loadGlossaryLookupEntries() {
     if (!glossaryLookupEntriesPromise) {
       glossaryLookupEntriesPromise = fetch(
-        "/assets/bs-glossary-lookup.json",
+        "/tech-edu-resources/assets/bs-glossary-lookup.json",
         { credentials: "same-origin" }
       )
         .then(function (response) {
@@ -1008,7 +1008,7 @@
       'aria-expanded="true" aria-label="Collapse term lookup">' +
       '<span aria-hidden="true">&rarr;</span></button>' +
       "</div>" +
-      '<form action="/glossary/" method="get" data-bs-term-lookup-form>' +
+      '<form action="/tech-edu-resources/glossary/" method="get" data-bs-term-lookup-form>' +
       '<label class="visually-hidden" for="bs-term-lookup-input">' +
       "Term or alias</label>" +
       '<div class="bs-term-lookup-controls">' +
@@ -1032,7 +1032,7 @@
       const fullSearch = document.createElement("a");
       fullSearch.className = "bs-term-lookup-full";
       fullSearch.href =
-        "/glossary/?q=" + encodeURIComponent(query);
+        "/tech-edu-resources/glossary/?q=" + encodeURIComponent(query);
       fullSearch.textContent = "Search the Full Glossary \u2192";
       container.append(message, fullSearch);
       return;
@@ -1115,7 +1115,7 @@
 
     const fullEntry = document.createElement("a");
     fullEntry.className = "bs-term-lookup-full";
-    fullEntry.href = "/glossary/#" + encodeURIComponent(entry.slug);
+    fullEntry.href = "/tech-edu-resources/glossary/#" + encodeURIComponent(entry.slug);
     fullEntry.textContent = "Go to glossary entry";
     container.appendChild(fullEntry);
   }
@@ -1412,7 +1412,7 @@
       if (formElement && !lookup.querySelector(".bs-term-lookup-browse")) {
         const browseGlossary = document.createElement("a");
         browseGlossary.className = "bs-term-lookup-browse";
-        browseGlossary.href = "/glossary/";
+        browseGlossary.href = "/tech-edu-resources/glossary/";
         browseGlossary.textContent = "Browse the full glossary";
         formElement.insertAdjacentElement("afterend", browseGlossary);
       }
@@ -2067,7 +2067,7 @@
           })
           .catch(function () {
             window.location.href =
-              "/glossary/?q=" + encodeURIComponent(query);
+              "/tech-edu-resources/glossary/?q=" + encodeURIComponent(query);
           });
       });
     }
@@ -2101,7 +2101,7 @@
       }
       if (!desktopQuery.matches) {
         window.location.href =
-          "/glossary/#" + encodeURIComponent(slug);
+          "/tech-edu-resources/glossary/#" + encodeURIComponent(slug);
         return;
       }
       suppressRightRailAutoCollapse = true;
@@ -2132,7 +2132,7 @@
         })
         .catch(function () {
           window.location.href =
-            "/glossary/#" + encodeURIComponent(slug);
+            "/tech-edu-resources/glossary/#" + encodeURIComponent(slug);
         });
       window.setTimeout(function () {
         lastRightRailScrollY = window.scrollY;
