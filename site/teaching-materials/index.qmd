@@ -16,10 +16,10 @@ execute:
 ::: {.bs-page-shell}
 ::: {.bs-reading-column}
 ::: {.bs-editorial-lead}
-Reusable classroom materials for students and teachers. Published PDFs, black-and-white print versions, and editable Word files are stored with this site under the same CC BY-SA 4.0 attribution. Current TAS design-process examples and templates link to their student-facing Google Docs in the Teaching folder.
+Reusable classroom materials for students and teachers. Published PDFs, black-and-white print versions, and editable Word files are stored with this site under the same CC BY-SA 4.0 attribution. Current TAS design-process examples and templates link to their student-facing Google Docs in the [Teaching folder](https://drive.google.com/drive/folders/1rWNYdJpppXTj5Oq_FO6mBqT-Ihee6b3S).
 :::
 
-The library intentionally links to **generic teaching materials, not student submissions or student copies**. **General** materials are broadly reusable across subjects and technology courses. **Human Well-Being** materials focus on identity, reflection, listening, goal setting, community, and related learning routines.
+The library intentionally links to **generic teaching materials, not student submissions or student copies**. **General** materials are broadly reusable across subjects and technology courses. **Well-Being** materials focus on identity, reflection, listening, goal setting, community, and related learning routines.
 :::
 
 ```{=html}
@@ -45,7 +45,7 @@ The library intentionally links to **generic teaching materials, not student sub
     <p class="bs-slide-control-label">Collection</p>
     <div class="bs-slide-filter-buttons" data-slide-collection-filters>
       <button type="button" data-slide-collection-filter="General" aria-pressed="false">General</button>
-      <button type="button" data-slide-collection-filter="Human Well-Being" aria-pressed="false">Human Well-Being</button>
+      <button type="button" data-slide-collection-filter="Well-Being" aria-pressed="false">Well-Being</button>
     </div>
   </div>
 
@@ -90,15 +90,15 @@ The library intentionally links to **generic teaching materials, not student sub
   </article>
 
   <article class="bs-slide-card" data-slide-card
-    data-collection="Human Well-Being"
+    data-collection="Well-Being"
     data-courses="TAS|TEJ|TTJ"
     data-tags="identity|reflection|goals|self-awareness|introductory"
     data-search="past present becoming identity reflection self awareness goals introductory about me">
     <a class="bs-slide-thumb" href="../assets/materials/0.1-past-present-becoming.pdf" aria-label="Open Past Present and Becoming PDF">
-      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being</span><strong>0.1</strong><span>Past · present · becoming</span></span>
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Well-Being</span><strong>0.1</strong><span>Past · present · becoming</span></span>
     </a>
     <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">Human Well-Being</p>
+      <p class="bs-slide-card-collection">Well-Being</p>
       <h2 class="bs-slide-card-title"><a href="../assets/materials/0.1-past-present-becoming.pdf">Past, Present &amp; Becoming</a></h2>
       <p class="bs-slide-card-description">An introductory communication and reflection activity with explicit student choice, privacy, and non-disclosure safeguards.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
@@ -111,23 +111,22 @@ The library intentionally links to **generic teaching materials, not student sub
   </article>
 
   <article class="bs-slide-card" data-slide-card
-    data-collection="Human Well-Being"
+    data-collection="Well-Being"
     data-courses="TAS|TEJ|TTJ"
-    data-tags="listening|reflection|communication|community|presentation"
-    data-search="the way we meet listening notes reflection presentation community connection communication">
-    <a class="bs-slide-thumb" href="../assets/materials/0.2-the-way-we-meet-notes.pdf" aria-label="Open The Way We Meet listening notes PDF">
-      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being</span><strong>0.2</strong><span>Listen + connect</span></span>
+    data-tags="listening|reflection|communication|community|presentation|printable|digitize"
+    data-search="the way we meet listening notes reflection presentation community connection communication black white printable digitize google doc pdf">
+    <a class="bs-slide-thumb" href="../assets/materials/0.2-the-way-we-meet-notes-bw.pdf" aria-label="Open The Way We Meet black-and-white listening notes PDF">
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Well-Being</span><strong>0.2</strong><span>Listen + connect</span></span>
     </a>
     <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">Human Well-Being</p>
-      <h2 class="bs-slide-card-title"><a href="../assets/materials/0.2-the-way-we-meet-notes.pdf">The Way We Meet: Listening Notes &amp; Reflection</a></h2>
-      <p class="bs-slide-card-description">Listening notes and reflection prompts for learning about classmates, noticing connections, and practising attentive participation.</p>
+      <p class="bs-slide-card-collection">Well-Being</p>
+      <h2 class="bs-slide-card-title"><a href="../assets/materials/0.2-the-way-we-meet-notes-bw.pdf">The Way We Meet: Listening Notes &amp; Reflection</a></h2>
+      <p class="bs-slide-card-description">Black-and-white listening notes for printing. The Google Doc provides the digital version and directions for preparing one readable PDF for submission.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
       <div class="bs-slide-card-tags" aria-label="Topics"><button type="button" data-slide-card-tag="listening">Listening</button><button type="button" data-slide-card-tag="reflection">Reflection</button><button type="button" data-slide-card-tag="community">Community</button></div>
       <div class="bs-slide-actions">
-        <a class="bs-slide-open" href="../assets/materials/0.2-the-way-we-meet-notes.pdf">Open PDF</a>
-        <a class="bs-slide-open" href="../assets/materials/0.2-the-way-we-meet-notes-bw.pdf">B&amp;W print PDF</a>
-        <a class="bs-slide-open" href="../assets/materials/0.2-the-way-we-meet-notes.docx">Editable Word</a>
+        <a class="bs-slide-open" href="../assets/materials/0.2-the-way-we-meet-notes-bw.pdf">Open B&amp;W print PDF</a>
+        <a class="bs-slide-open" href="https://docs.google.com/document/d/1hAmElSY8qL7bGIAtZ8gGLXHEDra1b5cYGd2k9jx8vsI/edit?usp=drivesdk">Open Google Doc / digitize</a>
       </div>
     </div>
   </article>
@@ -187,15 +186,15 @@ The library intentionally links to **generic teaching materials, not student sub
   </article>
 
   <article class="bs-slide-card" data-slide-card
-    data-collection="Human Well-Being"
+    data-collection="Well-Being"
     data-courses="TAS|TEJ|TTJ"
     data-tags="goals|reflection|progress|self-regulation|planning"
     data-search="weekly smart goal progress log goals reflection progress self regulation planning">
     <a class="bs-slide-thumb" href="../assets/materials/weekly-smart-goal-progress-log.pdf" aria-label="Open Weekly SMART Goal Progress Log PDF">
-      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Human Well-Being</span><strong>GOAL</strong><span>Plan + reflect</span></span>
+      <span class="bs-slide-thumb-fallback" aria-hidden="true"><span class="bs-slide-thumb-kicker">Well-Being</span><strong>GOAL</strong><span>Plan + reflect</span></span>
     </a>
     <div class="bs-slide-card-body">
-      <p class="bs-slide-card-collection">Human Well-Being</p>
+      <p class="bs-slide-card-collection">Well-Being</p>
       <h2 class="bs-slide-card-title"><a href="../assets/materials/weekly-smart-goal-progress-log.pdf">Weekly SMART Goal Progress Log</a></h2>
       <p class="bs-slide-card-description">A reusable goal-setting and progress-reflection log for planning, monitoring learning, and recording formative next steps.</p>
       <div class="bs-slide-card-courses" aria-label="Courses"><button type="button" data-slide-card-course="TAS">TAS</button><button type="button" data-slide-card-course="TEJ">TEJ</button><button type="button" data-slide-card-course="TTJ">TTJ</button></div>
