@@ -1,7 +1,7 @@
 (function () {
   "use strict";
 
-  const MANIFEST_ROUTE = "/assets/bs-learn-sequence.json";
+  const MANIFEST_ROUTE = "/tech-edu-resources/assets/bs-learn-sequence.json";
   let bootstrapToc = null;
   const ID_TOKEN_ATTRIBUTES = [
     "for",
@@ -559,11 +559,21 @@
     const end = document.createElement("section");
     const message = document.createElement("p");
     const link = document.createElement("a");
+    const pathname = window.location.pathname;
+    let courseHome = "/tech-edu-resources/";
+    let courseLabel = "Notes Home";
+    if (pathname.includes("/tej3-4/")) {
+      courseHome = "/tech-edu-resources/tej3-4/";
+      courseLabel = "Return to TEJ Notes";
+    } else if (pathname.includes("/tas2/")) {
+      courseHome = "/tech-edu-resources/tas2/";
+      courseLabel = "Return to TAS Notes";
+    }
     end.className = "bs-learn-scroll-end";
     end.dataset.bsLearnScrollEnd = "";
     message.textContent = "You have reached the end of the current lessons.";
-    link.href = "/learn/";
-    link.textContent = "Return to Learn Home";
+    link.href = courseHome;
+    link.textContent = courseLabel;
     end.append(message, link);
     return end;
   }
