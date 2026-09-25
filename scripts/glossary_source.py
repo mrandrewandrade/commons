@@ -756,6 +756,14 @@ def load_imported_glossary_rows() -> list[dict[str, object]]:
     return rows
 
 
+def clean_imported_text(value: str) -> str:
+    # The source PDF splits fi/fl ligatures in extracted text. Normalize only
+    # those extraction artifacts; otherwise preserve the concise source meaning.
+    value = re.sub(r"(fi|fl|ff) (?=[a-z])", r"\\1", value)
+    value = value.replace("_", " ")
+    return " ".join(value.split())
+
+
 def build_imported_public_entries(
     curated_entries: list[dict[str, object]],
 ) -> list[dict[str, object]]:
@@ -778,13 +786,15 @@ def build_imported_public_entries(
     }
 
     for row in load_imported_glossary_rows():
-        term = _require_contract_string(row, "term", "imported glossary row")
-        slug = _require_contract_string(row, "slug", f"imported term {term}")
-        short_definition = _require_contract_string(
-            row, "short", f"imported term {term}"
+        term = clean_imported_text(
+            _require_contract_string(row, "term", "imported glossary row")
         )
-        long_definition = _require_contract_string(
-            row, "long", f"imported term {term}"
+        slug = _require_contract_string(row, "slug", f"imported term {term}")
+        short_definition = clean_imported_text(
+            _require_contract_string(row, "short", f"imported term {term}")
+        )
+        long_definition = clean_imported_text(
+            _require_contract_string(row, "long", f"imported term {term}")
         )
         if not SLUG_VALUE.fullmatch(slug):
             raise ValidationError(f"Imported glossary slug is malformed: {slug!r}")
@@ -800,6 +810,7 @@ def build_imported_public_entries(
         for raw_alias in raw_aliases:
             if not isinstance(raw_alias, str) or not raw_alias.strip():
                 continue
+            raw_alias = clean_imported_text(raw_alias)
             normalized_alias = normalize_lookup(raw_alias)
             if (
                 not normalized_alias
