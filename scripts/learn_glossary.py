@@ -2083,7 +2083,7 @@ def build_authoring_terms(entries: list[dict[str, object]]) -> str:
     for entry in entries:
         term = str(entry["term"]).replace("|", "\\|")
         slug = str(entry["slug"])
-        lines.append(f"| {term} | `{slug}` | `/tech-edu-resources/glossary/#{slug}` |")
+        lines.append(f"| {term} | `{slug}` | `/commons/glossary/#{slug}` |")
     content = "\n".join(lines) + "\n"
     assert_no_forbidden_text(content, "generated authoring term list")
     return content
