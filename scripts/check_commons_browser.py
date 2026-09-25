@@ -22,11 +22,17 @@ def main():
     Thread(target=server.serve_forever, daemon=True).start()
     base = f'http://127.0.0.1:{server.server_port}'
     pages = [
-        'index.html', 'tas2/index.html', 'tej3-4/index.html', 'ttj3-4/index.html',
-        'resources/index.html', 'tools/index.html', 'wellbeing/index.html',
-        'glossary/index.html', 'about.html', 'lore/index.html',
-                'lore/remembering-the-port-credit-boys.html',
-        'resources/nice-design-process.html', 'tools/nice-design-tool.html',
+        'index.html',
+        'tas2/index.html',
+        'tej3-4/index.html',
+        'slides/tas.html',
+        'slides/tej.html',
+        'teacher-slides/index.html',
+        'teaching-materials/index.html',
+        'glossary/index.html',
+        'about.html',
+        'lore/index.html',
+        'lore/remembering-the-port-credit-boys.html',
     ]
     errors = []
     failed_external = set()
@@ -66,35 +72,35 @@ def main():
             page.wait_for_timeout(250)
             assert page.locator('[data-bs-glossary-entry]:visible').count() == 1
 
-            page.goto(base + '/tools/nice-design-tool.html')
-            page.locator('#nice-project-title').fill('Consolidation verification')
-            page.locator('#nice-situation').fill('A <test> & a design project')
-            assert 'Consolidation verification' in page.locator('#nice-report').inner_text()
-            assert 'A <test> & a design project' in page.locator('#nice-report').inner_text()
-            assert page.locator('#nice-report test').count() == 0
-            for selector, extension in [('#nice-download-md', '.md'), ('#nice-download-doc', '.doc')]:
-                with page.expect_download() as downloaded:
-                    page.locator(selector).click()
-                download = downloaded.value
-                assert download.suggested_filename.endswith(extension)
-                destination = OUTPUT / download.suggested_filename
-                download.save_as(destination)
-                assert 'Consolidation verification' in destination.read_text(encoding='utf-8-sig')
-            page.emulate_media(media='print')
-            assert page.locator('#nice-report').is_visible()
-            page.emulate_media(media='screen')
+            page.goto(base + '/tej3-4/01-number-systems/01-significant-figures.html')
+            page.wait_for_load_state('networkidle')
+            toc = page.locator('#quarto-margin-sidebar #TOC')
+            assert toc.is_visible(), 'TEJ lesson TOC is not visible'
+            assert 'Core idea' in toc.inner_text()
+            page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+            page.wait_for_timeout(1200)
+            assert toc.is_visible(), 'TEJ lesson TOC disappeared while scrolling'
+            assert not page.locator('#quarto-margin-sidebar').evaluate(
+                '(element) => element.classList.contains("bs-refined-right-rail-scroll-collapsed")'
+            ), 'TEJ lesson TOC auto-collapsed while scrolling'
+            assert page.locator('.bs-learn-scroll-lesson-marker').count() >= 2, (
+                'TEJ continuous notes did not load the next lesson'
+            )
+            page.screenshot(path=str(OUTPUT / 'tej-continuous-toc.png'))
 
-            page.goto(base + '/resources/nice-design-process-slides.html')
-            page.wait_for_function('typeof Reveal !== "undefined" && Reveal.isReady()')
-            before = page.evaluate('Reveal.getIndices().h')
-            page.keyboard.press('ArrowRight')
-            page.wait_for_timeout(800)
-            assert page.evaluate('Reveal.getIndices().h') > before
-            assert 'A modern phone' in page.evaluate('Reveal.getCurrentSlide().innerText')
-            page.screenshot(path=str(OUTPUT / 'nice-slides.png'))
+            page.goto(base + '/tas2/01-nice-design-process/01-needs-necessities.html')
+            page.wait_for_load_state('networkidle')
+            assert page.locator('#quarto-margin-sidebar #TOC').is_visible(), (
+                'TAS lesson TOC is not visible'
+            )
+            page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
+            page.wait_for_timeout(1200)
+            assert page.locator('.bs-learn-scroll-lesson-marker').count() >= 2, (
+                'TAS continuous notes did not load the next lesson'
+            )
 
             page.set_viewport_size({'width': 390, 'height': 844})
-            for route in ['index.html', 'tools/nice-design-tool.html']:
+            for route in ['index.html', 'tas2/index.html', 'tej3-4/index.html']:
                 page.goto(base + '/' + route)
                 page.wait_for_load_state('networkidle')
                 assert page.evaluate('document.documentElement.scrollWidth <= innerWidth + 1'), f'Horizontal overflow: {route}'
@@ -102,7 +108,7 @@ def main():
             page.goto(base + '/index.html')
             page.locator('.navbar-toggler').click()
             page.locator('#navbarCollapse').wait_for(state='visible')
-            page.locator('#navbarCollapse a.nav-link').filter(has_text='TAS2').click()
+            page.locator('#navbarCollapse a.nav-link').filter(has_text='TAS Notes').click()
             page.wait_for_url('**/tas2/**')
             assert not errors, errors
             browser.close()
