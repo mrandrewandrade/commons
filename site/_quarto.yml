@@ -104,6 +104,17 @@ website:
               href: tej3-4/01-number-systems/04-engineering-notation.qmd
             - text: "1.6 Metric Prefixes"
               href: tej3-4/01-number-systems/05-metric-prefixes.qmd
+        - section: "2. Basic Electronics"
+          href: tej3-4/02-basic-electronics/index.qmd
+          contents:
+            - text: "2.1 Charge, Voltage & Current"
+              href: tej3-4/02-basic-electronics/01-charge-voltage-current.qmd
+            - text: "2.2 Closed, Open & Short Circuits"
+              href: tej3-4/02-basic-electronics/02-circuits-opens-shorts.qmd
+            - text: "2.3 Ohm's Law"
+              href: tej3-4/02-basic-electronics/03-ohms-law.qmd
+            - text: "2.4 Power & Energy"
+              href: tej3-4/02-basic-electronics/04-power-energy.qmd
   page-footer:
     left: |
       **CC BY-SA 4.0 · Share, modify, and redistribute.** Modified versions remain CC BY-SA 4.0 and attribute the original source: [andrewandrade.ca](https://andrewandrade.ca/) · [github.com/mrandrewandrade](https://github.com/mrandrewandrade). Add your own name and links when you adapt it so future versions can credit you too. **Sharing is caring.**
