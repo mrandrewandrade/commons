@@ -1,0 +1,122 @@
+---
+title: "2.4 Power & Energy"
+description: "Calculate electrical power, total computer power draw, and energy used over time."
+sidebar: tej
+body-classes: "bs-learn-article ter-notes-lesson"
+toc: true
+toc-depth: 3
+execute:
+  enabled: false
+---
+
+## Power
+
+Electrical power is the **rate of energy transfer**. It is represented by **P** and measured in **watts (W)**. [[1, pp. 86-93]](../../references.qmd#ref-grob2016)
+
+**P = V × I**
+
+One watt is one joule per second:
+
+**1 W = 1 J/s**
+
+Power supplies are rated in watts because they must deliver energy quickly enough for all of the connected loads.
+
+## Device labels give useful information
+
+Grob uses appliance nameplates as a practical example: if voltage and power are listed, current can be calculated with **I = P / V**. [[1, p. 98]](../../references.qmd#ref-grob2016)
+
+We can do the same thing with computer hardware and USB devices.
+
+### Example
+
+A USB device operates at:
+
+- **5.00 V**
+- **0.900 A**
+
+**P = V × I**
+
+**P = 5.00 V × 0.900 A = 4.50 W**
+
+The answer has 3 significant figures.
+
+## Checkpoint: plug in two USB devices
+
+A computer is already drawing **338 W**.
+
+You plug in:
+
+| Device | Voltage | Current |
+|---|---:|---:|
+| USB A | 5.00 V | 0.900 A |
+| USB B | 5.00 V | 1.50 A |
+
+Calculate:
+
+1. the power used by USB A
+2. the power used by USB B
+3. the combined USB power
+4. the new total computer power draw
+5. the final answers using the correct significant-figure or decimal-place rule
+
+<details>
+<summary><strong>Check your work</strong></summary>
+
+USB A:
+
+**5.00 V × 0.900 A = 4.50 W**
+
+USB B:
+
+**5.00 V × 1.50 A = 7.50 W**
+
+Combined USB power:
+
+**4.50 W + 7.50 W = 12.00 W**
+
+New computer total:
+
+**338 W + 12.00 W = 350 W**
+
+To make the intended precision explicit:
+
+**3.50 × 10² W**
+
+</details>
+
+## Energy
+
+Power tells us **how fast** energy is transferred. Energy tells us **how much total** has been transferred.
+
+**E = P × t**
+
+For two USB devices drawing **12.00 W** for **2.00 h**:
+
+**E = 12.00 W × 2.00 h = 24.0 Wh**
+
+That is also:
+
+**86.4 kJ**
+
+## Power supply vs battery
+
+Keep these ideas separate:
+
+- a **power-supply rating in watts** describes a rate of energy delivery
+- a **battery capacity in watt-hours** describes an amount of stored energy
+
+## Inside a computer
+
+Modern electronics repeatedly convert and stabilize power.
+
+*Open Circuits* shows that multilayer ceramic capacitors are commonly used for local power-supply stability, and it also shows compact DC-DC converter modules that change one DC voltage into another more efficiently than a simple linear regulator. [[2, pp. 36, 249]](../../references.qmd#ref-opencircuits2023)
+
+This gives us a path into later topics:
+
+**power -> voltage conversion -> capacitors and inductors -> real motherboard power circuits**
+
+::: {.callout-tip}
+## Improve these notes
+
+Add the voltage, current, or power rating from a real computer component or USB device and show one calculation.
+:::
