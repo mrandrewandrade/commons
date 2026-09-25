@@ -1,0 +1,90 @@
+---
+title: "2.3 Ohm's Law"
+description: "Use voltage, current, and resistance to predict circuit behaviour."
+sidebar: tej
+body-classes: "bs-learn-article ter-notes-lesson"
+toc: true
+toc-depth: 3
+execute:
+  enabled: false
+---
+
+## The relationship
+
+Ohm's law connects voltage, current, and resistance. [[1, pp. 76-84]](../../references.qmd#ref-grob2016)
+
+**I = V / R**
+
+Rearranged:
+
+**V = I × R**
+
+**R = V / I**
+
+Where:
+
+- **V** is voltage in volts
+- **I** is current in amperes
+- **R** is resistance in ohms
+
+## What the relationship means
+
+For a resistive load:
+
+- increasing voltage while resistance stays constant increases current
+- increasing resistance while voltage stays constant decreases current
+
+We will introduce resistor components in detail when we actually start using them. For now, resistance is the idea of **opposition to current**.
+
+## A practical computer example
+
+Suppose a USB device is operating at:
+
+- **5.00 V**
+- **0.900 A**
+
+Its equivalent resistance at that operating point is:
+
+**R = V / I**
+
+**R = 5.00 V / 0.900 A**
+
+**R = 5.56 Ω**
+
+Both measured values have 3 significant figures, so the final result is reported with 3 significant figures.
+
+::: {.callout-note}
+## A real USB device is not just a resistor
+
+Digital electronics can change how much current they draw as they operate. The calculated resistance is an **equivalent resistance at that operating point**, not necessarily a fixed physical resistor inside the device.
+:::
+
+## Open and short circuits are limits of the same model
+
+Ohm's law helps explain the two failure cases from the previous lesson:
+
+- **open circuit:** resistance becomes extremely large, so current approaches zero
+- **short circuit:** resistance becomes very small, so current can become very large
+
+The source and wiring always have some real resistance, so practical short-circuit current is finite.
+
+## Significant figures still apply
+
+Use the number-system rules from Unit 1:
+
+- keep full calculator precision during the calculation
+- for multiplication or division, round the final answer to the fewest significant figures in the inputs
+- round once, at the end
+
+## Practice
+
+1. A 12.0 V load has an effective resistance of 48.0 Ω. Find the current.
+2. A device draws 0.250 A from a 12.0 V supply. Find its equivalent resistance.
+3. A circuit draws 2.00 A through a 5.00 Ω load. Find the voltage.
+4. Explain why a short circuit can create much more current than a normal load.
+
+::: {.callout-tip}
+## Improve these notes
+
+Add one example from a label on a real electronic device.
+:::
