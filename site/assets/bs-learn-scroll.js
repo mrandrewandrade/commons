@@ -83,6 +83,7 @@
     const candidate = findCurrentLesson(manifest, lesson.next_route);
     if (
       !candidate ||
+      candidate.course_id !== lesson.course_id ||
       candidate.sequence_index !== lesson.sequence_index + 1 ||
       normalizeRoute(candidate.previous_route) !== normalizeRoute(lesson.route)
     ) {
@@ -100,11 +101,13 @@
     if (!lesson) {
       return [];
     }
-    return lessonsFromManifest(manifest)
-      .slice(lesson.sequence_index + 1)
-      .map(function (candidate) {
-        return normalizeRoute(candidate.route);
-      });
+    const routes = [];
+    let candidate = nextLesson(manifest, lesson);
+    while (candidate) {
+      routes.push(normalizeRoute(candidate.route));
+      candidate = nextLesson(manifest, candidate);
+    }
+    return routes;
   }
 
   function idPrefixForRoute(route) {

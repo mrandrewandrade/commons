@@ -23,6 +23,14 @@ def main() -> int:
             "generate",
         ]
     )
+    print("Generating continuous course-note navigation.")
+    run(
+        [
+            sys.executable,
+            str(REPO_ROOT / "scripts" / "course_notes.py"),
+            "generate",
+        ]
+    )
     return 0
 
 if __name__ == "__main__":

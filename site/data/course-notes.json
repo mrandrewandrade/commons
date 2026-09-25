@@ -1,0 +1,71 @@
+{
+  "schema_version": 1,
+  "courses": [
+    {
+      "id": "tas",
+      "title": "TAS Notes",
+      "units": [
+        {
+          "id": "tas-nice",
+          "order": 1,
+          "title": "1. N.I.C.E. Design Process",
+          "lessons": [
+            {
+              "order": 1,
+              "title": "Needs & Necessities",
+              "source": "tas2/01-nice-design-process/01-needs-necessities.qmd"
+            },
+            {
+              "order": 2,
+              "title": "Investigate & Inquire",
+              "source": "tas2/01-nice-design-process/02-investigate-inquire.qmd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "tej",
+      "title": "TEJ Notes",
+      "units": [
+        {
+          "id": "tej-number-systems",
+          "order": 1,
+          "title": "1. Number Systems",
+          "lessons": [
+            {
+              "order": 1,
+              "title": "Significant Figures",
+              "source": "tej3-4/01-number-systems/01-significant-figures.qmd"
+            },
+            {
+              "order": 2,
+              "title": "Powers of 10",
+              "source": "tej3-4/01-number-systems/02-powers-of-10.qmd"
+            },
+            {
+              "order": 3,
+              "title": "Scientific Calculator",
+              "source": "tej3-4/01-number-systems/06-scientific-calculator.qmd"
+            },
+            {
+              "order": 4,
+              "title": "Scientific Notation",
+              "source": "tej3-4/01-number-systems/03-scientific-notation.qmd"
+            },
+            {
+              "order": 5,
+              "title": "Engineering Notation",
+              "source": "tej3-4/01-number-systems/04-engineering-notation.qmd"
+            },
+            {
+              "order": 6,
+              "title": "Metric Prefixes",
+              "source": "tej3-4/01-number-systems/05-metric-prefixes.qmd"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
