@@ -18,6 +18,7 @@ Current units:
 
 0. [Expectations](00-expectations/index.qmd)
 1. [Number Systems](01-number-systems/index.qmd)
+2. [Basic Electronics](02-basic-electronics/index.qmd)
 
 ```{=html}
 <details class="bs-learn-filter-panel" data-bs-learn-filters aria-label="Search TEJ notes">
@@ -25,12 +26,13 @@ Current units:
 <div class="bs-learn-filter-body">
 <div class="bs-learn-search-group">
 <label for="bs-learn-search">Search lessons</label>
-<input id="bs-learn-search" type="search" placeholder="Try significant figures, exponents, or prefixes" autocomplete="off" data-bs-learn-search>
+<input id="bs-learn-search" type="search" placeholder="Try significant figures, voltage, current, Ohm's law, or power" autocomplete="off" data-bs-learn-search>
 </div>
 <details class="bs-learn-filter-disclosure">
 <summary>Unit Filter</summary>
 <div class="bs-learn-filter-options" role="group" aria-label="Filter by unit">
 <button type="button" class="bs-learn-filter" data-bs-filter-track="tej-number-systems" aria-pressed="false">1. Number Systems</button>
+<button type="button" class="bs-learn-filter" data-bs-filter-track="tej-basic-electronics" aria-pressed="false">2. Basic Electronics</button>
 </div>
 </details>
 <div class="bs-learn-filter-footer"><p class="bs-learn-result-count" aria-live="polite" data-bs-learn-result-count></p><button type="button" class="bs-learn-clear" data-bs-learn-clear hidden>Clear search and filters</button></div>
@@ -47,6 +49,16 @@ Current units:
 <article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary='["Scientific Notation","coefficient","decimal movement"]' data-bs-search-body='["A coefficient from 1 to less than 10 times a power of 10."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="01-number-systems/03-scientific-notation.qmd">1.4 Scientific Notation</a></div></article>
 <article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary='["Engineering Notation","multiple of 3","coefficient"]' data-bs-search-body='["A coefficient from 1 to less than 1000 and an exponent that is a multiple of 3."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="01-number-systems/04-engineering-notation.qmd">1.5 Engineering Notation</a></div></article>
 <article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary='["Metric Prefixes","tera","giga","mega","kilo","milli","micro","nano","pico"]' data-bs-search-body='["Metric prefixes for powers of 10."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="01-number-systems/05-metric-prefixes.qmd">1.6 Metric Prefixes</a></div></article>
+</div>
+</details>
+
+<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tej-basic-electronics" data-bs-total-lessons="4" open>
+<summary class="bs-learn-catalogue-section-heading"><span class="bs-learn-track-heading"><a href="02-basic-electronics/index.qmd">2. Basic Electronics</a><span data-bs-learn-group-count>4 lessons</span></span></summary>
+<div class="bs-learn-catalogue-section-items">
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-basic-electronics" data-bs-terms="[]" data-bs-search-primary='["Charge","Coulomb","Voltage","Current","Potential Difference","Capacitor"]' data-bs-search-body='["Charge in coulombs, voltage as potential difference, current as charge flow, and a bridge to capacitors."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="02-basic-electronics/01-charge-voltage-current.qmd">2.1 Charge, Voltage & Current</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-basic-electronics" data-bs-terms="[]" data-bs-search-primary='["Closed Circuit","Open Circuit","Short Circuit","Fuse","Switch"]' data-bs-search-body='["Complete paths, opens, shorts, fuses, and troubleshooting."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="02-basic-electronics/02-circuits-opens-shorts.qmd">2.2 Closed, Open & Short Circuits</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-basic-electronics" data-bs-terms="[]" data-bs-search-primary='["Ohm's Law","Voltage","Current","Resistance","VIR"]' data-bs-search-body='["Use V, I, and R to predict circuit behaviour with practical device examples."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="02-basic-electronics/03-ohms-law.qmd">2.3 Ohm's Law</a></div></article>
+<article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-basic-electronics" data-bs-terms="[]" data-bs-search-primary='["Power","Energy","Watts","Watt-hours","USB","Power Supply"]' data-bs-search-body='["Calculate USB and computer power draw, then distinguish power from energy."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="02-basic-electronics/04-power-energy.qmd">2.4 Power & Energy</a></div></article>
 </div>
 </details>
 </div>
