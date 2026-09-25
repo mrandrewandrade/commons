@@ -22,18 +22,18 @@ class CourseNotesManifestTests(unittest.TestCase):
             routes_by_course["tas"],
             [
                 "/commons/tas2/01-nice-design-process/01-needs-necessities.html",
-                "/tech-edu-resources/tas2/01-nice-design-process/02-investigate-inquire.html",
+                "/commons/tas2/01-nice-design-process/02-investigate-inquire.html",
             ],
         )
         self.assertEqual(
             routes_by_course["tej"],
             [
-                "/tech-edu-resources/tej3-4/01-number-systems/01-significant-figures.html",
-                "/tech-edu-resources/tej3-4/01-number-systems/02-powers-of-10.html",
-                "/tech-edu-resources/tej3-4/01-number-systems/06-scientific-calculator.html",
-                "/tech-edu-resources/tej3-4/01-number-systems/03-scientific-notation.html",
-                "/tech-edu-resources/tej3-4/01-number-systems/04-engineering-notation.html",
-                "/tech-edu-resources/tej3-4/01-number-systems/05-metric-prefixes.html",
+                "/commons/tej3-4/01-number-systems/01-significant-figures.html",
+                "/commons/tej3-4/01-number-systems/02-powers-of-10.html",
+                "/commons/tej3-4/01-number-systems/06-scientific-calculator.html",
+                "/commons/tej3-4/01-number-systems/03-scientific-notation.html",
+                "/commons/tej3-4/01-number-systems/04-engineering-notation.html",
+                "/commons/tej3-4/01-number-systems/05-metric-prefixes.html",
             ],
         )
 
