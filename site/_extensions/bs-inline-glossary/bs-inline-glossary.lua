@@ -262,7 +262,7 @@ local function transformed_run(text, phrases, found)
     output:insert(
       pandoc.Link(
         text_inlines(visible),
-        "/tech-edu-resources/glossary/#" .. match.candidate.slug,
+        "/commons/glossary/#" .. match.candidate.slug,
         "",
         pandoc.Attr(
           "",
