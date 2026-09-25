@@ -4,7 +4,7 @@ description: "A coefficient from 1 to less than 1000 and an exponent that is a m
 sidebar: tej
 body-classes: "bs-learn-article ter-notes-lesson"
 toc: true
-toc-depth: 2
+toc-depth: 3
 execute:
   enabled: false
 ---
