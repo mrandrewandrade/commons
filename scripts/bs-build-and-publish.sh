@@ -9,7 +9,7 @@ BS_JOBS="${BS_JOBS:-4}"
 
 REPO_ROOT="$(git rev-parse --show-toplevel 2>/dev/null || true)"
 if [[ -z "$REPO_ROOT" ]]; then
-    printf 'Run this script from inside the BS website Git repository.\n' >&2
+    printf 'Run this script from inside the Technological Education Resources Git repository.\n' >&2
     exit 1
 fi
 cd "$REPO_ROOT"
@@ -20,7 +20,7 @@ R_LIBRARY_DIR="$REPO_ROOT/.r-library"
 
 if [[ ! -x "$PYTHON_BIN" ]]; then
     printf 'Missing Python environment: %s\n' "$PYTHON_BIN" >&2
-    printf 'Run bs-setup-server-environment.sh first.\n' >&2
+    printf 'Run scripts/bs-setup-server-environment.sh first.\n' >&2
     exit 1
 fi
 
@@ -31,7 +31,7 @@ fi
 
 if [[ ! -d "$R_LIBRARY_DIR" ]]; then
     printf 'Missing R library: %s\n' "$R_LIBRARY_DIR" >&2
-    printf 'Run bs-setup-server-environment.sh first.\n' >&2
+    printf 'Run scripts/bs-setup-server-environment.sh first.\n' >&2
     exit 1
 fi
 
@@ -81,11 +81,8 @@ if [[ ! -f site/_site/index.html ]]; then
     exit 1
 fi
 
-if [[ -f scripts/learn_glossary.py ]]; then
-    printf '\nRunning rendered-site validation...\n'
-    "$PYTHON_BIN" scripts/learn_glossary.py check-rendered \
-        --output site/_site
-fi
+printf '\nRunning Commons source and rendered-site validation...\n'
+"$PYTHON_BIN" scripts/check_commons.py --rendered
 
 git diff --check
 
@@ -112,4 +109,4 @@ printf '\nSource checkout remains on:\n'
 git status --short --branch
 
 printf '\nDeployment submitted successfully.\n'
-printf 'Site: https://backgammonsimplified.github.io/\n'
+printf 'Site: https://andrewandrade.ca/commons/\n'
