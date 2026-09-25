@@ -737,7 +737,7 @@
         anchor.remove();
       });
       sidebarContent.replaceChildren(clonedBody);
-      sidebarEntryLink.href = "/glossary/#" + encodeURIComponent(canonicalSlug);
+      sidebarEntryLink.href = "/tech-edu-resources/glossary/#" + encodeURIComponent(canonicalSlug);
       sidebar.hidden = false;
       sidebar.setAttribute("aria-hidden", "false");
       if (!options || options.focus !== false) {
