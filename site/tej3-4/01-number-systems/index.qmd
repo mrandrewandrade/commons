@@ -31,7 +31,7 @@ Grob calls the related textbook material **Introduction to Powers of 10**. Its c
 </div>
 
 <div class="bs-learn-catalogue" data-bs-learn-list>
-<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tej-number-systems" open>
+<details class="bs-learn-catalogue-section" data-bs-learn-group data-bs-track-id="tej-number-systems" data-bs-total-lessons="6" open>
 <summary class="bs-learn-catalogue-section-heading"><span class="bs-learn-track-heading"><span class="bs-learn-track-lessons-label">Lessons</span><span data-bs-learn-group-count>6 lessons</span></span></summary>
 <div class="bs-learn-catalogue-section-items">
 <article class="bs-learn-catalogue-item" data-bs-learn-item data-bs-difficulties="[]" data-bs-track="tej-number-systems" data-bs-terms="[]" data-bs-search-primary='["Significant Figures","precision","rounding"]' data-bs-search-body='["Measured values, precision, rounding once at the end."]'><div class="bs-learn-catalogue-title-row"><a class="bs-learn-catalogue-link" href="01-significant-figures.qmd">1. Significant Figures</a></div></article>
