@@ -2,17 +2,19 @@
 title: "2026/27 Semester 1 Computer Engineering Technology, Grade 11"
 output-file: 2026-27-tej-3-sem-1.html
 toc: false
-description: "Reverse chronological TEJ classroom slides for 2026/27 Semester 1."
+description: "Reverse chronological TEJ classroom slides and supporting materials for 2026/27 Semester 1."
 ---
 
 Newest classroom material appears first.
 
-| Day | Main topic | Slides |
-|---|---|---|
-| Day 7 | Significant figures to powers of 10, scientific/engineering notation + metric prefixes | [Powers of 10 + notation + prefixes](https://docs.google.com/presentation/d/1erzc59cGdQb_AMdyey9qycehUKAHyV7Rmpe6u1a9iMQ/edit?usp=drivesdk) |
-| Day 6 | Significant figures + measurement practice | [Significant figures](https://docs.google.com/presentation/d/1_EwePZ6fGRK-brHzccWetx0QSCgA4LFQ_vYn8hibq8c/edit?usp=drivesdk) |
-| Day 5 | Funday Friday: Machine Charades | Resource to be added |
-| Day 4 | Technical description + presentations | [Technical description + presentations](https://docs.google.com/presentation/d/1R2MjvtUzQPXqrCgDTu3L_wF46BSiIM5OyjBI7ysw0W0/edit?usp=drivesdk) |
-| Day 3 | About Me presentations + listening | [Presentations + listening](https://docs.google.com/presentation/d/1FkCCxUMBeYAQexZACz91rfpqw9DYzpc_vCTU3fVtXhA/edit?usp=drivesdk) |
-| Day 2 | About Me: identity + presentation | [About Me: identity + presentation](https://docs.google.com/presentation/d/1rIvj40b5GO1Xzyo0S38Cm4R6WesIWgqj6C-eGYEG2Q8/edit?usp=drivesdk) |
-| Day 1 | Course routines + Name Tag V1 | [Course routines + Name Tag V1](https://docs.google.com/presentation/d/1p0yf6PA4mhSOfAxJ19wpXhxePFQx4kz5Jz4989cHkOU/edit?usp=drivesdk) |
+| Day | Main topic | Slides / activity | Supporting materials |
+|---|---|---|---|
+| Day 7 | Significant figures to powers of 10, scientific/engineering notation + metric prefixes | [Powers of 10 + notation + prefixes](https://docs.google.com/presentation/d/1erzc59cGdQb_AMdyey9qycehUKAHyV7Rmpe6u1a9iMQ/edit?usp=drivesdk) | [Practice problems: significant figures, powers of 10, notation + metric prefixes](https://drive.google.com/file/d/1eDQR4YRVu6Ny7Ud5PC6YKqn-lvc6FZof/view?usp=drivesdk) |
+| Day 6 | Significant figures + measurement practice | [Significant figures](https://docs.google.com/presentation/d/1_EwePZ6fGRK-brHzccWetx0QSCgA4LFQ_vYn8hibq8c/edit?usp=drivesdk) | [Significant Figures practice 1](https://drive.google.com/file/d/1ep-nUmzdp9LIc74qZqz_OfeASG1rulMA/view?usp=drivesdk) · [Significant Figures practice 2](https://drive.google.com/file/d/1yexhwUDedo25OSewC8WK8FDLQ0Cw89D_/view?usp=drivesdk) |
+| Day 5 | Funday Friday: Machine Charades | [Machine Charades activity](https://drive.google.com/file/d/1IyQoPx1Tem5Y86sxd7uH2IGIrGinEF0W/view?usp=drivesdk) | |
+| Day 4 | Technical description + presentations | [Technical description + presentations](https://docs.google.com/presentation/d/1R2MjvtUzQPXqrCgDTu3L_wF46BSiIM5OyjBI7ysw0W0/edit?usp=drivesdk) | |
+| Day 3 | About Me presentations + listening | [Presentations + listening](https://docs.google.com/presentation/d/1FkCCxUMBeYAQexZACz91rfpqw9DYzpc_vCTU3fVtXhA/edit?usp=drivesdk) | |
+| Day 2 | About Me: identity + presentation | [About Me: identity + presentation](https://docs.google.com/presentation/d/1rIvj40b5GO1Xzyo0S38Cm4R6WesIWgqj6C-eGYEG2Q8/edit?usp=drivesdk) | |
+| Day 1 | Course routines + Name Tag V1 | [Course routines + Name Tag V1](https://docs.google.com/presentation/d/1p0yf6PA4mhSOfAxJ19wpXhxePFQx4kz5Jz4989cHkOU/edit?usp=drivesdk) | |
+
+[Open the TEJ Week 2 Google Drive folder](https://drive.google.com/drive/folders/1P3NaCNCtP4JRAt8ns4E2g36btEVJLhTS) for the current class files.
