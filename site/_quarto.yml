@@ -88,6 +88,8 @@ website:
     center: |
       Website code: [AGPL 3.0](https://andrewandrade.ca/tech-edu-resources/licensing.html). Educational content: [CC BY-SA 4.0](https://andrewandrade.ca/tech-edu-resources/licensing.html).
     right:
+      - text: References
+        href: references.qmd
       - text: Licensing
         href: licensing.qmd
       - text: About
