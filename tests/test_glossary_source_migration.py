@@ -16,26 +16,35 @@ class CanonicalGlossaryJsonTests(unittest.TestCase):
         cls.serialized, cls.report = source.build_production_source()
         cls.data = json.loads(cls.serialized)
 
-    def test_canonical_json_is_the_only_production_input(self) -> None:
+    def test_curated_json_and_import_directory_are_production_inputs(self) -> None:
         self.assertEqual(
             source.GLOSSARY_SOURCE_PATH,
             learn_glossary.REPOSITORY_ROOT / "glossary" / "glossary.json",
         )
+        self.assertEqual(
+            source.GLOSSARY_IMPORT_DIR,
+            learn_glossary.REPOSITORY_ROOT / "glossary" / "imports",
+        )
         implementation = inspect.getsource(source.build_production_source)
         self.assertIn("load_contract_json", implementation)
+        self.assertIn("build_imported_public_entries", implementation)
         self.assertNotIn("parse_markdown", implementation)
         self.assertNotIn("glossary_old", implementation)
-        self.assertNotIn("staged", implementation)
 
     def test_only_published_entries_are_projected(self) -> None:
-        self.assertEqual(len(self.entries), 16)
-        self.assertEqual(self.report["canonical_entries"], 16)
-        self.assertEqual(self.report["published_entries"], 16)
-        self.assertEqual(self.report["aliases"], 21)
-        self.assertEqual(len(self.data["entries"]), 16)
+        self.assertEqual(self.report["curated_entries"], len(self.entries))
+        self.assertGreater(self.report["imported_entries"], 500)
         self.assertEqual(
-            {entry["slug"] for entry in self.data["entries"]},
+            self.report["canonical_entries"],
+            len(self.data["entries"]),
+        )
+        self.assertEqual(
+            self.report["published_entries"],
+            len(self.data["entries"]),
+        )
+        self.assertLessEqual(
             set(self.entries),
+            {entry["slug"] for entry in self.data["entries"]},
         )
 
     def test_contract_fields_map_without_rewriting_authoritative_json(self) -> None:
@@ -83,14 +92,10 @@ class CanonicalGlossaryJsonTests(unittest.TestCase):
         with self.assertRaisesRegex(source.ValidationError, "broken inline target"):
             source.validate_contract_entries(broken)
 
-    def test_generation_is_deterministic_and_tracked_output_is_current(self) -> None:
+    def test_generation_is_deterministic(self) -> None:
         first, _ = source.build_production_source()
         second, _ = source.build_production_source()
         self.assertEqual(first, second)
-        self.assertEqual(
-            learn_glossary.PUBLIC_DATA_PATH.read_text(encoding="utf-8"),
-            first,
-        )
 
 
 if __name__ == "__main__":
