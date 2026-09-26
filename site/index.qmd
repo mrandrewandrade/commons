@@ -15,10 +15,10 @@ format:
 TECHNOLOGICAL EDUCATION RESOURCES
 :::
 
-<h1>Learn by doing, with each other while doing.</h1>
+<h1>Learn by doing, Relearn by sharing the way.</h1>
 
 ::: {.bs-hero-copy}
-Open classroom resources for Ontario Technological Education. The notes are intentionally unfinished where the learning is still happening. Use what helps, improve what you can, and leave something useful for the next person.
+Open-source resources developed through practice and organized loosely around the Ontario Technological Education Curriculum.
 :::
 ::::::
 
