@@ -59,7 +59,7 @@ website:
         text: Glossary
       - href: lore/index.qmd
         text: Lore
-      - href: https://andrewandrade.ca/commons/about.html
+      - href: about.qmd
         text: About
   sidebar:
     - id: tas2
