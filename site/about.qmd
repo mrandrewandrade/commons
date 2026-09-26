@@ -388,6 +388,48 @@ Red remains uncommon so it keeps its meaning for deadlines, hazards, errors, and
 :::
 :::
 
+### Technology Commons emblem colours
+
+These colours are used in the current Technology Commons emblem. They are kept as a distinct logo palette so the emblem can remain vibrant while the broader site, slide, handout, and interface palette stays more restrained.
+
+::: {.brand-swatch-grid}
+::: {.brand-swatch style="--swatch:#192346"}
+<div class="brand-swatch-sample"></div>
+**Emblem Navy**  
+`#192346`
+:::
+
+::: {.brand-swatch style="--swatch:#30A2F1"}
+<div class="brand-swatch-sample"></div>
+**Emblem Sky Blue**  
+`#30A2F1`
+:::
+
+::: {.brand-swatch style="--swatch:#F6E7D5"}
+<div class="brand-swatch-sample"></div>
+**Emblem Cream**  
+`#F6E7D5`
+:::
+
+::: {.brand-swatch style="--swatch:#FD4F2F"}
+<div class="brand-swatch-sample"></div>
+**Emblem Coral**  
+`#FD4F2F`
+:::
+
+::: {.brand-swatch style="--swatch:#014E9A"}
+<div class="brand-swatch-sample"></div>
+**Emblem Blue**  
+`#014E9A`
+:::
+
+::: {.brand-swatch style="--swatch:#F9B901"}
+<div class="brand-swatch-sample"></div>
+**Emblem Gold**  
+`#F9B901`
+:::
+:::
+
 ### Source colours from supplied PCSS marks
 
 These values are retained for faithful reproduction and documentation of the supplied school marks. They are **reference colours, not the default Technological Education Resources working palette**. The logos themselves should not be recoloured just to force them into the working palette.
